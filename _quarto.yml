@@ -1,0 +1,66 @@
+project:
+  title: "PHI 205"
+  type: website
+
+website:
+  title: "PHI 205"
+  site-url: "https://www.davidsanson.com/205f2026"
+  page-footer: |
+    © 2026 David Sanson. Created using [Quarto](https://quarto.org/).
+  navbar:
+    aria-label: navigation
+    left:
+      - href: index.md
+        text: Home
+      - href: syllabus.md
+        text: Syllabus
+      - href: schedule.md
+        text: Schedule
+
+bibliography: [references.json]
+citeproc: true
+filters:
+  - label-bullets.lua
+
+metadata:
+  author:
+  - name: David Sanson
+  course: phi205
+
+callout-appearance: minimal
+
+format:
+  html:
+    axe: true
+    respect-user-color-scheme: true
+    template-partials:
+      - title-metadata.html
+    theme:
+      light: 
+        - flatly
+        - theme-light.scss
+        - custom.scss
+      dark: 
+        - darkly
+        - custom.scss
+
+    format-links:
+    - html
+    - format: typst
+      icon: file-pdf
+      text: PDF
+
+  # typst:
+  #   citeproc: true
+  #   template-partials:
+  #   - typst-template.typ
+  #   fontsize: 10pt
+  #   mainfont: Minion Pro
+  #   sansfont: Myriad Pro
+  #   margin:
+  #     x: 1in
+  #     y: 1in
+  #   papersize: us-letter
+
+
+
