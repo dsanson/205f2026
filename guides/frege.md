@@ -2,69 +2,64 @@
 title: On Sense and Reference
 ---
 
-This is a reading guide. Read this first. It tells you what the assigned reading is,
-where to find it, and offers some guidance on how to approach it and what I am hoping
-you will get out of it.
+This is a reading guide. It tells you what the assigned reading is,
+where to find it, and offers some guidance on how to read it.
 
 This is our first "real" reading assignment, so I will be giving a lot of guidance.
 
 ## Getting the Paper
 
-The assigned reading is @frege1948a . This is a translation of @frege1892a. If
-you read German, you can read the original rather than the translation.
+The assigned reading is @frege1948a , which is a translation of @frege1892a. If
+you read German, obviously you should read the original.
 
-The link I have given you to @frege1948a is a "DOI" link. "DOI" stands for "Digital Object Identifier." When you click on the link, it will take you to JSTOR, which is a large repository of journal articles.
+The link I have given you to @frege1948a is a "DOI" link. "DOI" stands for "Digital Object Identifier." When you click on the link, it will take you to JSTOR, a large repository of journal articles.
 
-It isn't free to read. You need a subscription. Happily, Milner Library has a subscription.
+Access to the article is not free, but our library has a subscription. If you are accessing the article off campus, you will need to click on the link to "Login through your library".
 
-## Saving the Paper
+## Downloading and Printing the Paper
 
-You can read the article online, but I highly recommend that you download the PDF, save it in a folder on your device, and read it from there.
+You might be tempted to just read the article online. But you should instead save the PDF to your device, and print out a copy. You should create a folder on your device for this class and save all the PDFs in that folder.
 
-## Printing the Paper
+You should print the paper out because, on our in-class writing days, you will not be allowed to use electronic devices, but you are allowed to use print-outs of the articles and your notes. Print the article now, and read the hard-copy, making notes in the margins. Bring it to class so you can follow along as we discuss the article, and take more notes. That way, when the writing day rolls along, you will have a copy of the paper along with a written record of your interaction with it.
 
-Actually, what I really recommend is that you print it out. It is easier to mark up a print out, and writing your notes by hand in the margins gives you several degrees of freedom that go missing when you try to take notes on a device. That freedom means that it is easier to "think on paper."
+## Reading Assignment
 
-A printout is also easier to use in-class, as we discuss the paper. It is easier to flip back and forth between different pages. It is easier to scribble additional notes and thoughts on the printed-out paper.
+I am **not assigning the entire paper**. You can skip from p. 218, the paragraph that begins,
+"We are thus led to consider subordinate
+sentences or clauses," to the end of the paper. I do want you to read the last two paragraphs, on p. 230, beginning with "Let us return to our
+starting point!" 
 
-And, on writing days, you are not allowed to use your electronic devices. But you are allowed to bring and use notes and printouts. A shambolic printout, covered in a record of your thinking process, will serve you well.
+We are skipping the 12 page discussion of subordinate clauses. Of course you are welcome to read it. It is interesting. But it is not assigned.
 
-## Reading the Paper
+## How to Read
 
-**Don't read the entire article.** 
+You already know how to read. And most of you have already taken philosophy classes, so you already know how to read philosophy.
 
-When you reach the paragraph, on p. 218 (p.
-36 in the original German), that begins "We are thus led to consider subordinate
-sentences or clauses," skip to the end (p. 230; p. 50 in
-German), and read the last two paragraphs, beginning with "Let us return to our
-starting point!" We are skipping the 12 page discussion of subordinate clauses.
+But this is a tough paper. Generations of philosophy students have cut their teeth on it, and it is worth reading slowly and carefully. Below, I guide you through the first two pages, sentence by sentence, before setting you free to read the rest of it on your own.
 
-## How to Read Philosophy
+Before we get started, some advice:
 
-Many of you have already taken philosophy classes. So this is not your first
-time reading a work in philosophy. For some of you it is.
+**Give yourself grace.** You will be confused. It will be frustrating. You might have trouble caring about it. It is okay to take breaks, but remember, this is what you signed up for, and realize that it is not impossible. As mentioned above, generations of philosophy students have done this before you, and gotten a lot out of it.
 
-This is a famous paper. Generations of philosophy students have cut their teeth on it.
+As you read, **always be trying to figure out what is going on**. With difficult reading, it is easy to fall into a passive mode, letting the words wash past you. At best, this lets you get a vibe from the article. It might give you the feeling that you understand some of it, but it will not give you actual understanding. To actually understand, you need to work. Check your understanding by trying to apply examples---your own or examples from the article---to abstract claims. Constantly ask yourself how the different claims the author makes are supposed to fit together: is this claim meant as evidence for that other one? As an objection? Is this example an illustration of that principle? A counterexample?
 
-It is also a hard paper. It is dense. The arguments are not always easy to follow. The puzzles and problems might not be, at first blush, the puzzles and problems you would focus on.
+As you do this, you need to take notes. "Taking notes" is not about highlighting important passages---that is almost useless, and if you are in the habit of doing it, you should try to break that habit. It is also not about recording key definitions or facts. Your notes should be a written record of your struggle with the text: **jot down** your confusion, your examples, your objections, your uncertainty, your doubts, your moments of understanding, moments of agreement, and moments of disagreement. These are the notes you need. The process of writing them down helps to solidify your own understanding. When you return to the text, they will help you remember where your head was at last time, so you can build on that.
 
-It is your job to roll with it. Read slowly and carefully. Try to figure out what is going on. Pay attention when he gives examples. Try to figure out what the examples are meant to show. Pay attention when he makes distinctions, and how explains them. Pay attention when you think you understand---jot down a note explaining it! And pay attention when you are confused---jot down a note explaining what you are confused about. These notes are invaluable.
+**Argue with the paper as you read it**. Your goal is not just to understand it. Your goal is to figure out whether or not you agree with it. Try to identify key premises, and then try to come up for reasons for thinking they might be false. Keep your eye out for places where the author says something is "clear" or "obvious" or "natural", and ask yourself whether it really is. 
 
-Give yourself grace. You will be confused. It will be frustrating. It is okay to take breaks. But this is what you signed up for. And it is not impossible. As mentioned above, generations of philosophy students have done this before you.
+I said above that you need to **read slowly and carefully**. If you are always trying to figure out what is going on, always arguing with the paper, and constantly jotting all of this down, it is going to take you a long time to get through the text. Don't rush the process. Let it take the time it needs to take. Notice that there are no out-of-class writing assignments for this class. I expect you to use that extra time reading and re-reading, thinking and re-thinking.
 
-One common piece of advice: begin by reading the first page, and then read the last page. That might give you some sense of what the paper is about, and, hopefully, some sense of what the author thinks they succeed at showing. Armed with this, read the rest of the paper.
+Another common piece of advice: read the first paragraph or two, then read the last paragraph or two. After doing this, try to figure out what you think is going to happen in the rest of the paper. Read the rest of the paper, and see if it matches your expectations or if it surprises you.
 
-Another common piece of advice: begin by reading the entire paper through, quickly. Take a few notes, especially notes about the parts you don't understand, but don't get bogged down. That might give you a rough and general sense of what the paper is about (of course, your rough sense might be completely wrong, since you didn't read very carefully). Armed with this, re-read the paper from the beginning, slowly, and figure out what is actually going on.
+Another common piece of advice: ignore what I said above about reading slowly and carefully. Blast your way through the article as quickly as possible, giving your brain a first exposure, vibing with it as best you can, without worrying too much about how it all fits together. **Then** read it a second time through, slowly and carefully.
 
-A third piece of advice: argue with the paper as you read it. Take notes that reflect this. Note where you agree or disagree. Note where you think something smells fishy. Come up with your own examples and try out counterexamples. Note objections as you think of them. Note when an objection you thought of earlier is addresses later. Note when something the author says shifts your way of thinking. Reading slowly is about slowing your mind down. It is about giving your mind time to push and press and probe and reconstruct and consider and reconsider and....
-
-A universal piece of advice: don't expect to get everything you need to get out of this paper on the first reading. Your first reading puts you in a position to try to understand it. Lecture and discussion will put you in a position to see better what you did and didn't understand. Armed with that, you can re-read the entire paper, or re-read selected passages, and new insight will open up. Understanding is a process. Expect it to take time.
+A final universal piece of advice: don't expect to get everything you need to get out of the paper on the first reading or even second reading. Your first reading puts you in a position to *begin* to understand what is going on. Lecture and discussion to re-read the paper and understand it better. After reading other authors on related topics, you should return to the paper and read it yet again, and you will understand it yet better. With rich philosophical works, this process can go on forever.
 
 Enough advice. Let's get reading.
 
 ## Reading Notes
 
-I am going to walk you through the first page, sentence by sentence. I won't be doing this for every reading. But we are just getting started, and this reading is dense, and I want to give you a model of what I mean by "read slowly and carefully."
+I am going to walk you through the first page and a half, sentence by sentence. I won't be doing this for every reading. But we are just getting started, and this reading is dense, and I want to give you a model of what I mean by "read slowly and carefully."
 
 > Identity^1^ gives rise to challenging questions which are not easy to answer.
 >

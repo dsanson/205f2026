@@ -2,7 +2,11 @@
 title: Some Ideas about Language
 ---
 
-This week's reading represents something of a hodgepodge, meant to get you thinking in several different directions about some basic questions about what language is and how it works.
+This is a reading guide. It tells you what the assigned reading is,
+where to find it, and offers some guidance on how to read it.
+
+For this first reading assignment, I am assigning a hodgepodge of texts, meant
+to get you thinking in several different directions about some basic questions about what language is and how it works.
 
 ## John Locke, "Of Words" (1689)
 
