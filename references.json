@@ -221,6 +221,38 @@
     "volume": "57"
   },
   {
+    "id": "frege1967",
+    "author": [
+      {
+        "family": "Frege",
+        "given": "G."
+      }
+    ],
+    "citation-key": "frege1967",
+    "container-title": "From Frege to Gödel",
+    "editor": [
+      {
+        "family": "Heijenoort",
+        "given": "Jean",
+        "dropping-particle": "van"
+      }
+    ],
+    "ISBN": "978-0-674-32449-7",
+    "issued": {
+      "date-parts": [
+        [
+          "1967"
+        ]
+      ]
+    },
+    "page": "1--82",
+    "publisher": "Harvard University Press",
+    "publisher-place": "Cambridge, Mass",
+    "source": "K10plus ISBN",
+    "title": "Begriffsschrift, a formula language, modeled upon  that of arithmetic, for pure thought",
+    "type": "chapter"
+  },
+  {
     "id": "grice1957",
     "author": [
       {
@@ -520,6 +552,41 @@
     "volume": "60"
   },
   {
+    "id": "rosen2011",
+    "author": [
+      {
+        "family": "Rosen",
+        "given": "Gideon"
+      }
+    ],
+    "citation-key": "rosen2011",
+    "container-title": "Philosophical foundations of language in the law",
+    "editor": [
+      {
+        "family": "Marmor",
+        "given": "Andrei"
+      },
+      {
+        "family": "Soames",
+        "given": "Scott"
+      }
+    ],
+    "ISBN": "978-0-19-957238-0 978-0-19-162153-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "K10plus ISBN",
+    "title": "Textualism, intentionalism, and the law of the contract",
+    "type": "chapter"
+  },
+  {
     "id": "russell1905a",
     "author": [
       {
@@ -644,34 +711,6 @@
     "title": "On Referring",
     "type": "article-journal",
     "URL": "http://www.jstor.org/stable/2251176",
-    "volume": "59"
-  },
-  {
-    "id": "strawson1950",
-    "author": [
-      {
-        "family": "Strawson",
-        "given": "P. F."
-      }
-    ],
-    "citation-key": "strawson1950",
-    "container-title": "Mind",
-    "DOI": "10.1093/mind/LIX.235.320",
-    "ISSN": "0026-4423",
-    "issue": "235",
-    "issued": {
-      "date-parts": [
-        [
-          "1950"
-        ]
-      ]
-    },
-    "page": "320–344",
-    "publisher": "[Oxford University Press, Mind Association]",
-    "source": "JSTOR",
-    "title": "On referring",
-    "type": "article-journal",
-    "URL": "https://www.jstor.org/stable/2251176",
     "volume": "59"
   },
   {
