@@ -1,8 +1,12 @@
-# Reading Guide: Frege, On Sense and Reference
+---
+title: "Frege, On Sense and Reference"
+---
 
 This is a reading guide. Read this first. It tells you what the assigned reading is,
 where to find it, and offers some guidance on how to approach it and what I am hoping
 you will get out of it.
+
+This is our first "real" reading assignment, so I will be giving a lot of guidance.
 
 ## Getting the Paper
 
@@ -93,13 +97,19 @@ Huh. What are these two options? Why are they the two options we should consider
 
 > In my *Begriffsschrift* I assumed the latter.
 
-The *Begriffsschrift* ("Concept Notation") [@frege1879a] is a book about formal logic. Apparently, in that book Frege assumed (argued?) that identity is a relation between names, not objects.
+The *Begriffsschrift* ("Concept Notation") [@frege1879a; English translation @frege1967] is a booklet 
+on logic. In it, Frege invents the logic that we now teach in intro logic courses, displacing traditional Aristotelian term logic.
+
+In §8 of that booklet, "Identity of content", he says,
+
+> Whereas in other contexts signs are merely representatives of their content \[...\] they suddenly display their own selves when they are combined by means of the sign for identity of content; for it expresses the circumstance that two names have the same content. [@frege1967, p. 20]
+
+Returning to our reading, he continues,
 
 > The reasons which seem to favor this are the following:
 
-Ah, good. We won't need to go read the *Begriffsschrift*, because he is about to
-explain his reasons to us here. (Does the "seem" mean that he now rejects the
-view he once held?)
+Ah, good. We won't need to read the *Begriffsschrift*, because he is about to
+explain his reasons to us here. (Notice the use of 'seem'. That suggests he has changed his mind.)
 
 > $a=a$ and $a=b$ are obviously statements of differing cognitive value; ...
 
@@ -290,7 +300,7 @@ But what is a "mode of presentation"? What follows is an example, illustrating t
 > intersection of $b$ and $c$") likewise indicate the mode of presentation; and
 > hence the statement contains true knowledge.
 
-TODO: diagram
+Construct a diagram to help yourself make sense of this example.
 
 > It is natural, now, to think of there being connected with a sign (name,
 > combination of words, letter), besides that to which the sign refers, which

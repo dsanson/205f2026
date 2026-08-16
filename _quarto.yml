@@ -32,6 +32,7 @@ callout-appearance: minimal
 format:
   html:
     axe: true
+    toc: true
     respect-user-color-scheme: true
     template-partials:
       - title-metadata.html

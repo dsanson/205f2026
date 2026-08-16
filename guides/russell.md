@@ -1,3 +1,7 @@
+---
+title: Russell and Strawson on Definite Descriptions
+---
+
 :::{.callout-caution}
 # Under Construction
 

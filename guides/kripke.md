@@ -1,3 +1,7 @@
+---
+title: Kripke, *Naming and Necessity*
+---
+
 :::{.callout-caution}
 # Under Construction
 

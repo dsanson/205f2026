@@ -1,3 +1,7 @@
+---
+title: Quine, "Two Dogmas of Empiricism"
+---
+
 :::{.callout-caution}
 # Under Construction
 

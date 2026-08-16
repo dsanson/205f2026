@@ -1,4 +1,4 @@
 /.quarto/
 **/*.quarto_ipynb
-plan
+_plan
 _site
