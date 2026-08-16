@@ -65,8 +65,10 @@
   set enum(indent: 1em)
   set list(indent: 1em)
   show terms.item: it => pad(left: 1em, it)
-
-  show quote.where(block: true): block.with(sticky: true, spacing: 1em, stroke: (left:2pt + gray, rest: none))
+  
+  // style quotes with vertical line and sans font
+  show quote.where(block: true): block.with(sticky: true, spacing: 1em, inset: 1em, stroke: (left:.5pt + gray, rest: none))
+  show quote: set text(font: "$sansfont$")
 
   block(width:100%)[
     #if type == "syllabus" {
