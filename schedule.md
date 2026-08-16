@@ -1,5 +1,9 @@
 ---
 title: Schedule
+format:
+  html:
+    format-links:
+      - html
 ---
 
 Readings are typically assigned by the week. At a minimum, you should complete the week's reading *before* Monday's class, and then re-read it *before* Wednesday's class.

@@ -1,6 +1,6 @@
 ---
 title: Course Syllabus
-toc: true
+type: syllabus
 ---
 
 ## Basic Information

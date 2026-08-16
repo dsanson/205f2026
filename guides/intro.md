@@ -1,6 +1,5 @@
 ---
 title: Some Ideas about Language
-toc: true
 ---
 
 This week's reading represents something of a hodgepodge, meant to get you thinking in several different directions about some basic questions about what language is and how it works.
@@ -380,3 +379,6 @@ online:
 Please read the essay by following the link. The linked site also provides the original Spanish. Obviously, if you can read Spanish, you should read that instead.
 
 Note that, most of what is described in this essay is real, the "Chinese Encyclopedia" is not.
+
+## References {-}
+

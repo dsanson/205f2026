@@ -1,5 +1,5 @@
 ---
-title: "Frege, On Sense and Reference"
+title: On Sense and Reference
 ---
 
 This is a reading guide. Read this first. It tells you what the assigned reading is,
@@ -113,54 +113,50 @@ explain his reasons to us here. (Notice the use of 'seem'. That suggests he has 
 
 > $a=a$ and $a=b$ are obviously statements of differing cognitive value; ...
 
-Here, Frege makes a claim and defends it. The claim is:
+Note that Frege does not follow our contemporary convention for use-mention. Following this convention, we would surround the two identity statements, which are here being mentioned, not used, in single quotes:
 
-- (CD) '$a=a$' and '$a=b$' differ in cognitive value.
+> '$a=a$' and '$a=b$' are obviously statements of differing cognitive value; ...
 
-He does not explain what he means by "cognitive value". "Cognitive" means, roughly, "related to thought". So "thought value"? What might that mean?
+I will not be "fixing" Frege's use-mention to fit this convention. But you should pay attention to it for yourself.
 
-
-
+He does not explain what he means by "cognitive value". "Cognitive" means, roughly, "related to thought". So "thought value"? Maybe this will be clearer in light of the reason he offers in support:
 
 > $a=a$
 > holds *a priori* and, according to Kant, is to be labeled analytic, while
 > statements of the form $a=b$ often contain very valuable extensions of our
 > knowledge and cannot always be established *a priori*.
 
-Here Frege is offering a reason in support of (CD). He uses some philosophical terminology and name-drops Kant. He assumes
-anyone reading this article has read @kant1998a and is already be familiar with
-the terminology. He's probably wrong about that in your case. You should look up
-what '*a priori*' and 'analytic' mean. And you should put @kant1998a on your
-summer reading list.
+Here Frege uses some philosophical terminology and name-drops Kant. He assumes
+anyone reading this article has already read @kant1998a. He's probably wrong about that in your case. You should look up
+what '*a priori*' and 'analytic' mean (hint: here 'analytic' is being used in contrast to 'synthetic'). And you should put @kant1998a on your
+summer reading list!
 
-Did you do that? Then you know that what Frege is saying here is that statements of the form '$a=a$' can be known independently of experience (that is, "hold *a priori*"), and are, at least according to Kant, true in virtue of the meanings of the words and how they have been put together (that is, "analytic"). 
+Did you look up what '*a priori*' and 'analytic' mean? Do so before reading further.
 
-By contrast, statements of the form '$a=b$' do not always hold *a priori*. That is, sometimes,
-in order to know that $a=b$, you need to have empirical evidence.
+Now you know that Frege is claiming that statements of the form '$a=a$' can be known independently of experience (that is, "hold *a priori*"), and are, at least according to Kant, true in virtue of the meanings of the words and how they have been put together (that is, "analytic"), while statements of the form 
+'$a=b$' are often both synthetic and *a posteriori*---in order to know that $a=b$, you need to have empirical evidence, not just know what the words mean and how they have been put together.
 
-This is a moment you should pause and try to think of examples, and see if you agree. Here is a statement of the form '$a=a$:
+Does all of that seem right to you? Try to think about specific examples. Do you agree that,
 
--    Dwayne Johnson $=$ Dwayne Johnson.
+-    Dwayne Johnson $=$ Dwayne Johnson,
 
-Do you agree that this is something you know *a priori*? Do you agree that its truth follows just from facts about what the words, 'Dwayne Johnson' and '$=$' mean, and how they have been put together?
-
-Here is a statement of the form '$a=b$:
+is both *a priori* and analytic? Do you agree that,
 
 -    Dwayne Johnson $=$ the Rock.
 
-Do you agree that this is not something you can know *a priori*? Do you agree that it is not true just in virtue of the meanings of the words, and how they have been put together?
+is neither analytic nor *a priori*?
 
 > The discovery that the rising sun is not new every morning, but always the
 > same, was of very great consequence for astronomy. Even today, the
 > identification of a small planet or a comet is not always a matter of course.
 
-Here, Frege is gives his own example:
+That is, the statement,
 
--   The sun that rises today $=$ the sun that rose yesterday.
+-   The sun that rises today $=$ the sun that rose yesterday,
 
-This is a statement of the form '$a=b$'. His point is that it is not something we know *a priori*, but an astronomical discovery.
+is neither analytic nor *a priori*, but instead expresses an empirical scientific discovery.
 
-This is a good moment to stop and recap, and re-read from the top:
+Let's stop to recap. Reading from the top:
 
 > Identity gives rise to challenging questions which are not easy to answer.
 > Is it a relation? 
@@ -176,59 +172,43 @@ This is a good moment to stop and recap, and re-read from the top:
 > same, was of very great consequence for astronomy. Even today, the
 > identification of a small planet or a comet is not always a matter of course.
 
-So, the question under discussion is,
-
--   Is identity a relation between objects or between names or signs of objects?
-
-Frege is giving us a reason to think the second, that it is a relation between names or signs. But so far,
-he has given us a reason to think that (CD) is true. How does that support the view that identity is a relation between name or signs?
+See where we are? Frege has asserted that identity is either a relation between objects or between names of objects, and he is in the middle of giving us a reason for thinking it is not a relation between objects. So far, he has argued that '$a=a$' and '$a=b$' differ in cognitive value. But it remains to be seen why that should entail that identity is not a relation between objects.
 
 > Now if we were to regard identity as a relation between that which the names
 > "$a$" and "$b$" designate, it would seem that $a=b$ could not differ from
-> $a=a$ (i.e., provided a=b is true). A relation would thereby be expressed of a
+> $a=a$ (i.e., provided $a=b$ is true). A relation would thereby be expressed of a
 > thing to itself, and indeed one in which each thing stands to itself but to no
 > other thing.
 
 Frege's argument here is that identity cannot be a relation between objects, because, if it were,
-(CD) would be false. Why? Because both '$a=a$' and '$a=b$' would express the same relation---a relation that holds between a thing and itself, and not between that thing and anything else.
+'$a=a$' and '$a=b$' would have the same cognitive value. Why? Because both '$a=a$' and '$a=b$' would express the same relation---a relation that holds between a thing and itself, and not between that thing and anything else.
 
-(Notice that this helps clarify the kind of 'identity' Frege is interested in here. *Qualitative identity*---the kind of identity-as-similarity that holds between "identical" twins---is a relation that can hold between one thing and another thing. *Numerical identity*---being one and the same thing---is the relation that holds between each thing and itself, but not between that thing and anything else.
+(Notice that this helps clarify the kind of 'identity' Frege is interested in here. *Qualitative identity*---the kind of identity-as-similarity that holds between "identical" twins---is a relation that can hold between one thing and another thing. *Numerical identity*---being one and the same thing---is the relation that holds between each thing and itself, but not between that thing and anything else.)
 
-Let's pause to reconstruct the argument.
-
-:::{#argument-NO .argument}
-## Identity is not a relation between objects {-}
+We have been given an argument. It is good practice, when reading philosophy, to try to reconstruct the arguments you are given.
 
 - (NO1) '$a=a$' and '$a=b$' differ in cognitive value.
 - (NO2) If identity were a relation between objects, '$a=a$' and '$a=b$' would express the same relation.
 - (NO3) If '$a=a$' and '$a=b$' expressed the same relation, they would have the same cognitive value.
 - (NO4) So, identity is not a relation between objects.
-:::
 
-Nice. Whenever you encounter a philosophical
-argument, you should try to think of possible objections. Your goal as a reader
-is not just to vibe with the text. Your goal is to figure out whether or not you
-really agree. So, before reading further, spend a moment with this argument. Is
-the argument valid? That is, if you grant the premises are true, does the
-conclusion follow? Assuming it is, are there any of the premises that seem more
-dubious to you? Why?
+It is also good practice to immediately start trying to think of objections. This isn't because we are playing some obnoxious game of "Gotcha!" It's because, by trying think of objections, you force yourself to actually pay attention to what is being said. Students often read philosophy in "vibe" mode, and come away with a feeling of understanding, but no actual understanding. You have to fight this tendency.
 
-Note that the argument is pretty abstract, so it can be hard to assess its
-premises. It can be useful to think through examples, like 'Dwayne Johnson is
-Dwayne Johnson' and 'Dwayne Johnson is the Rock.'
+So, what do you think? Is the argument just reconstructed valid? That is, if you were to grant the premises, would the conclusion follow? Assuming it is valid, are there any premises that look fishy to you? If not, imagine you are a really disagreeable reader, searching for things to disagree with. Where might you poke or prod?
+
+If you just tried to do all of that, you may have run into the problem that the argument is pretty abstract,
+so it is hard to get real purchase on it. When that happens to you, always try to reach for examples. I've given you the 'Dwayne Johnson' and 'The Rock' examples. Try plugging those into the argument, in place of the abstract '$a=a$' and '$a=b$'.
+
+Also, it is fine if you don't come up with any great objections. The point is to try. The goal isn't a "Gotcha!" The goal is to actually understand the argument.
 
 > What is intended to be said by $a=b$ seems to be that the signs or names "$a$"
 > and "$b$" designate the same thing, so that those signs themselves would be
 > under discussion; a relation between them would be asserted.
 
-Good. If the two options are that identity is a relation between objects, or it
-is a relation between names, and we've seen that it cannot be a relation between
-objects, it must be a relation between names.
-
-But what is that relation? The most natural candidate is the relation of *co-reference*:
+Ah, now we are moving on to the second option: if identity is not a relation between objects, it must be a relation between names. What relation, exactly? Co-reference:
 when you learn that Dwayne Johnson
 is the Rock, what you have learned is that the name, 'Dwayne Johnson', and the name, 'The Rock', both refer to
-the same thing. So identity is *co-reference*.
+the same thing. This is a relation between the two names: they co-refer.
 
 > But this relation would hold between the names or signs only insofar as they
 > named or designated something. It would be mediated by the connection of each
@@ -239,23 +219,19 @@ the same thing. So identity is *co-reference*.
 > proper knowledge by its means. But in many cases this is just what we want to
 > do.
 
-Oh, shit. Now we seem to have an argument that identity is not co-reference.
-
-:::{#argument-NN .argument}
-## Identity is not co-reference {-}
+Oh, shit. Now we seem to have an argument against the view that identity is a relation between names. Let's try to reconstruct it.
 
 - (NN1) The connection between a name and its referent is arbitrary and conventional.
 - (NN2) So, the fact that '$a$' and '$b$' co-refer is arbitrary and conventional.
 - (NN3) But sentences of the form '$a=b$' can express proper knowledge.
 - (NN4) Knowledge of arbitrary and conventional facts is never proper knowledge.
 - (NN5) So, sentences of the form '$a=b$' do not express co-reference.
-:::
 
 I've done a fair bit of work for you here, unpacking the argument from the text.
 I may have gotten it wrong. So, once again, you should be thinking of possible
 objections, and thinking about which premise(s) seem most dubious. But also, you
-should be comparing what I've given you with the original text, and seeing
-whether or not you agree that I have captured the argument correctly.
+should be comparing what I've given you with the original text, and thinking about 
+whether my reconstruction is misleading.
 
 > If the sign "$a$" is distinguished from the sign "$b$" only as object (here,
 > by means of its shape), not as sign (i.e., not by the manner in which it
@@ -264,22 +240,18 @@ whether or not you agree that I have captured the argument correctly.
 
 This sentence is hard to parse. It helps a little if we move the last bit, 'provided $a=b$ is true', to the beginning:
 
-If '$a=b$' is true, and if each name is distinguished from the other only by its
+-   If '$a=b$' is true, and if each name is distinguished from the other only by its
 shape, not by the "manner in which it designates something", then '$a=b$' has
-the same cognitive value as '$a=a$'.
+the essentially the same cognitive value as '$a=a$'.
 
-Our first argument, the argument that identity is not a relation between
-objects, suggests that, when $a=b$ is true, the relation between the object $a$
+Frege's first argument suggested that, when $a=b$ is true, the relation between the object $a$
 and the object $b$ is the same as the relation between the object $a$ and the
-object $a$. So nothing at the level of objects can explain a difference in
+object $a$, so nothing at the level of objects can explain a difference in
 cognitive value.
 
-The second argument, the argument that identity is not co-reference, suggests
+His second argument  suggests
 that the fact that two signs of two different shapes have both been connected to
-the same object is arbitrary and conventional. Could this explain a difference
-in cognitive value? Maybe, but any difference it explained would not be the sort
-of difference that amounts to proper knowledge. And the difference in cognitive
-value needs to be a difference that can amount to proper knowledge: again, think
+the same object is arbitrary and conventional. That gets us a difference, but not the right sort of difference. The difference we are after needs to be a difference that can amount to proper knowledge: again, think
 of the case of the astronomer who discovers that comet observed 100 years ago is
 identical to the comet she observes today.
 
@@ -335,7 +307,8 @@ That's all okay! Stick with it and push through. You cannot understand a paper
 because you've read it several times without reading it for the first time,
 without completely understanding it.
 
-
+## References {-}
 
  
+
 
