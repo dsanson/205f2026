@@ -7,10 +7,13 @@ image-alt: "oil painting of the words 'BLAH, BLAH, BLAH, BLAH'"
 image-title: "Mel Bochner, Blah, Blah, Blah (2008)"
 about:
   id: about-this-course
-  template: broadside
+  template: solana
 page-footer: |
   © 2026 David Sanson. Created using [Quarto](https://quarto.org/).
-
+format:
+  html:
+    format-links:
+      - html
 ---
 
 :::{#about-this-course}
@@ -26,5 +29,6 @@ about your grade, come to my office hours and ask me about it.
 
 :::
 
-
-Artwork: [Mel Bochner, "Blah, Blah, Blah," 2008](https://artsandculture.google.com/asset/blah-blah-blah/SgGl9D6lnBfa_Q)
+:::{style="text-align:center; font-size: small"}
+Mel Bochner, "[Blah, Blah, Blah](https://artsandculture.google.com/asset/blah-blah-blah/SgGl9D6lnBfa_Q), 2008.
+:::

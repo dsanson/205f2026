@@ -114,29 +114,6 @@ figcaption {
   font-size: inherit;
 }
 
-/* Chapter title formatting */
-
-#title-block-header {
-  padding-bottom: 5em;
-  border-bottom: thin solid;
-}
-
-.quarto-title .chapter-number {
-  display: block;
-  text-align: center;
-  font-size: smaller;
-
-  &::before {
-    content: 'Chapter ';
-    font-variant: small-caps;
-  }
-}
-
-.quarto-title .chapter-title {
-  display: block;
-  text-align: center;
-}
-
 .authorial-intent {
   padding: 1em;
   margin-bottom: 3em;
