@@ -4,8 +4,13 @@ project:
 
 website:
   title: "PHI 205"
+  description: "Course webpage for PHI 205 at Illinois State"
   site-url: "https://www.davidsanson.com/205f2026"
+  repo-url: https://github.com/dsanson/205f2026
+  repo-actions: [source, issue]
   favicon: media/favicon.png
+  twitter-card: true
+  open-graph: true
   page-footer: |
     © 2026 David Sanson. Created using [Quarto](https://quarto.org/).
   navbar:
@@ -45,6 +50,10 @@ format:
       dark: 
         - darkly
         - custom.scss
+    link-external-icon: true
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
 
     format-links:
     - html
