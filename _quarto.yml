@@ -62,6 +62,9 @@ format:
       icon: file-pdf
       text: PDF
 
+  # pdf:
+  #   pdf-standard: [ ua-2 ]
+        
   typst:
     citeproc: true
     template-partials:
@@ -73,3 +76,4 @@ format:
       x: 1in
       y: 1in
     papersize: us-letter
+    #pdf-standard: [ ua-1 ]
