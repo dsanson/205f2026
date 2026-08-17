@@ -1,18 +1,32 @@
 ---
-title: Course Syllabus
+title: 'Syllabus: Philosophy of Language (PHI 205)'
+subtitle: Illinois State, Fall 2026
 type: syllabus
 ---
 
 ## Basic Information
 
-PHI 205 -- Philosophy of Language
-:   MW 2:00--3:15PM, 229 Stevenson Hall
+::::{.columns}
+
+:::{.column}
 
 Instructor
 :   David Sanson
 
+Office
+:   Stevenson 341
+
+:::
+:::{.column}
+
+Class Meetings
+:   MW 2:00--3:15PM, 229 Stevenson Hall
+
 Office Hours
-:   Stevenson 341, TBA
+:   TBD
+
+:::
+::::
 
 ## Course Description
 

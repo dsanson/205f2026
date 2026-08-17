@@ -73,7 +73,12 @@
   block(width:100%)[
     #if type == "syllabus" {
       block(width:100%)[
-        #text(weight: "bold", size: 2em)[#smallcaps[#title]]
+        #set align(center)
+        #text(weight: "bold", size: 1.7em)[#smallcaps[#title]]
+
+        $if(subtitle)$
+        #text(weight: "bold", size: 1.2em)[#smallcaps[$subtitle$]]
+        $endif$
       ]
     } else {
       if authors != none {
