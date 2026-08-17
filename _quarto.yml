@@ -5,6 +5,7 @@ project:
 website:
   title: "PHI 205"
   site-url: "https://www.davidsanson.com/205f2026"
+  favicon: media/favicon.png
   page-footer: |
     © 2026 David Sanson. Created using [Quarto](https://quarto.org/).
   navbar:
