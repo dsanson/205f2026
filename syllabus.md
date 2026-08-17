@@ -11,7 +11,7 @@ type: syllabus
 :::{.column}
 
 Instructor
-:   David Sanson
+:   [David Sanson](https://www.davidsanson.com)
 
 Office
 :   Stevenson 341
