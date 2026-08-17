@@ -71,16 +71,16 @@ My settled view is that grading causes more problems than it solves. The main pr
 
 But over-reliance on this form of external motivation fundamentally changes your educational experience. The point of this class is to give you the opportunity to explore some really neat parts of philosophy and figure out for yourself what you think about them. For that to work, you need to take ownership of your engagement with the course. Slogging through the readings with an eye toward passing a reading quiz or exam doesn't cut it.
 
-The other problem it solves is the problem of sorting and ranking students by merit. But I have very little interest in solving that problem. Every student is different, and has different strengths and weaknesses. I want you to be the strongest student you can be, and I want to help you succeed at that. I am not interested in reducing you to an "A", "B", "C", "D", or "F".
+The other problem grading solves is the problem of sorting and ranking students by merit. But that is not a practice I agree with. Every student is different, and has different strengths and weaknesses. I want you to be the strongest student you can be, and I want to help you succeed at that.  I do care about the difference between a student who learns the material and a student who fails to do so, and I do have views about what makes some students especially great, which I am happy to report in letters of recommendation. But I have no interest in reducing you to an "A", "B", "C", "D", or "F" student. But you all signed up for a grade, and I must give you grades. 
 
-But I must give you grades. So, here is our first problem to figure out together. How?
+So, here is our first problem to figure out together. How?
 
 Proposal
 :   pass-fail exercises: $10\%$;
 :   co-teaching: $10\%$;
 :   in-class essays: $20\% \times 4 = 80\%$
 
-I am open to different "weights" for these components. I am also open to including a "participation" component or a "final exam" component. 
+I am open to giving different "weights" for each of these components. I said above I will give the in-class essays letter grades. I am open to doing something else. I am open to including credit for participation. (I am not willing to define that using some sort of scorecard that counts how many times you speak up.) I am open to doing something during our "final exam" period---for example, we could use that as an additional extended time writing day, or we could shift the fourth writing day to that time instead.
 
 ## Attendance
 
