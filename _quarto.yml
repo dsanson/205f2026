@@ -14,7 +14,8 @@ website:
   page-footer: |
     © 2026 David Sanson. Created using [Quarto](https://quarto.org/).
   navbar:
-    aria-label: navigation
+    logo: media/favicon.png
+    logo-alt: 'Φ'
     left:
       - href: index.md
         text: Home
