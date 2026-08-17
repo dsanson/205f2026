@@ -103,6 +103,12 @@ div.csl-indent {
 }</script>
 
 
+<meta property="og:title" content="PHI 205">
+<meta property="og:description" content="Course webpage for PHI 205 at Illinois State">
+<meta property="og:site_name" content="PHI 205">
+<meta name="twitter:title" content="PHI 205">
+<meta name="twitter:description" content="Course webpage for PHI 205 at Illinois State">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -456,6 +462,13 @@ Putnam, Hilary. 1973. <span>“Meaning and Reference.”</span> <em>The Journal 
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -777,7 +790,7 @@ Putnam, Hilary. 1973. <span>“Meaning and Reference.”</span> <em>The Journal 
     </div>   
     <div class="nav-footer-center">
 <p>© 2026 David Sanson. Created using <a href="https://quarto.org/">Quarto</a>.</p>
-</div>
+<div class="toc-actions"><ul><li><a href="https://github.com/dsanson/205f2026/blob/main/guides/putnam.md" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/dsanson/205f2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

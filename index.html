@@ -83,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta property="og:title" content="Philosophy of Language – PHI 205">
+<meta property="og:image" content="https://www.davidsanson.com/205f2026/media/bochner_blah.jpg">
+<meta property="og:site_name" content="PHI 205">
+<meta property="og:image:alt" content="oil painting of the words 'BLAH, BLAH, BLAH, BLAH'">
+<meta name="twitter:title" content="Philosophy of Language – PHI 205">
+<meta name="twitter:image" content="https://www.davidsanson.com/205f2026/media/bochner_blah.jpg">
+<meta name="twitter:image:alt" content="oil painting of the words 'BLAH, BLAH, BLAH, BLAH'">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -430,6 +438,13 @@ MW 2:00PM - 3:15PM, Stevenson Hall 0229.
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -751,7 +766,7 @@ MW 2:00PM - 3:15PM, Stevenson Hall 0229.
     </div>   
     <div class="nav-footer-center">
 <p>© 2026 David Sanson. Created using <a href="https://quarto.org/">Quarto</a>.</p>
-</div>
+<div class="toc-actions"><ul><li><a href="https://github.com/dsanson/205f2026/blob/main/index.md" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/dsanson/205f2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
