@@ -96,8 +96,8 @@ Readings are typically assigned by the week. At a minimum, you should complete t
 
 - - []{rowspan=2} 12
   - M 11/2
-  - []{rowspan=2} Lying to the Murderer at the Door
-  - []{rowspan=2} [*Speech Matters*](guides/shiffrin.md)
+  - Magic as Speech Act?
+  - ["The Magic of Words"](guides/magic.md)
 
 - - W 11/4
   - **Writing Day**

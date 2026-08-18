@@ -139,6 +139,38 @@
     "type": "book"
   },
   {
+    "id": "evnine2026",
+    "author": [
+      {
+        "family": "Evnine",
+        "given": "Simon J."
+      }
+    ],
+    "citation-key": "evnine2026",
+    "container-title": "Grazer Philosophische Studien",
+    "container-title-short": "Grazer Philos. Stud.",
+    "DOI": "10.1163/18756735-00000263",
+    "ISSN": "0165-9227, 1875-6735",
+    "issue": "1–2",
+    "issued": {
+      "date-parts": [
+        [
+          "2026",
+          7,
+          17
+        ]
+      ]
+    },
+    "note": "watchfolder-hash:f6cd9bf6475e6d6c5d650a1613259270c70f7131ab90083c315c544b684d0cf1",
+    "page": "212–236",
+    "source": "DOI.org (Crossref)",
+    "title": "The magic of words: what is it supposed to be?",
+    "title-short": "The Magic of Words",
+    "type": "article-journal",
+    "URL": "https://brill.com/view/journals/gps/103/1-2/article-p212_9.xml",
+    "volume": "103"
+  },
+  {
     "id": "frege1879a",
     "author": [
       {
