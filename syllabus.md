@@ -23,7 +23,7 @@ Class Meetings
 :   MW 2:00--3:15PM, 229 Stevenson Hall
 
 Office Hours
-:   TBD
+:   M noon--1:00PM; W 11:00AM--noon
 
 :::
 ::::
@@ -76,9 +76,10 @@ The other problem grading solves is the problem of sorting and ranking students 
 So, here is our first problem to figure out together. How?
 
 Proposal
-:   pass-fail exercises: $10\%$;
-:   co-teaching: $10\%$;
-:   in-class essays: $20\% \times 4 = 80\%$
+:   attendance: $10\%$
+:   pass-fail exercises: $10\%$
+:   co-teaching: $20\%$
+:   in-class essays: $15\% \times 4 = 60\%$
 
 I am open to giving different "weights" for each of these components. I said above I will give the in-class essays letter grades. I am open to doing something else. I am open to including credit for participation. (I am not willing to define that using some sort of scorecard that counts how many times you speak up.) I am open to doing something during our "final exam" period---for example, we could use that as an additional extended time writing day, or we could shift the fourth writing day to that time instead.
 
