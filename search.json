@@ -56,6 +56,13 @@
     "text": "Reading Notes\nI am going to walk you through the first page and a half, sentence by sentence. I won’t be doing this for every reading. But we are just getting started, and this reading is dense, and I want to give you a model of what I mean by “read slowly and carefully.”\n\nIdentity1 gives rise to challenging questions which are not easy to answer.\n1 I use this word strictly and understand “\\(a=b\\)” to have the sense of “\\(a\\) is the same as \\(b\\)” or “\\(a\\) and \\(b\\) coincide.”\n\nWhat do you think Frege means by ‘identity’? The fact that he provides a footnote suggests that he was worried that you might misunderstand.\n\nIs it a relation?\n\nHere are some examples of relations:\n\nThe greater than relation: ‘\\(4 &gt; 3\\)’, \\(4 &gt; 5\\).\nThe worse than relation: ‘This pasta is worse than the pasta you made last night.’\nThe is a part of relation: ‘My nose is a part of my face.’\n\nWhat are some other examples of relations? Here are some identity claims:\n\n\\(2 + 2 = 4\\)\nDwayne Johnson is identical to the Rock.\nDaniel Radcliffe is identical to Elijah Wood.\n\nCan you think of reasons someone might have for thinking that identity is not a relation?\n\nA relation between objects, names or signs of objects?\n\nHuh. What are these two options? Why are they the two options we should consider?\n\nIn my Begriffsschrift I assumed the latter.\n\nThe Begriffsschrift (“Concept Notation”) (Frege 1879; English translation Frege 1967) is a booklet on logic. In it, Frege invents the logic that we now teach in intro logic courses, displacing traditional Aristotelian term logic.\nIn §8 of that booklet, “Identity of content”, he says,\n\nWhereas in other contexts signs are merely representatives of their content […] they suddenly display their own selves when they are combined by means of the sign for identity of content; for it expresses the circumstance that two names have the same content. (Frege 1967, 20)\n\nReturning to our reading, he continues,\n\nThe reasons which seem to favor this are the following:\n\nAh, good. We won’t need to read the Begriffsschrift, because he is about to explain his reasons to us here. (Notice the use of ‘seem’. That suggests he has changed his mind.)\n\n\\(a=a\\) and \\(a=b\\) are obviously statements of differing cognitive value; …\n\nNote that Frege does not follow our contemporary convention for use-mention. Following this convention, we would surround the two identity statements, which are here being mentioned, not used, in single quotes:\n\n‘\\(a=a\\)’ and ‘\\(a=b\\)’ are obviously statements of differing cognitive value; …\n\nI will not be “fixing” Frege’s use-mention to fit this convention. But you should pay attention to it for yourself.\nHe does not explain what he means by “cognitive value”. “Cognitive” means, roughly, “related to thought”. So “thought value”? Maybe this will be clearer in light of the reason he offers in support:\n\n\\(a=a\\) holds a priori and, according to Kant, is to be labeled analytic, while statements of the form \\(a=b\\) often contain very valuable extensions of our knowledge and cannot always be established a priori.\n\nHere Frege uses some philosophical terminology and name-drops Kant. He assumes anyone reading this article has already read Kant ([1781] 1998). He’s probably wrong about that in your case. You should look up what ‘a priori’ and ‘analytic’ mean (hint: here ‘analytic’ is being used in contrast to ‘synthetic’). And you should put Kant ([1781] 1998) on your summer reading list!\nDid you look up what ‘a priori’ and ‘analytic’ mean? Do so before reading further.\nNow you know that Frege is claiming that statements of the form ‘\\(a=a\\)’ can be known independently of experience (that is, “hold a priori”), and are, at least according to Kant, true in virtue of the meanings of the words and how they have been put together (that is, “analytic”), while statements of the form ‘\\(a=b\\)’ are often both synthetic and a posteriori—in order to know that \\(a=b\\), you need to have empirical evidence, not just know what the words mean and how they have been put together.\nDoes all of that seem right to you? Try to think about specific examples. Do you agree that,\n\nDwayne Johnson \\(=\\) Dwayne Johnson,\n\nis both a priori and analytic? Do you agree that,\n\nDwayne Johnson \\(=\\) the Rock.\n\nis neither analytic nor a priori?\n\nThe discovery that the rising sun is not new every morning, but always the same, was of very great consequence for astronomy. Even today, the identification of a small planet or a comet is not always a matter of course.\n\nThat is, the statement,\n\nThe sun that rises today \\(=\\) the sun that rose yesterday,\n\nis neither analytic nor a priori, but instead expresses an empirical scientific discovery.\nLet’s stop to recap. Reading from the top:\n\nIdentity gives rise to challenging questions which are not easy to answer. Is it a relation? A relation between objects, names or signs of objects? In my Begriffsschrift I assumed the latter. The reasons which seem to favor this are the following: \\(a=a\\) and \\(a=b\\) are obviously statements of differing cognitive value; … \\(a=a\\) holds a priori and, according to Kant, is to be labeled analytic, while statements of the form \\(a=b\\) often contain very valuable extensions of our knowledge and cannot always be established a priori. The discovery that the rising sun is not new every morning, but always the same, was of very great consequence for astronomy. Even today, the identification of a small planet or a comet is not always a matter of course.\n\nSee where we are? Frege has asserted that identity is either a relation between objects or between names of objects, and he is in the middle of giving us a reason for thinking it is not a relation between objects. So far, he has argued that ‘\\(a=a\\)’ and ‘\\(a=b\\)’ differ in cognitive value. But it remains to be seen why that should entail that identity is not a relation between objects.\n\nNow if we were to regard identity as a relation between that which the names “\\(a\\)” and “\\(b\\)” designate, it would seem that \\(a=b\\) could not differ from \\(a=a\\) (i.e., provided \\(a=b\\) is true). A relation would thereby be expressed of a thing to itself, and indeed one in which each thing stands to itself but to no other thing.\n\nFrege’s argument here is that identity cannot be a relation between objects, because, if it were, ‘\\(a=a\\)’ and ‘\\(a=b\\)’ would have the same cognitive value. Why? Because both ‘\\(a=a\\)’ and ‘\\(a=b\\)’ would express the same relation—a relation that holds between a thing and itself, and not between that thing and anything else.\n(Notice that this helps clarify the kind of ‘identity’ Frege is interested in here. Qualitative identity—the kind of identity-as-similarity that holds between “identical” twins—is a relation that can hold between one thing and another thing. Numerical identity—being one and the same thing—is the relation that holds between each thing and itself, but not between that thing and anything else.)\nWe have been given an argument. It is good practice, when reading philosophy, to try to reconstruct the arguments you are given.\n\nNO1. ‘\\(a=a\\)’ and ‘\\(a=b\\)’ differ in cognitive value.\nNO2. If identity were a relation between objects, ‘\\(a=a\\)’ and ‘\\(a=b\\)’ would express the same relation.\nNO3. If ‘\\(a=a\\)’ and ‘\\(a=b\\)’ expressed the same relation, they would have the same cognitive value.\nNO4. So, identity is not a relation between objects.\n\nIt is also good practice to immediately start trying to think of objections. This isn’t because we are playing some obnoxious game of “Gotcha!” It’s because, by trying think of objections, you force yourself to actually pay attention to what is being said. Students often read philosophy in “vibe” mode, and come away with a feeling of understanding, but no actual understanding. You have to fight this tendency.\nSo, what do you think? Is the argument just reconstructed valid? That is, if you were to grant the premises, would the conclusion follow? Assuming it is valid, are there any premises that look fishy to you? If not, imagine you are a really disagreeable reader, searching for things to disagree with. Where might you poke or prod?\nIf you just tried to do all of that, you may have run into the problem that the argument is pretty abstract, so it is hard to get real purchase on it. When that happens to you, always try to reach for examples. I’ve given you the ‘Dwayne Johnson’ and ‘The Rock’ examples. Try plugging those into the argument, in place of the abstract ‘\\(a=a\\)’ and ‘\\(a=b\\)’.\nAlso, it is fine if you don’t come up with any great objections. The point is to try. The goal isn’t a “Gotcha!” The goal is to actually understand the argument.\n\nWhat is intended to be said by \\(a=b\\) seems to be that the signs or names “\\(a\\)” and “\\(b\\)” designate the same thing, so that those signs themselves would be under discussion; a relation between them would be asserted.\n\nAh, now we are moving on to the second option: if identity is not a relation between objects, it must be a relation between names. What relation, exactly? Co-reference: when you learn that Dwayne Johnson is the Rock, what you have learned is that the name, ‘Dwayne Johnson’, and the name, ‘The Rock’, both refer to the same thing. This is a relation between the two names: they co-refer.\n\nBut this relation would hold between the names or signs only insofar as they named or designated something. It would be mediated by the connection of each of the two signs with the same designated thing. But this is arbitrary. Nobody can be forbidden to use any arbitrarily producible event or object as a sign for something. In that case the sentence \\(a=b\\) would no longer refer to the subject matter, but only to its mode of designation; we would express no proper knowledge by its means. But in many cases this is just what we want to do.\n\nOh, shit. Now we seem to have an argument against the view that identity is a relation between names. Let’s try to reconstruct it.\n\nNN1. The connection between a name and its referent is arbitrary and conventional.\nNN2. So, the fact that ‘\\(a\\)’ and ‘\\(b\\)’ co-refer is arbitrary and conventional.\nNN3. But sentences of the form ‘\\(a=b\\)’ can express proper knowledge.\nNN4. Knowledge of arbitrary and conventional facts is never proper knowledge.\nNN5. So, sentences of the form ‘\\(a=b\\)’ do not express co-reference.\n\nI’ve done a fair bit of work for you here, unpacking the argument from the text. I may have gotten it wrong. So, once again, you should be thinking of possible objections, and thinking about which premise(s) seem most dubious. But also, you should be comparing what I’ve given you with the original text, and thinking about whether my reconstruction is misleading.\n\nIf the sign “\\(a\\)” is distinguished from the sign “\\(b\\)” only as object (here, by means of its shape), not as sign (i.e., not by the manner in which it designates something), the cognitive value of \\(a=a\\) becomes essentially equal to that of \\(a=b\\), provided \\(a=b\\) is true.\n\nThis sentence is hard to parse. It helps a little if we move the last bit, ‘provided \\(a=b\\) is true’, to the beginning:\n\nIf ‘\\(a=b\\)’ is true, and if each name is distinguished from the other only by its shape, not by the “manner in which it designates something”, then ‘\\(a=b\\)’ has the essentially the same cognitive value as ‘\\(a=a\\)’.\n\nFrege’s first argument suggested that, when \\(a=b\\) is true, the relation between the object \\(a\\) and the object \\(b\\) is the same as the relation between the object \\(a\\) and the object \\(a\\), so nothing at the level of objects can explain a difference in cognitive value.\nHis second argument suggests that the fact that two signs of two different shapes have both been connected to the same object is arbitrary and conventional. That gets us a difference, but not the right sort of difference. The difference we are after needs to be a difference that can amount to proper knowledge: again, think of the case of the astronomer who discovers that comet observed 100 years ago is identical to the comet she observes today.\n\nA difference can arise only if the difference between the signs corresponds to a difference in the mode of presentation of that which is designated.\n\nHere, Frege introduces a third potential source of a difference in cognitive value: not the difference in names, and not the difference in objects, but the difference in “modes of presentation” by which each name designates the object.\nBut what is a “mode of presentation”? What follows is an example, illustrating the idea:\n\nLet \\(a\\), \\(b\\), \\(c\\) be the lines connecting the vertices of a triangle with the midpoints of the opposite sides. The point of intersection of \\(a\\) and \\(b\\) is then the same as the point of intersection of \\(b\\) and \\(c\\). So we have different designations for the same point, and these names (“Point of intersection of \\(a\\) and \\(b\\),” “Point of intersection of \\(b\\) and \\(c\\)”) likewise indicate the mode of presentation; and hence the statement contains true knowledge.\n\nConstruct a diagram to help yourself make sense of this example.\n\nIt is natural, now, to think of there being connected with a sign (name, combination of words, letter), besides that to which the sign refers, which may be called the referent of the sign, also what I would like to call the sense of the sign, wherein the mode of presentation is contained. In our example, accordingly, the referents of the expressions “the point of intersection of \\(a\\) and \\(b\\)” and “the point of intersection of \\(b\\) and \\(c\\)” would be the same, but not their senses. The referent of “evening star” would be the same as that of “morning star,” but not the sense.\n\nThis is Frege’s famous view about how names work: each name expresses a sense, which determines a referent. The difference in cognitive value between ‘Dwayne Johnson is Dwayne Johnson’ and ‘Dwayne Johnson is the Rock’ is due to the fact that ‘Dwayne Johnson’ and ‘The Rock’ each express a different sense—a different “mode of presentation”—even though those two different senses determine the same object.\nHere ends this reading guide, but not your reading assignment. You still have several pages to go. In those pages, Frege will clarify his view that He then extends that view from names to entire sentences: each sentence expresses a sense, which determines a referent. In the case of a sentence, the sense is a “though”, and the referent is a truth value. And he discusses what happens when a name has a sense but lacks a referent, and how that affects the sense and reference of a sentence containing that name.\nTry to use this guide as a model. Read slowly. Take each sentence as it comes, and try to figure out what it is saying. Obviously, in writing this guide, I was cheating. I’ve read this paper many times, so I already know what is going on. You are reading this paper for the first time. You will have to read ahead and circle back, and you won’t always be able to make sense of what is going on. That’s all okay! Stick with it and push through. You cannot understand a paper because you’ve read it several times without reading it for the first time, without completely understanding it."
   },
   {
+    "objectID": "guides/frege.html#slides",
+    "href": "guides/frege.html#slides",
+    "title": "On Sense and Reference",
+    "section": "Slides",
+    "text": "Slides\nI used slides for our second day discussing Frege. Here are those slides."
+  },
+  {
     "objectID": "guides/putnam.html",
     "href": "guides/putnam.html",
     "title": "PHI 205",
@@ -180,6 +187,125 @@
     "title": "Schedule",
     "section": "",
     "text": "Readings are typically assigned by the week. At a minimum, you should complete the week’s reading before Monday’s class, and then re-read it before Wednesday’s class.\n\n\n\nWeek\nDate\nTopic\nReading\n\n\n\n\n 1\nM 08/17\nWelcome!\nSyllabus\n\n\nW 8/19\nGetting Started\nIntroduction\n\n\n 2\nM 8/24\n Sense and Reference\n “On Sense and Reference”\n\n\nW 8/26\n\n\n 3\nM 8/31\n Definite Descriptions\n “On Denoting” and “On Referring”\n\n\nW 9/2\n\n\n 4\nM 9/7\nLabor Day — No Class\n\n\n\nW 9/9\nWriting Day\n\n\n\n 5\nM 9/14\n Meaning and Analyticity\n “Two Dogmas of Empiricism”\n\n\nW 9/16\n\n\n 6\nM 9/21\n Proper Names\n Naming and Necessity\n\n\nW 9/23\n\n\n 7\nM 9/28\n Externalism\n “Meaning and Reference”\n\n\nW 9/30\n\n\n 8\nM 10/5\nTBD\n\n\n\nW 10/7\nWriting Day\n\n\n\n 9\nM 10/12\n Meaning and Conversational Implicature\n “Logic and Conversation”\n\n\nW 10/14\n\n\n 10\nM 10/19\n Speech Acts\n “Performative Utterances”\n\n\nW 10/21\n\n\n 11\nM 10/26\n Pornography as Speech Act\n “Speech Acts and Unspeakable Acts”\n\n\nW 10/28\n\n\n 12\nM 11/2\nMagic as Speech Act?\n“The Magic of Words”\n\n\nW 11/4\nWriting Day\n\n\n\n 13\nM 11/9\n Generics\n “Are Generics Especially Pernicious?”\n\n\nW 11/11\n\n\n 14\nM 11/16\n The Language of Legal Contracts\n “Textualism, Intentionalism, and the Law of the Contract”\n\n\nW 11/18\n\n\n  \nM 11/23\n Thanksgiving Break — No Class\n  \n\n\nW 11/25\n\n\n 15\nM 11/30\nTBD\n\n\n\nW 12/2\nWriting Day\n\n\n\n Finals\nM 12/7 – 12/12\nNot clear that we will be making use of this, but date and time of final exam TBD by registrar."
+  },
+  {
+    "objectID": "slides/frege.html#reading",
+    "href": "slides/frege.html#reading",
+    "title": "Frege, Continued",
+    "section": "Reading",
+    "text": "Reading\n\nReading for next week is Russell, “On Denoting” and Strawson, “On Referring”.\nRussell’s “Descriptions” is optional, but many find that it is a clearer presentation of some of the key ideas from “On Denoting.”\nI need to get the “guide” up!\nI have added a link to these slides to the “guide” for Frege."
+  },
+  {
+    "objectID": "slides/frege.html#proper-names-senses-referents",
+    "href": "slides/frege.html#proper-names-senses-referents",
+    "title": "Frege, Continued",
+    "section": "Proper Names, Senses, Referents",
+    "text": "Proper Names, Senses, Referents\n\nA proper name is a word or phrase that designates a single determinate thing.\nEach proper name expresses a sense and refers to a referent.\nThe relation between name and sense is conventional; the relation between sense and referent is not."
+  },
+  {
+    "objectID": "slides/frege.html#senses",
+    "href": "slides/frege.html#senses",
+    "title": "Frege, Continued",
+    "section": "Senses",
+    "text": "Senses\n\nA sense is a “mode of presentation” or a “way of thinking about” the referent.\nSenses are not subjective “conceptions”, but shared objective thoughts: otherwise, communication would be impossible\n“One can hardly deny that mankind has a common store of thoughts which is transmitted from one generation to another” p. 212\nTo know what a word means is to grasp the sense it expresses."
+  },
+  {
+    "objectID": "slides/frege.html#a-note-about-thought",
+    "href": "slides/frege.html#a-note-about-thought",
+    "title": "Frege, Continued",
+    "section": "A Note about ‘Thought’",
+    "text": "A Note about ‘Thought’\n\nThe word thought is subject to an “act-object” ambiguity.\nExamples: ‘work’, ‘belief’, ‘perception’\nIn each case, there is, on the one hand, the process or act or state—the work, the belief, the perception—and, on the other hand, the product or content—the work, the belief, the perception.\nFrege is saying that we have access to a shared store of thought contents. He is not saying that we are part of a hive mind that engages in collective acts of thought."
+  },
+  {
+    "objectID": "slides/frege.html#names-express-senses",
+    "href": "slides/frege.html#names-express-senses",
+    "title": "Frege, Continued",
+    "section": "Names express Senses",
+    "text": "Names express Senses\n\nThe relation between a name and the sense it expresses is conventional and arbitrary.\nTwo names can express the same sense: synonyms, but also translation.\nOne name should not be used to express more than one sense: ambiguity, which should be avoided.\nNo name should fail to express a sense: nonsense, which should be avoided."
+  },
+  {
+    "objectID": "slides/frege.html#senses-and-referents",
+    "href": "slides/frege.html#senses-and-referents",
+    "title": "Frege, Continued",
+    "section": "Senses and Referents",
+    "text": "Senses and Referents\n\nThe sense of a proper name determines a single unique referent—or no referent at all.\nThe relation between a sense and the referent it determines is not conventional.\nThe same referent can be determined by many different senses—there can be many different ways of thinking about the same thing.\nSome proper names express senses that fail to determine any referent at all: empty names."
+  },
+  {
+    "objectID": "slides/frege.html#compositionality",
+    "href": "slides/frege.html#compositionality",
+    "title": "Frege, Continued",
+    "section": "Compositionality",
+    "text": "Compositionality\n\nThe meaning of a whole sentence is a function of the meanings of its parts.\nCompositionality explains your ability to understand sentences you have never heard before:\n‘The purple twinkies that you left in the drawer spontaneously combusted.’"
+  },
+  {
+    "objectID": "slides/frege.html#compositionality-of-sense-and-reference",
+    "href": "slides/frege.html#compositionality-of-sense-and-reference",
+    "title": "Frege, Continued",
+    "section": "Compositionality of Sense and Reference",
+    "text": "Compositionality of Sense and Reference\n\nThe sense expressed by a whole sentence—the thought it expresses—is a function of the senses expressed by its parts.\nThe referent of a whole sentence—its truth value—is a function of the referents of its parts."
+  },
+  {
+    "objectID": "slides/frege.html#compositionality-and-empty-names",
+    "href": "slides/frege.html#compositionality-and-empty-names",
+    "title": "Frege, Continued",
+    "section": "Compositionality and Empty Names",
+    "text": "Compositionality and Empty Names\n\nIf a sentence contains a proper name that fails to express any sense—a nonsense word—that sentence fails to express a thought.\nIf a sentence contains a proper name that expresses a sense, but has no referent, that sentence expresses a thought, but has no truth value."
+  },
+  {
+    "objectID": "slides/frege.html#reading-1",
+    "href": "slides/frege.html#reading-1",
+    "title": "Frege, Continued",
+    "section": "Reading",
+    "text": "Reading\n\nRe-read p. 215 and gather your thoughts.\nDiscuss the passage with two people sitting next to you.\nCan you come up with other examples of sentences with empty names?"
+  },
+  {
+    "objectID": "slides/frege.html#sentences-with-empty-names",
+    "href": "slides/frege.html#sentences-with-empty-names",
+    "title": "Frege, Continued",
+    "section": "Sentences with Empty Names",
+    "text": "Sentences with Empty Names\nWhat does Frege’s view imply about these sentences:\n\n‘Odysseus was set ashore at Ithaca while sound asleep’\n‘The largest natural number is even.’\n‘The largest natural number is odd.’\n‘Sherlock Holmes is a detective.’"
+  },
+  {
+    "objectID": "slides/frege.html#compositionality-and-substitutivity",
+    "href": "slides/frege.html#compositionality-and-substitutivity",
+    "title": "Frege, Continued",
+    "section": "Compositionality and Substitutivity",
+    "text": "Compositionality and Substitutivity\n\nThe referent—truth value—of a sentence is a function of the referents of its parts.\nSo, if you replace a proper name with another proper name that has the same referent—even if it has a different sense—this should not affect the truth value."
+  },
+  {
+    "objectID": "slides/frege.html#examples",
+    "href": "slides/frege.html#examples",
+    "title": "Frege, Continued",
+    "section": "Examples",
+    "text": "Examples\n\n\n\nArgument\n\n\n\nThe largest prime number less than 10 is odd.\nSo, seven is odd.\n\n\n\n\n\n\n\nArgument\n\n\n\nSuperman just flew past my window.\nSo, Clark Kent just flew past my window.\n\n\n\n\n\n\n\nArgument\n\n\n\nLois believes that Superman flies.\nSo, Lois believes that Clark Kent flies."
+  },
+  {
+    "objectID": "slides/frege.html#indirect-speech",
+    "href": "slides/frege.html#indirect-speech",
+    "title": "Frege, Continued",
+    "section": "Indirect Speech",
+    "text": "Indirect Speech\n\n\n\nArgument\n\n\n\nLois believes that Superman flies.\nSo, Lois believes that Clark Kent flies.\n\n\n\n\nRe-read p. 211-212. According to Frege, why is this a bad argument."
+  },
+  {
+    "objectID": "slides/frege.html#idealism-and-skepticism",
+    "href": "slides/frege.html#idealism-and-skepticism",
+    "title": "Frege, Continued",
+    "section": "Idealism and Skepticism",
+    "text": "Idealism and Skepticism\n\nIdealism is the view that there is no external world beyond our ideas.\nSkepticism is the view that, for all we know, there is no external world beyond our ideas.\nBoth might seem like good reasons to hold, with Locke, that words can only be signs for ideas, not objects in reality.\n\nRe-read p. 214. What is Frege’s take on these issues?"
+  },
+  {
+    "objectID": "slides/frege.html#sentences-truth-values-and-judgment",
+    "href": "slides/frege.html#sentences-truth-values-and-judgment",
+    "title": "Frege, Continued",
+    "section": "Sentences, Truth Values, and Judgment",
+    "text": "Sentences, Truth Values, and Judgment\n\nThe view that the referent of a sentence is a truth value is weird!\n\nRe-read p. 215-218.\n\nCan we unpack the argument here, that a sentence refers to its truth value, and that the true and the false are objects, not predicates?\nWhat is Frege’s account of judgment?"
+  },
+  {
+    "objectID": "slides/frege.html#solving-the-puzzle",
+    "href": "slides/frege.html#solving-the-puzzle",
+    "title": "Frege, Continued",
+    "section": "Solving the Puzzle",
+    "text": "Solving the Puzzle\nRe-read p. 230. How does Frege’s theory allow him to solve the original puzzle?"
   },
   {
     "objectID": "403.html",
