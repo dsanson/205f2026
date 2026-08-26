@@ -302,6 +302,10 @@ That's all okay! Stick with it and push through. You cannot understand a paper
 because you've read it several times without reading it for the first time,
 without completely understanding it.
 
+## Slides
+
+I used slides for our second day discussing Frege. [Here are those slides](/slides/frege.md).
+
 ## References {-}
 
  

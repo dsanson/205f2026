@@ -1,0 +1,32 @@
+format:
+  revealjs: 
+    menu: true
+    progress: true
+    theme: [default, ../custom.scss, slides.scss]
+    filters:
+      - attribution
+      - reveal-auto-agenda
+      - roughnotation
+      - cascade
+      - custom-callout
+      - timer
+custom-callout:
+  argument:
+    icon-symbol: "🥊"
+    color: "yellow"
+    appearance: "minimal"
+  example:
+    icon-symbol: "💭"
+    color: "purple"
+    appearance: "minimal"
+format-links:
+- format: revealjs
+  text: Slides
+- format: typst
+  icon: file-pdf
+  text: PDF
+auto-agenda:
+  bullets: numbered
+  heading: Agenda
+  clickable: true
+
