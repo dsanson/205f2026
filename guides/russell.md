@@ -11,9 +11,13 @@ This reading guide is under construction.
 
 ## Reading
 
-The assigned reading is @russell1905a and @strawson1950. 
+The assigned reading is @russell1905a. 
 
-@russell1919 is optional. This is Chapter 16 of a book that Russell intended for
+After writing up this guide, I realized how absurd it was to assign both Russell's paper and @strawson1950. So I am making Strawson's paper optional, which makes me sad. But what is a syllabus if not a series of sad decisions to leave things out?
+
+If you do decide to read the Strawson paper, which is a direct critical response to Russell, you may also enjoy reading @russell1957, which is Russell's response to Strawson, and an opportunity to see someone use the word 'jejune' as an insult.
+
+@russell1919 is also optional but recommended. This is Chapter 16 of a book that Russell intended for
 a broader audience. As a result, it covers some of the same ground as
 @russell1905a, but is easier to follow.
 

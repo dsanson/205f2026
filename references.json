@@ -696,6 +696,32 @@
     "URL": "https://courses.umass.edu/klement/imp/"
   },
   {
+    "id": "russell1957",
+    "author": [
+      {
+        "family": "Russell",
+        "given": "Bertrand"
+      }
+    ],
+    "citation-key": "russell1957",
+    "container-title": "Mind",
+    "ISSN": "0026-4423",
+    "issue": "263",
+    "issued": {
+      "date-parts": [
+        [
+          "1957"
+        ]
+      ]
+    },
+    "page": "385–389",
+    "source": "JSTOR",
+    "title": "Mr. Strawson on Referring",
+    "type": "article-journal",
+    "URL": "http://www.jstor.org/stable/2251489",
+    "volume": "66"
+  },
+  {
     "id": "saul2017",
     "author": [
       {

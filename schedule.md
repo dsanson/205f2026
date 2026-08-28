@@ -34,7 +34,7 @@ Readings are typically assigned by the week. At a minimum, you should complete t
 - - []{rowspan=2} 3
   - M 8/31
   - []{rowspan=2} Definite Descriptions
-  - []{rowspan=2} ["On Denoting" and "On Referring"](guides/russell.md)
+  - []{rowspan=2} ["On Denoting"](guides/russell.md)
 - - W 9/2
 
 - - []{rowspan=2} 4
