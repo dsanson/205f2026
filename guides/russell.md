@@ -1,4 +1,4 @@
-!---
+---
 title: Russell and Strawson on Definite Descriptions
 toc: true
 ---
@@ -295,5 +295,5 @@ This section is under construction.
 :::
 
 
-### References {-}
+## References {-}
 
