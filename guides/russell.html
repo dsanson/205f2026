@@ -8,7 +8,7 @@
 
 <meta name="author" content="David Sanson">
 
-<title>Russell and Strawson on Definite Descriptions – PHI 205</title>
+<title>russell – PHI 205</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -102,11 +102,40 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Russell and Strawson on Definite Descriptions – PHI 205">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="PHI 205">
 <meta property="og:description" content="Course webpage for PHI 205 at Illinois State">
 <meta property="og:site_name" content="PHI 205">
-<meta name="twitter:title" content="Russell and Strawson on Definite Descriptions – PHI 205">
+<meta name="twitter:title" content="PHI 205">
 <meta name="twitter:description" content="Course webpage for PHI 205 at Illinois State">
 <meta name="twitter:card" content="summary">
 </head>
@@ -332,7 +361,23 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#reading" id="toc-reading" class="nav-link active" data-scroll-target="#reading">Reading</a></li>
+  <li><a href="#on-denoting" id="toc-on-denoting" class="nav-link" data-scroll-target="#on-denoting">“On Denoting”</a>
+  <ul class="collapse">
+  <li><a href="#an-outline-of-on-denoting" id="toc-an-outline-of-on-denoting" class="nav-link" data-scroll-target="#an-outline-of-on-denoting">An Outline of “On Denoting”</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#statement-of-the-theory" id="toc-statement-of-the-theory" class="nav-link" data-scroll-target="#statement-of-the-theory">Statement of the Theory</a></li>
+  <li><a href="#meinongs-theory" id="toc-meinongs-theory" class="nav-link" data-scroll-target="#meinongs-theory">Meinong’s Theory</a></li>
+  <li><a href="#freges-theory" id="toc-freges-theory" class="nav-link" data-scroll-target="#freges-theory">Frege’s Theory</a></li>
+  <li><a href="#the-three-puzzles" id="toc-the-three-puzzles" class="nav-link" data-scroll-target="#the-three-puzzles">The Three Puzzles</a></li>
+  <li><a href="#greys-elegy" id="toc-greys-elegy" class="nav-link" data-scroll-target="#greys-elegy">Grey’s Elegy</a></li>
+  <li><a href="#solutions-to-the-puzzles" id="toc-solutions-to-the-puzzles" class="nav-link" data-scroll-target="#solutions-to-the-puzzles">Solutions to the Puzzles</a></li>
+  <li><a href="#consequences-and-conclusion" id="toc-consequences-and-conclusion" class="nav-link" data-scroll-target="#consequences-and-conclusion">Consequences and Conclusion</a></li>
+  </ul></li>
+  <li><a href="#on-referring" id="toc-on-referring" class="nav-link" data-scroll-target="#on-referring">“On Referring”</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dsanson/205f2026/blob/main/guides/russell.md" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/dsanson/205f2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="russell.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -342,7 +387,6 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Russell and Strawson on Definite Descriptions</h1>
 </div>
 
 
@@ -350,6 +394,7 @@ div.csl-indent {
 </header>
 
 
+<p>!— title: Russell and Strawson on Definite Descriptions toc: true —</p>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -363,25 +408,249 @@ div.csl-indent {
 <p>This reading guide is under construction.</p>
 </div>
 </div>
-<p>Read <span class="citation" data-cites="russell1905a">Russell (<a href="#ref-russell1905a" role="doc-biblioref">1905</a>)</span> and <span class="citation" data-cites="strawson1950">Strawson (<a href="#ref-strawson1950" role="doc-biblioref">1950</a>)</span>. Maybe also <span class="citation" data-cites="russell1919">Russell (<a href="#ref-russell1919" role="doc-biblioref">1919</a>)</span>.</p>
-<section id="references" class="level2 unnumbered">
+<section id="reading" class="level2">
+<h2 class="anchored" data-anchor-id="reading">Reading</h2>
+<p>The assigned reading is <span class="citation" data-cites="russell1905a">Russell (<a href="#ref-russell1905a" role="doc-biblioref">1905</a>)</span> and <span class="citation" data-cites="strawson1950">Strawson (<a href="#ref-strawson1950" role="doc-biblioref">1950</a>)</span>.</p>
+<p><span class="citation" data-cites="russell1919">Russell (<a href="#ref-russell1919" role="doc-biblioref">1919</a>)</span> is optional. This is Chapter 16 of a book that Russell intended for a broader audience. As a result, it covers some of the same ground as <span class="citation" data-cites="russell1905a">Russell (<a href="#ref-russell1905a" role="doc-biblioref">1905</a>)</span>, but is easier to follow.</p>
+</section>
+<section id="on-denoting" class="level2">
+<h2 class="anchored" data-anchor-id="on-denoting">“On Denoting”</h2>
+<section id="an-outline-of-on-denoting" class="level3">
+<h3 class="anchored" data-anchor-id="an-outline-of-on-denoting">An Outline of “On Denoting”</h3>
+<p>Before diving in, let me give you an outline of the article, indicating which parts might give you trouble and which parts you can skip.</p>
+<dl>
+<dt>Introduction 419–480</dt>
+<dd>
+From beginning to “…and finally I shall briefly indicate the philosophical consequences of my theory.”
+</dd>
+<dt>Statement of the Theory 480–482</dt>
+<dd>
+“My theory, briefly, is as follows … Why it is imperative to effect such a reduction, the subsequent discussion will endeavour to show.
+</dd>
+<dt>Meinong’s Theory 482–483</dt>
+<dd>
+“The evidence for the above theory is derived from the difficulties which seem unavoidable if … if any theory can be found to avoid this result, it is surely to be preferred.”
+</dd>
+<dt>Frege’s Theory 483–484</dt>
+<dd>
+“The above breach of the law of contradiction is avoided by Frege’s theory … the cases in which there seems to be no denotation cause difficulties both on the assumption that there really is a denotation and on the assumption that there really is none.”
+</dd>
+<dt>The Three Puzzles 484–485</dt>
+<dd>
+“A logical theory may be tested by its capacity for dealing with puzzles … Thus if A and B do not differ, to suppose either that there is, or that there is not, such an object as”the difference between A and B” seems equally impossible.”
+</dd>
+<dt>Grey’s Elegy 485–488 (Skip!)</dt>
+<dd>
+“The relation of the meaning to the denotation involves certain rather curious difficulties … Thus the point of view in question must be abandoned.”
+</dd>
+<dt>Solutions to the Three Puzzles 488–491</dt>
+<dd>
+“It remains to show how all the puzzles we have been considering are solved by the theory … As a proof, this fails for want of a proof of the premiss,”there is one and only one entity <span class="math inline">\(x\)</span> which is most perfect”.
+</dd>
+<dt>Philosophical Consequences 491–493</dt>
+<dd>
+“Mr.&nbsp;MacColl…” to the end of the article.
+</dd>
+</dl>
+</section>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>The introduction consists of three paragraphs. In the first, Russell explains what he means by a “denoting phrase”. In the second, he explains one philosophically significant role denoting phrases play. In the third, he offers a brief outline of his paper.</p>
+<p>This is a nice model that you might consider emulating in your own writing!</p>
+<section id="denoting-phrases" class="level4">
+<h4 class="anchored" data-anchor-id="denoting-phrases">Denoting Phrases</h4>
+<p>Russell introduces “denoting phrases” by giving examples:</p>
+<ol class="example" type="1">
+<li>a man</li>
+<li>some man</li>
+<li>any man</li>
+<li>every man</li>
+<li>all men</li>
+<li>the present King of England</li>
+<li>the present King of France</li>
+<li>the centre of mass of the Solar System at the first instant of the twentieth century</li>
+<li>the revolution of the earth round the sun</li>
+<li>the revolution of the sun around the earth</li>
+</ol>
+<p>He says that a denoting phrase is any phrase of this <em>form</em>. What is the form? Each example consists of a quantifier—‘some’, ‘any’, ‘every’, ‘all’—or determiner—‘a’, ‘the’—followed by a noun or noun phrase.</p>
+<p>He also distinguishes three “cases”:</p>
+<ol type="1">
+<li>A denoting phrase that fails to denote anything: ‘the present King of France’.</li>
+<li>A denoting phrase that denotes one definite object: ‘the present King of England’.</li>
+<li>A denoting phrase that denotes “ambiguously”: ‘a man’.</li>
+</ol>
+<p>He says that it is difficult to come up with a theory that handles all three cases, and says that the theory he is about to present does so.</p>
+</section>
+<section id="knowledge-without-acquaintance" class="level4">
+<h4 class="anchored" data-anchor-id="knowledge-without-acquaintance">Knowledge without Acquaintance</h4>
+<p>We know some things by acquaintance, but, Russell says, there are many things we only know by description. This is an important idea, and it will recur in later readings. For Russell’s full take on this issue, see <span class="citation" data-cites="russell1910">(<a href="#ref-russell1910" role="doc-biblioref">1910</a>)</span>.</p>
+</section>
+</section>
+<section id="statement-of-the-theory" class="level3">
+<h3 class="anchored" data-anchor-id="statement-of-the-theory">Statement of the Theory</h3>
+<p>This section is a bit technical. I’ll do my best to lead you through it.</p>
+<p>Take a sentence like,</p>
+<ol start="11" class="example" type="1">
+<li>Mark Zuckerberg is human.</li>
+</ol>
+<p>The grammatical subject of (11), ‘Mark Zuckerberg’, is a proper name. Frege would tell us that this name expresses a sense—<em>the founder of Facebook</em>, maybe—and refers, via that sense, to the man, Mark Zuckerberg.</p>
+<p>We can replace the name in (11) with a variable, ‘<span class="math inline">\(x\)</span>’:</p>
+<ol start="12" class="example" type="1">
+<li><span class="math inline">\(x\)</span> is human.</li>
+</ol>
+<p>(12) is interesting. The variable, ‘<span class="math inline">\(x\)</span>’, is not a name. It does not express a sense or have a referent. Instead, it is a device that allows us to ask questions like, “Is (12) true or false when <span class="math inline">\(x\)</span> is Bill Gates?”, and, “Are there any values of <span class="math inline">\(x\)</span> for which (12) is false?”, and, “Are there any values of <span class="math inline">\(x\)</span> for which it is true?”</p>
+<p>Russell calls (12) a <em>propositional function</em> (see footnote 2): it does not express a proposition, and it is not true or false. Instead, it is a function from different values of <span class="math inline">\(x\)</span> to different propositions, some true and some false.</p>
+<p>We can also replace the grammatical subject of (11) with any of several denoting phrases. Here is a simple example:</p>
+<ol start="13" class="example" type="1">
+<li>Nobody is human.</li>
+</ol>
+<p>Here is a naive analysis of (13), inspired by Frege’s analysis of (11): ‘Nobody’, like ‘Mark Zuckerberg’, expresses a sense—<em>the non-person</em>?—and refers, via that sense, to that non-person.</p>
+<p>(I once knew a toddler whose parents were literature professors. When people asked him what his name was, he would reply, “Nobody.” He was probably exposed to the <em>Odyssey</em> (the book, not the recent movie, which leaves this famous scene out) at too young of an age, though as far as I know, he has since turned out fine.)</p>
+<p>It is obvious, upon reflection, that this is a bad analysis of (13). ‘Nobody’ is not a name that refers to a mysterious non-being. A better approach to (13) starts from the idea that to say that nobody is human is to offer an answer to the question, “For what values of <span class="math inline">\(x\)</span> is (12) true?” According to (13), the answer is: (12) is not true for any value of <span class="math inline">\(x\)</span> that is a person.</p>
+<p>This is Russell’s basic insight: denoting phrases should not be analyzed on the model of proper names, like ‘Mark Zuckerberg’. Instead, they should be analyzed as claims about when propositional functions, like (12), are true and when they are false. He is what he means when he says,</p>
+<blockquote class="blockquote">
+<p><em>Everything</em>, <em>nothing</em>, and <em>something</em>, are not assumed to have any meaning in isolation, but a meaning is assigned to every proposition in which they occur. This is the principle of the theory of denoting I wish to advocate: that denoting phrases never have any meaning in themselves, but that every proposition in whose verbal expression they occur has a meaning.</p>
+</blockquote>
+<p>Generalizing a bit from our examples above, to bring us closer to Russell’s text, if a sentence, <span class="math inline">\(C\)</span>, contains a proper name, ‘N’, we can represent it as ‘<span class="math inline">\(C(\text{N})\)</span>’. And we can represent the result of replacing ‘N’ with some other device—a variable, or a denoting phrase—by replacing the ‘N’ in ‘<span class="math inline">\(C(\text{N})\)</span>’ with that variable or denoting phrase, e.g., ‘<span class="math inline">\(C(x)\)</span>’, ‘<span class="math inline">\(C(\text{a man})\)</span>’, ‘<span class="math inline">\(C(\text{the king of England})\)</span>’, and so on.</p>
+<p>Here is how Russell presents his analysis of the denoting phrase, ‘everything’:</p>
+<dl>
+<dt>Everything</dt>
+<dd>
+‘<span class="math inline">\(C(\text{everything})\)</span>’ means that ‘<span class="math inline">\(C(x)\)</span>’ is always true.
+</dd>
+</dl>
+<p>So, for example, ‘Everything is human’ means that ‘<span class="math inline">\(x\)</span> is human’ is always true, that is, is true no matter what value we assign to <span class="math inline">\(x\)</span>.</p>
+<p>Here, it can be useful to introduce some contemporary notation to help illuminate Russell’s analysis. In logic classes, we now teach our students to symbolize ‘Everything is human’ using the universal quantifier, ‘<span class="math inline">\(\forall x\)</span>’, pronounced “for all <span class="math inline">\(x\)</span>”:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<ol start="14" class="example" type="1">
+<li>‘Everything is human’: <span class="math inline">\(\forall x(x\ \text{is human})\)</span></li>
+</ol>
+<p>What this symbolization means is that the formula ‘<span class="math inline">\(x\)</span> is human’ is true for every value of <span class="math inline">\(x\)</span> or, as Russell puts it, “is always true”.</p>
+<p>Russell also offers analyses of ‘nothing’ and ‘something’:</p>
+<dl>
+<dt>Nothing</dt>
+<dd>
+‘<span class="math inline">\(C(\text{nothing})\)</span>’ means that ‘<span class="math inline">\(C(x)\)</span> is false’ is always true.
+</dd>
+<dt>Something</dt>
+<dd>
+‘<span class="math inline">\(C(\text{something})\)</span>’ means that ‘<span class="math inline">\(C(x)\)</span> is false’ is not always true.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+</dd>
+</dl>
+<p>You should try to unpack these analyses. The key is realizing that the analysis of ‘nothing’ relies on the idea that ‘nothing is ___’ is equivalent to ‘everything is not ___’, and his analysis of ‘something’ replies on the idea that that ‘something is ___’ is equivalent to ‘not everything is not ___’.</p>
+<p>Again, some contemporary notation may help illuminate what is going on. In logic classes, we teach our students to symbolize ‘Something is human’ using the existential quantifier, ’<span class="math inline">\(\exists x\)</span>, pronounced “there is an <span class="math inline">\(x\)</span>” or “there exists an <span class="math inline">\(x\)</span>” or “for some <span class="math inline">\(x\)</span>”:</p>
+<ol start="15" class="example" type="1">
+<li>‘Something is human’: <span class="math inline">\(\exists x(x\ \text{is human})\)</span></li>
+</ol>
+<p>What this symbolization means is that the formula ‘<span class="math inline">\(x\)</span> is human’ is true for at least one value of <span class="math inline">\(x\)</span> or, as Russell puts it, it is not always true that the formula is false.</p>
+<p>So, we can analyze sentences involving ‘everything’, ‘nothing’, and ‘something’ not by treating those denoting phrases as names, but by treating the sentences in which they occur as answers to questions about the corresponding propositional function.</p>
+<p>Next, Russell extends this in the usual way to cover denoting phrases like ‘a man’, ‘some man’, ‘all men’, and ‘no men.’ (In the process, he makes the standard-for-the-time sexist assumption that ‘man’ can be used as a gender-neutral term for the class of all humans of all genders. No reason to follow him on that.)</p>
+<p>Returning to our original example, we have the sentence, ‘Mark Zuckerberg is human’. Replacing the proper name with a denoting phrase, we get,</p>
+<ol start="16" class="example" type="1">
+<li>A tech bro is human.</li>
+</ol>
+<p>What does this mean? Russell tells us that it means that ‘<span class="math inline">\(x\)</span> is a tech bro and <span class="math inline">\(x\)</span> is human’ is not always false. That is, there is at least one value of <span class="math inline">\(x\)</span> for which it is true. Or, in contemporary notation:</p>
+<ol start="17" class="example" type="1">
+<li>‘A tech bro is human’: <span class="math inline">\(\exists x(x\ \text{is a tech bro and}\ x\ \text{is human})\)</span></li>
+</ol>
+<p>The same analysis applies for ‘some tech bro’, which means the same thing as ‘a tech bro’. But ‘every tech bro’ gets a different analysis:</p>
+<ol start="18" class="example" type="1">
+<li>‘Every tech bro is human’: <span class="math inline">\(\forall x(\text{if}\ x\ \text{is a tech bro then}\ x\ \text{is human})\)</span></li>
+</ol>
+<p>I leave it to you to unpack Russell’s analysis of ‘No tech bro is human’.</p>
+<section id="definite-descriptions" class="level4">
+<h4 class="anchored" data-anchor-id="definite-descriptions">Definite Descriptions</h4>
+<p>This brings us to Russell’s analysis of definite descriptions—denoting phrases that paradigmatically start with the word ‘the’, like ‘the founder of Facebook’. This is Russell’s primary logical innovation in this article, and when people talk about “Russell’s Theory of Descriptions”, this is usually what they have in mind.</p>
+<p>Let me sketch the basic idea for you, and then you can see how much of it you can extract from the article. We are after an analysis of sentences like,</p>
+<ol start="19" class="example" type="1">
+<li>The founder of Facebook is human.</li>
+</ol>
+<p>Russell’s basic insight is that (19) means:</p>
+<ol start="20" class="example" type="1">
+<li>There is a founder of Facebook, <em>and it is the only founder of Facebook</em>, and it is human.</li>
+</ol>
+<p>It is that second clause that distinguishes the <em>indefinite</em> description, ‘a founder of Facebook’, from the <em>definite</em> description, ‘the founder of Facebook’. The definite description expresses <em>uniqueness</em>: there is a <em>unique</em> founder of Facebook—one, not many.</p>
+<p>(20) uses the denoting phrase ‘the only founder of Facebook’. But we can eliminate that and complete the analysis by noticing that to say that something is the <em>only</em> founder of Facebook is to say that every founder of Facebook is identical to it. So:</p>
+<ol start="21" class="example" type="1">
+<li>There is a founder of Facebook, and <em>every founder of Facebook is identical to it</em>, and it is human.</li>
+</ol>
+<p>In contemporary notation:</p>
+<ol start="22" class="example" type="1">
+<li><span class="math inline">\(\exists x(x\)</span> is a founder of Facebook and <span class="math inline">\(\forall y(\)</span> if <span class="math inline">\(y\)</span> is a founder of Facebook then <span class="math inline">\(x=y\)</span>) and <span class="math inline">\(x\)</span> is human)</li>
+</ol>
+<p>Compare this to the analysis Russell gives for ‘The father of Charles II was executed’, in the middle of p.&nbsp;482.</p>
+<p>Phew! We are over the biggest hump.</p>
+</section>
+</section>
+<section id="meinongs-theory" class="level3">
+<h3 class="anchored" data-anchor-id="meinongs-theory">Meinong’s Theory</h3>
+<p>Alexius Meinong was an Austrian philosopher and psychologist. He argued that every denoting phrase stands for an object: ‘a man’ stands for an indefinite man; ‘the round square’ stands for a non-existent round square; ‘the gold mountain’ stands for a non-existent mountain made entirely of gold. Here Russell offers a succinct objection to the view. Can you unpack the objection, and make his implicit unstated premises explicit?</p>
+</section>
+<section id="freges-theory" class="level3">
+<h3 class="anchored" data-anchor-id="freges-theory">Frege’s Theory</h3>
+<p>Russell offers an overview of Frege’s theory, and says that it fares better than Meinong’s theory. He then raises problems for the theory that arise from Frege’s view that sentences containing empty names express a sense but lack a truth value. What are the problems Russell raises?</p>
+</section>
+<section id="the-three-puzzles" class="level3">
+<h3 class="anchored" data-anchor-id="the-three-puzzles">The Three Puzzles</h3>
+<p>Next we get a beautiful moment. Russell says, “A logical theory may be tested by its capacity for dealing with puzzles,” and then offers three puzzles. Only his theory, he claims, can deal adequately with all three of these puzzles. Like the introduction, this is a model you might wish to emulate in your own writing.</p>
+<p>Read this section, and try to get as clear a bead as you can on each of the three puzzles.</p>
+</section>
+<section id="greys-elegy" class="level3">
+<h3 class="anchored" data-anchor-id="greys-elegy">Grey’s Elegy</h3>
+<p><strong>SKIP THIS!</strong> After presenting the puzzles, for some reason Russell returns to a discussion of Frege’s view, and attempts to develop a further objection to Frege’s distinction between sense and reference (or, in his preferred translations from German, “meaning” and “denotation”).</p>
+</section>
+<section id="solutions-to-the-puzzles" class="level3">
+<h3 class="anchored" data-anchor-id="solutions-to-the-puzzles">Solutions to the Puzzles</h3>
+<p>This is perhaps the most satisfying chunk of the paper. Russell shows how, given his theory, we can solve each of the three puzzles. Read this carefully, and try to get as clear as you can about what his solution is to each of the puzzles.</p>
+</section>
+<section id="consequences-and-conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="consequences-and-conclusion">Consequences and Conclusion</h3>
+<p>You can ignore the paragraph about MacColl’s views. See if you can make anything out of the next paragraph on mathematical definitions, but don’t sweat it too much. The paragraph on knowledge by acquaintance and knowledge by description is a nice callback to the introduction—be sure to read it! And that takes you to the end of the paper.</p>
+</section>
+</section>
+<section id="on-referring" class="level2">
+<h2 class="anchored" data-anchor-id="on-referring">“On Referring”</h2>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Under Construction
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This section is under construction.</p>
+</div>
+</div>
+<section id="references" class="level3 unnumbered">
 
 
 
 
 </section>
+</section>
+
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-russell1905a" class="csl-entry" role="listitem">
 Russell, Bertrand. 1905. <span>“On Denoting.”</span> <em>Mind</em> 14 (October): 479–93. <a href="http://www.jstor.org/stable/2248381">http://www.jstor.org/stable/2248381</a>.
 </div>
+<div id="ref-russell1910" class="csl-entry" role="listitem">
+Russell, Bertrand. 1910. <span>“Knowledge by Acquaintance and Knowledge by Description.”</span> <em>Proceedings of the Aristotelian Society</em> 11: 108–28. <a href="https://doi.org/10.1093/aristotelian/11.1.108">https://doi.org/10.1093/aristotelian/11.1.108</a>.
+</div>
 <div id="ref-russell1919" class="csl-entry" role="listitem">
-Russell, Bertrand. 1919. <span>“Descriptions.”</span> In <em>Introduction to Mathematical Philosophy</em>. George Allen &amp; Unwin.
+Russell, Bertrand. 1919. <span>“Descriptions.”</span> In <em>Introduction to Mathematical Philosophy</em>. George Allen &amp; Unwin. <a href="https://courses.umass.edu/klement/imp/">https://courses.umass.edu/klement/imp/</a>.
 </div>
 <div id="ref-strawson1950" class="csl-entry" role="listitem">
 Strawson, P. F. 1950. <span>“On Referring.”</span> <em>Mind</em> 59 (235): 320–44. <a href="http://www.jstor.org/stable/2251176">http://www.jstor.org/stable/2251176</a>.
 </div>
-</div></section></div></main> <!-- /main -->
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This notation was not introduced until 1935, 30 years after this article was published.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I’ve slightly simplified this, replacing Russell’s use of ‘it is false that … is always true’ with ‘… is not always true.’<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
