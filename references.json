@@ -396,7 +396,7 @@
         ]
       ]
     },
-    "note": "Originally published in Donald Davidson and Gilbert Harman (eds) <i>Semantics of Natural Language</i>; Dordrecht: Reidel, 1972\nsyllabus: {\"1:YJFRLPA7\":[{\"id\":\"assignment-019faa5b-9fcf-7d62-9ee5-781668c63b50\",\"classNumber\":5}]}",
+    "note": "Originally published in Donald Davidson and Gilbert Harman (eds) <i>Semantics of Natural Language</i>; Dordrecht: Reidel, 1972",
     "publisher": "Harvard University Press",
     "publisher-place": "Cambridge, MA",
     "title": "Naming and Necessity",
@@ -643,6 +643,34 @@
     "volume": "14"
   },
   {
+    "id": "russell1910",
+    "author": [
+      {
+        "family": "Russell",
+        "given": "Bertrand"
+      }
+    ],
+    "citation-key": "russell1910",
+    "container-title": "Proceedings of the Aristotelian Society",
+    "container-title-short": "Proc. Aristot. Soc.",
+    "DOI": "10.1093/aristotelian/11.1.108",
+    "ISSN": "0066-7374",
+    "issued": {
+      "date-parts": [
+        [
+          "1910"
+        ]
+      ]
+    },
+    "page": "108–128",
+    "publisher": "[Aristotelian Society, Wiley]",
+    "source": "JSTOR",
+    "title": "Knowledge by acquaintance and knowledge by description",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/4543805",
+    "volume": "11"
+  },
+  {
     "id": "russell1919",
     "author": [
       {
@@ -659,11 +687,13 @@
         ]
       ]
     },
+    "language": "en-US",
     "page": "167--180",
     "publisher": "George Allen & Unwin",
     "publisher-place": "London",
     "title": "Descriptions",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "https://courses.umass.edu/klement/imp/"
   },
   {
     "id": "saul2017",
