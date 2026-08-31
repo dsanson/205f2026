@@ -1,5 +1,5 @@
 ---
-title: Russell and Strawson on Definite Descriptions
+title: Russell on Definite Descriptions
 toc: true
 ---
 
@@ -298,6 +298,9 @@ You can ignore the paragraph about MacColl's views. See if you can make anything
 This section is under construction.
 :::
 
+## Slides
+
+Here are the [slides](/slides/russell.md) for our Monday discussion of Russell.
 
 ## References {-}
 
