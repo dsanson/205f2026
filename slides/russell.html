@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<link href="../media/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
+<link href="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/roughnotation-0.5.1/rough-notation.iife.js"></script>
+<script src="../site_libs/quarto-contrib/roughnotation-init-1.0.0/rough.js"></script>
+<link href="../site_libs/quarto-contrib/roughnotation-init-1.0.0/rough.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/roughnotation-flourish-bridge-1.0.0/flourish-bridge.js"></script><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="David Sanson">
+  <meta name="dcterms.date" content="2026-08-31">
+  <title>PHI 205 – Russell on Definite Descriptions</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-aaa087b693a9315a252c583068e0262e.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <style>
+  #title-slide.quarto-title-block {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  </style>
+  <style>
+  .reveal div.callout-argument.callout {
+    border-left-color: yellow;
+  }
+  .reveal div.callout-argument.callout-style-default .callout-title {
+    background-color: rgb(from yellow r g b / 13%);
+  }
+  .reveal div.callout-argument.callout-style-default .callout-icon::before, .reveal div.callout-argument.callout-titled .callout-icon::before {
+    content: '🥊';
+    background-image: none;
+  }
+  .reveal div.callout-example.callout {
+    border-left-color: purple;
+  }
+  .reveal div.callout-example.callout-style-default .callout-title {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  .reveal div.callout-example.callout-style-default .callout-icon::before, .reveal div.callout-example.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
+  </style>
+<meta property="og:title" content="Russell on Definite Descriptions – PHI 205">
+<meta property="og:site_name" content="PHI 205">
+<meta name="twitter:title" content="Russell on Definite Descriptions – PHI 205">
+<meta name="twitter:card" content="summary">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-opacity="0.9" data-background-size="cover" class="quarto-title-block center">
+  <h1 class="title">Russell on Definite Descriptions</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+David Sanson
+</div>
+</div>
+</div>
+
+  <p class="date">2026-08-31</p>
+</section>
+<section>
+<section id="announcements" class="title-slide slide level1 agenda-slide center">
+<h1>Announcements</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/announcements">Announcements</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/review-and-comparison">Review and Comparison</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/russells-theory">Russell’s Theory</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/meinong">Meinong</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/the-three-puzzles">The Three Puzzles</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/solutions">Solutions</a>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="reading" class="slide level2">
+<h2>Reading</h2>
+<ul>
+<li>Reading for this week is Russell, “On Denoting”</li>
+<li>Russell’s “Descriptions” is optional, but many find that it is a clearer presentation of some of the key ideas from “On Denoting.”</li>
+<li>A link to these slides is at the end of the reading guide for Russell.</li>
+</ul>
+</section></section>
+<section>
+<section id="review-and-comparison" class="title-slide slide level1 agenda-slide center">
+<h1>Review and Comparison</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/announcements">Announcements</a>
+</div></li>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/review-and-comparison">Review and Comparison</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/russells-theory">Russell’s Theory</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/meinong">Meinong</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/the-three-puzzles">The Three Puzzles</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/solutions">Solutions</a>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="frege-on-proper-names" class="slide level2">
+<h2>Frege on “Proper Names”</h2>
+<ul>
+<li>A <em>proper name</em>, for Frege, is any word or phrase that designates a single determinate thing.</li>
+<li>Each proper name <em>expresses</em> a sense, which determines its referent.</li>
+</ul>
+</section>
+<section id="russell-on-denoting-phrases" class="slide level2">
+<h2>Russell on “Denoting Phrases”</h2>
+<ul>
+<li><em>Denoting phrases</em>, for Russell, include ‘everything’, ‘nothing’, and ‘something’, along with ‘every F’, ‘no F’, ‘some F’, ‘an F’, and ‘the F’, where ‘F’ is a common noun or noun phrase, e.g., ‘man’ or ‘present King of England’.</li>
+<li>Russell doesn’t mention grammatical proper names, like ‘Clark Kent’ and ‘Beyoncé’, except briefly at the very end, where he discusses ‘Apollo’.</li>
+</ul>
+</section>
+<section id="russell-versus-frege" class="slide level2">
+<h2>Russell versus Frege</h2>
+<ul>
+<li>Frege thinks each definite description, e.g., ‘the F’, is a proper name that expresses a sense that determines a referent.</li>
+<li>Russell thinks a definite description is a denoting phrase that has no meaning in isolation, but should instead be understood as part of a complex quantificational claim.</li>
+</ul>
+</section></section>
+<section>
+<section id="russells-theory" class="title-slide slide level1 agenda-slide center">
+<h1>Russell’s Theory</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/announcements">Announcements</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/review-and-comparison">Review and Comparison</a>
+</div></li>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/russells-theory">Russell’s Theory</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/meinong">Meinong</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/the-three-puzzles">The Three Puzzles</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/solutions">Solutions</a>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="variables-and-quantifiers" class="slide level2">
+<h2>Variables and Quantifiers</h2>
+<p><span class="math display">\[x + y = 4\]</span></p>
+<ul>
+<li>In Algebra, you were taught to find values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> that make this true.</li>
+<li>But we can also use formulas with variables to ask other questions.</li>
+</ul>
+</section>
+<section class="slide level2">
+<h2>Variables and Quantifiers</h2>
+<p><span class="math display">\[x + y &lt; x\]</span></p>
+<ul>
+<li>Are there values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> for which this is true?</li>
+<li>Are there values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> for which this is false?</li>
+</ul>
+</section>
+<section class="slide level2">
+<h2>Variables and Quantifiers</h2>
+<p><span class="math display">\[x = x\]</span></p>
+<ul>
+<li>Are there values of <span class="math inline">\(x\)</span> for which this is true?</li>
+<li>Are there values of <span class="math inline">\(x\)</span> for which this is false?</li>
+</ul>
+</section>
+<section id="propositional-functions" class="slide level2">
+<h2>Propositional Functions</h2>
+<p><span class="math display">\[x \text{ is in Normal, Illinois}\]</span></p>
+<ul>
+<li>Are there values of <span class="math inline">\(x\)</span> for which this is true?</li>
+<li>Are there values of <span class="math inline">\(x\)</span> for which this is false?</li>
+</ul>
+</section>
+<section class="slide level2">
+<h2>Propositional Functions</h2>
+<p><span class="math display">\[x \text{ is a round square}\]</span></p>
+<ul>
+<li>Are there values of <span class="math inline">\(x\)</span> for which this is true?</li>
+<li>Are there values of <span class="math inline">\(x\)</span> for which this is false?</li>
+</ul>
+</section>
+<section id="quantification" class="slide level2">
+<h2>Quantification</h2>
+<p><span class="math display">\[x \text{ is in Normal}\]</span></p>
+<dl>
+<dt>Everything is in Normal</dt>
+<dd>
+the formula is true for every value of <span class="math inline">\(x\)</span>
+</dd>
+<dt>Something is in Normal</dt>
+<dd>
+the formula is true for at least one value of <span class="math inline">\(x\)</span>
+</dd>
+<dt>Nothing is in Normal</dt>
+<dd>
+the formula is false for every value of <span class="math inline">\(x\)</span>
+</dd>
+</dl>
+</section>
+<section id="contemporary-notation" class="slide level2">
+<h2>Contemporary Notation</h2>
+<dl>
+<dt>Everything is in Normal</dt>
+<dd>
+<span class="math inline">\(\forall x\)</span>( <span class="math inline">\(x\)</span> is in Normal)
+</dd>
+<dt>Something is in Normal</dt>
+<dd>
+<span class="math inline">\(\exists x\)</span>( <span class="math inline">\(x\)</span> is in Normal)
+</dd>
+<dt>Nothing is in Normal</dt>
+<dd>
+<span class="math inline">\(\neg\exists x\)</span>( <span class="math inline">\(x\)</span> is in Normal)
+</dd>
+<dd>
+<span class="math inline">\(\forall x\neg\)</span>( <span class="math inline">\(x\)</span> is in Normal)
+</dd>
+</dl>
+<p>Words like ‘everything’, ‘something’, and ‘nothing’ are devices for quantification. They do not express senses which determine referents. Instead, they offer answers to questions about the formula they quantify over.</p>
+</section>
+<section id="restricted-quantifiers" class="slide level2">
+<h2>Restricted Quantifiers</h2>
+<dl>
+<dt>Some F is G</dt>
+<dd>
+the formula ‘<span class="math inline">\(x\)</span> is F and <span class="math inline">\(x\)</span> is G’ is true for at least one value of <span class="math inline">\(x\)</span>.
+</dd>
+<dt>Every F is G</dt>
+<dd>
+the formula ‘if <span class="math inline">\(x\)</span> is F then <span class="math inline">\(x\)</span> is G’ is true for every value of <span class="math inline">\(x\)</span>.
+</dd>
+<dt>No F is G</dt>
+<dd>
+the formula ‘if <span class="math inline">\(x\)</span> is F then <span class="math inline">\(x\)</span> is not G’ is true for every value of <span class="math inline">\(x\)</span>.
+</dd>
+<dd>
+the formula ‘<span class="math inline">\(x\)</span> is F and <span class="math inline">\(x\)</span> is G’ is false for every value of <span class="math inline">\(x\)</span>.
+</dd>
+</dl>
+</section>
+<section id="indefinite-descriptions" class="slide level2">
+<h2>Indefinite Descriptions</h2>
+<ul>
+<li>An indefinite description is a description that begins with the indefinite article, ‘a’:
+<ul>
+<li>A dog barks.</li>
+<li>A number between 2 and 10 is odd.</li>
+</ul></li>
+<li>These are analyzed the same as ‘some dog’ and ‘some number between 2 and 10’.</li>
+<li>Indefinite descriptions do not “refer ambiguously” or “refer to an indefinite object”.</li>
+<li>They are devices for <em>quantification</em>, not devices for <em>referring</em>.</li>
+</ul>
+</section>
+<section id="definite-descriptions" class="slide level2">
+<h2>Definite Descriptions</h2>
+<ul>
+<li>A definite description is a description that begins with the definite article, ‘the’:
+<ul>
+<li>The President of ISU wears hats.</li>
+<li>The King of England plays cello.</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+<h2>Definite Descriptions</h2>
+<dl>
+<dt>A President of ISU wears hats</dt>
+<dd>
+There is a President of ISU and he wears hats.
+</dd>
+<dt>The President of ISU wears hats</dt>
+<dd>
+There is a President of ISU and <em>he is the only President of ISU</em> and he wears hats.
+</dd>
+</dl>
+<p>Both definite and indefinite descriptions imply existence; a definite description also implies <em>uniqueness</em>.</p>
+</section>
+<section id="contemporary-notation-1" class="slide level2">
+<h2>Contemporary Notation</h2>
+<dl>
+<dt>A President of ISU wears hats</dt>
+<dd>
+<span class="math inline">\(\exists x( x\)</span> is a President of ISU and <span class="math inline">\(x\)</span> wears hats<span class="math inline">\()\)</span>
+</dd>
+<dt>The President of ISU wears hats</dt>
+<dd>
+<div class="line-block"><span class="math inline">\(\exists x( x\)</span> is a President of ISU<br>
+and <span class="math inline">\(\forall y(\)</span>if <span class="math inline">\(y\)</span> is a President of ISU then <span class="math inline">\(y=x)\)</span><br>
+and <span class="math inline">\(x\)</span> wears hats<span class="math inline">\()\)</span></div>
+</dd>
+</dl>
+<p>Again, the key point is that this analysis does not assign a sense to the denoting phrase which determines a referent.</p>
+</section></section>
+<section>
+<section id="meinong" class="title-slide slide level1 agenda-slide center">
+<h1>Meinong</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/announcements">Announcements</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/review-and-comparison">Review and Comparison</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/russells-theory">Russell’s Theory</a>
+</div></li>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/meinong">Meinong</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/the-three-puzzles">The Three Puzzles</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/solutions">Solutions</a>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="russell-on-meinong" class="slide level2">
+<h2>Russell on Meinong</h2>
+<blockquote>
+<p>[Meinong’s] theory regards any grammatically correct denoting phrase as standing for an object. Thus “the present King of France,” “the round square,” etc., are supposed to be genuine objects. It is admitted that such objects do not <em>subsist</em>, but nevertheless they are supposed to be objects. (482–83)</p>
+</blockquote>
+</section>
+<section class="slide level2">
+<h2>Russell on Meinong</h2>
+<blockquote>
+<p>This is in itself a difficult view; but the chief objection is that such objects, admittedly, are apt to infringe the law of contradiction. It is contended, for example, that the existent present King of France exists, and also does not exist; that the round square is round, and also not round; etc. But this is intolerable; and if any theory can be found to avoid this result, it is surely to be preferred. (483)</p>
+</blockquote>
+</section></section>
+<section>
+<section id="the-three-puzzles" class="title-slide slide level1 agenda-slide center">
+<h1>The Three Puzzles</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/announcements">Announcements</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/review-and-comparison">Review and Comparison</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/russells-theory">Russell’s Theory</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/meinong">Meinong</a>
+</div></li>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/the-three-puzzles">The Three Puzzles</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/solutions">Solutions</a>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="the-role-of-puzzles" class="slide level2">
+<h2>The Role of Puzzles</h2>
+<blockquote>
+<p>A logical theory may be tested by its capacity for dealing with puzzles, and it is a wholesome plan, in thinking about logic, to stock the mind with as many puzzles as possible, since these serve much the same purpose as is served by experiments in physical science. (484–85)</p>
+</blockquote>
+</section>
+<section id="the-author-of-waverley" class="slide level2">
+<h2>(1) The Author of <em>Waverley</em></h2>
+<blockquote>
+<p>If <span class="math inline">\(a\)</span> is identical with <span class="math inline">\(b\)</span>, whatever is true of the one is true of the other, and either may be substituted for the other in any proposition without altering the truth or falsehood of that proposition. Now George IV. wished to know whether Scott was the author of <em>Waverley</em>; and in fact Scott was the author of <em>Waverley</em>. Hence we may substitute Scott for <em>the author of “Waverley,”</em> and thereby prove that George IV. wished to know whether Scott was Scott. Yet an interest in the law of identity can hardly be attributed to the first gentleman of Europe.</p>
+</blockquote>
+</section>
+<section class="slide level2">
+<h2>(1) The Author of <em>Waverley</em></h2>
+<div class="callout callout-argument no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Argument</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><span class="li-label">AW1.</span> George IV wished to know whether Scott was the author of <em>Waverley</em>.</li>
+<li><span class="li-label">AW2.</span> Scott is the author of <em>Waverley</em>.</li>
+<li><span class="li-label">AW3.</span> So, George IV wished to know whether Scott was Scott.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="the-present-king-of-france" class="slide level2">
+<h2>(2) The Present King of France</h2>
+<blockquote>
+<p>By the law of excluded middle, either “A is B” or “A is not B” must be true. Hence either “the present King of France is bald” or “the present King of France is not bald” must be true. Yet if we enumerated the things that are bald, and then the things that are not bald, we should not find the present King of France in either list. Hegelians, who love a synthesis, will probably conclude that he wears a wig.</p>
+</blockquote>
+</section>
+<section id="true-negative-existentials" class="slide level2 smaller scrollable">
+<h2>(3) True Negative Existentials</h2>
+<blockquote>
+<p>Consider the proposition “A differs from B”. If this is true, there is a difference between A and B, which fact may be expressed in the form “the difference between A and B subsists”. But if it is false that A differs from B, then there is no difference between A and B, which fact may be expressed in the form “the difference between A and B does not subsist”. But how can a non-entity be the subject of a proposition? “I think, therefore I am” is no more evident than “I am the subject of a proposition, therefore I am,” provided “I am” is taken to assert subsistence or being, not existence. Hence, it would appear, it must always be self-contradictory to deny the being of anything; but we have seen, in connexion with Meinong, that to admit being also sometimes leads to contradictions. Thus if A and B do not differ, to suppose either that there is, or that there is not, such an object as “the difference between A and B” seems equally impossible.</p>
+</blockquote>
+</section></section>
+<section>
+<section id="solutions" class="title-slide slide level1 agenda-slide center">
+<h1>Solutions</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/announcements">Announcements</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/review-and-comparison">Review and Comparison</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/russells-theory">Russell’s Theory</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/meinong">Meinong</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/the-three-puzzles">The Three Puzzles</a>
+</div></li>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/solutions">Solutions</a>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="solution-to-1" class="slide level2">
+<h2>Solution to (1)</h2>
+<blockquote>
+<p>When we say: “George IV. wished to know whether so-and-so,” [and] “so-and-so” contains a denoting phrase. We may either eliminate this denoting phrase from the subordinate proposition ” so-and-so,” or from the whole proposition in which “so-and-so” is a mere constituent. Different propositions result according to which we do. (489)</p>
+</blockquote>
+</section>
+<section id="two-readings" class="slide level2">
+<h2>Two Readings</h2>
+<blockquote>
+<p>When we say, “George IV. wished to know whether Scott was the author of <em>Waverley</em>,” we normally mean “George IV. wished to know whether one and only one man wrote <em>Waverley</em> and Scott was that man”; but we <em>may</em> also mean: “One and only one man wrote <em>Waverley</em>, and George IV. wished to know whether Scott was that man”. In the latter, “the author of <em>Waverley</em>” has a <em>primary</em> occurrence; in the former, a <em>secondary</em>. (489)</p>
+</blockquote>
+</section>
+<section class="slide level2">
+<h2>Two Readings</h2>
+<dl>
+<dt>Secondary (narrow scope)</dt>
+<dd>
+George IV wished to know whether: <span class="math inline">\(\exists x(x\)</span> wrote <em>Waverley</em> and <span class="math inline">\(\forall y(\)</span>if <span class="math inline">\(y\)</span> wrote <em>Waverley</em> then <span class="math inline">\(y=x\)</span>) and <span class="math inline">\(x\)</span> is Scott)
+</dd>
+<dt>Primary (wide scope)</dt>
+<dd>
+<span class="math inline">\(\exists x(x\)</span> wrote <em>Waverley</em> and <span class="math inline">\(\forall y(\)</span>if <span class="math inline">\(y\)</span> wrote *Waverley$ then <span class="math inline">\(y=x\)</span>) and George IV wished to know whether: <span class="math inline">\(x\)</span> is Scott)
+</dd>
+</dl>
+</section>
+<section class="slide level2">
+<h2>Two Readings</h2>
+<div class="callout callout-argument no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Argument</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><span class="li-label">AW1.</span> George IV wished to know whether: Scott was the author of <em>Waverley</em>. (secondary, narrow scope reading)</li>
+<li><span class="li-label">AW2.</span> Scott is the author of <em>Waverley</em>.</li>
+<li><span class="li-label">AW3.</span> So, George IV wished to know whether Scott was Scott.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+<h2>Two Readings</h2>
+<div class="callout callout-argument no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Argument</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><span class="li-label">AW1*.</span> The author of <em>Waverley</em> is such that George IV wished to know whether Scott was he. (primary, wide scope reading)</li>
+<li><span class="li-label">AW2*.</span> Scott is the author of <em>Waverley</em>.</li>
+<li><span class="li-label">AW3*.</span> So, Scott is such that George IV wished to know whether Scott was he.</li>
+<li><span class="li-label">AW4*.</span> So, George IV wished to know whether Scott was Scott.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="solution-to-2" class="slide level2">
+<h2>Solution to (2)</h2>
+<blockquote>
+<p>“The King of France is not bald” is false if the occurrence of “the King of France” is primary, and true if it is secondary. Thus all propositions in which “the King of France” has a primary occurrence are false; the denials of such propositions are true, but in them “the King of France” has a secondary occurrence. Thus we escape the conclusion that the King of France has a wig. (490)</p>
+</blockquote>
+</section>
+<section class="slide level2">
+<h2>Solution to (2)</h2>
+<dl>
+<dt>False (primary occurrence)</dt>
+<dd>
+There is one and only one King of France and he is bald.
+</dd>
+<dt>False (primary occurrence)</dt>
+<dd>
+There is one and only one King of France and he is not bald.
+</dd>
+<dt>True (secondary occurrence)</dt>
+<dd>
+It is not the case that: there is one and only one King of France and he is bald.
+</dd>
+<dt>True (secondary occurrence)</dt>
+<dd>
+It is not the case that: there is one and only one King of France and he is not bald.
+</dd>
+</dl>
+</section>
+<section id="solution-to-3" class="slide level2">
+<h2>Solution to (3)</h2>
+<p>Russell’s example,</p>
+<ul>
+<li>The difference between A and B does not exist,</li>
+</ul>
+<p>is weird. Happily, he offers other examples that are easier to follow, like:</p>
+<ul>
+<li>The round square does not exist.</li>
+</ul>
+</section>
+<section class="slide level2">
+<h2>Solution to (3)</h2>
+<dl>
+<dt>True (secondary)</dt>
+<dd>
+It is not the case that there is one and only one round square and it exists.
+</dd>
+<dt>False (primary)</dt>
+<dd>
+There is one and only one round square and it does not exist.
+</dd>
+</dl>
+</section>
+<section class="slide level2">
+<h2>Solution to (3)</h2>
+<blockquote>
+<p>The whole realm of non-entities, such as “the round square,” “the even prime other than 2,” “Apollo,” “Hamlet,” etc., can now be satisfactorily dealt with. All these are denoting phrases which do not denote anything. A proposition about Apollo means what we get by substituting what the classical dictionary tells us is meant by Apollo, say “the sun-god”. All propositions in which Apollo occurs are to be interpreted by the above rules for denoting phrases. If “Apollo” has a primary occurrence, the proposition containing the occurrence is false; if the occurrence is secondary, the proposition may be true. (491)</p>
+</blockquote>
+</section>
+<section class="slide level2">
+<h2>Solution to (3)</h2>
+<ul>
+<li>Famously, Russell argues elsewhere that <em>almost all</em> “proper names” in English are <em>disguised definite descriptions</em>.</li>
+<li>One reason for this: it allows him to apply the primary/secondary distinction to those cases as well:</li>
+</ul>
+<dl>
+<dt>True (secondary)</dt>
+<dd>
+It is not the case that one and only one sun god and it exists.
+</dd>
+<dt>False (primary)</dt>
+<dd>
+There is one and only one sun god and it does not exist.
+</dd>
+</dl>
+</section>
+<section id="the-ontological-argument" class="slide level2">
+<h2>The Ontological Argument</h2>
+<div class="callout callout-argument no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Argument</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><span class="li-label">OA1.</span> The most perfect Being has all perfections.</li>
+<li><span class="li-label">OA2.</span> Existence is a perfection.</li>
+<li><span class="li-label">OA3.</span> So, the most perfect Being exists.</li>
+</ul>
+</div>
+</div>
+</div>
+<p>Russell claims that, on his analysis (OA1) begs the question.</p>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/www\.davidsanson\.com\/205f2026");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

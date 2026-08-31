@@ -308,6 +308,160 @@
     "text": "Solving the Puzzle\nRe-read p. 230. How does Frege’s theory allow him to solve the original puzzle?"
   },
   {
+    "objectID": "slides/russell.html#reading",
+    "href": "slides/russell.html#reading",
+    "title": "Russell on Definite Descriptions",
+    "section": "Reading",
+    "text": "Reading\n\nReading for this week is Russell, “On Denoting”\nRussell’s “Descriptions” is optional, but many find that it is a clearer presentation of some of the key ideas from “On Denoting.”\nA link to these slides is at the end of the reading guide for Russell."
+  },
+  {
+    "objectID": "slides/russell.html#frege-on-proper-names",
+    "href": "slides/russell.html#frege-on-proper-names",
+    "title": "Russell on Definite Descriptions",
+    "section": "Frege on “Proper Names”",
+    "text": "Frege on “Proper Names”\n\nA proper name, for Frege, is any word or phrase that designates a single determinate thing.\nEach proper name expresses a sense, which determines its referent."
+  },
+  {
+    "objectID": "slides/russell.html#russell-on-denoting-phrases",
+    "href": "slides/russell.html#russell-on-denoting-phrases",
+    "title": "Russell on Definite Descriptions",
+    "section": "Russell on “Denoting Phrases”",
+    "text": "Russell on “Denoting Phrases”\n\nDenoting phrases, for Russell, include ‘everything’, ‘nothing’, and ‘something’, along with ‘every F’, ‘no F’, ‘some F’, ‘an F’, and ‘the F’, where ‘F’ is a common noun or noun phrase, e.g., ‘man’ or ‘present King of England’.\nRussell doesn’t mention grammatical proper names, like ‘Clark Kent’ and ‘Beyoncé’, except briefly at the very end, where he discusses ‘Apollo’."
+  },
+  {
+    "objectID": "slides/russell.html#russell-versus-frege",
+    "href": "slides/russell.html#russell-versus-frege",
+    "title": "Russell on Definite Descriptions",
+    "section": "Russell versus Frege",
+    "text": "Russell versus Frege\n\nFrege thinks each definite description, e.g., ‘the F’, is a proper name that expresses a sense that determines a referent.\nRussell thinks a definite description is a denoting phrase that has no meaning in isolation, but should instead be understood as part of a complex quantificational claim."
+  },
+  {
+    "objectID": "slides/russell.html#variables-and-quantifiers",
+    "href": "slides/russell.html#variables-and-quantifiers",
+    "title": "Russell on Definite Descriptions",
+    "section": "Variables and Quantifiers",
+    "text": "Variables and Quantifiers\n\\[x + y = 4\\]\n\nIn Algebra, you were taught to find values of \\(x\\) and \\(y\\) that make this true.\nBut we can also use formulas with variables to ask other questions."
+  },
+  {
+    "objectID": "slides/russell.html#propositional-functions",
+    "href": "slides/russell.html#propositional-functions",
+    "title": "Russell on Definite Descriptions",
+    "section": "Propositional Functions",
+    "text": "Propositional Functions\n\\[x \\text{ is in Normal, Illinois}\\]\n\nAre there values of \\(x\\) for which this is true?\nAre there values of \\(x\\) for which this is false?"
+  },
+  {
+    "objectID": "slides/russell.html#quantification",
+    "href": "slides/russell.html#quantification",
+    "title": "Russell on Definite Descriptions",
+    "section": "Quantification",
+    "text": "Quantification\n\\[x \\text{ is in Normal}\\]\n\nEverything is in Normal\n\nthe formula is true for every value of \\(x\\)\n\nSomething is in Normal\n\nthe formula is true for at least one value of \\(x\\)\n\nNothing is in Normal\n\nthe formula is false for every value of \\(x\\)"
+  },
+  {
+    "objectID": "slides/russell.html#contemporary-notation",
+    "href": "slides/russell.html#contemporary-notation",
+    "title": "Russell on Definite Descriptions",
+    "section": "Contemporary Notation",
+    "text": "Contemporary Notation\n\nEverything is in Normal\n\n\\(\\forall x\\)( \\(x\\) is in Normal)\n\nSomething is in Normal\n\n\\(\\exists x\\)( \\(x\\) is in Normal)\n\nNothing is in Normal\n\n\\(\\neg\\exists x\\)( \\(x\\) is in Normal)\n\n\n\\(\\forall x\\neg\\)( \\(x\\) is in Normal)\n\n\nWords like ‘everything’, ‘something’, and ‘nothing’ are devices for quantification. They do not express senses which determine referents. Instead, they offer answers to questions about the formula they quantify over."
+  },
+  {
+    "objectID": "slides/russell.html#restricted-quantifiers",
+    "href": "slides/russell.html#restricted-quantifiers",
+    "title": "Russell on Definite Descriptions",
+    "section": "Restricted Quantifiers",
+    "text": "Restricted Quantifiers\n\nSome F is G\n\nthe formula ‘\\(x\\) is F and \\(x\\) is G’ is true for at least one value of \\(x\\).\n\nEvery F is G\n\nthe formula ‘if \\(x\\) is F then \\(x\\) is G’ is true for every value of \\(x\\).\n\nNo F is G\n\nthe formula ‘if \\(x\\) is F then \\(x\\) is not G’ is true for every value of \\(x\\).\n\n\nthe formula ‘\\(x\\) is F and \\(x\\) is G’ is false for every value of \\(x\\)."
+  },
+  {
+    "objectID": "slides/russell.html#indefinite-descriptions",
+    "href": "slides/russell.html#indefinite-descriptions",
+    "title": "Russell on Definite Descriptions",
+    "section": "Indefinite Descriptions",
+    "text": "Indefinite Descriptions\n\nAn indefinite description is a description that begins with the indefinite article, ‘a’:\n\nA dog barks.\nA number between 2 and 10 is odd.\n\nThese are analyzed the same as ‘some dog’ and ‘some number between 2 and 10’.\nIndefinite descriptions do not “refer ambiguously” or “refer to an indefinite object”.\nThey are devices for quantification, not devices for referring."
+  },
+  {
+    "objectID": "slides/russell.html#definite-descriptions",
+    "href": "slides/russell.html#definite-descriptions",
+    "title": "Russell on Definite Descriptions",
+    "section": "Definite Descriptions",
+    "text": "Definite Descriptions\n\nA definite description is a description that begins with the definite article, ‘the’:\n\nThe President of ISU wears hats.\nThe King of England plays cello."
+  },
+  {
+    "objectID": "slides/russell.html#contemporary-notation-1",
+    "href": "slides/russell.html#contemporary-notation-1",
+    "title": "Russell on Definite Descriptions",
+    "section": "Contemporary Notation",
+    "text": "Contemporary Notation\n\nA President of ISU wears hats\n\n\\(\\exists x( x\\) is a President of ISU and \\(x\\) wears hats\\()\\)\n\nThe President of ISU wears hats\n\n\\(\\exists x( x\\) is a President of ISU\nand \\(\\forall y(\\)if \\(y\\) is a President of ISU then \\(y=x)\\)\nand \\(x\\) wears hats\\()\\)\n\n\nAgain, the key point is that this analysis does not assign a sense to the denoting phrase which determines a referent."
+  },
+  {
+    "objectID": "slides/russell.html#russell-on-meinong",
+    "href": "slides/russell.html#russell-on-meinong",
+    "title": "Russell on Definite Descriptions",
+    "section": "Russell on Meinong",
+    "text": "Russell on Meinong\n\n[Meinong’s] theory regards any grammatically correct denoting phrase as standing for an object. Thus “the present King of France,” “the round square,” etc., are supposed to be genuine objects. It is admitted that such objects do not subsist, but nevertheless they are supposed to be objects. (482–83)"
+  },
+  {
+    "objectID": "slides/russell.html#the-role-of-puzzles",
+    "href": "slides/russell.html#the-role-of-puzzles",
+    "title": "Russell on Definite Descriptions",
+    "section": "The Role of Puzzles",
+    "text": "The Role of Puzzles\n\nA logical theory may be tested by its capacity for dealing with puzzles, and it is a wholesome plan, in thinking about logic, to stock the mind with as many puzzles as possible, since these serve much the same purpose as is served by experiments in physical science. (484–85)"
+  },
+  {
+    "objectID": "slides/russell.html#the-author-of-waverley",
+    "href": "slides/russell.html#the-author-of-waverley",
+    "title": "Russell on Definite Descriptions",
+    "section": "(1) The Author of Waverley",
+    "text": "(1) The Author of Waverley\n\nIf \\(a\\) is identical with \\(b\\), whatever is true of the one is true of the other, and either may be substituted for the other in any proposition without altering the truth or falsehood of that proposition. Now George IV. wished to know whether Scott was the author of Waverley; and in fact Scott was the author of Waverley. Hence we may substitute Scott for the author of “Waverley,” and thereby prove that George IV. wished to know whether Scott was Scott. Yet an interest in the law of identity can hardly be attributed to the first gentleman of Europe."
+  },
+  {
+    "objectID": "slides/russell.html#the-present-king-of-france",
+    "href": "slides/russell.html#the-present-king-of-france",
+    "title": "Russell on Definite Descriptions",
+    "section": "(2) The Present King of France",
+    "text": "(2) The Present King of France\n\nBy the law of excluded middle, either “A is B” or “A is not B” must be true. Hence either “the present King of France is bald” or “the present King of France is not bald” must be true. Yet if we enumerated the things that are bald, and then the things that are not bald, we should not find the present King of France in either list. Hegelians, who love a synthesis, will probably conclude that he wears a wig."
+  },
+  {
+    "objectID": "slides/russell.html#true-negative-existentials",
+    "href": "slides/russell.html#true-negative-existentials",
+    "title": "Russell on Definite Descriptions",
+    "section": "(3) True Negative Existentials",
+    "text": "(3) True Negative Existentials\n\nConsider the proposition “A differs from B”. If this is true, there is a difference between A and B, which fact may be expressed in the form “the difference between A and B subsists”. But if it is false that A differs from B, then there is no difference between A and B, which fact may be expressed in the form “the difference between A and B does not subsist”. But how can a non-entity be the subject of a proposition? “I think, therefore I am” is no more evident than “I am the subject of a proposition, therefore I am,” provided “I am” is taken to assert subsistence or being, not existence. Hence, it would appear, it must always be self-contradictory to deny the being of anything; but we have seen, in connexion with Meinong, that to admit being also sometimes leads to contradictions. Thus if A and B do not differ, to suppose either that there is, or that there is not, such an object as “the difference between A and B” seems equally impossible."
+  },
+  {
+    "objectID": "slides/russell.html#solution-to-1",
+    "href": "slides/russell.html#solution-to-1",
+    "title": "Russell on Definite Descriptions",
+    "section": "Solution to (1)",
+    "text": "Solution to (1)\n\nWhen we say: “George IV. wished to know whether so-and-so,” [and] “so-and-so” contains a denoting phrase. We may either eliminate this denoting phrase from the subordinate proposition ” so-and-so,” or from the whole proposition in which “so-and-so” is a mere constituent. Different propositions result according to which we do. (489)"
+  },
+  {
+    "objectID": "slides/russell.html#two-readings",
+    "href": "slides/russell.html#two-readings",
+    "title": "Russell on Definite Descriptions",
+    "section": "Two Readings",
+    "text": "Two Readings\n\nWhen we say, “George IV. wished to know whether Scott was the author of Waverley,” we normally mean “George IV. wished to know whether one and only one man wrote Waverley and Scott was that man”; but we may also mean: “One and only one man wrote Waverley, and George IV. wished to know whether Scott was that man”. In the latter, “the author of Waverley” has a primary occurrence; in the former, a secondary. (489)"
+  },
+  {
+    "objectID": "slides/russell.html#solution-to-2",
+    "href": "slides/russell.html#solution-to-2",
+    "title": "Russell on Definite Descriptions",
+    "section": "Solution to (2)",
+    "text": "Solution to (2)\n\n“The King of France is not bald” is false if the occurrence of “the King of France” is primary, and true if it is secondary. Thus all propositions in which “the King of France” has a primary occurrence are false; the denials of such propositions are true, but in them “the King of France” has a secondary occurrence. Thus we escape the conclusion that the King of France has a wig. (490)"
+  },
+  {
+    "objectID": "slides/russell.html#solution-to-3",
+    "href": "slides/russell.html#solution-to-3",
+    "title": "Russell on Definite Descriptions",
+    "section": "Solution to (3)",
+    "text": "Solution to (3)\nRussell’s example,\n\nThe difference between A and B does not exist,\n\nis weird. Happily, he offers other examples that are easier to follow, like:\n\nThe round square does not exist."
+  },
+  {
+    "objectID": "slides/russell.html#the-ontological-argument",
+    "href": "slides/russell.html#the-ontological-argument",
+    "title": "Russell on Definite Descriptions",
+    "section": "The Ontological Argument",
+    "text": "The Ontological Argument\n\n\n\nArgument\n\n\n\nOA1. The most perfect Being has all perfections.\nOA2. Existence is a perfection.\nOA3. So, the most perfect Being exists.\n\n\n\n\nRussell claims that, on his analysis (OA1) begs the question."
+  },
+  {
     "objectID": "403.html",
     "href": "403.html",
     "title": "Access Forbidden!",
@@ -338,35 +492,42 @@
   {
     "objectID": "guides/russell.html",
     "href": "guides/russell.html",
-    "title": "Russell and Strawson on Definite Descriptions",
+    "title": "Russell on Definite Descriptions",
     "section": "",
     "text": "CautionUnder Construction\n\n\n\nThis reading guide is under construction."
   },
   {
     "objectID": "guides/russell.html#reading",
     "href": "guides/russell.html#reading",
-    "title": "Russell and Strawson on Definite Descriptions",
+    "title": "Russell on Definite Descriptions",
     "section": "Reading",
     "text": "Reading\nThe assigned reading is Russell (1905).\nAfter writing up this guide, I realized how absurd it was to assign both Russell’s paper and Strawson (1950). So I am making Strawson’s paper optional, which makes me sad. But what is a syllabus if not a series of sad decisions to leave things out?\nIf you do decide to read the Strawson paper, which is a direct critical response to Russell, you may also enjoy reading Russell (1957), which is Russell’s response to Strawson, and an opportunity to see someone use the word ‘jejune’ as an insult.\nRussell (1919) is also optional but recommended. This is Chapter 16 of a book that Russell intended for a broader audience. As a result, it covers some of the same ground as Russell (1905), but is easier to follow."
   },
   {
     "objectID": "guides/russell.html#on-denoting",
     "href": "guides/russell.html#on-denoting",
-    "title": "Russell and Strawson on Definite Descriptions",
+    "title": "Russell on Definite Descriptions",
     "section": "“On Denoting”",
     "text": "“On Denoting”\n\nAn Outline of “On Denoting”\nBefore diving in, let me give you an outline of the article, indicating which parts might give you trouble and which parts you can skip.\n\nIntroduction 419–480\n\nFrom beginning to “…and finally I shall briefly indicate the philosophical consequences of my theory.”\n\nStatement of the Theory 480–482\n\n“My theory, briefly, is as follows … Why it is imperative to effect such a reduction, the subsequent discussion will endeavour to show.\n\nMeinong’s Theory 482–483\n\n“The evidence for the above theory is derived from the difficulties which seem unavoidable if … if any theory can be found to avoid this result, it is surely to be preferred.”\n\nFrege’s Theory 483–484\n\n“The above breach of the law of contradiction is avoided by Frege’s theory … the cases in which there seems to be no denotation cause difficulties both on the assumption that there really is a denotation and on the assumption that there really is none.”\n\nThe Three Puzzles 484–485\n\n“A logical theory may be tested by its capacity for dealing with puzzles … Thus if A and B do not differ, to suppose either that there is, or that there is not, such an object as”the difference between A and B” seems equally impossible.”\n\nGrey’s Elegy 485–488 (Skip!)\n\n“The relation of the meaning to the denotation involves certain rather curious difficulties … Thus the point of view in question must be abandoned.”\n\nSolutions to the Three Puzzles 488–491\n\n“It remains to show how all the puzzles we have been considering are solved by the theory … As a proof, this fails for want of a proof of the premiss,”there is one and only one entity \\(x\\) which is most perfect”.\n\nPhilosophical Consequences 491–493\n\n“Mr. MacColl…” to the end of the article.\n\n\n\n\nIntroduction\nThe introduction consists of three paragraphs. In the first, Russell explains what he means by a “denoting phrase”. In the second, he explains one philosophically significant role denoting phrases play. In the third, he offers a brief outline of his paper.\nThis is a nice model that you might consider emulating in your own writing!\n\nDenoting Phrases\nRussell introduces “denoting phrases” by giving examples:\n\na man\nsome man\nany man\nevery man\nall men\nthe present King of England\nthe present King of France\nthe centre of mass of the Solar System at the first instant of the twentieth century\nthe revolution of the earth round the sun\nthe revolution of the sun around the earth\n\nHe says that a denoting phrase is any phrase of this form. What is the form? Each example consists of a quantifier—‘some’, ‘any’, ‘every’, ‘all’—or determiner—‘a’, ‘the’—followed by a noun or noun phrase.\nHe also distinguishes three “cases”:\n\nA denoting phrase that fails to denote anything: ‘the present King of France’.\nA denoting phrase that denotes one definite object: ‘the present King of England’.\nA denoting phrase that denotes “ambiguously”: ‘a man’.\n\nHe says that it is difficult to come up with a theory that handles all three cases, and says that the theory he is about to present does so.\n\n\nKnowledge without Acquaintance\nWe know some things by acquaintance, but, Russell says, there are many things we only know by description. This is an important idea, and it will recur in later readings. For Russell’s full take on this issue, see (1910).\n\n\n\nStatement of the Theory\nThis section is a bit technical. I’ll do my best to lead you through it.\nTake a sentence like,\n\nMark Zuckerberg is human.\n\nThe grammatical subject of (11), ‘Mark Zuckerberg’, is a proper name. Frege would tell us that this name expresses a sense—the founder of Facebook, maybe—and refers, via that sense, to the man, Mark Zuckerberg.\nWe can replace the name in (11) with a variable, ‘\\(x\\)’:\n\n\\(x\\) is human.\n\n(12) is interesting. The variable, ‘\\(x\\)’, is not a name. It does not express a sense or have a referent. Instead, it is a device that allows us to ask questions like, “Is (12) true or false when \\(x\\) is Bill Gates?”, and, “Are there any values of \\(x\\) for which (12) is false?”, and, “Are there any values of \\(x\\) for which it is true?”\nRussell calls (12) a propositional function (see footnote 2): it does not express a proposition, and it is not true or false. Instead, it is a function from different values of \\(x\\) to different propositions, some true and some false.\nWe can also replace the grammatical subject of (11) with any of several denoting phrases. Here is a simple example:\n\nNobody is human.\n\nHere is a naive analysis of (13), inspired by Frege’s analysis of (11): ‘Nobody’, like ‘Mark Zuckerberg’, expresses a sense—the non-person?—and refers, via that sense, to that non-person.\n(I once knew a toddler whose parents were literature professors. When people asked him what his name was, he would reply, “Nobody.” He was probably exposed to the Odyssey (the book, not the recent movie, which leaves this famous scene out) at too young of an age, though as far as I know, he has since turned out fine.)\nIt is obvious, upon reflection, that this is a bad analysis of (13). ‘Nobody’ is not a name that refers to a mysterious non-being. A better approach to (13) starts from the idea that to say that nobody is human is to offer an answer to the question, “For what values of \\(x\\) is (12) true?” According to (13), the answer is: (12) is not true for any value of \\(x\\) that is a person.\nThis is Russell’s basic insight: denoting phrases should not be analyzed on the model of proper names, like ‘Mark Zuckerberg’. Instead, they should be analyzed as claims about when propositional functions, like (12), are true and when they are false. He is what he means when he says,\n\nEverything, nothing, and something, are not assumed to have any meaning in isolation, but a meaning is assigned to every proposition in which they occur. This is the principle of the theory of denoting I wish to advocate: that denoting phrases never have any meaning in themselves, but that every proposition in whose verbal expression they occur has a meaning.\n\nGeneralizing a bit from our examples above, to bring us closer to Russell’s text, if a sentence, \\(C\\), contains a proper name, ‘N’, we can represent it as ‘\\(C(\\text{N})\\)’. And we can represent the result of replacing ‘N’ with some other device—a variable, or a denoting phrase—by replacing the ‘N’ in ‘\\(C(\\text{N})\\)’ with that variable or denoting phrase, e.g., ‘\\(C(x)\\)’, ‘\\(C(\\text{a man})\\)’, ‘\\(C(\\text{the king of England})\\)’, and so on.\nHere is how Russell presents his analysis of the denoting phrase, ‘everything’:\n\nEverything\n\n‘\\(C(\\text{everything})\\)’ means that ‘\\(C(x)\\)’ is always true.\n\n\nSo, for example, ‘Everything is human’ means that ‘\\(x\\) is human’ is always true, that is, is true no matter what value we assign to \\(x\\).\nHere, it can be useful to introduce some contemporary notation to help illuminate Russell’s analysis. In logic classes, we now teach our students to symbolize ‘Everything is human’ using the universal quantifier, ‘\\(\\forall x\\)’, pronounced “for all \\(x\\)”:1\n\n‘Everything is human’: \\(\\forall x(x\\ \\text{is human})\\)\n\nWhat this symbolization means is that the formula ‘\\(x\\) is human’ is true for every value of \\(x\\) or, as Russell puts it, “is always true”.\nRussell also offers analyses of ‘nothing’ and ‘something’:\n\nNothing\n\n‘\\(C(\\text{nothing})\\)’ means that ‘\\(C(x)\\) is false’ is always true.\n\nSomething\n\n‘\\(C(\\text{something})\\)’ means that ‘\\(C(x)\\) is false’ is not always true.2\n\n\nYou should try to unpack these analyses. The key is realizing that the analysis of ‘nothing’ relies on the idea that ‘nothing is ___’ is equivalent to ‘everything is not ___’, and his analysis of ‘something’ replies on the idea that that ‘something is ___’ is equivalent to ‘not everything is not ___’.\nAgain, some contemporary notation may help illuminate what is going on. In logic classes, we teach our students to symbolize ‘Something is human’ using the existential quantifier, ’\\(\\exists x\\), pronounced “there is an \\(x\\)” or “there exists an \\(x\\)” or “for some \\(x\\)”:\n\n‘Something is human’: \\(\\exists x(x\\ \\text{is human})\\)\n\nWhat this symbolization means is that the formula ‘\\(x\\) is human’ is true for at least one value of \\(x\\) or, as Russell puts it, it is not always true that the formula is false.\nSo, we can analyze sentences involving ‘everything’, ‘nothing’, and ‘something’ not by treating those denoting phrases as names, but by treating the sentences in which they occur as answers to questions about the corresponding propositional function.\nNext, Russell extends this in the usual way to cover denoting phrases like ‘a man’, ‘some man’, ‘all men’, and ‘no men.’ (In the process, he makes the standard-for-the-time sexist assumption that ‘man’ can be used as a gender-neutral term for the class of all humans of all genders. No reason to follow him on that.)\nReturning to our original example, we have the sentence, ‘Mark Zuckerberg is human’. Replacing the proper name with a denoting phrase, we get,\n\nA tech bro is human.\n\nWhat does this mean? Russell tells us that it means that ‘\\(x\\) is a tech bro and \\(x\\) is human’ is not always false. That is, there is at least one value of \\(x\\) for which it is true. Or, in contemporary notation:\n\n‘A tech bro is human’: \\(\\exists x(x\\ \\text{is a tech bro and}\\ x\\ \\text{is human})\\)\n\nThe same analysis applies for ‘some tech bro’, which means the same thing as ‘a tech bro’. But ‘every tech bro’ gets a different analysis:\n\n‘Every tech bro is human’: \\(\\forall x(\\text{if}\\ x\\ \\text{is a tech bro then}\\ x\\ \\text{is human})\\)\n\nI leave it to you to unpack Russell’s analysis of ‘No tech bro is human’.\n\nDefinite Descriptions\nThis brings us to Russell’s analysis of definite descriptions—denoting phrases that paradigmatically start with the word ‘the’, like ‘the founder of Facebook’. This is Russell’s primary logical innovation in this article, and when people talk about “Russell’s Theory of Descriptions”, this is usually what they have in mind.\nLet me sketch the basic idea for you, and then you can see how much of it you can extract from the article. We are after an analysis of sentences like,\n\nThe founder of Facebook is human.\n\nRussell’s basic insight is that (19) means:\n\nThere is a founder of Facebook, and it is the only founder of Facebook, and it is human.\n\nIt is that second clause that distinguishes the indefinite description, ‘a founder of Facebook’, from the definite description, ‘the founder of Facebook’. The definite description expresses uniqueness: there is a unique founder of Facebook—one, not many.\n(20) uses the denoting phrase ‘the only founder of Facebook’. But we can eliminate that and complete the analysis by noticing that to say that something is the only founder of Facebook is to say that every founder of Facebook is identical to it. So:\n\nThere is a founder of Facebook, and every founder of Facebook is identical to it, and it is human.\n\nIn contemporary notation:\n\n\\(\\exists x(x\\) is a founder of Facebook and \\(\\forall y(\\) if \\(y\\) is a founder of Facebook then \\(x=y\\)) and \\(x\\) is human)\n\nCompare this to the analysis Russell gives for ‘The father of Charles II was executed’, in the middle of p. 482.\nPhew! We are over the biggest hump.\n\n\n\nMeinong’s Theory\nAlexius Meinong was an Austrian philosopher and psychologist. He argued that every denoting phrase stands for an object: ‘a man’ stands for an indefinite man; ‘the round square’ stands for a non-existent round square; ‘the gold mountain’ stands for a non-existent mountain made entirely of gold. Here Russell offers a succinct objection to the view. Can you unpack the objection, and make his implicit unstated premises explicit?\n\n\nFrege’s Theory\nRussell offers an overview of Frege’s theory, and says that it fares better than Meinong’s theory. He then raises problems for the theory that arise from Frege’s view that sentences containing empty names express a sense but lack a truth value. What are the problems Russell raises?\n\n\nThe Three Puzzles\nNext we get a beautiful moment. Russell says, “A logical theory may be tested by its capacity for dealing with puzzles,” and then offers three puzzles. Only his theory, he claims, can deal adequately with all three of these puzzles. Like the introduction, this is a model you might wish to emulate in your own writing.\nRead this section, and try to get as clear a bead as you can on each of the three puzzles.\n\n\nGrey’s Elegy\nSKIP THIS! After presenting the puzzles, for some reason Russell returns to a discussion of Frege’s view, and attempts to develop a further objection to Frege’s distinction between sense and reference (or, in his preferred translations from German, “meaning” and “denotation”).\n\n\nSolutions to the Puzzles\nThis is perhaps the most satisfying chunk of the paper. Russell shows how, given his theory, we can solve each of the three puzzles. Read this carefully, and try to get as clear as you can about what his solution is to each of the puzzles.\n\n\nConsequences and Conclusion\nYou can ignore the paragraph about MacColl’s views. See if you can make anything out of the next paragraph on mathematical definitions, but don’t sweat it too much. The paragraph on knowledge by acquaintance and knowledge by description is a nice callback to the introduction—be sure to read it! And that takes you to the end of the paper."
   },
   {
     "objectID": "guides/russell.html#on-referring",
     "href": "guides/russell.html#on-referring",
-    "title": "Russell and Strawson on Definite Descriptions",
+    "title": "Russell on Definite Descriptions",
     "section": "“On Referring”",
     "text": "“On Referring”\n\n\n\n\n\n\nCautionUnder Construction\n\n\n\nThis section is under construction."
   },
   {
+    "objectID": "guides/russell.html#slides",
+    "href": "guides/russell.html#slides",
+    "title": "Russell on Definite Descriptions",
+    "section": "Slides",
+    "text": "Slides\nHere are the slides for our Monday discussion of Russell."
+  },
+  {
     "objectID": "guides/russell.html#footnotes",
     "href": "guides/russell.html#footnotes",
-    "title": "Russell and Strawson on Definite Descriptions",
+    "title": "Russell on Definite Descriptions",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThis notation was not introduced until 1935, 30 years after this article was published.↩︎\nI’ve slightly simplified this, replacing Russell’s use of ‘it is false that … is always true’ with ‘… is not always true.’↩︎"
   },
