@@ -34,6 +34,8 @@ local function extract_parenthesized_label(inlines)
   while inlines[sidx] and inlines[sidx].t == "Space" do sidx = sidx + 1 end
   if sidx > #inlines then return nil end
 
+  if inlines[sidx] ~= "(" then return nil end
+
   local acc = {}
   local found_close = false
   local end_idx = sidx
