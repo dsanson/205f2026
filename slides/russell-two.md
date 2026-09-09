@@ -64,8 +64,11 @@ The roller coaster in Uptown Normal is well-hidden
 
 ---
 
-@.  The professor at ISU is wearing a Hawaiian shirt.
-@.  The professor teaching PHI 205 is wearing a Hawaiian shirt.
+@.  The professor at ISU is wearing a Aloha shirt:
+    (a) there is a professor at ISU and
+    (b) there is only one professor at ISU and
+    (c) they are wearing an Aloha shirt.
+@.  The professor teaching PHI 205 is wearing a Aloha shirt.
 @.  The desk in this classroom is broken.
 @.  The piano in this classroom is in tune.
 @.  The piano in this classroom is out of tune.
@@ -92,10 +95,10 @@ How does this solve the puzzle?
 > King of France in either list. 
 
 primary occurrence
-:   There is one and only one present King of France and he is not bald.
+:   (a) There is a preent king of France and (b) there is only one King of France and (c) he is not bald.
 
 secondary occurrence
-:   It is not the case that (there is one and only one present King of France and he is bald).
+:   It is not the case that ((a) there is a KoF and (b) only one present King of France and (c) he is bald).
 
 How does this solve the puzzle?
 

@@ -3,11 +3,6 @@ title: Russell on Definite Descriptions
 toc: true
 ---
 
-:::{.callout-caution}
-# Under Construction
-
-This reading guide is under construction.
-:::
 
 ## Reading
 
@@ -290,17 +285,9 @@ This is perhaps the most satisfying chunk of the paper. Russell shows how, given
 You can ignore the paragraph about MacColl's views. See if you can make anything out of the next paragraph on mathematical definitions, but don't sweat it too much. The paragraph on knowledge by acquaintance and knowledge by description is a nice callback to the introduction---be sure to read it! And that takes you to the end of the paper.
 
 
-## "On Referring"
-
-:::{.callout-caution}
-# Under Construction
-
-This section is under construction.
-:::
-
 ## Slides
 
-Here are the [slides](/slides/russell.md) for our Monday discussion of Russell.
+Here are the [slides](/slides/russell.md) for our Monday discussion of Russell. And the [slides](slides/russell-two.md) for Wednesday.
 
 ## References {-}
 
