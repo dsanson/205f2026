@@ -53,6 +53,45 @@
     "type": "book"
   },
   {
+    "id": "ayer1946a",
+    "author": [
+      {
+        "family": "Ayer",
+        "given": "A. J."
+      }
+    ],
+    "citation-key": "ayer1946a",
+    "issued": {
+      "date-parts": [
+        [
+          "1946"
+        ]
+      ]
+    },
+    "title": "Language, truth and logic",
+    "type": "book"
+  },
+  {
+    "id": "bacon1625",
+    "author": [
+      {
+        "family": "Bacon",
+        "given": "Francis"
+      }
+    ],
+    "citation-key": "bacon1625",
+    "issued": {
+      "date-parts": [
+        [
+          "1625"
+        ]
+      ]
+    },
+    "title": "Apophthegmes",
+    "type": "book",
+    "URL": "https://en.wikisource.org/wiki/The_Works_of_Francis_Bacon/Volume_1/Apophthegms"
+  },
+  {
     "id": "bauer2015",
     "author": [
       {
