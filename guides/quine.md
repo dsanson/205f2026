@@ -140,6 +140,7 @@ Finally, I just want to reiterate what I said above: there are parts of this pap
 Here are links to the slides:
 
 -   [Sep 14](/slides/quine.html)
+-   [Sep 16](/slides/quine-two.html)
 
 ## References {-}
 
