@@ -135,6 +135,11 @@ That is a lot, quickly, without much explanation or explication. And this is typ
 
 Finally, I just want to reiterate what I said above: there are parts of this paper you will not understand. That is okay. Do your best. There are things you haven't read that he assumes his reader will have read. Still, there is a lot that you are in a good position to understand. Try to follow out the arguments and the examples where and when you can.
 
+## Slides
+
+Here are links to the slides:
+
+-   [Sep 14](/slides/quine.html)
 
 ## References {-}
 
