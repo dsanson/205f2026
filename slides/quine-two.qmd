@@ -1,0 +1,321 @@
+---
+title: "Two Dogmas, Continued"
+date: 2026-09-16
+center-title-slide: false
+title-slide-attributes:
+  data-background-image: media/two-dogs.jpeg
+  data-background-size: cover
+  data-background-opacity: "0.9"
+include-in-header:
+  - text: |
+      <style>
+      #title-slide.quarto-title-block {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100%;
+        margin-top: 40%;
+        font-size: smaller;
+      }
+      </style>
+format:
+  revealjs:
+    min-scale: 1
+    max-scale: 1
+    template-partials:
+      - title-slide.html
+---
+
+# Preliminaries
+
+## Announcements
+
+-  Reading for today was Quine, "Two Dogmas of Empiricism"
+-  Reading for next week is selections from Saul Kripke's book, *Naming and Necessity*
+
+# Review and Warm Up
+
+## Logical Empiricism: a Vision
+
+Language makes contact with experience in the form of basic observation sentences, e.g.,
+
+:::{style="background: red; width: 100px; height: 100px; margin: 10px auto;"}
+:::
+
+:::{.displayed-sentence}
+This is red.
+:::
+
+'This' refers to some immediate object of sense experience, and 'is red' categorizes it by how it appears.
+
+---
+
+
+![](media/fire-engine.jpg){fig-align=center}
+
+:::{.displayed-sentence}
+Fire Engines are red.
+:::
+
+More abstract sentences
+reduce, via definition and logical analysis, to basic observation sentences.
+
+---
+
+This leaves a residue of sentences that are not basic observation sentences and do not reduce to basic observation sentences.
+
+These are either nonsense (metaphysics and theology) or analytic (mathematics and logic).
+
+## The Two Dogmas {-}
+
+> One [dogma] is a belief in some fundamental cleavage between truths which are
+> *analytic*, or grounded in meanings independently of matters of fact, and
+> truth which are *synthetic*, or grounded in fact.
+
+> The other dogma is reductionism: the belief that each meaningful statement is
+> equivalent to some logical construct upon terms which refer to immediate
+> experience.
+
+## What even are meanings/senses?
+
+:::columns
+:::{.column width=30%}
+```{mermaid}
+graph TB
+    A['The King of England'] -- expresses -->  B(a meaning/sense)
+    B -- determines --> C(Charles)
+```
+:::
+:::{.column width=70%}
+:::incremental
+-   The meaning is not 'The King England'.
+-   The meaning is not the King England.
+-   The meaning is something intermediate between the two.
+:::
+:::
+:::
+
+---
+
+:::columns
+:::{.column width=30%}
+```{mermaid}
+graph TB
+    A['The King of England'] -- expresses -->  B(a meaning/sense)
+    B -- determines --> C(Charles)
+```
+:::
+:::{.column width=70%}
+:::incremental
+-   The meaning is not 'The male monarch of England'.
+-   The meaning is not the male monarch of England.
+-   'Male monarch' and 'king' are synonyms.
+-   A synonym is another word or phrase with the same meaning.
+-   That entity---the meaning itself---remains elusive.
+:::
+:::
+:::
+
+
+
+## The Business of a Theory of Meaning
+
+> Once the theory of  meaning is sharply separated from the theory of reference, it is a  short step to recognizing as the business of the theory of meaning simply the synonymy of linguistic forms and the analyticity of statements; meanings themselves, as obscure intermediary entities, may well be abandoned. (22-23)
+
+
+-   When two words "mean the same thing", is there really a third *thing*---a "meaning"---that both express? 
+    -   Or is the "entification" of meanings just sloppy talk for a relation of synonymy between them?
+
+## Some Analogies
+
+-   When two things "have the same property", is there really a third thing---a "property"---that both instantiate?
+    -   Or is the "entification" of properties just sloppy talk for a relation of similarity?
+-   When two animals are "of the same species", is there a third thing---a "species"---that stands above them?
+    -   Or is the "entification" of species just sloppy talk for a network of relationships between individual animals?
+
+## Shifting Project
+
+Instead of first giving a theory of meanings, and then  using that theory to explain synonymy and analyticity, let's look at strategies for making sense of synonymy and analyticity directly.
+
+# Analyticity as Truth by Definition
+
+## Proposal
+
+> There are those who find it soothing to say that the analytic statements of the second class reduce to those of the first class, the logical  truths, by definition; 'bachelor', e.g., is defined as 'unmarried man'. But how do we find that 'bachelor' is defined as 'unmarried man'? (24)
+
+He puts this as a "how do we find" question. But really, he is asking about what makes it so.
+
+## Dictionary Definitions Presuppose Synonymy
+
+> The lexicographer is an  empirical scientist, whose business is the recording of antecedent facts;  and if he glosses 'bachelor' as 'unmarried man' it is because of his belief  that there is a relation of synonymy between these forms, implicit in  general or preferred usage prior to his own work. [...] . Certainly the "definition" which  is the lexicographer's report of an observed synonymy cannot be taken  as the ground of the synonymy (24)
+
+:::notes
+think, discuss, share
+
+Dictionary definitions do not reveal meanings; they provide synonyms. And they are not the ground of synonymy; they report on observed synonymies implicit in linguistic usage.
+:::
+
+## Dictionary Definitions and Usage
+
+> Just what it means to affirm synonymy, just what the interconnections may be which are necessary and sufficient in order that two linguistic forms be properly describable as synonymous, is far from  clear; but, whatever these interconnections may be, ordinarily they  are grounded in usage. Definitions reporting selected instances of  synonymy come then as reports upon usage. (25)
+
+:::notes
+think, discuss, share
+
+There is no magic dictionary in the sky. There is just linguistic usage. Facts about synonymy are either reducible to facts about usage, or they are nonsense.
+:::
+
+## Definitions as Explications
+
+> In explication the purpose is not merely to paraphrase the  definiendum into an outright synonym, but actually to improve upon  the definiendum by refining or supplementing its meaning.
+
+-   the biologist offers an explication of 'fish': in past usage, the extension of 'fish' included whales, but it is better to change that, so that it does not include whales.
+-   Followers of Frege offer an explication of 'meaning': in past usage, it is ambiguous between sense and reference, but it is better to change that, and only use it for sense.
+
+---
+
+> Such a definition still owes its explicative function to pre-existing synonymies (25)
+
+Do you see why?
+
+## Definitions as Conventional Abbreviations
+
+Quine goes on about this at some length. Here is a relatively simple example:
+
+-   'Or', in English, has both an inclusive and exclusive reading.
+-   Suppose we offer an explication of 'or', on which only the inclusive reading is allowed.
+-   We can then define 'P xor Q' as an abbreviation for '(P or Q) and not (P and Q)'.
+
+:::notes
+slow down. give them a chance to think it through. Other examples?
+:::
+
+## Definitions as Conventional Abbreviation {.smaller .scrollable}
+
+> But these correlations are not arbitrary. They are supposed to show  how the primitive notations can accomplish all purposes, save brevity  and convenience, of the redundant language. Hence the definiendum  and its definiens may be expected, in each case, to be related in one  or another of the three ways lately noted. The definiens may be a  faithful paraphrase of the definiendum into the narrower notation,  preserving a direct synonymy as of antecedent usage; or the definiens  may, in the spirit of explication, improve upon the antecedent usage  of the definiendum; or finally, the definiendum may be a newly created  notation, newly endowed with meaning here and now. (27)
+
+Only the last case plausibly gives rise to a *new* synonymy. But that case does not account for the relation between, e.g., 'bachelor' and 'unmarried man'.
+
+# Interchangeability
+
+## Proposal
+
+> A natural suggestion, deserving close examination, is that the  synonymy of two linguistic forms consists simply in their interchangeability in all contexts without change of truth value; interchangeability, in Leibniz's phrase, *salva veritate*. (27)
+
+This is Frege's test for co-reference. If we apply it to words as they occur both in direct and indirect contexts, it is a test for sameness of both reference and sense.
+
+## Examples
+
+@.  I saw a bachelor shopping at Kroger.
+@.  I saw an unmarried man shopping at Kroger.
+
+---
+
+@.  Lois believes that Superman flies.
+@.  Lois believes that Clark Kent flies.
+@.  Lois believes that the man who wears his underwear outside his tights flies.
+
+---
+
+@.  The ancient Greeks initially believed Venus to be two separate stars: Phosphorus, the morning star, and Hesperus, the evening star.
+
+## A Small Problem {.smaller .scrollable}
+
+>Truths which become false under substitution of 'unmarried man' for 'bachelor' are  easily constructed with help of 'bachelor of arts' or 'bachelor's buttons'. Also with help of quotation, thus:  'Bachelor' has less than ten letters.  Such counterinstances can, however, perhaps be set aside by treating  the phrases 'bachelor of arts' and 'bachelor's buttons' and the quotation ''bachelor'' each as a single indivisible word and then stipulating that the interchangeability salva veritate which is to be the  touchstone of synonymy is not supposed to apply to fragmentary occurrences inside of a word. (27-28)
+
+Can we unpack this?
+
+## Modal Contexts
+
+Suppose we grant the test. We need to find sentences where interchangeability fails exactly when the two words are not synonymous.
+Quine suggests:
+
+@.  Necessarily all and only As are Bs.
+
+If 'A' and 'B' are synonymous, then this should be equivalent to the logical truth,
+
+@.  Necessarily all and only As are As.
+
+---
+
+For example, 
+
+@.  Necessarily all and only bachelors are bachelors.
+
+is true (indeed, a logical truth), and so 
+is the sentence that results from replacing 'unmarried men' with 'bachelors':
+
+@.  Necessarily all and only bachelors are unmarried men.
+
+On the current proposal, this is what it is for 'unmarried men' and 'bachelors' to be synonyms.
+
+---
+
+And,
+
+@.  Necessarily all and only creatures with hearts are creatures with hearts.
+
+is true, but this is not:
+
+@.  Necessarily all and only creatures with hearts are creatures with kidneys. 
+
+This shows that 'creatures with hearts' and 'creatures with kidneys' are not synonyms.
+
+---
+
+And,
+
+@.  Necessarily, 9 is odd.
+@.  Necessarily, the number of planets is odd.
+
+The first is true, but the second false, showing that '9' and 'the number of planets', though they are co-referential, are not synonymous.
+
+## "Necessarily"
+
+What about:
+
+@.  Necessarily, all and only triangles are triangles.
+@.  Necessarily, all and only triangles are trilaterals.
+
+Does this preserve truth? Are 'triangle' and 'trilateral' synonyms?
+
+---
+
+What about:
+
+@.  Necessarily, the force exerted by this physical object is the force exerted by this physical object.
+@.  Necessarily, the force exerted by this physical object is the product of its mass and its acceleration.
+
+Does this preserve truth? Are the terms synonyms?
+
+---
+
+> Let us see what there is about the above argument that gives it its  air of hocus-pocus. The condition of interchangeability salva ve-ritate  varies in its force with variations in the richness of the language at  hand. The above argument supposes we are working with a language  rich enough to contain the adverb 'necessarily', this adverb being so  construed as to yield truth when and only when applied to an analytic  statement. But can we condone a language which contains such an  adverb? Does the adverb really make sense? To suppose that it does  is to suppose that we have already made satisfactory sense of 'analytic'. (29)
+
+---
+
+'Necessarily', in English, has different strengths: physical necessity, mathematical necessity...
+
+The analysis only works if 'necessarily' just means 'is analytic', then our analysis is:
+
+@.  It is analytic that all and only triangles are triangles.
+@.  It is analytic that all and only triangles are trilaterals.
+
+
+## Another Problematic Example...
+
+> I do not know whether the statement 'Everything green is extended'  is analytic. Now does my indecision over this example really betray  an incomplete understanding, an incomplete grasp of the "meanings",  of 'green' and 'extended'? I think not. The trouble is not with 'green'  or 'extended', but with 'analytic'. (31)
+
+
+:::{.displayed-sentence}
+Everything green is extended.
+:::
+
+Is this analytic?
+
+
+
+
+
+
+
+
+
