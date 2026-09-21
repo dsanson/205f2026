@@ -18,8 +18,8 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="David Sanson">
-  <meta name="dcterms.date" content="2026-08-31">
-  <title>PHI 205 – Russell on Definite Descriptions</title>
+  <meta name="dcterms.date" content="2026-09-16">
+  <title>PHI 205 – Two Dogmas, Continued</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -136,22 +136,18 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
   <style>
   #title-slide.quarto-title-block {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    margin-top: 40%;
+    font-size: smaller;
   }
   </style>
   <style>
-  .reveal div.callout-example.callout {
-    border-left-color: purple;
-  }
-  .reveal div.callout-example.callout-style-default .callout-title {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  .reveal div.callout-example.callout-style-default .callout-icon::before, .reveal div.callout-example.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
   .reveal div.callout-argument.callout {
     border-left-color: yellow;
   }
@@ -162,18 +158,28 @@
     content: '🥊';
     background-image: none;
   }
+  .reveal div.callout-example.callout {
+    border-left-color: purple;
+  }
+  .reveal div.callout-example.callout-style-default .callout-title {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  .reveal div.callout-example.callout-style-default .callout-icon::before, .reveal div.callout-example.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
   </style>
-<meta property="og:title" content="Russell on Definite Descriptions – PHI 205">
+<meta property="og:title" content="Two Dogmas, Continued – PHI 205">
 <meta property="og:site_name" content="PHI 205">
-<meta name="twitter:title" content="Russell on Definite Descriptions – PHI 205">
+<meta name="twitter:title" content="Two Dogmas, Continued – PHI 205">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-opacity="0.9" data-background-size="cover" class="quarto-title-block center">
-  <h1 class="title">Russell on Definite Descriptions</h1>
+<section id="title-slide" data-background-image="media/two-dogs.jpeg" data-background-opacity="0.9" data-background-size="cover" class="quarto-title-block">
+  <h1 class="title">Two Dogmas, Continued</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -183,567 +189,437 @@ David Sanson
 </div>
 </div>
 
-  <p class="date">2026-08-31</p>
+  <p class="date">2026-09-16</p>
 </section>
 <section>
-<section id="announcements" class="title-slide slide level1 agenda-slide center">
-<h1>Announcements</h1>
+<section id="preliminaries" class="title-slide slide level1 agenda-slide">
+<h1>Preliminaries</h1>
 <div class="agenda-heading">
 <p>Agenda</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-active agenda-clickable">
-<a href="#/announcements">Announcements</a>
+<a href="#/preliminaries">Preliminaries</a>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/review-and-comparison">Review and Comparison</a>
+<a href="#/review-and-warm-up">Review and Warm Up</a>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/russells-theory">Russell’s Theory</a>
+<a href="#/analyticity-as-truth-by-definition">Analyticity as Truth by Definition</a>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/meinong">Meinong</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/the-three-puzzles">The Three Puzzles</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/solutions">Solutions</a>
+<a href="#/interchangeability">Interchangeability</a>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="reading" class="slide level2">
-<h2>Reading</h2>
+<section id="announcements" class="slide level2">
+<h2>Announcements</h2>
 <ul>
-<li>Reading for this week is Russell, “On Denoting”</li>
-<li>Russell’s “Descriptions” is optional, but many find that it is a clearer presentation of some of the key ideas from “On Denoting.”</li>
-<li>A link to these slides is at the end of the reading guide for Russell.</li>
+<li>Reading for today was Quine, “Two Dogmas of Empiricism”</li>
+<li>Reading for next week is selections from Saul Kripke’s book, <em>Naming and Necessity</em></li>
 </ul>
 </section></section>
 <section>
-<section id="review-and-comparison" class="title-slide slide level1 agenda-slide center">
-<h1>Review and Comparison</h1>
+<section id="review-and-warm-up" class="title-slide slide level1 agenda-slide">
+<h1>Review and Warm Up</h1>
 <div class="agenda-heading">
 <p>Agenda</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/announcements">Announcements</a>
+<a href="#/preliminaries">Preliminaries</a>
 </div></li>
 <li><div class="agenda-active agenda-clickable">
-<a href="#/review-and-comparison">Review and Comparison</a>
+<a href="#/review-and-warm-up">Review and Warm Up</a>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/russells-theory">Russell’s Theory</a>
+<a href="#/analyticity-as-truth-by-definition">Analyticity as Truth by Definition</a>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/meinong">Meinong</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/the-three-puzzles">The Three Puzzles</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/solutions">Solutions</a>
+<a href="#/interchangeability">Interchangeability</a>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="frege-on-proper-names" class="slide level2">
-<h2>Frege on “Proper Names”</h2>
-<ul>
-<li>A <em>proper name</em>, for Frege, is any word or phrase that designates a single determinate thing.</li>
-<li>Each proper name <em>expresses</em> a sense, which determines its referent.</li>
-</ul>
-</section>
-<section id="russell-on-denoting-phrases" class="slide level2">
-<h2>Russell on “Denoting Phrases”</h2>
-<ul>
-<li><em>Denoting phrases</em>, for Russell, include ‘everything’, ‘nothing’, and ‘something’, along with ‘every F’, ‘no F’, ‘some F’, ‘an F’, and ‘the F’, where ‘F’ is a common noun or noun phrase, e.g., ‘man’ or ‘present King of England’.</li>
-<li>Russell doesn’t mention grammatical proper names, like ‘Clark Kent’ and ‘Beyoncé’, except briefly at the very end, where he discusses ‘Apollo’.</li>
-</ul>
-</section>
-<section id="russell-versus-frege" class="slide level2">
-<h2>Russell versus Frege</h2>
-<ul>
-<li>Frege thinks each definite description, e.g., ‘the F’, is a proper name that expresses a sense that determines a referent.</li>
-<li>Russell thinks a definite description is a denoting phrase that has no meaning in isolation, but should instead be understood as part of a complex quantificational claim.</li>
-</ul>
-</section></section>
-<section>
-<section id="russells-theory" class="title-slide slide level1 agenda-slide center">
-<h1>Russell’s Theory</h1>
-<div class="agenda-heading">
-<p>Agenda</p>
+<section id="logical-empiricism-a-vision" class="slide level2">
+<h2>Logical Empiricism: a Vision</h2>
+<p>Language makes contact with experience in the form of basic observation sentences, e.g.,</p>
+<div style="background: red; width: 100px; height: 100px; margin: 10px auto;">
+
 </div>
-<div class="agenda">
-<ol>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/announcements">Announcements</a>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/review-and-comparison">Review and Comparison</a>
-</div></li>
-<li><div class="agenda-active agenda-clickable">
-<a href="#/russells-theory">Russell’s Theory</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/meinong">Meinong</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/the-three-puzzles">The Three Puzzles</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/solutions">Solutions</a>
-</div></li>
-</ol>
+<div class="displayed-sentence">
+<p>This is red.</p>
 </div>
-</section>
-<section id="variables-and-quantifiers" class="slide level2">
-<h2>Variables and Quantifiers</h2>
-<p><span class="math display">\[x + y = 4\]</span></p>
-<ul>
-<li>In Algebra, you were taught to find values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> that make this true.</li>
-<li>But we can also use formulas with variables to ask other questions.</li>
-</ul>
+<p>‘This’ refers to some immediate object of sense experience, and ‘is red’ categorizes it by how it appears.</p>
 </section>
 <section class="slide level2">
-<h2>Variables and Quantifiers</h2>
-<p><span class="math display">\[x + y &lt; x\]</span></p>
-<ul>
-<li>Are there values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> for which this is true?</li>
-<li>Are there values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> for which this is false?</li>
-</ul>
+<h2>Logical Empiricism: a Vision</h2>
+
+<img data-src="media/fire-engine.jpg" class="quarto-figure quarto-figure-center r-stretch"><div class="displayed-sentence">
+<p>Fire Engines are red.</p>
+</div>
+<p>More abstract sentences reduce, via definition and logical analysis, to basic observation sentences.</p>
 </section>
 <section class="slide level2">
-<h2>Variables and Quantifiers</h2>
-<p><span class="math display">\[x = x\]</span></p>
-<ul>
-<li>Are there values of <span class="math inline">\(x\)</span> for which this is true?</li>
-<li>Are there values of <span class="math inline">\(x\)</span> for which this is false?</li>
-</ul>
+<h2>Logical Empiricism: a Vision</h2>
+<p>This leaves a residue of sentences that are not basic observation sentences and do not reduce to basic observation sentences.</p>
+<p>These are either nonsense (metaphysics and theology) or analytic (mathematics and logic).</p>
 </section>
-<section id="propositional-functions" class="slide level2">
-<h2>Propositional Functions</h2>
-<p><span class="math display">\[x \text{ is in Normal, Illinois}\]</span></p>
+<section id="the-two-dogmas" class="slide level2 unnumbered">
+<h2>The Two Dogmas</h2>
+<blockquote>
+<p>One [dogma] is a belief in some fundamental cleavage between truths which are <em>analytic</em>, or grounded in meanings independently of matters of fact, and truth which are <em>synthetic</em>, or grounded in fact.</p>
+</blockquote>
+<blockquote>
+<p>The other dogma is reductionism: the belief that each meaningful statement is equivalent to some logical construct upon terms which refer to immediate experience.</p>
+</blockquote>
+</section>
+<section id="what-even-are-meaningssenses" class="slide level2">
+<h2>What even are meanings/senses?</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TB
+    A['The King of England'] -- expresses --&gt;  B(a meaning/sense)
+    B -- determines --&gt; C(Charles)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:70%;">
 <ul>
-<li>Are there values of <span class="math inline">\(x\)</span> for which this is true?</li>
-<li>Are there values of <span class="math inline">\(x\)</span> for which this is false?</li>
+<li class="fragment">The meaning is not ‘The King England’.</li>
+<li class="fragment">The meaning is not the King England.</li>
+<li class="fragment">The meaning is something intermediate between the two.</li>
 </ul>
+</div></div>
 </section>
 <section class="slide level2">
-<h2>Propositional Functions</h2>
-<p><span class="math display">\[x \text{ is a round square}\]</span></p>
+<h2>What even are meanings/senses?</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TB
+    A['The King of England'] -- expresses --&gt;  B(a meaning/sense)
+    B -- determines --&gt; C(Charles)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:70%;">
 <ul>
-<li>Are there values of <span class="math inline">\(x\)</span> for which this is true?</li>
-<li>Are there values of <span class="math inline">\(x\)</span> for which this is false?</li>
+<li class="fragment">The meaning is not ‘The male monarch of England’.</li>
+<li class="fragment">The meaning is not the male monarch of England.</li>
+<li class="fragment">‘Male monarch’ and ‘king’ are synonyms.</li>
+<li class="fragment">A synonym is another word or phrase with the same meaning.</li>
+<li class="fragment">That entity—the meaning itself—remains elusive.</li>
 </ul>
+</div></div>
 </section>
-<section id="quantification" class="slide level2">
-<h2>Quantification</h2>
-<p><span class="math display">\[x \text{ is in Normal}\]</span></p>
-<dl>
-<dt>Everything is in Normal</dt>
-<dd>
-the formula is true for every value of <span class="math inline">\(x\)</span>
-</dd>
-<dt>Something is in Normal</dt>
-<dd>
-the formula is true for at least one value of <span class="math inline">\(x\)</span>
-</dd>
-<dt>Nothing is in Normal</dt>
-<dd>
-the formula is false for every value of <span class="math inline">\(x\)</span>
-</dd>
-</dl>
-</section>
-<section id="contemporary-notation" class="slide level2">
-<h2>Contemporary Notation</h2>
-<dl>
-<dt>Everything is in Normal</dt>
-<dd>
-<span class="math inline">\(\forall x\)</span>( <span class="math inline">\(x\)</span> is in Normal)
-</dd>
-<dt>Something is in Normal</dt>
-<dd>
-<span class="math inline">\(\exists x\)</span>( <span class="math inline">\(x\)</span> is in Normal)
-</dd>
-<dt>Nothing is in Normal</dt>
-<dd>
-<span class="math inline">\(\neg\exists x\)</span>( <span class="math inline">\(x\)</span> is in Normal)
-</dd>
-<dd>
-<span class="math inline">\(\forall x\neg\)</span>( <span class="math inline">\(x\)</span> is in Normal)
-</dd>
-</dl>
-<p>Words like ‘everything’, ‘something’, and ‘nothing’ are devices for quantification. They do not express senses which determine referents. Instead, they offer answers to questions about the formula they quantify over.</p>
-</section>
-<section id="restricted-quantifiers" class="slide level2">
-<h2>Restricted Quantifiers</h2>
-<dl>
-<dt>Some F is G</dt>
-<dd>
-the formula ‘<span class="math inline">\(x\)</span> is F and <span class="math inline">\(x\)</span> is G’ is true for at least one value of <span class="math inline">\(x\)</span>.
-</dd>
-<dt>Every F is G</dt>
-<dd>
-the formula ‘if <span class="math inline">\(x\)</span> is F then <span class="math inline">\(x\)</span> is G’ is true for every value of <span class="math inline">\(x\)</span>.
-</dd>
-<dt>No F is G</dt>
-<dd>
-the formula ‘if <span class="math inline">\(x\)</span> is F then <span class="math inline">\(x\)</span> is not G’ is true for every value of <span class="math inline">\(x\)</span>.
-</dd>
-<dd>
-the formula ‘<span class="math inline">\(x\)</span> is F and <span class="math inline">\(x\)</span> is G’ is false for every value of <span class="math inline">\(x\)</span>.
-</dd>
-</dl>
-</section>
-<section id="indefinite-descriptions" class="slide level2">
-<h2>Indefinite Descriptions</h2>
+<section id="the-business-of-a-theory-of-meaning" class="slide level2">
+<h2>The Business of a Theory of Meaning</h2>
+<blockquote>
+<p>Once the theory of meaning is sharply separated from the theory of reference, it is a short step to recognizing as the business of the theory of meaning simply the synonymy of linguistic forms and the analyticity of statements; meanings themselves, as obscure intermediary entities, may well be abandoned. (22-23)</p>
+</blockquote>
 <ul>
-<li>An indefinite description is a description that begins with the indefinite article, ‘a’:
+<li>When two words “mean the same thing”, is there really a third <em>thing</em>—a “meaning”—that both express?
 <ul>
-<li>A dog barks.</li>
-<li>A number between 2 and 10 is odd.</li>
-</ul></li>
-<li>These are analyzed the same as ‘some dog’ and ‘some number between 2 and 10’.</li>
-<li>Indefinite descriptions do not “refer ambiguously” or “refer to an indefinite object”.</li>
-<li>They are devices for <em>quantification</em>, not devices for <em>referring</em>.</li>
-</ul>
-</section>
-<section id="definite-descriptions" class="slide level2">
-<h2>Definite Descriptions</h2>
-<ul>
-<li>A definite description is a description that begins with the definite article, ‘the’:
-<ul>
-<li>The President of ISU wears hats.</li>
-<li>The King of England plays cello.</li>
+<li>Or is the “entification” of meanings just sloppy talk for a relation of synonymy between them?</li>
 </ul></li>
 </ul>
 </section>
-<section class="slide level2">
-<h2>Definite Descriptions</h2>
-<dl>
-<dt>A President of ISU wears hats</dt>
-<dd>
-There is a President of ISU and he wears hats.
-</dd>
-<dt>The President of ISU wears hats</dt>
-<dd>
-There is a President of ISU and <em>he is the only President of ISU</em> and he wears hats.
-</dd>
-</dl>
-<p>Both definite and indefinite descriptions imply existence; a definite description also implies <em>uniqueness</em>.</p>
+<section id="some-analogies" class="slide level2">
+<h2>Some Analogies</h2>
+<ul>
+<li>When two things “have the same property”, is there really a third thing—a “property”—that both instantiate?
+<ul>
+<li>Or is the “entification” of properties just sloppy talk for a relation of similarity?</li>
+</ul></li>
+<li>When two animals are “of the same species”, is there a third thing—a “species”—that stands above them?
+<ul>
+<li>Or is the “entification” of species just sloppy talk for a network of relationships between individual animals?</li>
+</ul></li>
+</ul>
 </section>
-<section id="contemporary-notation-1" class="slide level2">
-<h2>Contemporary Notation</h2>
-<dl>
-<dt>A President of ISU wears hats</dt>
-<dd>
-<span class="math inline">\(\exists x( x\)</span> is a President of ISU and <span class="math inline">\(x\)</span> wears hats<span class="math inline">\()\)</span>
-</dd>
-<dt>The President of ISU wears hats</dt>
-<dd>
-<div class="line-block"><span class="math inline">\(\exists x( x\)</span> is a President of ISU<br>
-and <span class="math inline">\(\forall y(\)</span>if <span class="math inline">\(y\)</span> is a President of ISU then <span class="math inline">\(y=x)\)</span><br>
-and <span class="math inline">\(x\)</span> wears hats<span class="math inline">\()\)</span></div>
-</dd>
-</dl>
-<p>Again, the key point is that this analysis does not assign a sense to the denoting phrase which determines a referent.</p>
+<section id="shifting-project" class="slide level2">
+<h2>Shifting Project</h2>
+<p>Instead of first giving a theory of meanings, and then using that theory to explain synonymy and analyticity, let’s look at strategies for making sense of synonymy and analyticity directly.</p>
 </section></section>
 <section>
-<section id="meinong" class="title-slide slide level1 agenda-slide center">
-<h1>Meinong</h1>
+<section id="analyticity-as-truth-by-definition" class="title-slide slide level1 agenda-slide">
+<h1>Analyticity as Truth by Definition</h1>
 <div class="agenda-heading">
 <p>Agenda</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/announcements">Announcements</a>
+<a href="#/preliminaries">Preliminaries</a>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/review-and-comparison">Review and Comparison</a>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/russells-theory">Russell’s Theory</a>
+<a href="#/review-and-warm-up">Review and Warm Up</a>
 </div></li>
 <li><div class="agenda-active agenda-clickable">
-<a href="#/meinong">Meinong</a>
+<a href="#/analyticity-as-truth-by-definition">Analyticity as Truth by Definition</a>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/the-three-puzzles">The Three Puzzles</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/solutions">Solutions</a>
+<a href="#/interchangeability">Interchangeability</a>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="russell-on-meinong" class="slide level2">
-<h2>Russell on Meinong</h2>
+<section id="proposal" class="slide level2">
+<h2>Proposal</h2>
 <blockquote>
-<p>[Meinong’s] theory regards any grammatically correct denoting phrase as standing for an object. Thus “the present King of France,” “the round square,” etc., are supposed to be genuine objects. It is admitted that such objects do not <em>subsist</em>, but nevertheless they are supposed to be objects. (482–83)</p>
+<p>There are those who find it soothing to say that the analytic statements of the second class reduce to those of the first class, the logical truths, by definition; ‘bachelor’, e.g., is defined as ‘unmarried man’. But how do we find that ‘bachelor’ is defined as ‘unmarried man’? (24)</p>
 </blockquote>
+<p>He puts this as a “how do we find” question. But really, he is asking about what makes it so.</p>
+</section>
+<section id="dictionary-definitions-presuppose-synonymy" class="slide level2">
+<h2>Dictionary Definitions Presuppose Synonymy</h2>
+<blockquote>
+<p>The lexicographer is an empirical scientist, whose business is the recording of antecedent facts; and if he glosses ‘bachelor’ as ‘unmarried man’ it is because of his belief that there is a relation of synonymy between these forms, implicit in general or preferred usage prior to his own work. […] . Certainly the “definition” which is the lexicographer’s report of an observed synonymy cannot be taken as the ground of the synonymy (24)</p>
+</blockquote>
+<aside class="notes">
+<p>think, discuss, share</p>
+<p>Dictionary definitions do not reveal meanings; they provide synonyms. And they are not the ground of synonymy; they report on observed synonymies implicit in linguistic usage.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="dictionary-definitions-and-usage" class="slide level2">
+<h2>Dictionary Definitions and Usage</h2>
+<blockquote>
+<p>Just what it means to affirm synonymy, just what the interconnections may be which are necessary and sufficient in order that two linguistic forms be properly describable as synonymous, is far from clear; but, whatever these interconnections may be, ordinarily they are grounded in usage. Definitions reporting selected instances of synonymy come then as reports upon usage. (25)</p>
+</blockquote>
+<aside class="notes">
+<p>think, discuss, share</p>
+<p>There is no magic dictionary in the sky. There is just linguistic usage. Facts about synonymy are either reducible to facts about usage, or they are nonsense.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="definitions-as-explications" class="slide level2">
+<h2>Definitions as Explications</h2>
+<blockquote>
+<p>In explication the purpose is not merely to paraphrase the definiendum into an outright synonym, but actually to improve upon the definiendum by refining or supplementing its meaning.</p>
+</blockquote>
+<ul>
+<li>the biologist offers an explication of ‘fish’: in past usage, the extension of ‘fish’ included whales, but it is better to change that, so that it does not include whales.</li>
+<li>Followers of Frege offer an explication of ‘meaning’: in past usage, it is ambiguous between sense and reference, but it is better to change that, and only use it for sense.</li>
+</ul>
 </section>
 <section class="slide level2">
-<h2>Russell on Meinong</h2>
+<h2>Definitions as Explications</h2>
 <blockquote>
-<p>This is in itself a difficult view; but the chief objection is that such objects, admittedly, are apt to infringe the law of contradiction. It is contended, for example, that the existent present King of France exists, and also does not exist; that the round square is round, and also not round; etc. But this is intolerable; and if any theory can be found to avoid this result, it is surely to be preferred. (483)</p>
+<p>Such a definition still owes its explicative function to pre-existing synonymies (25)</p>
 </blockquote>
+<p>Do you see why?</p>
+</section>
+<section id="definitions-as-conventional-abbreviations" class="slide level2">
+<h2>Definitions as Conventional Abbreviations</h2>
+<p>Quine goes on about this at some length. Here is a relatively simple example:</p>
+<ul>
+<li>‘Or’, in English, has both an inclusive and exclusive reading.</li>
+<li>Suppose we offer an explication of ‘or’, on which only the inclusive reading is allowed.</li>
+<li>We can then define ‘P xor Q’ as an abbreviation for ‘(P or Q) and not (P and Q)’.</li>
+</ul>
+<aside class="notes">
+<p>slow down. give them a chance to think it through. Other examples?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="definitions-as-conventional-abbreviation" class="slide level2 smaller scrollable">
+<h2>Definitions as Conventional Abbreviation</h2>
+<blockquote>
+<p>But these correlations are not arbitrary. They are supposed to show how the primitive notations can accomplish all purposes, save brevity and convenience, of the redundant language. Hence the definiendum and its definiens may be expected, in each case, to be related in one or another of the three ways lately noted. The definiens may be a faithful paraphrase of the definiendum into the narrower notation, preserving a direct synonymy as of antecedent usage; or the definiens may, in the spirit of explication, improve upon the antecedent usage of the definiendum; or finally, the definiendum may be a newly created notation, newly endowed with meaning here and now. (27)</p>
+</blockquote>
+<p>Only the last case plausibly gives rise to a <em>new</em> synonymy. But that case does not account for the relation between, e.g., ‘bachelor’ and ‘unmarried man’.</p>
 </section></section>
 <section>
-<section id="the-three-puzzles" class="title-slide slide level1 agenda-slide center">
-<h1>The Three Puzzles</h1>
+<section id="interchangeability" class="title-slide slide level1 agenda-slide">
+<h1>Interchangeability</h1>
 <div class="agenda-heading">
 <p>Agenda</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/announcements">Announcements</a>
+<a href="#/preliminaries">Preliminaries</a>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/review-and-comparison">Review and Comparison</a>
+<a href="#/review-and-warm-up">Review and Warm Up</a>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/russells-theory">Russell’s Theory</a>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/meinong">Meinong</a>
+<a href="#/analyticity-as-truth-by-definition">Analyticity as Truth by Definition</a>
 </div></li>
 <li><div class="agenda-active agenda-clickable">
-<a href="#/the-three-puzzles">The Three Puzzles</a>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/solutions">Solutions</a>
+<a href="#/interchangeability">Interchangeability</a>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="the-role-of-puzzles" class="slide level2">
-<h2>The Role of Puzzles</h2>
+<section id="proposal-1" class="slide level2">
+<h2>Proposal</h2>
 <blockquote>
-<p>A logical theory may be tested by its capacity for dealing with puzzles, and it is a wholesome plan, in thinking about logic, to stock the mind with as many puzzles as possible, since these serve much the same purpose as is served by experiments in physical science. (484–85)</p>
+<p>A natural suggestion, deserving close examination, is that the synonymy of two linguistic forms consists simply in their interchangeability in all contexts without change of truth value; interchangeability, in Leibniz’s phrase, <em>salva veritate</em>. (27)</p>
 </blockquote>
+<p>This is Frege’s test for co-reference. If we apply it to words as they occur both in direct and indirect contexts, it is a test for sameness of both reference and sense.</p>
 </section>
-<section id="the-author-of-waverley" class="slide level2">
-<h2>(1) The Author of <em>Waverley</em></h2>
-<blockquote>
-<p>If <span class="math inline">\(a\)</span> is identical with <span class="math inline">\(b\)</span>, whatever is true of the one is true of the other, and either may be substituted for the other in any proposition without altering the truth or falsehood of that proposition. Now George IV. wished to know whether Scott was the author of <em>Waverley</em>; and in fact Scott was the author of <em>Waverley</em>. Hence we may substitute Scott for <em>the author of “Waverley,”</em> and thereby prove that George IV. wished to know whether Scott was Scott. Yet an interest in the law of identity can hardly be attributed to the first gentleman of Europe.</p>
-</blockquote>
-</section>
-<section class="slide level2">
-<h2>(1) The Author of <em>Waverley</em></h2>
-<div class="callout callout-argument no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Argument</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>(AW1) George IV wished to know whether Scott was the author of <em>Waverley</em>.</li>
-<li>(AW2) Scott is the author of <em>Waverley</em>.</li>
-<li>(AW3) So, George IV wished to know whether Scott was Scott.</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="the-present-king-of-france" class="slide level2">
-<h2>(2) The Present King of France</h2>
-<blockquote>
-<p>By the law of excluded middle, either “A is B” or “A is not B” must be true. Hence either “the present King of France is bald” or “the present King of France is not bald” must be true. Yet if we enumerated the things that are bald, and then the things that are not bald, we should not find the present King of France in either list. Hegelians, who love a synthesis, will probably conclude that he wears a wig.</p>
-</blockquote>
-</section>
-<section id="true-negative-existentials" class="slide level2 smaller scrollable">
-<h2>(3) True Negative Existentials</h2>
-<blockquote>
-<p>Consider the proposition “A differs from B”. If this is true, there is a difference between A and B, which fact may be expressed in the form “the difference between A and B subsists”. But if it is false that A differs from B, then there is no difference between A and B, which fact may be expressed in the form “the difference between A and B does not subsist”. But how can a non-entity be the subject of a proposition? “I think, therefore I am” is no more evident than “I am the subject of a proposition, therefore I am,” provided “I am” is taken to assert subsistence or being, not existence. Hence, it would appear, it must always be self-contradictory to deny the being of anything; but we have seen, in connexion with Meinong, that to admit being also sometimes leads to contradictions. Thus if A and B do not differ, to suppose either that there is, or that there is not, such an object as “the difference between A and B” seems equally impossible.</p>
-</blockquote>
-</section></section>
-<section>
-<section id="solutions" class="title-slide slide level1 agenda-slide center">
-<h1>Solutions</h1>
-<div class="agenda-heading">
-<p>Agenda</p>
-</div>
-<div class="agenda">
-<ol>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/announcements">Announcements</a>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/review-and-comparison">Review and Comparison</a>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/russells-theory">Russell’s Theory</a>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/meinong">Meinong</a>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
-<a href="#/the-three-puzzles">The Three Puzzles</a>
-</div></li>
-<li><div class="agenda-active agenda-clickable">
-<a href="#/solutions">Solutions</a>
-</div></li>
+<section id="examples" class="slide level2">
+<h2>Examples</h2>
+<ol class="example" type="1">
+<li>I saw a bachelor shopping at Kroger.</li>
+<li>I saw an unmarried man shopping at Kroger.</li>
 </ol>
-</div>
 </section>
-<section id="solution-to-1" class="slide level2">
-<h2>Solution to (1)</h2>
+<section class="slide level2">
+<h2>Examples</h2>
+<ol start="3" class="example" type="1">
+<li>Lois believes that Superman flies.</li>
+<li>Lois believes that Clark Kent flies.</li>
+<li>Lois believes that the man who wears his underwear outside his tights flies.</li>
+</ol>
+</section>
+<section class="slide level2">
+<h2>Examples</h2>
+<ol start="6" class="example" type="1">
+<li>The ancient Greeks initially believed Venus to be two separate stars: Phosphorus, the morning star, and Hesperus, the evening star.</li>
+</ol>
+</section>
+<section id="a-small-problem" class="slide level2 smaller scrollable">
+<h2>A Small Problem</h2>
 <blockquote>
-<p>When we say: “George IV. wished to know whether so-and-so,” [and] “so-and-so” contains a denoting phrase. We may either eliminate this denoting phrase from the subordinate proposition ” so-and-so,” or from the whole proposition in which “so-and-so” is a mere constituent. Different propositions result according to which we do. (489)</p>
+<p>Truths which become false under substitution of ‘unmarried man’ for ‘bachelor’ are easily constructed with help of ‘bachelor of arts’ or ‘bachelor’s buttons’. Also with help of quotation, thus: ‘Bachelor’ has less than ten letters. Such counterinstances can, however, perhaps be set aside by treating the phrases ‘bachelor of arts’ and ‘bachelor’s buttons’ and the quotation ‘’bachelor’’ each as a single indivisible word and then stipulating that the interchangeability salva veritate which is to be the touchstone of synonymy is not supposed to apply to fragmentary occurrences inside of a word. (27-28)</p>
 </blockquote>
+<p>Can we unpack this?</p>
 </section>
-<section id="two-readings" class="slide level2">
-<h2>Two Readings</h2>
+<section id="modal-contexts" class="slide level2">
+<h2>Modal Contexts</h2>
+<p>Suppose we grant the test. We need to find sentences where interchangeability fails exactly when the two words are not synonymous. Quine suggests:</p>
+<ol start="7" class="example" type="1">
+<li>Necessarily all and only As are Bs.</li>
+</ol>
+<p>If ‘A’ and ‘B’ are synonymous, then this should be equivalent to the logical truth,</p>
+<ol start="8" class="example" type="1">
+<li>Necessarily all and only As are As.</li>
+</ol>
+</section>
+<section class="slide level2">
+<h2>Modal Contexts</h2>
+<p>For example,</p>
+<ol start="9" class="example" type="1">
+<li>Necessarily all and only bachelors are bachelors.</li>
+</ol>
+<p>is true (indeed, a logical truth), and so is the sentence that results from replacing ‘unmarried men’ with ‘bachelors’:</p>
+<ol start="10" class="example" type="1">
+<li>Necessarily all and only bachelors are unmarried men.</li>
+</ol>
+<p>On the current proposal, this is what it is for ‘unmarried men’ and ‘bachelors’ to be synonyms.</p>
+</section>
+<section class="slide level2">
+<h2>Modal Contexts</h2>
+<p>And,</p>
+<ol start="11" class="example" type="1">
+<li>Necessarily all and only creatures with hearts are creatures with hearts.</li>
+</ol>
+<p>is true, but this is not:</p>
+<ol start="12" class="example" type="1">
+<li>Necessarily all and only creatures with hearts are creatures with kidneys.</li>
+</ol>
+<p>This shows that ‘creatures with hearts’ and ‘creatures with kidneys’ are not synonyms.</p>
+</section>
+<section class="slide level2">
+<h2>Modal Contexts</h2>
+<p>And,</p>
+<ol start="13" class="example" type="1">
+<li>Necessarily, 9 is odd.</li>
+<li>Necessarily, the number of planets is odd.</li>
+</ol>
+<p>The first is true, but the second false, showing that ‘9’ and ‘the number of planets’, though they are co-referential, are not synonymous.</p>
+</section>
+<section id="necessarily" class="slide level2">
+<h2>“Necessarily”</h2>
+<p>What about:</p>
+<ol start="15" class="example" type="1">
+<li>Necessarily, all and only triangles are triangles.</li>
+<li>Necessarily, all and only triangles are trilaterals.</li>
+</ol>
+<p>Does this preserve truth? Are ‘triangle’ and ‘trilateral’ synonyms?</p>
+</section>
+<section class="slide level2">
+<h2>“Necessarily”</h2>
+<p>What about:</p>
+<ol start="17" class="example" type="1">
+<li>Necessarily, the force exerted by this physical object is the force exerted by this physical object.</li>
+<li>Necessarily, the force exerted by this physical object is the product of its mass and its acceleration.</li>
+</ol>
+<p>Does this preserve truth? Are the terms synonyms?</p>
+</section>
+<section class="slide level2">
+<h2>“Necessarily”</h2>
 <blockquote>
-<p>When we say, “George IV. wished to know whether Scott was the author of <em>Waverley</em>,” we normally mean “George IV. wished to know whether one and only one man wrote <em>Waverley</em> and Scott was that man”; but we <em>may</em> also mean: “One and only one man wrote <em>Waverley</em>, and George IV. wished to know whether Scott was that man”. In the latter, “the author of <em>Waverley</em>” has a <em>primary</em> occurrence; in the former, a <em>secondary</em>. (489)</p>
-</blockquote>
-</section>
-<section class="slide level2">
-<h2>Two Readings</h2>
-<dl>
-<dt>Secondary (narrow scope)</dt>
-<dd>
-George IV wished to know whether: <span class="math inline">\(\exists x(x\)</span> wrote <em>Waverley</em> and <span class="math inline">\(\forall y(\)</span>if <span class="math inline">\(y\)</span> wrote <em>Waverley</em> then <span class="math inline">\(y=x\)</span>) and <span class="math inline">\(x\)</span> is Scott)
-</dd>
-<dt>Primary (wide scope)</dt>
-<dd>
-<span class="math inline">\(\exists x(x\)</span> wrote <em>Waverley</em> and <span class="math inline">\(\forall y(\)</span>if <span class="math inline">\(y\)</span> wrote *Waverley$ then <span class="math inline">\(y=x\)</span>) and George IV wished to know whether: <span class="math inline">\(x\)</span> is Scott)
-</dd>
-</dl>
-</section>
-<section class="slide level2">
-<h2>Two Readings</h2>
-<div class="callout callout-argument no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Argument</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>(AW1) George IV wished to know whether: Scott was the author of <em>Waverley</em>. (secondary, narrow scope reading)</li>
-<li>(AW2) Scott is the author of <em>Waverley</em>.</li>
-<li>(AW3) So, George IV wished to know whether Scott was Scott.</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section class="slide level2">
-<h2>Two Readings</h2>
-<div class="callout callout-argument no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Argument</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>(AW1*) The author of <em>Waverley</em> is such that George IV wished to know whether Scott was he. (primary, wide scope reading)</li>
-<li>(AW2*) Scott is the author of <em>Waverley</em>.</li>
-<li>(AW3*) So, Scott is such that George IV wished to know whether Scott was he.</li>
-<li>(AW4*) So, George IV wished to know whether Scott was Scott.</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="solution-to-2" class="slide level2">
-<h2>Solution to (2)</h2>
-<blockquote>
-<p>“The King of France is not bald” is false if the occurrence of “the King of France” is primary, and true if it is secondary. Thus all propositions in which “the King of France” has a primary occurrence are false; the denials of such propositions are true, but in them “the King of France” has a secondary occurrence. Thus we escape the conclusion that the King of France has a wig. (490)</p>
-</blockquote>
-</section>
-<section class="slide level2">
-<h2>Solution to (2)</h2>
-<dl>
-<dt>False (primary occurrence)</dt>
-<dd>
-There is one and only one King of France and he is bald.
-</dd>
-<dt>False (primary occurrence)</dt>
-<dd>
-There is one and only one King of France and he is not bald.
-</dd>
-<dt>True (secondary occurrence)</dt>
-<dd>
-It is not the case that: there is one and only one King of France and he is bald.
-</dd>
-<dt>True (secondary occurrence)</dt>
-<dd>
-It is not the case that: there is one and only one King of France and he is not bald.
-</dd>
-</dl>
-</section>
-<section id="solution-to-3" class="slide level2">
-<h2>Solution to (3)</h2>
-<p>Russell’s example,</p>
-<ul>
-<li>The difference between A and B does not exist,</li>
-</ul>
-<p>is weird. Happily, he offers other examples that are easier to follow, like:</p>
-<ul>
-<li>The round square does not exist.</li>
-</ul>
-</section>
-<section class="slide level2">
-<h2>Solution to (3)</h2>
-<dl>
-<dt>True (secondary)</dt>
-<dd>
-It is not the case that there is one and only one round square and it exists.
-</dd>
-<dt>False (primary)</dt>
-<dd>
-There is one and only one round square and it does not exist.
-</dd>
-</dl>
-</section>
-<section class="slide level2">
-<h2>Solution to (3)</h2>
-<blockquote>
-<p>The whole realm of non-entities, such as “the round square,” “the even prime other than 2,” “Apollo,” “Hamlet,” etc., can now be satisfactorily dealt with. All these are denoting phrases which do not denote anything. A proposition about Apollo means what we get by substituting what the classical dictionary tells us is meant by Apollo, say “the sun-god”. All propositions in which Apollo occurs are to be interpreted by the above rules for denoting phrases. If “Apollo” has a primary occurrence, the proposition containing the occurrence is false; if the occurrence is secondary, the proposition may be true. (491)</p>
+<p>Let us see what there is about the above argument that gives it its air of hocus-pocus. The condition of interchangeability salva ve-ritate varies in its force with variations in the richness of the language at hand. The above argument supposes we are working with a language rich enough to contain the adverb ‘necessarily’, this adverb being so construed as to yield truth when and only when applied to an analytic statement. But can we condone a language which contains such an adverb? Does the adverb really make sense? To suppose that it does is to suppose that we have already made satisfactory sense of ‘analytic’. (29)</p>
 </blockquote>
 </section>
 <section class="slide level2">
-<h2>Solution to (3)</h2>
-<ul>
-<li>Famously, Russell argues elsewhere that <em>almost all</em> “proper names” in English are <em>disguised definite descriptions</em>.</li>
-<li>One reason for this: it allows him to apply the primary/secondary distinction to those cases as well:</li>
-</ul>
-<dl>
-<dt>True (secondary)</dt>
-<dd>
-It is not the case that one and only one sun god and it exists.
-</dd>
-<dt>False (primary)</dt>
-<dd>
-There is one and only one sun god and it does not exist.
-</dd>
-</dl>
+<h2>“Necessarily”</h2>
+<p>‘Necessarily’, in English, has different strengths: physical necessity, mathematical necessity…</p>
+<p>The analysis only works if ‘necessarily’ just means ‘is analytic’, then our analysis is:</p>
+<ol start="19" class="example" type="1">
+<li>It is analytic that all and only triangles are triangles.</li>
+<li>It is analytic that all and only triangles are trilaterals.</li>
+</ol>
 </section>
-<section id="the-ontological-argument" class="slide level2">
-<h2>The Ontological Argument</h2>
-<div class="callout callout-argument no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Argument</strong></p>
+<section id="another-problematic-example" class="slide level2">
+<h2>Another Problematic Example…</h2>
+<blockquote>
+<p>I do not know whether the statement ‘Everything green is extended’ is analytic. Now does my indecision over this example really betray an incomplete understanding, an incomplete grasp of the “meanings”, of ‘green’ and ‘extended’? I think not. The trouble is not with ‘green’ or ‘extended’, but with ‘analytic’. (31)</p>
+</blockquote>
+<div class="displayed-sentence">
+<p>Everything green is extended.</p>
 </div>
-<div class="callout-content">
-<ul>
-<li>(OA1) The most perfect Being has all perfections.</li>
-<li>(OA2) Existence is a perfection.</li>
-<li>(OA3) So, the most perfect Being exists.</li>
-</ul>
-</div>
-</div>
-</div>
-<p>Russell claims that, on his analysis (OA1) begs the question.</p>
+<p>Is this analytic?</p>
 
 
 </section></section>
@@ -934,6 +810,11 @@ There is one and only one sun god and it does not exist.
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 1,
+
+        maxScale: 1,
 
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
