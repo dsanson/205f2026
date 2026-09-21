@@ -70,8 +70,6 @@ format:
     template-partials:
     - typst-template.typ
     fontsize: 10pt
-    mainfont: "libertinus serif"
-    sansfont: "libertinus sans"
     margin:
       x: 1in
       y: 1in
