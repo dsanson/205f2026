@@ -287,7 +287,7 @@ You can ignore the paragraph about MacColl's views. See if you can make anything
 
 ## Slides
 
-Here are the [slides](/slides/russell.md) for our Monday discussion of Russell. And the [slides](slides/russell-two.md) for Wednesday.
+Here are the [slides](/slides/russell.md) for our Monday discussion of Russell. And the [slides](/slides/russell-two.md) for Wednesday.
 
 ## References {-}
 

@@ -82,7 +82,7 @@ Kripke is primarily interested in teasing the first two apart: he argues that, g
 
 Here are the slides for Monday 9/21:
 
--  [slides](/slides/kripke.md)
+-  [slides](/slides/kripke.qmd)
 
 ## References {-}
 
