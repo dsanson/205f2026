@@ -18,8 +18,8 @@
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="David Sanson">
-  <meta name="dcterms.date" content="2026-09-02">
-  <title>PHI 205 – Russell’s Three Puzzles</title>
+  <meta name="dcterms.date" content="2026-09-21">
+  <title>PHI 205 – Direct Reference</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -136,25 +136,18 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
   <style>
   #title-slide.quarto-title-block {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.9);
     width: 50%;
-    margin-left: 50%;
-    font-size: smaller;
+    margin-left: -10%;
+    margin-top: 20%;
   }
   </style>
   <style>
-  .reveal div.callout-example.callout {
-    border-left-color: purple;
-  }
-  .reveal div.callout-example.callout-style-default .callout-title {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  .reveal div.callout-example.callout-style-default .callout-icon::before, .reveal div.callout-example.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
   .reveal div.callout-argument.callout {
     border-left-color: yellow;
   }
@@ -165,18 +158,28 @@
     content: '🥊';
     background-image: none;
   }
+  .reveal div.callout-example.callout {
+    border-left-color: purple;
+  }
+  .reveal div.callout-example.callout-style-default .callout-title {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  .reveal div.callout-example.callout-style-default .callout-icon::before, .reveal div.callout-example.callout-titled .callout-icon::before {
+    content: '💭';
+    background-image: none;
+  }
   </style>
-<meta property="og:title" content="Russell’s Three Puzzles – PHI 205">
+<meta property="og:title" content="Direct Reference – PHI 205">
 <meta property="og:site_name" content="PHI 205">
-<meta name="twitter:title" content="Russell’s Three Puzzles – PHI 205">
+<meta name="twitter:title" content="Direct Reference – PHI 205">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="media/Odilon_Redon_Chariot_of_Apollo.jpg" data-background-opacity="0.9" data-background-size="cover" class="quarto-title-block">
-  <h1 class="title">Russell’s Three Puzzles</h1>
+<section id="title-slide" data-background-image="media/dartmouth.png" data-background-opacity="0.9" data-background-size="cover" class="quarto-title-block">
+  <h1 class="title">Direct Reference</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -186,7 +189,7 @@ David Sanson
 </div>
 </div>
 
-  <p class="date">2026-09-02</p>
+  <p class="date">2026-09-21</p>
 </section>
 <section>
 <section id="preliminaries" class="title-slide slide level1 agenda-slide">
@@ -200,7 +203,16 @@ David Sanson
 <a href="#/preliminaries">Preliminaries</a>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active agenda-clickable">
-<a href="#/review">Review</a>
+<a href="#/frege-russell-mill">Frege, Russell, Mill</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/cluster-concepts">Cluster Concepts</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/modality">Modality</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/rigid-and-non-rigid-designators">Rigid and Non-Rigid Designators</a>
 </div></li>
 </ol>
 </div>
@@ -208,14 +220,14 @@ David Sanson
 <section id="announcements" class="slide level2">
 <h2>Announcements</h2>
 <ul>
-<li>No class on Monday (Labor Day)</li>
-<li>Next Wednesday is our first Writing Day</li>
-<li>Rules for Writing Day: bring your notes; printouts of your readings; pen/pencil and paper. No electronic devices allowed.</li>
+<li>I am almost done with your papers. Will return on Wednesday with comments.</li>
+<li>Shit shit shit shit shit the website wasn’t updating.</li>
+<li>Reading for this week is Kripke, <em>Naming and Necessity</em></li>
 </ul>
 </section></section>
 <section>
-<section id="review" class="title-slide slide level1 agenda-slide">
-<h1>Review</h1>
+<section id="frege-russell-mill" class="title-slide slide level1 agenda-slide">
+<h1>Frege, Russell, Mill</h1>
 <div class="agenda-heading">
 <p>Agenda</p>
 </div>
@@ -225,188 +237,264 @@ David Sanson
 <a href="#/preliminaries">Preliminaries</a>
 </div></li>
 <li><div class="agenda-active agenda-clickable">
-<a href="#/review">Review</a>
+<a href="#/frege-russell-mill">Frege, Russell, Mill</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/cluster-concepts">Cluster Concepts</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/modality">Modality</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/rigid-and-non-rigid-designators">Rigid and Non-Rigid Designators</a>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="russells-theory" class="slide level2">
-<h2>Russell’s Theory</h2>
-<dl>
-<dt>The President of ISU wears hats</dt>
-<dd>
-<div class="line-block">(a) There is a President of ISU<br>
-and (b) he is the only President of ISU<br>
-and (c) he wears hats.</div>
-</dd>
-</dl>
-<p>So, when you use a definite description, you assert both (a) existence and (b) uniqueness.</p>
-</section>
-<section class="slide level2">
-<h2>Russell’s Theory</h2>
-<dl>
-<dt>The Governor of Illinois is a Republican</dt>
-<dd>
-<div class="line-block">(a) There is a Governor of Illinois<br>
-and (b) he is the only Governor of Illinois<br>
-and (c) he is a Republican.</div>
-</dd>
-</dl>
-</section>
-<section class="slide level2">
-<h2>Russell’s Theory</h2>
-<dl>
-<dt>The Senator from Illinois is a Democrat</dt>
-<dd>
-<div class="line-block">(a) There is a Senator from Illinois<br>
-and (b) they are the only Senator from Illinois<br>
-and (c) they are a Democrat.</div>
-</dd>
-</dl>
-</section>
-<section class="slide level2">
-<h2>Russell’s Theory</h2>
-<dl>
-<dt>The roller coaster in Uptown Normal is well-hidden</dt>
-<dd>
-<div class="line-block">(a) There is a roller coaster in Uptown Normal<br>
-and (b) it is the only roller coaster in Uptown Normal<br>
-and (c) it is hard to find.</div>
-</dd>
-</dl>
-</section>
-<section class="slide level2">
-<h2>Russell’s Theory</h2>
-<ol class="example" type="1">
-<li>The professor at ISU is wearing a Aloha shirt:
-<ol type="a">
-<li>there is a professor at ISU and</li>
-<li>there is only one professor at ISU and</li>
-<li>they are wearing an Aloha shirt.</li>
-</ol></li>
-<li>The professor teaching PHI 205 is wearing a Aloha shirt.</li>
-<li>The desk in this classroom is broken.</li>
-<li>The piano in this classroom is in tune.</li>
-<li>The piano in this classroom is out of tune.</li>
-</ol>
-</section>
-<section id="the-author-of-waverley" class="slide level2 smaller">
-<h2>(1) The Author of <em>Waverley</em></h2>
-<div class="callout callout-argument no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Argument</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>(AW1) George IV wished to know whether Scott was the author of <em>Waverley</em>.</li>
-<li>(AW2) Scott is the author of <em>Waverley</em>.</li>
-<li>(AW3) So, George IV wished to know whether Scott was Scott.</li>
-</ul>
-</div>
-</div>
-</div>
-<ul>
-<li>(AW1<sub>1</sub>) There is one and only one author of <em>Waverley</em> and George IV wished to know whether: Scott is he.</li>
-<li>(AW1<sub>2</sub>) George IV wished to know whether: there is one and only one author of <em>Waverley</em> and Scott is he.</li>
-</ul>
-<p>How does this solve the puzzle?</p>
-</section>
-<section id="the-present-king-of-france" class="slide level2 smaller">
-<h2>(2) The Present King of France</h2>
+<section id="mill-on-dartmouth" class="slide level2">
+<h2>Mill on ‘Dartmouth’</h2>
 <blockquote>
-<p>By the law of excluded middle, either “A is B” or “A is not B” must be true. Hence either “the present King of France is bald” or “the present King of France is not bald” must be true. Yet if we enumerated the things that are bald, and then the things that are not bald, we should not find the present King of France in either list.</p>
+<p>There is a well known doctrine of John Stuart Mill, in his book <em>A System of Logic</em>, that names have denotation but not connotation … Someone who said that Dartmouth did not lie at the Dart’s mouth would not contradict himself. (26)</p>
 </blockquote>
-<dl>
-<dt>primary occurrence</dt>
-<dd>
-<ol type="a">
-<li>There is a preent king of France and (b) there is only one King of France and (c) he is not bald.</li>
+<aside class="notes">
+<p>Open in Zotero. Let the students read the passage. Discuss the argument.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="frege-and-russell" class="slide level2">
+<h2>Frege and Russell</h2>
+<blockquote>
+<p>But the classical tradition of modern logic has gone very strongly against Mill’s view. Frege and Russell both thought, and seemed to arrive at these conclusions independently of each other, that Mill was wrong in a very strong sense: really a proper name, properly used, simply was a definite description abbreviated or disguised. Frege specifically said that such a description gave the sense of the name. (27)</p>
+</blockquote>
+</section>
+<section id="three-views" class="slide level2">
+<h2>Three Views</h2>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="cell quarto-layout-cell" data-reveal="true" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TB
+    A['Dartmouth'] -- expresses --&gt;  B(*the city that lies at the mouth of the Dart*)
+    B -- determines --&gt; C(Dartmouth)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-cell" data-reveal="true" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TB
+    A['Dartmouth'] -- abbreviates --&gt;  B('The city that lies at the mouth of the Dart')
+    B -- denotes --&gt; C(Dartmouth)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-cell" data-reveal="true" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TB
+    A['Dartmouth'] -- directly refers --&gt;  C(Dartmouth)
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="arguments-in-favor-of-the-frege-russell-view" class="slide level2">
+<h2>Arguments in Favor of the Frege-Russell View</h2>
+<blockquote>
+<p>The basic problem for any view such as Mill’s is how we can determine what the referent of a name (27)</p>
+</blockquote>
+</section>
+<section class="slide level2">
+<h2>Arguments in Favor of the Frege-Russell View</h2>
+<blockquote>
+<p>There are subsidiary arguments which, though they are based on more specialized problems, are also motivations for accepting the view. One is that sometimes we may discover that two names have the same referent, and express this by an identity statement. (28)</p>
+</blockquote>
+</section>
+<section class="slide level2">
+<h2>Arguments in Favor of the Frege-Russell View</h2>
+<blockquote>
+<p>Also we may raise the question whether a name has any reference at all when we ask, c.g., whether Aristotle ever existed. (29)</p>
+</blockquote>
+</section>
+<section id="kripkes-plan" class="slide level2">
+<h2>Kripke’s Plan</h2>
+<blockquote>
+<p>It would be nice to answer all of these arguments. I am not entirely able to see my way clear through every problem of this sort that can be raised. Furthermore, I’m pretty sure that I won’t have time to discuss all these questions in these lectures. Nevertheless, I think it’s pretty certain that the view of Frege and Russell is false. (29)</p>
+</blockquote>
+</section></section>
+<section>
+<section id="cluster-concepts" class="title-slide slide level1 agenda-slide">
+<h1>Cluster Concepts</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/preliminaries">Preliminaries</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/frege-russell-mill">Frege, Russell, Mill</a>
+</div></li>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/cluster-concepts">Cluster Concepts</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/modality">Modality</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/rigid-and-non-rigid-designators">Rigid and Non-Rigid Designators</a>
+</div></li>
 </ol>
-</dd>
-<dt>secondary occurrence</dt>
+</div>
+</section>
+<section id="the-cluster-concept-variant" class="slide level2">
+<h2>The Cluster Concept Variant</h2>
+<blockquote>
+<p>Many people have said that the theory of Frege and Russell is false, but, in my opinion, they have abandoned its letter while retaining its spirit, namely, they have used the notion of a cluster concept. (30)</p>
+</blockquote>
+</section>
+<section id="wittgenstein-on-moses" class="slide level2 smaller">
+<h2>Wittgenstein on ‘Moses’</h2>
+<blockquote>
+<p>Consider this example. If one says ‘Moses did not exist’, this may mean various things. It may mean: the Israelites did not have a <em>single</em> leader when they withdrew from Egypt—-or: their leader was not called Moses—or: there cannot have been anyone who accomplished all that the Bible relates of Moses- … But when I make a statement about Moses,—am I always ready to substitute some <em>one</em> of those descriptions for ‘Moses’? I shall perhaps say: by ‘Moses’ I understand the man who did what the Bible relates of Moses, or at any rate, a good deal of it. But how much? Have I decided how much must be proved false for me to give up my proposition as false? Has the name ’Moses’ got a fixed and unequivocal use for me in all possible cases? (31)</p>
+</blockquote>
+</section></section>
+<section>
+<section id="modality" class="title-slide slide level1 agenda-slide">
+<h1>Modality</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/preliminaries">Preliminaries</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/frege-russell-mill">Frege, Russell, Mill</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/cluster-concepts">Cluster Concepts</a>
+</div></li>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/modality">Modality</a>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active agenda-clickable">
+<a href="#/rigid-and-non-rigid-designators">Rigid and Non-Rigid Designators</a>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="a-priori-vs.-necessary" class="slide level2">
+<h2>A priori vs.&nbsp;Necessary</h2>
+<dl>
+<dt>Goldbach’s Conjecture</dt>
 <dd>
-It is not the case that ((a) there is a KoF and (b) only one present King of France and (c) he is bald).
+Every even number greater than 2 is the sum of two prime numbers.
 </dd>
 </dl>
-<p>How does this solve the puzzle?</p>
-</section>
-<section id="true-negative-existentials" class="slide level2">
-<h2>(3) True Negative Existentials</h2>
-<ol start="6" class="example" type="1">
-<li>The round square does not exist.</li>
-</ol>
 <ul>
-<li>What does Frege’s theory say about (6)?</li>
-<li>What can Russell say about (6), using his distinction between primary and secondary occurrences?</li>
+<li>If true, necessarily true; if false, necessarily false.</li>
+<li>But, at least as of now, we have no proof either way. For all we know, there could be no proof either way.</li>
 </ul>
+<p>So: GC (or its negation) is a necessary truth, but is not a priori knowable.</p>
 </section>
-<section id="proper-names" class="slide level2 smaller">
-<h2>Proper Names</h2>
-<p>Russell’s solution only works for definite descriptions. But what about:</p>
-<ol start="7" class="example" type="1">
-<li>Apollo does not exist.</li>
-</ol>
+<section id="de-re-modality" class="slide level2 smaller">
+<h2>De Re Modality</h2>
 <blockquote>
-<p>The whole realm of non-entities, such as “the round square,” “the even prime other than 2,” “Apollo,” “Hamlet,” etc., can now be satisfactorily dealt with. All these are denoting phrases which do not denote anything. A proposition about Apollo means what we get by substituting what the classical dictionary tells us is meant by Apollo, say “the sun-god”. All propositions in which Apollo occurs are to be interpreted by the above rules for denoting phrases. If “Apollo” has a primary occurrence, the proposition containing the occurrence is false; if the occurrence is secondary, the proposition may be true. (491)</p>
+<p>There is one more question I want to go into in a preliminary way. Some philosophers have distinguished between essentialism, the belief in modality <em>de re</em>, and a mere advocacy of necessity, the belief in modality <em>de dicto</em>. Now, some people Say: Let’s <em>give</em> you the concept of necessity. A much worse thing, something creating great additional problems, is whether we can say of any particular that it has necessary or contingent properties, even make the distinction between necessary and contingent properties. Look, it’s only a statement or a state of affairs that can be either necessary or contingent! Whether a particular necessarily or contingently has a certain property depends on the way it‘s described. (39-40)</p>
 </blockquote>
-<ul>
-<li>Russell thinks that all “ordinary names” in English are actually <em>disguised definite descriptions</em>.</li>
-</ul>
 </section>
-<section id="superman-and-clark-kent" class="slide level2">
-<h2>Superman and Clark Kent</h2>
-<div class="callout callout-argument no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Argument</strong></p>
+<section class="slide level2 smaller">
+<h2>De Re Modality</h2>
+<blockquote>
+<p>What is Quine’s famous example? If we consider the number 9, does it have the property of necessary oddness? Has that number got to be odd in all possible worlds? Certainly it’s true in all possible worlds, let’s say, it couldn’t have been otherwise, that <em>nine</em> is odd. Of course, 9 could also be equally well picked out as <em>the number of planets</em>. It is <em>not</em> necessary, not true in all possible worlds, that the number of planets is odd. For example if there had been eight planets, the number of planets would not have been odd. (40)</p>
+</blockquote>
+</section></section>
+<section>
+<section id="rigid-and-non-rigid-designators" class="title-slide slide level1 agenda-slide">
+<h1>Rigid and Non-Rigid Designators</h1>
+<div class="agenda-heading">
+<p>Agenda</p>
 </div>
-<div class="callout-content">
-<ul>
-<li>(SM1) Lois believes that Superman flies.</li>
-<li>(SM2) Superman is Clark Kent.</li>
-<li>(SM3) So, Lois believes that Clark Kent flies.</li>
-</ul>
-</div>
-</div>
-</div>
-<p>This is structurally the same puzzle as Russell’s Scott/<em>Waverley</em> puzzle, but with proper names, not descriptions.</p>
-<p>What is Russell’s solution?</p>
-</section>
-<section id="sherlock-holmes" class="slide level2">
-<h2>Sherlock Holmes</h2>
-<p>By the law of excluded middle, either ‘Sherlock Holmes smokes a pipe’ is true, or its negation, ‘Sherlock Holmes does not smoke a pipe’ is true. But if you gather all the pipe-smokers together, Holmes will not be among them. And if you gather all the non-pipe smokers, he won’t be among those either.</p>
-<p>What is Russell’s solution?</p>
-</section>
-<section id="logically-proper-names" class="slide level2 smaller">
-<h2>Logically Proper Names</h2>
-<ul>
-<li>Elsewhere, Russell argues that we can only use <em>logically proper names</em> for objects that we are immediately acquainted with.</li>
-<li>His examples: ‘I’, referring to oneself, and ‘this’, referring to an item presently in your sensory field, like a patch of red in your visual field.</li>
-</ul>
-<p>So what should he say about:</p>
-<ol start="8" class="example" type="1">
-<li>I do not exist.</li>
-<li>This does not exist.</li>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/preliminaries">Preliminaries</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/frege-russell-mill">Frege, Russell, Mill</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/cluster-concepts">Cluster Concepts</a>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active agenda-clickable">
+<a href="#/modality">Modality</a>
+</div></li>
+<li><div class="agenda-active agenda-clickable">
+<a href="#/rigid-and-non-rigid-designators">Rigid and Non-Rigid Designators</a>
+</div></li>
 </ol>
+</div>
 </section>
-<section id="the-ontological-argument" class="slide level2">
-<h2>The Ontological Argument</h2>
-<div class="callout callout-argument no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Argument</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>(OA1) The most perfect Being has all perfections.</li>
-<li>(OA2) Existence is a perfection.</li>
-<li>(OA3) So, the most perfect Being exists.</li>
-</ul>
-</div>
-</div>
-</div>
-<p>What does Russell’s theory tell us about (OA1)?</p>
+<section id="and-7" class="slide level2">
+<h2>9 and 7</h2>
+<blockquote>
+<p>What’s the difference between asking whether it’s necessary that 9 is greater than 7 or whether it’s necessary that the number of planets is greater than 7? Why does one show any thing more about essence than the other? The answer to this might be intuitively ‘Well, look, the number of planets might have been different from what it in fact is. It doesn’t make any sense, though, to say that nine might have been different from what it in fact is’. Let’s use some terms quasi-technically. Let’s call something a <em>rigid designator</em> if in every possible world it designates the same object, a <em>nonrigid</em> or <em>accidental designator</em> if that is not the case. (p.&nbsp;48)</p>
+</blockquote>
+</section>
+<section id="nixon-and-the-election" class="slide level2">
+<h2>Nixon and the election</h2>
+<p>See p.&nbsp;41-42</p>
+</section>
+<section id="kripkes-argument" class="slide level2">
+<h2>Kripke’s Argument</h2>
+<blockquote>
+<p>In these lectures, I will argue, intuitively, that proper names are rigid designators, for although the man (Nixon) might not have been the President, it is not the case that he might not have been Nixon (though he might not have been called ‘Nixon’). Those who have argued that to make sense of the notion of rigid designator, we must antecedently make sense of ‘criteria of transworld identity’ have precisely reversed the cart and the horse; it is because we can refer (rigidly) to Nixon, and stipulate that we are speaking of what might have happened to him (under certain circumstances), that ‘transworld identifications’ are unproblematic in such cases. (49)</p>
+</blockquote>
+</section>
+<section id="the-meter-stick-in-paris" class="slide level2">
+<h2>The Meter Stick in Paris</h2>
+<p>See p.&nbsp;54-55</p>
+</section>
+<section class="slide level2">
+<h2>The Meter Stick in Paris</h2>
+<blockquote>
+<p>Even if this is the only standard of length that he uses,” there is an intuitive difference between the phrase ‘one meter’ and the phrase ’the length of S at t<sub>0</sub>’. The first phrase is meant to designate rigidly a certain length in all possible worlds, which in the actual world happens to be the length of the stick S at t<sub>0</sub>. On the other hand ‘the length of S at t<sub>0</sub>’ does not designate anything rigidly. In some counterfactual situations the stick might have been longer and in some shorter, if various stresses and strains had been applied to it. (55)</p>
+</blockquote>
+</section>
+<section id="contingent-a-priori-truths" class="slide level2">
+<h2>Contingent A Priori Truths</h2>
+<blockquote>
+<p>What then, is the epistemological status of the statement ‘Stick S is one meter long at t<sub>0</sub>’, for someone who has fixed the metric system by reference to stick S? (56)</p>
+</blockquote>
 
 
 </section></section>
@@ -597,6 +685,11 @@ It is not the case that ((a) there is a KoF and (b) only one present King of Fra
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 1,
+
+        maxScale: 1,
 
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
