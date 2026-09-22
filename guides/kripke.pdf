@@ -353,7 +353,7 @@ endobj
 <</Type/Annot/Subtype/Link/Rect[108.51 599.84216 147.63 612.9221]/Border[0 0 0]/A<</Type/Action/S/URI/URI(https://canvas.illinoisstate.edu/courses/53417/files/8685470/download?download_frd=1)>>/F 4/StructParent 1/Contents(https://canvas.illinoisstate.edu/courses/53417/files/8685470/download?download_frd=1)>>
 endobj
 118 0 obj
-<</Type/Annot/Subtype/Link/Rect[108.51 543.29 131.19 556.37]/Border[0 0 0]/A<</Type/Action/S/URI/URI(../slides/kripke.md)>>/F 4/StructParent 4/Contents(../slides/kripke.md)>>
+<</Type/Annot/Subtype/Link/Rect[108.51 543.29 131.19 556.37]/Border[0 0 0]/A<</Type/Action/S/URI/URI(../slides/kripke.qmd)>>/F 4/StructParent 4/Contents(../slides/kripke.qmd)>>
 endobj
 119 0 obj
 [/ICCBased 165 0 R]
@@ -670,12 +670,12 @@ FßÎMkäIàπëRüB|ÍÍ&ÿ•énÇ‡§ã∏∫(∏HπrÎT≈≥¸À9`˘Å’®aî&Â ∫ª„Ó:Ÿl
 endstream
 endobj
 166 0 obj
-<</Creator(Typst 0.15.1)/ModDate(D:20260922013109Z)/CreationDate(D:20260922013109Z)>>
+<</Creator(Typst 0.15.1)/ModDate(D:20260922013914Z)/CreationDate(D:20260922013914Z)>>
 endobj
 167 0 obj
 <</Length 999/Type/Metadata/Subtype/XML>>
 stream
-<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><xmp:CreatorTool>Typst 0.15.1</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-09-22T01:31:09+00:00</xmp:ModifyDate><xmp:CreateDate>2026-09-22T01:31:09+00:00</xmp:CreateDate><xmpTPg:NPages>3</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>z5UriKAaD/dxiwyj/PeMCg==</xmpMM:InstanceID><xmpMM:DocumentID>z5UriKAaD/dxiwyj/PeMCg==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="xmp-writer"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:xmp="http://ns.adobe.com/xap/1.0/"  xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"  xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"  xmlns:pdf="http://ns.adobe.com/pdf/1.3/" ><xmp:CreatorTool>Typst 0.15.1</xmp:CreatorTool><dc:language><rdf:Bag><rdf:li>en-US</rdf:li></rdf:Bag></dc:language><xmp:ModifyDate>2026-09-22T01:39:14+00:00</xmp:ModifyDate><xmp:CreateDate>2026-09-22T01:39:14+00:00</xmp:CreateDate><xmpTPg:NPages>3</xmpTPg:NPages><dc:format>application/pdf</dc:format><xmpMM:InstanceID>KC6chvvlJCOUgDBqwZZrgg==</xmpMM:InstanceID><xmpMM:DocumentID>KC6chvvlJCOUgDBqwZZrgg==</xmpMM:DocumentID><xmpMM:RenditionClass>proof</xmpMM:RenditionClass><pdf:PDFVersion>1.7</pdf:PDFVersion></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="r"?>
 endstream
 endobj
 168 0 obj
@@ -802,58 +802,58 @@ xref
 0000010133 00000 n
 0000010460 00000 n
 0000010787 00000 n
-0000010979 00000 n
-0000011016 00000 n
-0000011062 00000 n
-0000011102 00000 n
-0000011148 00000 n
-0000011191 00000 n
-0000011234 00000 n
-0000011277 00000 n
-0000011400 00000 n
-0000011534 00000 n
-0000011657 00000 n
-0000011814 00000 n
-0000012454 00000 n
-0000012669 00000 n
-0000012832 00000 n
-0000013151 00000 n
-0000013372 00000 n
-0000013532 00000 n
-0000014504 00000 n
-0000014723 00000 n
-0000014874 00000 n
-0000015077 00000 n
-0000015286 00000 n
-0000015445 00000 n
-0000015830 00000 n
-0000016047 00000 n
-0000016196 00000 n
-0000016314 00000 n
-0000016455 00000 n
-0000016538 00000 n
-0000017172 00000 n
-0000022560 00000 n
-0000022639 00000 n
-0000023131 00000 n
-0000025245 00000 n
-0000025327 00000 n
-0000026140 00000 n
-0000035146 00000 n
-0000035223 00000 n
-0000035658 00000 n
-0000036366 00000 n
-0000036446 00000 n
-0000036972 00000 n
-0000039895 00000 n
-0000043540 00000 n
-0000046789 00000 n
-0000047830 00000 n
-0000048173 00000 n
-0000048276 00000 n
-0000049352 00000 n
+0000010981 00000 n
+0000011018 00000 n
+0000011064 00000 n
+0000011104 00000 n
+0000011150 00000 n
+0000011193 00000 n
+0000011236 00000 n
+0000011279 00000 n
+0000011402 00000 n
+0000011536 00000 n
+0000011659 00000 n
+0000011816 00000 n
+0000012456 00000 n
+0000012671 00000 n
+0000012834 00000 n
+0000013153 00000 n
+0000013374 00000 n
+0000013534 00000 n
+0000014506 00000 n
+0000014725 00000 n
+0000014876 00000 n
+0000015079 00000 n
+0000015288 00000 n
+0000015447 00000 n
+0000015832 00000 n
+0000016049 00000 n
+0000016198 00000 n
+0000016316 00000 n
+0000016457 00000 n
+0000016540 00000 n
+0000017174 00000 n
+0000022562 00000 n
+0000022641 00000 n
+0000023133 00000 n
+0000025247 00000 n
+0000025329 00000 n
+0000026142 00000 n
+0000035148 00000 n
+0000035225 00000 n
+0000035660 00000 n
+0000036368 00000 n
+0000036448 00000 n
+0000036974 00000 n
+0000039897 00000 n
+0000043542 00000 n
+0000046791 00000 n
+0000047832 00000 n
+0000048175 00000 n
+0000048278 00000 n
+0000049354 00000 n
 trailer
-<</Size 169/Root 168 0 R/Info 166 0 R/ID[(z5UriKAaD/dxiwyj/PeMCg==)(z5UriKAaD/dxiwyj/PeMCg==)]>>
+<</Size 169/Root 168 0 R/Info 166 0 R/ID[(KC6chvvlJCOUgDBqwZZrgg==)(KC6chvvlJCOUgDBqwZZrgg==)]>>
 startxref
-49734
+49736
 %%EOF
