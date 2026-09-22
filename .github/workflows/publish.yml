@@ -19,6 +19,7 @@ jobs:
           DEBIAN_FRONTEND: noninteractive
         run: |
           sudo apt-get update
+          sudo apt-get install -y inkscape
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -26,9 +27,6 @@ jobs:
       - name: Install Quarto extensions
         run: |
           quarto install extension --no-prompt pandoc-ext/diagram
-
-      - name: Check font availability
-        run: quarto typst fonts --font-path fonts
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
