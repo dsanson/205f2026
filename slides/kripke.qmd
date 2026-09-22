@@ -1,0 +1,149 @@
+---
+title: "Direct Reference"
+date: 2026-09-21
+center-title-slide: false
+title-slide-attributes:
+  data-background-image: media/dartmouth.png
+  data-background-size: cover
+  data-background-opacity: "0.9"
+include-in-header:
+  - text: |
+      <style>
+      #title-slide.quarto-title-block {
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 50%;
+        margin-left: -10%;
+        margin-top: 20%;
+      }
+      </style>
+fig-cap-location: top
+format:
+  revealjs:
+    min-scale: 1
+    max-scale: 1
+    template-partials:
+      - title-slide.html
+---
+
+# Preliminaries
+
+## Announcements
+
+-  I am almost done with your papers. Will return on Wednesday with comments.
+-  Shit shit shit shit shit the website wasn't updating.
+-  Reading for this week is Kripke, *Naming and Necessity*
+
+# Frege, Russell, Mill
+
+## Mill on 'Dartmouth'
+
+> There is a well known doctrine of John Stuart Mill, in his book *A System of Logic*, that names have denotation but not connotation ... Someone who said that Dartmouth did not lie at the Dart's mouth would not contradict himself. (26)
+
+:::notes
+Open in Zotero. Let the students read the passage. Discuss the argument.
+:::
+
+## Frege and Russell
+
+> But the classical tradition of modern logic has  gone very strongly against Mill's view. Frege and Russell both thought, and seemed to arrive at these conclusions independently of each other, that Mill was wrong in a very strong sense: really a proper name, properly used, simply was a definite description abbreviated or disguised. Frege specifically said that such a description gave the sense of the name. (27)
+
+## Three Views
+
+:::{layout-ncol=3}
+
+```{mermaid}
+graph TB
+    A['Dartmouth'] -- expresses -->  B(*the city that lies at the mouth of the Dart*)
+    B -- determines --> C(Dartmouth)
+```
+```{mermaid}
+graph TB
+    A['Dartmouth'] -- abbreviates -->  B('The city that lies at the mouth of the Dart')
+    B -- denotes --> C(Dartmouth)
+```
+```{mermaid}
+graph TB
+    A['Dartmouth'] -- directly refers -->  C(Dartmouth)
+```
+
+:::
+
+## Arguments in Favor of the Frege-Russell View
+
+> The basic problem for any view such as Mill's is how we can determine what the referent of a name (27)
+
+---
+
+> There are subsidiary arguments which, though they are based on more specialized problems, are also motivations for accepting the view. One is that sometimes we may discover that two names have the same referent, and express this by an identity statement. (28)
+
+---
+
+> Also we may raise the question whether a name has any reference at all when we ask, c.g., whether Aristotle ever existed. (29)
+
+## Kripke's Plan
+
+> It would be nice to answer all of these arguments. I am not entirely able to see my way clear through every problem of this sort that can be raised. Furthermore, I'm pretty sure that I won't have time to discuss all these questions in these lectures. Nevertheless, I think it's pretty certain that the view of Frege and Russell is false. (29)
+
+# Cluster Concepts
+
+## The Cluster Concept Variant
+
+> Many people have said that the theory of Frege and Russell is false, but, in my opinion, they have abandoned its letter while retaining its spirit, namely, they have used the notion of a cluster concept. (30)
+
+## Wittgenstein on 'Moses' {.smaller}
+
+> Consider this example. If one says ‘Moses did not exist’, this may mean various things. It may mean: the Israelites did not have a *single* leader when they withdrew from Egypt—-or: their leader was not called Moses—or: there cannot have been anyone who accomplished all that the Bible relates of Moses- ... But when I make a statement about Moses,—am I always ready to substitute some *one* of those descriptions for 'Moses'? I shall perhaps say: by 'Moses’ I understand the man who did what the Bible relates of Moses, or at any rate, a good deal of it. But how much? Have I decided how much must be proved false for me to give up my proposition as false? Has the name 'Moses' got a fixed and unequivocal use for me in all possible cases? (31)
+
+# Modality
+
+## A priori vs. Necessary
+
+Goldbach's Conjecture
+:   Every even number greater than 2 is the sum of two prime numbers.
+
+-  If true, necessarily true; if false, necessarily false.
+-  But, at least as of now, we have no proof either way. For all we know, there could be no proof either way.
+
+So: GC (or its negation) is a necessary truth, but is not a priori knowable.
+
+## De Re Modality {.smaller}
+
+> There is one more question I want to go into in a preliminary way. Some philosophers have distinguished between essentialism, the belief in modality *de re*, and a mere advocacy of necessity, the belief in modality *de dicto*. Now, some people Say: Let’s *give* you the concept of necessity. A much worse thing, something creating great additional problems, is whether we can say of any particular that it has necessary or contingent properties, even make the distinction between necessary and contingent properties. Look, it’s only a statement or a state of affairs that can be either necessary or contingent! Whether a particular necessarily or contingently has a certain property depends on the way it‘s described. (39-40)
+
+---
+
+> What is Quine’s famous example? If we consider the number 9, does it have the property of necessary oddness? Has that number got to be odd in all possible worlds? Certainly it's true in all possible worlds, let’s say, it couldn't have been otherwise, that *nine* is odd. Of course, 9 could also be equally well picked out as *the number of planets*. It is *not* necessary, not true in all possible worlds, that the number of planets is odd. For example if there had been eight planets, the number of planets would not have been odd. (40)
+
+# Rigid and Non-Rigid Designators {.smaller .scrollable}
+
+## 9 and 7
+
+> What's the difference between asking whether it's necessary that 9 is greater than 7 or whether it's necessary that the number of planets is greater than 7? Why does one show any thing more about essence than the other? The answer to this might be intuitively ‘Well, look, the number of planets might have been different from what it in fact is. It doesn't make any sense, though, to say that nine might have been different from what it in fact is’. Let’s use some terms quasi-technically. Let’s call something a *rigid designator* if in every possible world it designates the same object, a *nonrigid* or *accidental designator* if that is not the case. (p. 48)
+
+## Nixon and the election
+
+See p. 41-42
+
+## Kripke's Argument
+
+> In these lectures, I will argue, intuitively, that proper names are rigid designators, for although the man (Nixon) might not have been the President, it is not the case that he might not have been Nixon (though he might not have been called 'Nixon'). Those who have argued that to make sense of the notion of rigid designator, we must antecedently make sense of ‘criteria of transworld identity’ have precisely reversed the cart and the horse; it is because we can refer (rigidly) to Nixon, and stipulate that we are speaking of what might have happened to him (under certain circumstances), that ‘transworld identifications' are unproblematic in such cases. (49)
+
+## The Meter Stick in Paris
+
+See p. 54-55
+
+---
+
+> Even if this is the only standard of length that he uses," there is an intuitive difference between the phrase ‘one meter’ and the phrase 'the length of S at t~0~’. The first phrase is meant to designate rigidly a certain length in all possible worlds, which in the actual world happens to be the length of the stick S at t~0~. On the other hand ‘the length of S at t~0~’ does not designate anything rigidly. In some counterfactual situations the stick might have been longer and in some shorter, if various stresses and strains had been applied to it. (55)
+
+## Contingent A Priori Truths
+
+> What then, is the epistemological status of the statement ‘Stick S is one meter long at t~0~’, for someone who has fixed the metric system by reference to stick S? (56)
+
+
+
+
+
+
+
+

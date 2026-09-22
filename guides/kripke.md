@@ -78,6 +78,11 @@ Kripke is primarily interested in teasing the first two apart: he argues that, g
 
 ## Go Forth and Read!
 
+## Slides
+
+Here are the slides for Monday 9/21:
+
+-  [slides](/slides/kripke.md)
 
 ## References {-}
 
