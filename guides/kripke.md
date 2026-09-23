@@ -80,9 +80,10 @@ Kripke is primarily interested in teasing the first two apart: he argues that, g
 
 ## Slides
 
-Here are the slides for Monday 9/21:
+Here are the slides for Monday 9/21 and Tuesday 9/23:
 
 -  [slides](/slides/kripke.qmd)
+-  [slides](/slides/kripke-two.qmd)
 
 ## References {-}
 
