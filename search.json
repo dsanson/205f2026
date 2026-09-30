@@ -217,6 +217,587 @@
     "text": "The Ontological Argument\n\n\n\nArgument\n\n\n\n(OA1) The most perfect Being has all perfections.\n(OA2) Existence is a perfection.\n(OA3) So, the most perfect Being exists.\n\n\n\n\nWhat does Russell’s theory tell us about (OA1)?"
   },
   {
+    "objectID": "slides/kripke.html#announcements",
+    "href": "slides/kripke.html#announcements",
+    "title": "Direct Reference",
+    "section": "Announcements",
+    "text": "Announcements\n\nI am almost done with your papers. Will return on Wednesday with comments.\nShit shit shit shit shit the website wasn’t updating.\nReading for this week is Kripke, Naming and Necessity"
+  },
+  {
+    "objectID": "slides/kripke.html#mill-on-dartmouth",
+    "href": "slides/kripke.html#mill-on-dartmouth",
+    "title": "Direct Reference",
+    "section": "Mill on ‘Dartmouth’",
+    "text": "Mill on ‘Dartmouth’\n\nThere is a well known doctrine of John Stuart Mill, in his book A System of Logic, that names have denotation but not connotation … Someone who said that Dartmouth did not lie at the Dart’s mouth would not contradict himself. (26)\n\n\nOpen in Zotero. Let the students read the passage. Discuss the argument."
+  },
+  {
+    "objectID": "slides/kripke.html#frege-and-russell",
+    "href": "slides/kripke.html#frege-and-russell",
+    "title": "Direct Reference",
+    "section": "Frege and Russell",
+    "text": "Frege and Russell\n\nBut the classical tradition of modern logic has gone very strongly against Mill’s view. Frege and Russell both thought, and seemed to arrive at these conclusions independently of each other, that Mill was wrong in a very strong sense: really a proper name, properly used, simply was a definite description abbreviated or disguised. Frege specifically said that such a description gave the sense of the name. (27)"
+  },
+  {
+    "objectID": "slides/kripke.html#three-views",
+    "href": "slides/kripke.html#three-views",
+    "title": "Direct Reference",
+    "section": "Three Views",
+    "text": "Three Views\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- expresses --&gt;  B(*the city that lies at the mouth of the Dart*)\n    B -- determines --&gt; C(Dartmouth)\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- abbreviates --&gt;  B('The city that lies at the mouth of the Dart')\n    B -- denotes --&gt; C(Dartmouth)\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- directly refers --&gt;  C(Dartmouth)"
+  },
+  {
+    "objectID": "slides/kripke.html#arguments-in-favor-of-the-frege-russell-view",
+    "href": "slides/kripke.html#arguments-in-favor-of-the-frege-russell-view",
+    "title": "Direct Reference",
+    "section": "Arguments in Favor of the Frege-Russell View",
+    "text": "Arguments in Favor of the Frege-Russell View\n\nThe basic problem for any view such as Mill’s is how we can determine what the referent of a name (27)"
+  },
+  {
+    "objectID": "slides/kripke.html#kripkes-plan",
+    "href": "slides/kripke.html#kripkes-plan",
+    "title": "Direct Reference",
+    "section": "Kripke’s Plan",
+    "text": "Kripke’s Plan\n\nIt would be nice to answer all of these arguments. I am not entirely able to see my way clear through every problem of this sort that can be raised. Furthermore, I’m pretty sure that I won’t have time to discuss all these questions in these lectures. Nevertheless, I think it’s pretty certain that the view of Frege and Russell is false. (29)"
+  },
+  {
+    "objectID": "slides/kripke.html#the-cluster-concept-variant",
+    "href": "slides/kripke.html#the-cluster-concept-variant",
+    "title": "Direct Reference",
+    "section": "The Cluster Concept Variant",
+    "text": "The Cluster Concept Variant\n\nMany people have said that the theory of Frege and Russell is false, but, in my opinion, they have abandoned its letter while retaining its spirit, namely, they have used the notion of a cluster concept. (30)"
+  },
+  {
+    "objectID": "slides/kripke.html#wittgenstein-on-moses",
+    "href": "slides/kripke.html#wittgenstein-on-moses",
+    "title": "Direct Reference",
+    "section": "Wittgenstein on ‘Moses’",
+    "text": "Wittgenstein on ‘Moses’\n\nConsider this example. If one says ‘Moses did not exist’, this may mean various things. It may mean: the Israelites did not have a single leader when they withdrew from Egypt—-or: their leader was not called Moses—or: there cannot have been anyone who accomplished all that the Bible relates of Moses- … But when I make a statement about Moses,—am I always ready to substitute some one of those descriptions for ‘Moses’? I shall perhaps say: by ‘Moses’ I understand the man who did what the Bible relates of Moses, or at any rate, a good deal of it. But how much? Have I decided how much must be proved false for me to give up my proposition as false? Has the name ’Moses’ got a fixed and unequivocal use for me in all possible cases? (31)"
+  },
+  {
+    "objectID": "slides/kripke.html#a-priori-vs.-necessary",
+    "href": "slides/kripke.html#a-priori-vs.-necessary",
+    "title": "Direct Reference",
+    "section": "A priori vs. Necessary",
+    "text": "A priori vs. Necessary\n\nGoldbach’s Conjecture\n\nEvery even number greater than 2 is the sum of two prime numbers.\n\n\n\nIf true, necessarily true; if false, necessarily false.\nBut, at least as of now, we have no proof either way. For all we know, there could be no proof either way.\n\nSo: GC (or its negation) is a necessary truth, but is not a priori knowable."
+  },
+  {
+    "objectID": "slides/kripke.html#de-re-modality",
+    "href": "slides/kripke.html#de-re-modality",
+    "title": "Direct Reference",
+    "section": "De Re Modality",
+    "text": "De Re Modality\n\nThere is one more question I want to go into in a preliminary way. Some philosophers have distinguished between essentialism, the belief in modality de re, and a mere advocacy of necessity, the belief in modality de dicto. Now, some people Say: Let’s give you the concept of necessity. A much worse thing, something creating great additional problems, is whether we can say of any particular that it has necessary or contingent properties, even make the distinction between necessary and contingent properties. Look, it’s only a statement or a state of affairs that can be either necessary or contingent! Whether a particular necessarily or contingently has a certain property depends on the way it‘s described. (39-40)"
+  },
+  {
+    "objectID": "slides/kripke.html#and-7",
+    "href": "slides/kripke.html#and-7",
+    "title": "Direct Reference",
+    "section": "9 and 7",
+    "text": "9 and 7\n\nWhat’s the difference between asking whether it’s necessary that 9 is greater than 7 or whether it’s necessary that the number of planets is greater than 7? Why does one show any thing more about essence than the other? The answer to this might be intuitively ‘Well, look, the number of planets might have been different from what it in fact is. It doesn’t make any sense, though, to say that nine might have been different from what it in fact is’. Let’s use some terms quasi-technically. Let’s call something a rigid designator if in every possible world it designates the same object, a nonrigid or accidental designator if that is not the case. (p. 48)"
+  },
+  {
+    "objectID": "slides/kripke.html#nixon-and-the-election",
+    "href": "slides/kripke.html#nixon-and-the-election",
+    "title": "Direct Reference",
+    "section": "Nixon and the election",
+    "text": "Nixon and the election\nSee p. 41-42"
+  },
+  {
+    "objectID": "slides/kripke.html#kripkes-argument",
+    "href": "slides/kripke.html#kripkes-argument",
+    "title": "Direct Reference",
+    "section": "Kripke’s Argument",
+    "text": "Kripke’s Argument\n\nIn these lectures, I will argue, intuitively, that proper names are rigid designators, for although the man (Nixon) might not have been the President, it is not the case that he might not have been Nixon (though he might not have been called ‘Nixon’). Those who have argued that to make sense of the notion of rigid designator, we must antecedently make sense of ‘criteria of transworld identity’ have precisely reversed the cart and the horse; it is because we can refer (rigidly) to Nixon, and stipulate that we are speaking of what might have happened to him (under certain circumstances), that ‘transworld identifications’ are unproblematic in such cases. (49)"
+  },
+  {
+    "objectID": "slides/kripke.html#the-meter-stick-in-paris",
+    "href": "slides/kripke.html#the-meter-stick-in-paris",
+    "title": "Direct Reference",
+    "section": "The Meter Stick in Paris",
+    "text": "The Meter Stick in Paris\nSee p. 54-55"
+  },
+  {
+    "objectID": "slides/kripke.html#contingent-a-priori-truths",
+    "href": "slides/kripke.html#contingent-a-priori-truths",
+    "title": "Direct Reference",
+    "section": "Contingent A Priori Truths",
+    "text": "Contingent A Priori Truths\n\nWhat then, is the epistemological status of the statement ‘Stick S is one meter long at t0’, for someone who has fixed the metric system by reference to stick S? (56)"
+  },
+  {
+    "objectID": "slides/frege.html#reading",
+    "href": "slides/frege.html#reading",
+    "title": "Frege, Continued",
+    "section": "Reading",
+    "text": "Reading\n\nReading for next week is Russell, “On Denoting” and Strawson, “On Referring”.\nRussell’s “Descriptions” is optional, but many find that it is a clearer presentation of some of the key ideas from “On Denoting.”\nI need to get the “guide” up!\nI have added a link to these slides to the “guide” for Frege."
+  },
+  {
+    "objectID": "slides/frege.html#proper-names-senses-referents",
+    "href": "slides/frege.html#proper-names-senses-referents",
+    "title": "Frege, Continued",
+    "section": "Proper Names, Senses, Referents",
+    "text": "Proper Names, Senses, Referents\n\nA proper name is a word or phrase that designates a single determinate thing.\nEach proper name expresses a sense and refers to a referent.\nThe relation between name and sense is conventional; the relation between sense and referent is not."
+  },
+  {
+    "objectID": "slides/frege.html#senses",
+    "href": "slides/frege.html#senses",
+    "title": "Frege, Continued",
+    "section": "Senses",
+    "text": "Senses\n\nA sense is a “mode of presentation” or a “way of thinking about” the referent.\nSenses are not subjective “conceptions”, but shared objective thoughts: otherwise, communication would be impossible\n“One can hardly deny that mankind has a common store of thoughts which is transmitted from one generation to another” p. 212\nTo know what a word means is to grasp the sense it expresses."
+  },
+  {
+    "objectID": "slides/frege.html#a-note-about-thought",
+    "href": "slides/frege.html#a-note-about-thought",
+    "title": "Frege, Continued",
+    "section": "A Note about ‘Thought’",
+    "text": "A Note about ‘Thought’\n\nThe word thought is subject to an “act-object” ambiguity.\nExamples: ‘work’, ‘belief’, ‘perception’\nIn each case, there is, on the one hand, the process or act or state—the work, the belief, the perception—and, on the other hand, the product or content—the work, the belief, the perception.\nFrege is saying that we have access to a shared store of thought contents. He is not saying that we are part of a hive mind that engages in collective acts of thought."
+  },
+  {
+    "objectID": "slides/frege.html#names-express-senses",
+    "href": "slides/frege.html#names-express-senses",
+    "title": "Frege, Continued",
+    "section": "Names express Senses",
+    "text": "Names express Senses\n\nThe relation between a name and the sense it expresses is conventional and arbitrary.\nTwo names can express the same sense: synonyms, but also translation.\nOne name should not be used to express more than one sense: ambiguity, which should be avoided.\nNo name should fail to express a sense: nonsense, which should be avoided."
+  },
+  {
+    "objectID": "slides/frege.html#senses-and-referents",
+    "href": "slides/frege.html#senses-and-referents",
+    "title": "Frege, Continued",
+    "section": "Senses and Referents",
+    "text": "Senses and Referents\n\nThe sense of a proper name determines a single unique referent—or no referent at all.\nThe relation between a sense and the referent it determines is not conventional.\nThe same referent can be determined by many different senses—there can be many different ways of thinking about the same thing.\nSome proper names express senses that fail to determine any referent at all: empty names."
+  },
+  {
+    "objectID": "slides/frege.html#compositionality",
+    "href": "slides/frege.html#compositionality",
+    "title": "Frege, Continued",
+    "section": "Compositionality",
+    "text": "Compositionality\n\nThe meaning of a whole sentence is a function of the meanings of its parts.\nCompositionality explains your ability to understand sentences you have never heard before:\n‘The purple twinkies that you left in the drawer spontaneously combusted.’"
+  },
+  {
+    "objectID": "slides/frege.html#compositionality-of-sense-and-reference",
+    "href": "slides/frege.html#compositionality-of-sense-and-reference",
+    "title": "Frege, Continued",
+    "section": "Compositionality of Sense and Reference",
+    "text": "Compositionality of Sense and Reference\n\nThe sense expressed by a whole sentence—the thought it expresses—is a function of the senses expressed by its parts.\nThe referent of a whole sentence—its truth value—is a function of the referents of its parts."
+  },
+  {
+    "objectID": "slides/frege.html#compositionality-and-empty-names",
+    "href": "slides/frege.html#compositionality-and-empty-names",
+    "title": "Frege, Continued",
+    "section": "Compositionality and Empty Names",
+    "text": "Compositionality and Empty Names\n\nIf a sentence contains a proper name that fails to express any sense—a nonsense word—that sentence fails to express a thought.\nIf a sentence contains a proper name that expresses a sense, but has no referent, that sentence expresses a thought, but has no truth value."
+  },
+  {
+    "objectID": "slides/frege.html#reading-1",
+    "href": "slides/frege.html#reading-1",
+    "title": "Frege, Continued",
+    "section": "Reading",
+    "text": "Reading\n\nRe-read p. 215 and gather your thoughts.\nDiscuss the passage with two people sitting next to you.\nCan you come up with other examples of sentences with empty names?"
+  },
+  {
+    "objectID": "slides/frege.html#sentences-with-empty-names",
+    "href": "slides/frege.html#sentences-with-empty-names",
+    "title": "Frege, Continued",
+    "section": "Sentences with Empty Names",
+    "text": "Sentences with Empty Names\nWhat does Frege’s view imply about these sentences:\n\n‘Odysseus was set ashore at Ithaca while sound asleep’\n‘The largest natural number is even.’\n‘The largest natural number is odd.’\n‘Sherlock Holmes is a detective.’"
+  },
+  {
+    "objectID": "slides/frege.html#compositionality-and-substitutivity",
+    "href": "slides/frege.html#compositionality-and-substitutivity",
+    "title": "Frege, Continued",
+    "section": "Compositionality and Substitutivity",
+    "text": "Compositionality and Substitutivity\n\nThe referent—truth value—of a sentence is a function of the referents of its parts.\nSo, if you replace a proper name with another proper name that has the same referent—even if it has a different sense—this should not affect the truth value."
+  },
+  {
+    "objectID": "slides/frege.html#examples",
+    "href": "slides/frege.html#examples",
+    "title": "Frege, Continued",
+    "section": "Examples",
+    "text": "Examples\n\n\n\nArgument\n\n\n\nThe largest prime number less than 10 is odd.\nSo, seven is odd.\n\n\n\n\n\n\n\nArgument\n\n\n\nSuperman just flew past my window.\nSo, Clark Kent just flew past my window.\n\n\n\n\n\n\n\nArgument\n\n\n\nLois believes that Superman flies.\nSo, Lois believes that Clark Kent flies."
+  },
+  {
+    "objectID": "slides/frege.html#indirect-speech",
+    "href": "slides/frege.html#indirect-speech",
+    "title": "Frege, Continued",
+    "section": "Indirect Speech",
+    "text": "Indirect Speech\n\n\n\nArgument\n\n\n\nLois believes that Superman flies.\nSo, Lois believes that Clark Kent flies.\n\n\n\n\nRe-read p. 211-212. According to Frege, why is this a bad argument."
+  },
+  {
+    "objectID": "slides/frege.html#idealism-and-skepticism",
+    "href": "slides/frege.html#idealism-and-skepticism",
+    "title": "Frege, Continued",
+    "section": "Idealism and Skepticism",
+    "text": "Idealism and Skepticism\n\nIdealism is the view that there is no external world beyond our ideas.\nSkepticism is the view that, for all we know, there is no external world beyond our ideas.\nBoth might seem like good reasons to hold, with Locke, that words can only be signs for ideas, not objects in reality.\n\nRe-read p. 214. What is Frege’s take on these issues?"
+  },
+  {
+    "objectID": "slides/frege.html#sentences-truth-values-and-judgment",
+    "href": "slides/frege.html#sentences-truth-values-and-judgment",
+    "title": "Frege, Continued",
+    "section": "Sentences, Truth Values, and Judgment",
+    "text": "Sentences, Truth Values, and Judgment\n\nThe view that the referent of a sentence is a truth value is weird!\n\nRe-read p. 215-218.\n\nCan we unpack the argument here, that a sentence refers to its truth value, and that the true and the false are objects, not predicates?\nWhat is Frege’s account of judgment?"
+  },
+  {
+    "objectID": "slides/frege.html#solving-the-puzzle",
+    "href": "slides/frege.html#solving-the-puzzle",
+    "title": "Frege, Continued",
+    "section": "Solving the Puzzle",
+    "text": "Solving the Puzzle\nRe-read p. 230. How does Frege’s theory allow him to solve the original puzzle?"
+  },
+  {
+    "objectID": "slides/kripke-two.html#announcements",
+    "href": "slides/kripke-two.html#announcements",
+    "title": "Direct Reference, Continued",
+    "section": "Announcements",
+    "text": "Announcements\n\nI am not yet done with your papers. Will return on Monday with comments.\nReading for next week is Putnam (1973)."
+  },
+  {
+    "objectID": "slides/kripke-two.html#three-views",
+    "href": "slides/kripke-two.html#three-views",
+    "title": "Direct Reference, Continued",
+    "section": "Three Views",
+    "text": "Three Views\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- expresses --&gt;  B(*the city that lies at the mouth of the Dart*)\n    B -- determines --&gt; C(Dartmouth)\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- abbreviates --&gt;  B('The city that lies at the mouth of the Dart')\n    B -- denotes --&gt; C(Dartmouth)\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- directly refers --&gt;  C(Dartmouth)"
+  },
+  {
+    "objectID": "slides/kripke-two.html#definitions",
+    "href": "slides/kripke-two.html#definitions",
+    "title": "Direct Reference, Continued",
+    "section": "Definitions",
+    "text": "Definitions\n\nRigid Designator\n\nX is a rigid designator just in case it designates the same object in every possible world.\n\nNonrigid Designator\n\nX is a nonrigid designator just in case it is not a rigid designator."
+  },
+  {
+    "objectID": "slides/kripke-two.html#and-the-number-of-planets",
+    "href": "slides/kripke-two.html#and-the-number-of-planets",
+    "title": "Direct Reference, Continued",
+    "section": "9 and the number of planets",
+    "text": "9 and the number of planets\n\nWhat’s the difference between asking whether it’s necessary that 9 is greater than 7 or whether it’s necessary that the number of planets is greater than 7? Why does one show any thing more about essence than the other? The answer to this might be intuitively ‘Well, look, the number of planets might have been different from what it in fact is. It doesn’t make any sense, though, to say that nine might have been different from what it in fact is’.\n\n\n‘9’ is a rigid designator. ‘The number of planets’ is nonrigid."
+  },
+  {
+    "objectID": "slides/kripke-two.html#the-meter-stick-in-paris",
+    "href": "slides/kripke-two.html#the-meter-stick-in-paris",
+    "title": "Direct Reference, Continued",
+    "section": "The Meter Stick in Paris",
+    "text": "The Meter Stick in Paris\nRead p. 54-55\n\n\n‘One meter’ rigidly designates a certain length in all possible worlds, which happens, in our world, to be the length of stick S at t0.\n‘The length of stick S at t0’ does not rigidly designate one length in all possible worlds: it designates different lengths in worlds where the stick is longer or shorter than it actually is."
+  },
+  {
+    "objectID": "slides/kripke-two.html#six-theses",
+    "href": "slides/kripke-two.html#six-theses",
+    "title": "Direct Reference, Continued",
+    "section": "Six Theses",
+    "text": "Six Theses\n\nTo every name or designating expression ‘\\(X\\)’, there corresponds a cluster of properties, namely the family of those properties \\(\\varphi\\) such that \\(A\\) believes ‘\\(\\varphi X\\)’.\nOne of the properties, or some conjointly, are believed by \\(A\\) to pick out some individual uniquely.\nIf most, or a weighted most, of the \\(\\varphi\\)’s are satisfied by one unique object \\(y\\), then \\(y\\) is the referent of ‘\\(X\\)’.\nIf the vote yields no unique object, ‘\\(X\\)’ does not refer.\nThe statement, ‘If \\(X\\) exists, then \\(X\\) has most of the \\(\\varphi\\)’s’ is known a priori by the speaker.\nThe statement, ‘If \\(X\\) exists, then \\(X\\) has most of the \\(\\varphi\\)’s’ expresses a necessary truth (in the idiolect of the speaker).\n\n\n\nFor any successful theory, the account must not be circular. The properties which are used in the vote must not themselves involve the notion of reference in such a way that it is ultimately impossible to eliminate."
+  },
+  {
+    "objectID": "slides/kripke-two.html#kneale-on-socrates",
+    "href": "slides/kripke-two.html#kneale-on-socrates",
+    "title": "Direct Reference, Continued",
+    "section": "Kneale on ‘Socrates’",
+    "text": "Kneale on ‘Socrates’\n\nOrdinary proper names of people are not, as John Stuart Mill supposed, signs without sense. While it may be informative to tell a man that the most famous Greek philosopher was called Socrates, it is obviously trifling to tell him that Socrates was called Socrates; and the reason is simply that he cannot understand your use of the word ‘Socrates’ at the beginning of your statement unless he already knows that ‘Socrates’ means ‘The individual called “Socrates”’. (68)\n\n\nWhat is wrong with this view, according to Kripke?\nHave them take a look at p. 69 and also p. 72-73. Ask them to reconstruct Kneale’s argument and Kripke’s criticism."
+  },
+  {
+    "objectID": "slides/kripke-two.html#against-6",
+    "href": "slides/kripke-two.html#against-6",
+    "title": "Direct Reference, Continued",
+    "section": "Against (6)",
+    "text": "Against (6)\n\nThe statement, ‘If \\(X\\) exists, then \\(X\\) has most of the \\(\\varphi\\)’s’ expresses a necessary truth (in the idiolect of the speaker).\n\nSee p. 74-75: Aristotle and Hitler\n\nAsk them to reconstruct the counterexample."
+  },
+  {
+    "objectID": "slides/kripke-two.html#reference-fixing",
+    "href": "slides/kripke-two.html#reference-fixing",
+    "title": "Direct Reference, Continued",
+    "section": "Reference Fixing",
+    "text": "Reference Fixing\n\nSuppose we do decide to pick out the reference of ‘Hitler’, as the man who succeeded in having more ]ews killed than anyone else managed to do in history. That is the way we pick out the reference of the name; but in another counterfactual situation where some one else would have gained this discredit, we wouldn’t say that in that case that other man would have been Hitler. If Hitler had never come to power, Hitler would not have had the property which I am supposing we use to fix the reference of his name.\n\nEven when we use a property \\(\\varphi\\) to fix the reference of ‘\\(X\\)’, it does not follow that ‘X has \\(\\varphi\\)’ is a necessary truth."
+  },
+  {
+    "objectID": "slides/kripke-two.html#theses-1-5-without-6",
+    "href": "slides/kripke-two.html#theses-1-5-without-6",
+    "title": "Direct Reference, Continued",
+    "section": "Theses 1-5 without 6?",
+    "text": "Theses 1-5 without 6?\nSuppose we abandon 6. Then we give up on the theory as a theory of meaning, but we hold on to it as a theory of reference fixing. This is how the reference of (your use of) a name like ‘Hilter’ is fixed or determined, based on the properties he actually has in this world. But it is not a theory of what the name ‘Hilter’ means when you use it."
+  },
+  {
+    "objectID": "slides/kripke-two.html#theses-1",
+    "href": "slides/kripke-two.html#theses-1",
+    "title": "Direct Reference, Continued",
+    "section": "Theses 1",
+    "text": "Theses 1\n\nTo every name or designating expression ‘\\(X\\)’, there corresponds a cluster of properties, namely the family of those properties \\(\\varphi\\) such that \\(A\\) believes ‘\\(\\varphi X\\)’.\n\n\nThesis (1), as I say, is a definition."
+  },
+  {
+    "objectID": "slides/kripke-two.html#thesis-2",
+    "href": "slides/kripke-two.html#thesis-2",
+    "title": "Direct Reference, Continued",
+    "section": "Thesis 2",
+    "text": "Thesis 2\n\nOne of the properties, or some conjointly, are believed by \\(A\\) to pick out some individual uniquely.\n\n\nIt is a tribute to the education of philosophers that they have held this thesis for such a long time. In fact, most people, when they think of Cicero, just think of a famous Roman orator, without any pretension to think either that there was only one famous Roman orator or that one must know something else about Cicero to have a referent for the name. Consider Richard Feynman, to whom many of us are able to refer. He is a leading contemporary theoretical physicist. Everyone here (I’m sure!) can state the contents of one of Feynman’s theories so as to differentiate him from Gell-Mann. However, the man in the street, not possessing these abilities, may still use the name ‘Feynman’. When asked he will say: well he’s a physicist or something. He may not think that this picks out anyone uniquely. I still think he uses the name ‘Feynman’ as a name for Feynman. (81)"
+  },
+  {
+    "objectID": "slides/kripke-two.html#thesis-3",
+    "href": "slides/kripke-two.html#thesis-3",
+    "title": "Direct Reference, Continued",
+    "section": "Thesis 3",
+    "text": "Thesis 3\n\nIf most, or a weighted most, of the \\(\\varphi\\)’s are satisfied by one unique object \\(y\\), then \\(y\\) is the referent of ‘\\(X\\)’.\n\n\nLet’s suppose someone says that Gödel is the man who proved the incompleteness of arithmetic, and this man is suitably well educated and is even able to give an independent account of the in completeness theorem. Does it follow that whoever discovered the incompleteness of arithmetic is the referent of ‘Gödel’? (83)"
+  },
+  {
+    "objectID": "slides/kripke-two.html#thesis-4",
+    "href": "slides/kripke-two.html#thesis-4",
+    "title": "Direct Reference, Continued",
+    "section": "Thesis 4",
+    "text": "Thesis 4\n\nIf the vote yields no unique object, ‘\\(X\\)’ does not refer.\n\n\nFirst, the vote may not yield a unique object, as in the case of Cicero or Feynman. (86)"
+  },
+  {
+    "objectID": "slides/kripke-two.html#thesis-5",
+    "href": "slides/kripke-two.html#thesis-5",
+    "title": "Direct Reference, Continued",
+    "section": "Thesis 5",
+    "text": "Thesis 5\n\nThe statement, ‘If \\(X\\) exists, then \\(X\\) has most of the \\(\\varphi\\)’s’ is known a priori by the speaker.\n\n\nNotice that even in a case where (3) and (4) happen to be true, a typical speaker hardly knows a priori that they are, as required by the theory. I think that my belief about Gödel is in fact correct and that the ‘Schmidt’ story is just a fantasy. But the belief hardly constitutes a priori knowledge. (87)"
+  },
+  {
+    "objectID": "slides/kripke-two.html#the-causal-historical-theory-of-reference",
+    "href": "slides/kripke-two.html#the-causal-historical-theory-of-reference",
+    "title": "Direct Reference, Continued",
+    "section": "The Causal Historical Theory of Reference",
+    "text": "The Causal Historical Theory of Reference\n\nWhat is the true picture of what’s going on? … Someone, let’s say, a baby, is born; his parents call him by a certain name. They talk about him to their friends. Other people meet him. Through various sorts of talk the name is spread from link to link as if by a chain. A speaker who is on the far end of this chain, who has heard about, say Richard Feynman, in the market place or elsewhere, may be referring to Richard Feynman even though he can’t remember from whom he first heard of Feynman or from whom he ever heard of Feynman. He knows that Feynman is a famous physicist. A certain passage of communication reaching ultimately to the man himself does reach the speaker. He then is referring to Feynman even though he can’t identify him uniquely. …By virtue of his membership in a community which passed the name on from link to link, not by a ceremony that he makes in private in his study: ’By “Feynman” I shall mean the man who did such and such and such and such’. (91-92)"
+  },
+  {
+    "objectID": "slides/kripke-two.html#problems",
+    "href": "slides/kripke-two.html#problems",
+    "title": "Direct Reference, Continued",
+    "section": "Problems",
+    "text": "Problems\n\nObviously the name is passed on from link to link. But of course not every sort of causal chain reaching from me to a certain man will do for me to make a reference. There may be a causal chain from our use of the term ’Santa Claus’ to a certain historical saint, but still the children, when they use this, by this time probably do not refer to that saint. So other conditions must be satisfied in order to make this into a really rigorous theory of reference. (93)"
+  },
+  {
+    "objectID": "slides/kripke-two.html#a-rough-statement",
+    "href": "slides/kripke-two.html#a-rough-statement",
+    "title": "Direct Reference, Continued",
+    "section": "A Rough Statement",
+    "text": "A Rough Statement\n\nA rough statement of a theory might be the following: An initial ‘baptism’ takes place. Here the object may be named by ostension, or the reference of the name may be fixed by a description. When the name is ‘passed from link to link’, the receiver of the name must, I think, intend when he learns it to use it with the same reference as the man from whom he heard it. If I hear the name ‘Napoleon’ and decide it would be a nice name for my pet aardvark, I do not satisfy this condition. (Perhaps it is some such failure to keep the reference fixed which accounts for the divergence of present uses of ’Santa Claus’ from the alleged original use.) (96-7)"
+  },
+  {
+    "objectID": "slides/kripke-two.html#references",
+    "href": "slides/kripke-two.html#references",
+    "title": "Direct Reference, Continued",
+    "section": "References",
+    "text": "References\n\n\n\n\nPutnam, Hilary. 1973. “Meaning and Reference.” The Journal of Philosophy 70 (19): 699–711. https://doi.org/10.2307/2025079."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "",
+    "text": "Instructor\n\nDavid Sanson\n\nOffice\n\nStevenson 341\n\n\n\n\nClass Meetings\n\nMW 2:00–3:15PM, 229 Stevenson Hall\n\nOffice Hours\n\nM noon–1:00PM; W 11:00AM–noon"
+  },
+  {
+    "objectID": "syllabus.html#basic-information",
+    "href": "syllabus.html#basic-information",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "",
+    "text": "Instructor\n\nDavid Sanson\n\nOffice\n\nStevenson 341\n\n\n\n\nClass Meetings\n\nMW 2:00–3:15PM, 229 Stevenson Hall\n\nOffice Hours\n\nM noon–1:00PM; W 11:00AM–noon"
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Course Description",
+    "text": "Course Description\nPhilosophy of Language is the branch of philosophy that deals with philosophical problems and puzzles related to language. That might seem obvious, but you cannot always trust labels: they say that the Holy Roman Empire was neither holy, Roman, nor an empire.\nPhilosophical problems often raise questions about language, and language itself is a rich source of philosophical problems and puzzles. In this course, we will not attempt to cover all these problems and puzzles. In fact, the topics we cover reflect a somewhat narrow set of concerns, shaped by the philosophical concerns of the 20th century."
+  },
+  {
+    "objectID": "syllabus.html#class",
+    "href": "syllabus.html#class",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Class",
+    "text": "Class\nI will run this class as a combination of lecture, whole-class discussion, group discussion, and in-class exercises.\nIn a typical week, Monday’s class will begin with a lecture, introducing a new topic, followed by whole-class or group discussion. Wednesday’s class will continue on the same topic, with a combination of follow-up discussion and in-class writing exercises.\nI have a definite agenda for this class: there is material I want to get through and things I want you to learn. But ultimately, it is up to you all to shape the trajectory of our discussions. So it is important that you come to each class prepared and ready to engage."
+  },
+  {
+    "objectID": "syllabus.html#reading-assignments",
+    "href": "syllabus.html#reading-assignments",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Reading Assignments",
+    "text": "Reading Assignments\nIn a typical week, you will be asked to read one or two journal articles. You should plan to do this reading before our Monday meeting, and then do it again before our Wednesday meeting. You need to do the reading before our Monday meeting, or you will be lost. You need to do it again after our Monday meeting, when you will be in a better position to actually understand what the reading is about.\nOptional readings are optional, but you should try to make time to read some of them. We don’t have time to cover very much in this class, so we will be scratching the surface of several different topics. Also, given the nature of this material, we will often be reading older “foundational” articles rather than contemporary cutting edge research. Doing some of the optional readings will help fill these gaps, and give you a better understanding of the field."
+  },
+  {
+    "objectID": "syllabus.html#writing-assignments",
+    "href": "syllabus.html#writing-assignments",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Writing Assignments",
+    "text": "Writing Assignments\nThere are no required out-of-class writing assignments for this class.\nAs mentioned above, a typical Wednesday will involve some in-class writing exercises. These will be collected and graded pass-fail. As long as you are there and making a sincere effort to complete the exercise, you should pass.\nThere are also four “writing days” spread through the term. On these days, I will distribute essay prompts, and ask you to write essays, using pen and paper, in response to these prompts. These are writing days, not exams: the goal is not to test your knowledge of facts; the goal is to give you the opportunity to work through a philosophical problem in writing, in a form that is more detailed and extended than typical in-class writing exercises allow. These will be collected and treated as essays: each will receive written feedback and a letter grade."
+  },
+  {
+    "objectID": "syllabus.html#co-teaching",
+    "href": "syllabus.html#co-teaching",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Co-teaching",
+    "text": "Co-teaching\nThis will depend on the exact size of our class. If class size allows, you will each be assigned a week in which you (and perhaps a partner) are responsible for “leading” discussion. You will (perhaps with your partner) prepare a plan (following a provided template), and we will meet the week before to go over and refine your plan."
+  },
+  {
+    "objectID": "syllabus.html#grades",
+    "href": "syllabus.html#grades",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Grades",
+    "text": "Grades\nMy settled view is that grading causes more problems than it solves. The main problem it solves is motivation: the threat/promise of a grade helps motivate you to do work for this class when you lack that motivation or when the motivation you have is not strong enough to overcome other demands on your time.\nBut over-reliance on this form of external motivation fundamentally changes your educational experience. The point of this class is to give you the opportunity to explore some really neat parts of philosophy and figure out for yourself what you think about them. For that to work, you need to take ownership of your engagement with the course. Slogging through the readings with an eye toward passing a reading quiz or exam doesn’t cut it.\nThe other problem grading solves is the problem of sorting and ranking students by merit. But that is not a practice I agree with. Every student is different, and has different strengths and weaknesses. I want you to be the strongest student you can be, and I want to help you succeed at that. I do care about the difference between a student who learns the material and a student who fails to do so, and I do have views about what makes some students especially great, which I am happy to report in letters of recommendation. But I have no interest in reducing you to an “A”, “B”, “C”, “D”, or “F” student. But you all signed up for a grade, and I must give you grades.\nSo, here is our first problem to figure out together. How?\n\nProposal\n\nattendance: \\(10\\%\\)\n\n\npass-fail exercises: \\(10\\%\\)\n\n\nco-teaching: \\(20\\%\\)\n\n\nin-class essays: \\(15\\% \\times 4 = 60\\%\\)\n\n\nI am open to giving different “weights” for each of these components. I said above I will give the in-class essays letter grades. I am open to doing something else. I am open to including credit for participation. (I am not willing to define that using some sort of scorecard that counts how many times you speak up.) I am open to doing something during our “final exam” period—for example, we could use that as an additional extended time writing day, or we could shift the fourth writing day to that time instead."
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Attendance",
+    "text": "Attendance\nAbsences impact your ability to complete in-class work. They also deprive you of the opportunity to learn from lecture and discussion. Note that this is true for both excused on unexcused absences: exercises designed to be done in class in conjunction with discussion cannot be replicated outside of class; getting notes from someone about what we discussed is not the same as being part of that discussion yourself.\nYou are responsible for attending class and completing all assigned academic work. You should familiarize yourself with University policy to understand which absences are excused and which are not. If you need advice on how to manage an extended absence or want notification of your absence sent to your instructors, contact the Dean of Students Office."
+  },
+  {
+    "objectID": "syllabus.html#accommodations",
+    "href": "syllabus.html#accommodations",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Accommodations",
+    "text": "Accommodations\nAny student needing to arrange a reasonable accommodation for a documented disability and/or medical/mental health condition should contact Student Access and Accommodation Services at 308 Fell Hall, Office Phone (309) 438-5853, Video Phone (309) 319-7682 or visit the website at &lt;StudentAccess.IllinoisState.edu&gt;.\nI am also open to arranging reasonable accommodation regardless of documentation. If there is something you need, ask."
+  },
+  {
+    "objectID": "syllabus.html#academic-integrity",
+    "href": "syllabus.html#academic-integrity",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\nYou are expected to be honest in all academic work, consistent with the academic integrity policy as outlined in the Code of Student Conduct and any additional syllabus language. All work is to be appropriately cited when it is borrowed, directly or indirectly, from another source. Unauthorized and/or unacknowledged collaboration on any work, or the presentation of someone else’s work as your own, is a form of academic dishonesty under the Code of Student Conduct.\nContent generated by an Artificial Intelligence third-party service or site (AI-generated content) without proper authorization and attribution is a form of academic dishonesty. If you are unsure about whether something used in your work requires attribution, please reach out to me to discuss it as soon as possible. Allegations of academic dishonesty will be referred to Student Conduct and Community Responsibilities, for review under the Student Code of Conduct. Students found responsible for academic dishonesty may also be assigned a grade penalty by the instructor."
+  },
+  {
+    "objectID": "syllabus.html#generative-ai-use-not-permitted",
+    "href": "syllabus.html#generative-ai-use-not-permitted",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Generative AI Use Not Permitted",
+    "text": "Generative AI Use Not Permitted\nIn this course, the use of generative AI tools such as ChatGPT, Microsoft Copilot, Adobe Firefly, Google AI Mode, or Apple Intelligence is not permitted to support the completion of any assigned work. This includes, but is not limited to, using generative AI tools to ideate, pre-plan, edit, translate, or otherwise create original material you claim to be solely your creation. Use of a generative AI tool to complete assigned work in whole or in part may be referred under the Code of Student Conduct academic dishonesty provisions for further action by the Dean of Students Office."
+  },
+  {
+    "objectID": "syllabus.html#permission-required-to-record",
+    "href": "syllabus.html#permission-required-to-record",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Permission Required to Record",
+    "text": "Permission Required to Record\nStudents who wish to use phones or other audio or video devices to record classroom lectures/discussions or take photographs must obtain written permission from the instructor except with an approved accommodation from Student Access and Accommodations Services. Approved recordings are to be used solely for the purposes of individual or group study with other students enrolled in the class. They may not be reproduced, shared with those not enrolled in the class, or uploaded to publicly accessible web environments. Violation of this classroom rule may result in referral to the Student Conduct and Community Responsibilities (SCCR) office for disciplinary action."
+  },
+  {
+    "objectID": "slides/quine-two.html#announcements",
+    "href": "slides/quine-two.html#announcements",
+    "title": "Two Dogmas, Continued",
+    "section": "Announcements",
+    "text": "Announcements\n\nReading for today was Quine, “Two Dogmas of Empiricism”\nReading for next week is selections from Saul Kripke’s book, Naming and Necessity"
+  },
+  {
+    "objectID": "slides/quine-two.html#logical-empiricism-a-vision",
+    "href": "slides/quine-two.html#logical-empiricism-a-vision",
+    "title": "Two Dogmas, Continued",
+    "section": "Logical Empiricism: a Vision",
+    "text": "Logical Empiricism: a Vision\nLanguage makes contact with experience in the form of basic observation sentences, e.g.,\n\n\n\n\nThis is red.\n\n‘This’ refers to some immediate object of sense experience, and ‘is red’ categorizes it by how it appears."
+  },
+  {
+    "objectID": "slides/quine-two.html#the-two-dogmas",
+    "href": "slides/quine-two.html#the-two-dogmas",
+    "title": "Two Dogmas, Continued",
+    "section": "The Two Dogmas",
+    "text": "The Two Dogmas\n\nOne [dogma] is a belief in some fundamental cleavage between truths which are analytic, or grounded in meanings independently of matters of fact, and truth which are synthetic, or grounded in fact.\n\n\nThe other dogma is reductionism: the belief that each meaningful statement is equivalent to some logical construct upon terms which refer to immediate experience."
+  },
+  {
+    "objectID": "slides/quine-two.html#what-even-are-meaningssenses",
+    "href": "slides/quine-two.html#what-even-are-meaningssenses",
+    "title": "Two Dogmas, Continued",
+    "section": "What even are meanings/senses?",
+    "text": "What even are meanings/senses?\n\n\n\n\n\n\n\ngraph TB\n    A['The King of England'] -- expresses --&gt;  B(a meaning/sense)\n    B -- determines --&gt; C(Charles)\n\n\n\n\n\n\n\n\nThe meaning is not ‘The King England’.\nThe meaning is not the King England.\nThe meaning is something intermediate between the two."
+  },
+  {
+    "objectID": "slides/quine-two.html#the-business-of-a-theory-of-meaning",
+    "href": "slides/quine-two.html#the-business-of-a-theory-of-meaning",
+    "title": "Two Dogmas, Continued",
+    "section": "The Business of a Theory of Meaning",
+    "text": "The Business of a Theory of Meaning\n\nOnce the theory of meaning is sharply separated from the theory of reference, it is a short step to recognizing as the business of the theory of meaning simply the synonymy of linguistic forms and the analyticity of statements; meanings themselves, as obscure intermediary entities, may well be abandoned. (22-23)\n\n\nWhen two words “mean the same thing”, is there really a third thing—a “meaning”—that both express?\n\nOr is the “entification” of meanings just sloppy talk for a relation of synonymy between them?"
+  },
+  {
+    "objectID": "slides/quine-two.html#some-analogies",
+    "href": "slides/quine-two.html#some-analogies",
+    "title": "Two Dogmas, Continued",
+    "section": "Some Analogies",
+    "text": "Some Analogies\n\nWhen two things “have the same property”, is there really a third thing—a “property”—that both instantiate?\n\nOr is the “entification” of properties just sloppy talk for a relation of similarity?\n\nWhen two animals are “of the same species”, is there a third thing—a “species”—that stands above them?\n\nOr is the “entification” of species just sloppy talk for a network of relationships between individual animals?"
+  },
+  {
+    "objectID": "slides/quine-two.html#shifting-project",
+    "href": "slides/quine-two.html#shifting-project",
+    "title": "Two Dogmas, Continued",
+    "section": "Shifting Project",
+    "text": "Shifting Project\nInstead of first giving a theory of meanings, and then using that theory to explain synonymy and analyticity, let’s look at strategies for making sense of synonymy and analyticity directly."
+  },
+  {
+    "objectID": "slides/quine-two.html#proposal",
+    "href": "slides/quine-two.html#proposal",
+    "title": "Two Dogmas, Continued",
+    "section": "Proposal",
+    "text": "Proposal\n\nThere are those who find it soothing to say that the analytic statements of the second class reduce to those of the first class, the logical truths, by definition; ‘bachelor’, e.g., is defined as ‘unmarried man’. But how do we find that ‘bachelor’ is defined as ‘unmarried man’? (24)\n\nHe puts this as a “how do we find” question. But really, he is asking about what makes it so."
+  },
+  {
+    "objectID": "slides/quine-two.html#dictionary-definitions-presuppose-synonymy",
+    "href": "slides/quine-two.html#dictionary-definitions-presuppose-synonymy",
+    "title": "Two Dogmas, Continued",
+    "section": "Dictionary Definitions Presuppose Synonymy",
+    "text": "Dictionary Definitions Presuppose Synonymy\n\nThe lexicographer is an empirical scientist, whose business is the recording of antecedent facts; and if he glosses ‘bachelor’ as ‘unmarried man’ it is because of his belief that there is a relation of synonymy between these forms, implicit in general or preferred usage prior to his own work. […] . Certainly the “definition” which is the lexicographer’s report of an observed synonymy cannot be taken as the ground of the synonymy (24)\n\n\nthink, discuss, share\nDictionary definitions do not reveal meanings; they provide synonyms. And they are not the ground of synonymy; they report on observed synonymies implicit in linguistic usage."
+  },
+  {
+    "objectID": "slides/quine-two.html#dictionary-definitions-and-usage",
+    "href": "slides/quine-two.html#dictionary-definitions-and-usage",
+    "title": "Two Dogmas, Continued",
+    "section": "Dictionary Definitions and Usage",
+    "text": "Dictionary Definitions and Usage\n\nJust what it means to affirm synonymy, just what the interconnections may be which are necessary and sufficient in order that two linguistic forms be properly describable as synonymous, is far from clear; but, whatever these interconnections may be, ordinarily they are grounded in usage. Definitions reporting selected instances of synonymy come then as reports upon usage. (25)\n\n\nthink, discuss, share\nThere is no magic dictionary in the sky. There is just linguistic usage. Facts about synonymy are either reducible to facts about usage, or they are nonsense."
+  },
+  {
+    "objectID": "slides/quine-two.html#definitions-as-explications",
+    "href": "slides/quine-two.html#definitions-as-explications",
+    "title": "Two Dogmas, Continued",
+    "section": "Definitions as Explications",
+    "text": "Definitions as Explications\n\nIn explication the purpose is not merely to paraphrase the definiendum into an outright synonym, but actually to improve upon the definiendum by refining or supplementing its meaning.\n\n\nthe biologist offers an explication of ‘fish’: in past usage, the extension of ‘fish’ included whales, but it is better to change that, so that it does not include whales.\nFollowers of Frege offer an explication of ‘meaning’: in past usage, it is ambiguous between sense and reference, but it is better to change that, and only use it for sense."
+  },
+  {
+    "objectID": "slides/quine-two.html#definitions-as-conventional-abbreviations",
+    "href": "slides/quine-two.html#definitions-as-conventional-abbreviations",
+    "title": "Two Dogmas, Continued",
+    "section": "Definitions as Conventional Abbreviations",
+    "text": "Definitions as Conventional Abbreviations\nQuine goes on about this at some length. Here is a relatively simple example:\n\n‘Or’, in English, has both an inclusive and exclusive reading.\nSuppose we offer an explication of ‘or’, on which only the inclusive reading is allowed.\nWe can then define ‘P xor Q’ as an abbreviation for ‘(P or Q) and not (P and Q)’.\n\n\nslow down. give them a chance to think it through. Other examples?"
+  },
+  {
+    "objectID": "slides/quine-two.html#definitions-as-conventional-abbreviation",
+    "href": "slides/quine-two.html#definitions-as-conventional-abbreviation",
+    "title": "Two Dogmas, Continued",
+    "section": "Definitions as Conventional Abbreviation",
+    "text": "Definitions as Conventional Abbreviation\n\nBut these correlations are not arbitrary. They are supposed to show how the primitive notations can accomplish all purposes, save brevity and convenience, of the redundant language. Hence the definiendum and its definiens may be expected, in each case, to be related in one or another of the three ways lately noted. The definiens may be a faithful paraphrase of the definiendum into the narrower notation, preserving a direct synonymy as of antecedent usage; or the definiens may, in the spirit of explication, improve upon the antecedent usage of the definiendum; or finally, the definiendum may be a newly created notation, newly endowed with meaning here and now. (27)\n\nOnly the last case plausibly gives rise to a new synonymy. But that case does not account for the relation between, e.g., ‘bachelor’ and ‘unmarried man’."
+  },
+  {
+    "objectID": "slides/quine-two.html#proposal-1",
+    "href": "slides/quine-two.html#proposal-1",
+    "title": "Two Dogmas, Continued",
+    "section": "Proposal",
+    "text": "Proposal\n\nA natural suggestion, deserving close examination, is that the synonymy of two linguistic forms consists simply in their interchangeability in all contexts without change of truth value; interchangeability, in Leibniz’s phrase, salva veritate. (27)\n\nThis is Frege’s test for co-reference. If we apply it to words as they occur both in direct and indirect contexts, it is a test for sameness of both reference and sense."
+  },
+  {
+    "objectID": "slides/quine-two.html#examples",
+    "href": "slides/quine-two.html#examples",
+    "title": "Two Dogmas, Continued",
+    "section": "Examples",
+    "text": "Examples\n\nI saw a bachelor shopping at Kroger.\nI saw an unmarried man shopping at Kroger."
+  },
+  {
+    "objectID": "slides/quine-two.html#a-small-problem",
+    "href": "slides/quine-two.html#a-small-problem",
+    "title": "Two Dogmas, Continued",
+    "section": "A Small Problem",
+    "text": "A Small Problem\n\nTruths which become false under substitution of ‘unmarried man’ for ‘bachelor’ are easily constructed with help of ‘bachelor of arts’ or ‘bachelor’s buttons’. Also with help of quotation, thus: ‘Bachelor’ has less than ten letters. Such counterinstances can, however, perhaps be set aside by treating the phrases ‘bachelor of arts’ and ‘bachelor’s buttons’ and the quotation ‘’bachelor’’ each as a single indivisible word and then stipulating that the interchangeability salva veritate which is to be the touchstone of synonymy is not supposed to apply to fragmentary occurrences inside of a word. (27-28)\n\nCan we unpack this?"
+  },
+  {
+    "objectID": "slides/quine-two.html#modal-contexts",
+    "href": "slides/quine-two.html#modal-contexts",
+    "title": "Two Dogmas, Continued",
+    "section": "Modal Contexts",
+    "text": "Modal Contexts\nSuppose we grant the test. We need to find sentences where interchangeability fails exactly when the two words are not synonymous. Quine suggests:\n\nNecessarily all and only As are Bs.\n\nIf ‘A’ and ‘B’ are synonymous, then this should be equivalent to the logical truth,\n\nNecessarily all and only As are As."
+  },
+  {
+    "objectID": "slides/quine-two.html#necessarily",
+    "href": "slides/quine-two.html#necessarily",
+    "title": "Two Dogmas, Continued",
+    "section": "“Necessarily”",
+    "text": "“Necessarily”\nWhat about:\n\nNecessarily, all and only triangles are triangles.\nNecessarily, all and only triangles are trilaterals.\n\nDoes this preserve truth? Are ‘triangle’ and ‘trilateral’ synonyms?"
+  },
+  {
+    "objectID": "slides/quine-two.html#another-problematic-example",
+    "href": "slides/quine-two.html#another-problematic-example",
+    "title": "Two Dogmas, Continued",
+    "section": "Another Problematic Example…",
+    "text": "Another Problematic Example…\n\nI do not know whether the statement ‘Everything green is extended’ is analytic. Now does my indecision over this example really betray an incomplete understanding, an incomplete grasp of the “meanings”, of ‘green’ and ‘extended’? I think not. The trouble is not with ‘green’ or ‘extended’, but with ‘analytic’. (31)\n\n\nEverything green is extended.\n\nIs this analytic?"
+  },
+  {
     "objectID": "slides/russell.html#reading",
     "href": "slides/russell.html#reading",
     "title": "Russell on Definite Descriptions",
@@ -371,452 +952,144 @@
     "text": "The Ontological Argument\n\n\n\nArgument\n\n\n\n(OA1) The most perfect Being has all perfections.\n(OA2) Existence is a perfection.\n(OA3) So, the most perfect Being exists.\n\n\n\n\nRussell claims that, on his analysis (OA1) begs the question."
   },
   {
-    "objectID": "slides/quine-two.html#announcements",
-    "href": "slides/quine-two.html#announcements",
-    "title": "Two Dogmas, Continued",
+    "objectID": "slides/putnam.html#announcements",
+    "href": "slides/putnam.html#announcements",
+    "title": "Twin Earth",
     "section": "Announcements",
-    "text": "Announcements\n\nReading for today was Quine, “Two Dogmas of Empiricism”\nReading for next week is selections from Saul Kripke’s book, Naming and Necessity"
+    "text": "Announcements\n\nYour papers!\nSecond writing day is next Wednesday.\nWhat do you want to do on Monday of next week?\n\n\nSome options:\n\nWe can do something different this W instead, and do day two of Putnam next M.\nA day to review/improve the last writing assignment\nAn “open discussion”/“tying things together” day—open discussion of Quine, Kripke, Putnam.\nA “come up with essay topics” day: what do you want to write about?\nA “review/study” day—prepare as if for the writing day; come with questions and topics to discuss."
   },
   {
-    "objectID": "slides/quine-two.html#logical-empiricism-a-vision",
-    "href": "slides/quine-two.html#logical-empiricism-a-vision",
-    "title": "Two Dogmas, Continued",
-    "section": "Logical Empiricism: a Vision",
-    "text": "Logical Empiricism: a Vision\nLanguage makes contact with experience in the form of basic observation sentences, e.g.,\n\n\n\n\nThis is red.\n\n‘This’ refers to some immediate object of sense experience, and ‘is red’ categorizes it by how it appears."
+    "objectID": "slides/putnam.html#frege-against-psychologism",
+    "href": "slides/putnam.html#frege-against-psychologism",
+    "title": "Twin Earth",
+    "section": "Frege against Psychologism",
+    "text": "Frege against Psychologism\n\nUnclear as it is, the traditional doctrine that the notion “meaning” possesses the extension/intension ambiguity has certain typical consequences. The doctrine that the meaning of a term is a concept carried the implication that meanings are mental entities. Frege, however, rebelled against this “psychologism.” Feeling that meanings are public property-that the same meaning can be “grasped” by more than one person and by persons at different times-he identified concepts (and hence “intensions” or meanings) with abstract entities rather than mental entities. (699–700)"
   },
   {
-    "objectID": "slides/quine-two.html#the-two-dogmas",
-    "href": "slides/quine-two.html#the-two-dogmas",
-    "title": "Two Dogmas, Continued",
-    "section": "The Two Dogmas",
-    "text": "The Two Dogmas\n\nOne [dogma] is a belief in some fundamental cleavage between truths which are analytic, or grounded in meanings independently of matters of fact, and truth which are synthetic, or grounded in fact.\n\n\nThe other dogma is reductionism: the belief that each meaningful statement is equivalent to some logical construct upon terms which refer to immediate experience."
+    "objectID": "slides/putnam.html#meaning-as-ambiguous",
+    "href": "slides/putnam.html#meaning-as-ambiguous",
+    "title": "Twin Earth",
+    "section": "‘Meaning’ as ambiguous",
+    "text": "‘Meaning’ as ambiguous\n\n“meaning” possesses the extension/intension ambiguity.\n\n\non the board: two options for ‘meaning’."
   },
   {
-    "objectID": "slides/quine-two.html#what-even-are-meaningssenses",
-    "href": "slides/quine-two.html#what-even-are-meaningssenses",
-    "title": "Two Dogmas, Continued",
-    "section": "What even are meanings/senses?",
-    "text": "What even are meanings/senses?\n\n\n\n\n\n\n\ngraph TB\n    A['The King of England'] -- expresses --&gt;  B(a meaning/sense)\n    B -- determines --&gt; C(Charles)\n\n\n\n\n\n\n\n\nThe meaning is not ‘The King England’.\nThe meaning is not the King England.\nThe meaning is something intermediate between the two."
+    "objectID": "slides/putnam.html#psychologism",
+    "href": "slides/putnam.html#psychologism",
+    "title": "Twin Earth",
+    "section": "Psychologism",
+    "text": "Psychologism\n\nThe doctrine that the meaning of a term is a concept carried the implication that meanings are mental entities."
   },
   {
-    "objectID": "slides/quine-two.html#the-business-of-a-theory-of-meaning",
-    "href": "slides/quine-two.html#the-business-of-a-theory-of-meaning",
-    "title": "Two Dogmas, Continued",
-    "section": "The Business of a Theory of Meaning",
-    "text": "The Business of a Theory of Meaning\n\nOnce the theory of meaning is sharply separated from the theory of reference, it is a short step to recognizing as the business of the theory of meaning simply the synonymy of linguistic forms and the analyticity of statements; meanings themselves, as obscure intermediary entities, may well be abandoned. (22-23)\n\n\nWhen two words “mean the same thing”, is there really a third thing—a “meaning”—that both express?\n\nOr is the “entification” of meanings just sloppy talk for a relation of synonymy between them?"
+    "objectID": "slides/putnam.html#against-psychologism",
+    "href": "slides/putnam.html#against-psychologism",
+    "title": "Twin Earth",
+    "section": "Against Psychologism",
+    "text": "Against Psychologism\n\nFrege rebelled against this “psychologism.” Feeling that meanings are public property-that the same meaning can be “grasped” by more than one person and by persons at different times-he identified concepts (and hence “intensions” or meanings) with abstract entities rather than mental entities.\n\n\nrehearse the argument"
   },
   {
-    "objectID": "slides/quine-two.html#some-analogies",
-    "href": "slides/quine-two.html#some-analogies",
-    "title": "Two Dogmas, Continued",
-    "section": "Some Analogies",
-    "text": "Some Analogies\n\nWhen two things “have the same property”, is there really a third thing—a “property”—that both instantiate?\n\nOr is the “entification” of properties just sloppy talk for a relation of similarity?\n\nWhen two animals are “of the same species”, is there a third thing—a “species”—that stands above them?\n\nOr is the “entification” of species just sloppy talk for a network of relationships between individual animals?"
+    "objectID": "slides/putnam.html#understanding-as-psychological-state",
+    "href": "slides/putnam.html#understanding-as-psychological-state",
+    "title": "Twin Earth",
+    "section": "Understanding as Psychological State",
+    "text": "Understanding as Psychological State\n\nFeeling that meanings are public property-that the same meaning can be “grasped” by more than one person and by persons at different times-he identified concepts (and hence “intensions” or meanings) with abstract entities rather than mental entities. However, “grasping” these abstract entities was still an individual psychological act."
   },
   {
-    "objectID": "slides/quine-two.html#shifting-project",
-    "href": "slides/quine-two.html#shifting-project",
-    "title": "Two Dogmas, Continued",
-    "section": "Shifting Project",
-    "text": "Shifting Project\nInstead of first giving a theory of meanings, and then using that theory to explain synonymy and analyticity, let’s look at strategies for making sense of synonymy and analyticity directly."
+    "objectID": "slides/putnam.html#a-shared-assumption",
+    "href": "slides/putnam.html#a-shared-assumption",
+    "title": "Twin Earth",
+    "section": "A Shared Assumption",
+    "text": "A Shared Assumption\n\nNone of these philosophers doubted that understanding a word (knowing its intension) was just a matter of being in a certain psychological state (somewhat in the way in which knowing how to factor numbers in one’s head is just a matter of being in a certain very complex psychological state).\n\n\nCompare this to Kripke: the cluster of properties the speaker associates with the name."
   },
   {
-    "objectID": "slides/quine-two.html#proposal",
-    "href": "slides/quine-two.html#proposal",
-    "title": "Two Dogmas, Continued",
-    "section": "Proposal",
-    "text": "Proposal\n\nThere are those who find it soothing to say that the analytic statements of the second class reduce to those of the first class, the logical truths, by definition; ‘bachelor’, e.g., is defined as ‘unmarried man’. But how do we find that ‘bachelor’ is defined as ‘unmarried man’? (24)\n\nHe puts this as a “how do we find” question. But really, he is asking about what makes it so."
+    "objectID": "slides/putnam.html#same-extension-different-intension",
+    "href": "slides/putnam.html#same-extension-different-intension",
+    "title": "Twin Earth",
+    "section": "Same Extension, Different Intension",
+    "text": "Same Extension, Different Intension\n\nThe timeworn example of the two terms ‘creature with a kidney’ and ‘creature with a heart’ does show that two terms can have the same extension and yet differ in intension.\n\n\nReview the example"
   },
   {
-    "objectID": "slides/quine-two.html#dictionary-definitions-presuppose-synonymy",
-    "href": "slides/quine-two.html#dictionary-definitions-presuppose-synonymy",
-    "title": "Two Dogmas, Continued",
-    "section": "Dictionary Definitions Presuppose Synonymy",
-    "text": "Dictionary Definitions Presuppose Synonymy\n\nThe lexicographer is an empirical scientist, whose business is the recording of antecedent facts; and if he glosses ‘bachelor’ as ‘unmarried man’ it is because of his belief that there is a relation of synonymy between these forms, implicit in general or preferred usage prior to his own work. […] . Certainly the “definition” which is the lexicographer’s report of an observed synonymy cannot be taken as the ground of the synonymy (24)\n\n\nthink, discuss, share\nDictionary definitions do not reveal meanings; they provide synonyms. And they are not the ground of synonymy; they report on observed synonymies implicit in linguistic usage."
+    "objectID": "slides/putnam.html#same-intension-different-extension",
+    "href": "slides/putnam.html#same-intension-different-extension",
+    "title": "Twin Earth",
+    "section": "Same Intension, Different Extension?",
+    "text": "Same Intension, Different Extension?\nBut it was taken to be obvious that the reverse is impossible: two terms cannot differ in extension and have the same intension. Interestingly, no argument for this impossibility was ever offered.\n\ndiagram"
   },
   {
-    "objectID": "slides/quine-two.html#dictionary-definitions-and-usage",
-    "href": "slides/quine-two.html#dictionary-definitions-and-usage",
-    "title": "Two Dogmas, Continued",
-    "section": "Dictionary Definitions and Usage",
-    "text": "Dictionary Definitions and Usage\n\nJust what it means to affirm synonymy, just what the interconnections may be which are necessary and sufficient in order that two linguistic forms be properly describable as synonymous, is far from clear; but, whatever these interconnections may be, ordinarily they are grounded in usage. Definitions reporting selected instances of synonymy come then as reports upon usage. (25)\n\n\nthink, discuss, share\nThere is no magic dictionary in the sky. There is just linguistic usage. Facts about synonymy are either reducible to facts about usage, or they are nonsense."
+    "objectID": "slides/putnam.html#intensions-as-verification-conditions",
+    "href": "slides/putnam.html#intensions-as-verification-conditions",
+    "title": "Twin Earth",
+    "section": "Intensions as Verification Conditions",
+    "text": "Intensions as Verification Conditions\n\nFor philosophers like Carnap, who accepted the verifiability theory of meaning, the concept corresponding to a term provided a criterion for belonging to the extension (not just in the sense of “necessary and sufficient condition,” but in the strong sense of way of recognizing whether a given thing falls into the extension or not).\n\n\ndo you see how this implies that intension determines extension?"
   },
   {
-    "objectID": "slides/quine-two.html#definitions-as-explications",
-    "href": "slides/quine-two.html#definitions-as-explications",
-    "title": "Two Dogmas, Continued",
-    "section": "Definitions as Explications",
-    "text": "Definitions as Explications\n\nIn explication the purpose is not merely to paraphrase the definiendum into an outright synonym, but actually to improve upon the definiendum by refining or supplementing its meaning.\n\n\nthe biologist offers an explication of ‘fish’: in past usage, the extension of ‘fish’ included whales, but it is better to change that, so that it does not include whales.\nFollowers of Frege offer an explication of ‘meaning’: in past usage, it is ambiguous between sense and reference, but it is better to change that, and only use it for sense."
+    "objectID": "slides/putnam.html#putnams-argument",
+    "href": "slides/putnam.html#putnams-argument",
+    "title": "Twin Earth",
+    "section": "Putnam’s Argument",
+    "text": "Putnam’s Argument\n\nSo theory of meaning came to rest on two unchallenged assumptions:\n\nThat knowing the meaning of a term is just a matter of being in a certain psychological state.\nThat the meaning of a term determines its extension (in the sense that sameness of intension entails sameness of extension).\n\nI shall argue that these two assumptions are not jointly satisfied by any notion, let alone any notion of meaning. The traditional concept of meaning is a concept which rests on a false theory."
   },
   {
-    "objectID": "slides/quine-two.html#definitions-as-conventional-abbreviations",
-    "href": "slides/quine-two.html#definitions-as-conventional-abbreviations",
-    "title": "Two Dogmas, Continued",
-    "section": "Definitions as Conventional Abbreviations",
-    "text": "Definitions as Conventional Abbreviations\nQuine goes on about this at some length. Here is a relatively simple example:\n\n‘Or’, in English, has both an inclusive and exclusive reading.\nSuppose we offer an explication of ‘or’, on which only the inclusive reading is allowed.\nWe can then define ‘P xor Q’ as an abbreviation for ‘(P or Q) and not (P and Q)’.\n\n\nslow down. give them a chance to think it through. Other examples?"
+    "objectID": "slides/putnam.html#twin-earth-1",
+    "href": "slides/putnam.html#twin-earth-1",
+    "title": "Twin Earth",
+    "section": "Twin Earth",
+    "text": "Twin Earth\n\nFor the purpose of the following science-fiction examples, we shall suppose that somewhere there is a planet we shall call Twin Earth. Twin Earth is very much like Earth: in fact, people on Twin Earth even speak English. In fact, apart from the differences we shall specify in our science-fiction examples, the reader may suppose that Twin Earth is exactly like Earth. He may even suppose that he has a Doppelganger-an identical copy-on Twin Earth, if he wishes, although my stories will not depend on this."
   },
   {
-    "objectID": "slides/quine-two.html#definitions-as-conventional-abbreviation",
-    "href": "slides/quine-two.html#definitions-as-conventional-abbreviation",
-    "title": "Two Dogmas, Continued",
-    "section": "Definitions as Conventional Abbreviation",
-    "text": "Definitions as Conventional Abbreviation\n\nBut these correlations are not arbitrary. They are supposed to show how the primitive notations can accomplish all purposes, save brevity and convenience, of the redundant language. Hence the definiendum and its definiens may be expected, in each case, to be related in one or another of the three ways lately noted. The definiens may be a faithful paraphrase of the definiendum into the narrower notation, preserving a direct synonymy as of antecedent usage; or the definiens may, in the spirit of explication, improve upon the antecedent usage of the definiendum; or finally, the definiendum may be a newly created notation, newly endowed with meaning here and now. (27)\n\nOnly the last case plausibly gives rise to a new synonymy. But that case does not account for the relation between, e.g., ‘bachelor’ and ‘unmarried man’."
+    "objectID": "slides/putnam.html#twin-earth-water",
+    "href": "slides/putnam.html#twin-earth-water",
+    "title": "Twin Earth",
+    "section": "Twin Earth: Water",
+    "text": "Twin Earth: Water\n\nOne of the peculiarities of Twin Earth is that the liquid called “water” is not H20 but a different liquid whose chemical formula is very long and complicated. I shall abbreviate this chemical formula simply as XYZ. I shall suppose that XYZ is indistinguishable from water at normal temperatures and pressures. Also, I shall suppose that the oceans and lakes and seas of Twin Earth contain XYZ and not water, that it rains XYZ on Twin Earth and not water, etc."
   },
   {
-    "objectID": "slides/quine-two.html#proposal-1",
-    "href": "slides/quine-two.html#proposal-1",
-    "title": "Two Dogmas, Continued",
-    "section": "Proposal",
-    "text": "Proposal\n\nA natural suggestion, deserving close examination, is that the synonymy of two linguistic forms consists simply in their interchangeability in all contexts without change of truth value; interchangeability, in Leibniz’s phrase, salva veritate. (27)\n\nThis is Frege’s test for co-reference. If we apply it to words as they occur both in direct and indirect contexts, it is a test for sameness of both reference and sense."
+    "objectID": "slides/putnam.html#roll-back-the-clock",
+    "href": "slides/putnam.html#roll-back-the-clock",
+    "title": "Twin Earth",
+    "section": "Roll Back the Clock",
+    "text": "Roll Back the Clock\n\nNow let us roll the time back to about 1750. The typical Earthian speaker of English did not know that water consisted of hydrogen and oxygen, and the typical Twin-Earthian speaker of English did not know that “water” consisted of XYZ."
   },
   {
-    "objectID": "slides/quine-two.html#examples",
-    "href": "slides/quine-two.html#examples",
-    "title": "Two Dogmas, Continued",
-    "section": "Examples",
-    "text": "Examples\n\nI saw a bachelor shopping at Kroger.\nI saw an unmarried man shopping at Kroger."
+    "objectID": "slides/putnam.html#oscar1-and-oscar2",
+    "href": "slides/putnam.html#oscar1-and-oscar2",
+    "title": "Twin Earth",
+    "section": "Oscar1 and Oscar2",
+    "text": "Oscar1 and Oscar2\n\nLet Oscar1 be such a typical Earthian English speaker, and let Oscar2 be his counterpart on Twin Earth. You may suppose that there is no belief that Oscar, had about water that Oscar2 did not have about “water.” If you like, you may even suppose that Oscar1 and Oscar2 were exact duplicates in appearance, feelings, thoughts, interior monologue, etc."
   },
   {
-    "objectID": "slides/quine-two.html#a-small-problem",
-    "href": "slides/quine-two.html#a-small-problem",
-    "title": "Two Dogmas, Continued",
-    "section": "A Small Problem",
-    "text": "A Small Problem\n\nTruths which become false under substitution of ‘unmarried man’ for ‘bachelor’ are easily constructed with help of ‘bachelor of arts’ or ‘bachelor’s buttons’. Also with help of quotation, thus: ‘Bachelor’ has less than ten letters. Such counterinstances can, however, perhaps be set aside by treating the phrases ‘bachelor of arts’ and ‘bachelor’s buttons’ and the quotation ‘’bachelor’’ each as a single indivisible word and then stipulating that the interchangeability salva veritate which is to be the touchstone of synonymy is not supposed to apply to fragmentary occurrences inside of a word. (27-28)\n\nCan we unpack this?"
+    "objectID": "slides/putnam.html#twin-earth-aluminum-and-molybdenum",
+    "href": "slides/putnam.html#twin-earth-aluminum-and-molybdenum",
+    "title": "Twin Earth",
+    "section": "Twin Earth: Aluminum and Molybdenum",
+    "text": "Twin Earth: Aluminum and Molybdenum\nSee p. 703"
   },
   {
-    "objectID": "slides/quine-two.html#modal-contexts",
-    "href": "slides/quine-two.html#modal-contexts",
-    "title": "Two Dogmas, Continued",
-    "section": "Modal Contexts",
-    "text": "Modal Contexts\nSuppose we grant the test. We need to find sentences where interchangeability fails exactly when the two words are not synonymous. Quine suggests:\n\nNecessarily all and only As are Bs.\n\nIf ‘A’ and ‘B’ are synonymous, then this should be equivalent to the logical truth,\n\nNecessarily all and only As are As."
+    "objectID": "slides/putnam.html#beech-and-elm",
+    "href": "slides/putnam.html#beech-and-elm",
+    "title": "Twin Earth",
+    "section": "‘Beech’ and ‘Elm’",
+    "text": "‘Beech’ and ‘Elm’\nSee p. 704"
   },
   {
-    "objectID": "slides/quine-two.html#necessarily",
-    "href": "slides/quine-two.html#necessarily",
-    "title": "Two Dogmas, Continued",
-    "section": "“Necessarily”",
-    "text": "“Necessarily”\nWhat about:\n\nNecessarily, all and only triangles are triangles.\nNecessarily, all and only triangles are trilaterals.\n\nDoes this preserve truth? Are ‘triangle’ and ‘trilateral’ synonyms?"
+    "objectID": "slides/putnam.html#division-of-labor",
+    "href": "slides/putnam.html#division-of-labor",
+    "title": "Twin Earth",
+    "section": "Division of Labor",
+    "text": "Division of Labor\nSee the example of ‘gold’ on p. 704–5"
   },
   {
-    "objectID": "slides/quine-two.html#another-problematic-example",
-    "href": "slides/quine-two.html#another-problematic-example",
-    "title": "Two Dogmas, Continued",
-    "section": "Another Problematic Example…",
-    "text": "Another Problematic Example…\n\nI do not know whether the statement ‘Everything green is extended’ is analytic. Now does my indecision over this example really betray an incomplete understanding, an incomplete grasp of the “meanings”, of ‘green’ and ‘extended’? I think not. The trouble is not with ‘green’ or ‘extended’, but with ‘analytic’. (31)\n\n\nEverything green is extended.\n\nIs this analytic?"
+    "objectID": "slides/putnam.html#hypothesis-of-the-universality-of-the-division-of-linguistic-labor",
+    "href": "slides/putnam.html#hypothesis-of-the-universality-of-the-division-of-linguistic-labor",
+    "title": "Twin Earth",
+    "section": "Hypothesis of the universality of the division of linguistic labor",
+    "text": "Hypothesis of the universality of the division of linguistic labor\n\nEvery linguistic community exemplifies the sort of division of linguistic labor just described; that is, it possesses at least some terms whose associated “criteria” are known only to a subset of the speakers who acquire the terms, and whose use by the other speakers depends upon a structured cooperation between them and the speakers in the relevant subsets. (706)"
   },
   {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "",
-    "text": "Instructor\n\nDavid Sanson\n\nOffice\n\nStevenson 341\n\n\n\n\nClass Meetings\n\nMW 2:00–3:15PM, 229 Stevenson Hall\n\nOffice Hours\n\nM noon–1:00PM; W 11:00AM–noon"
-  },
-  {
-    "objectID": "syllabus.html#basic-information",
-    "href": "syllabus.html#basic-information",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "",
-    "text": "Instructor\n\nDavid Sanson\n\nOffice\n\nStevenson 341\n\n\n\n\nClass Meetings\n\nMW 2:00–3:15PM, 229 Stevenson Hall\n\nOffice Hours\n\nM noon–1:00PM; W 11:00AM–noon"
-  },
-  {
-    "objectID": "syllabus.html#course-description",
-    "href": "syllabus.html#course-description",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Course Description",
-    "text": "Course Description\nPhilosophy of Language is the branch of philosophy that deals with philosophical problems and puzzles related to language. That might seem obvious, but you cannot always trust labels: they say that the Holy Roman Empire was neither holy, Roman, nor an empire.\nPhilosophical problems often raise questions about language, and language itself is a rich source of philosophical problems and puzzles. In this course, we will not attempt to cover all these problems and puzzles. In fact, the topics we cover reflect a somewhat narrow set of concerns, shaped by the philosophical concerns of the 20th century."
-  },
-  {
-    "objectID": "syllabus.html#class",
-    "href": "syllabus.html#class",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Class",
-    "text": "Class\nI will run this class as a combination of lecture, whole-class discussion, group discussion, and in-class exercises.\nIn a typical week, Monday’s class will begin with a lecture, introducing a new topic, followed by whole-class or group discussion. Wednesday’s class will continue on the same topic, with a combination of follow-up discussion and in-class writing exercises.\nI have a definite agenda for this class: there is material I want to get through and things I want you to learn. But ultimately, it is up to you all to shape the trajectory of our discussions. So it is important that you come to each class prepared and ready to engage."
-  },
-  {
-    "objectID": "syllabus.html#reading-assignments",
-    "href": "syllabus.html#reading-assignments",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Reading Assignments",
-    "text": "Reading Assignments\nIn a typical week, you will be asked to read one or two journal articles. You should plan to do this reading before our Monday meeting, and then do it again before our Wednesday meeting. You need to do the reading before our Monday meeting, or you will be lost. You need to do it again after our Monday meeting, when you will be in a better position to actually understand what the reading is about.\nOptional readings are optional, but you should try to make time to read some of them. We don’t have time to cover very much in this class, so we will be scratching the surface of several different topics. Also, given the nature of this material, we will often be reading older “foundational” articles rather than contemporary cutting edge research. Doing some of the optional readings will help fill these gaps, and give you a better understanding of the field."
-  },
-  {
-    "objectID": "syllabus.html#writing-assignments",
-    "href": "syllabus.html#writing-assignments",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Writing Assignments",
-    "text": "Writing Assignments\nThere are no required out-of-class writing assignments for this class.\nAs mentioned above, a typical Wednesday will involve some in-class writing exercises. These will be collected and graded pass-fail. As long as you are there and making a sincere effort to complete the exercise, you should pass.\nThere are also four “writing days” spread through the term. On these days, I will distribute essay prompts, and ask you to write essays, using pen and paper, in response to these prompts. These are writing days, not exams: the goal is not to test your knowledge of facts; the goal is to give you the opportunity to work through a philosophical problem in writing, in a form that is more detailed and extended than typical in-class writing exercises allow. These will be collected and treated as essays: each will receive written feedback and a letter grade."
-  },
-  {
-    "objectID": "syllabus.html#co-teaching",
-    "href": "syllabus.html#co-teaching",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Co-teaching",
-    "text": "Co-teaching\nThis will depend on the exact size of our class. If class size allows, you will each be assigned a week in which you (and perhaps a partner) are responsible for “leading” discussion. You will (perhaps with your partner) prepare a plan (following a provided template), and we will meet the week before to go over and refine your plan."
-  },
-  {
-    "objectID": "syllabus.html#grades",
-    "href": "syllabus.html#grades",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Grades",
-    "text": "Grades\nMy settled view is that grading causes more problems than it solves. The main problem it solves is motivation: the threat/promise of a grade helps motivate you to do work for this class when you lack that motivation or when the motivation you have is not strong enough to overcome other demands on your time.\nBut over-reliance on this form of external motivation fundamentally changes your educational experience. The point of this class is to give you the opportunity to explore some really neat parts of philosophy and figure out for yourself what you think about them. For that to work, you need to take ownership of your engagement with the course. Slogging through the readings with an eye toward passing a reading quiz or exam doesn’t cut it.\nThe other problem grading solves is the problem of sorting and ranking students by merit. But that is not a practice I agree with. Every student is different, and has different strengths and weaknesses. I want you to be the strongest student you can be, and I want to help you succeed at that. I do care about the difference between a student who learns the material and a student who fails to do so, and I do have views about what makes some students especially great, which I am happy to report in letters of recommendation. But I have no interest in reducing you to an “A”, “B”, “C”, “D”, or “F” student. But you all signed up for a grade, and I must give you grades.\nSo, here is our first problem to figure out together. How?\n\nProposal\n\nattendance: \\(10\\%\\)\n\n\npass-fail exercises: \\(10\\%\\)\n\n\nco-teaching: \\(20\\%\\)\n\n\nin-class essays: \\(15\\% \\times 4 = 60\\%\\)\n\n\nI am open to giving different “weights” for each of these components. I said above I will give the in-class essays letter grades. I am open to doing something else. I am open to including credit for participation. (I am not willing to define that using some sort of scorecard that counts how many times you speak up.) I am open to doing something during our “final exam” period—for example, we could use that as an additional extended time writing day, or we could shift the fourth writing day to that time instead."
-  },
-  {
-    "objectID": "syllabus.html#attendance",
-    "href": "syllabus.html#attendance",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Attendance",
-    "text": "Attendance\nAbsences impact your ability to complete in-class work. They also deprive you of the opportunity to learn from lecture and discussion. Note that this is true for both excused on unexcused absences: exercises designed to be done in class in conjunction with discussion cannot be replicated outside of class; getting notes from someone about what we discussed is not the same as being part of that discussion yourself.\nYou are responsible for attending class and completing all assigned academic work. You should familiarize yourself with University policy to understand which absences are excused and which are not. If you need advice on how to manage an extended absence or want notification of your absence sent to your instructors, contact the Dean of Students Office."
-  },
-  {
-    "objectID": "syllabus.html#accommodations",
-    "href": "syllabus.html#accommodations",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Accommodations",
-    "text": "Accommodations\nAny student needing to arrange a reasonable accommodation for a documented disability and/or medical/mental health condition should contact Student Access and Accommodation Services at 308 Fell Hall, Office Phone (309) 438-5853, Video Phone (309) 319-7682 or visit the website at &lt;StudentAccess.IllinoisState.edu&gt;.\nI am also open to arranging reasonable accommodation regardless of documentation. If there is something you need, ask."
-  },
-  {
-    "objectID": "syllabus.html#academic-integrity",
-    "href": "syllabus.html#academic-integrity",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Academic Integrity",
-    "text": "Academic Integrity\nYou are expected to be honest in all academic work, consistent with the academic integrity policy as outlined in the Code of Student Conduct and any additional syllabus language. All work is to be appropriately cited when it is borrowed, directly or indirectly, from another source. Unauthorized and/or unacknowledged collaboration on any work, or the presentation of someone else’s work as your own, is a form of academic dishonesty under the Code of Student Conduct.\nContent generated by an Artificial Intelligence third-party service or site (AI-generated content) without proper authorization and attribution is a form of academic dishonesty. If you are unsure about whether something used in your work requires attribution, please reach out to me to discuss it as soon as possible. Allegations of academic dishonesty will be referred to Student Conduct and Community Responsibilities, for review under the Student Code of Conduct. Students found responsible for academic dishonesty may also be assigned a grade penalty by the instructor."
-  },
-  {
-    "objectID": "syllabus.html#generative-ai-use-not-permitted",
-    "href": "syllabus.html#generative-ai-use-not-permitted",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Generative AI Use Not Permitted",
-    "text": "Generative AI Use Not Permitted\nIn this course, the use of generative AI tools such as ChatGPT, Microsoft Copilot, Adobe Firefly, Google AI Mode, or Apple Intelligence is not permitted to support the completion of any assigned work. This includes, but is not limited to, using generative AI tools to ideate, pre-plan, edit, translate, or otherwise create original material you claim to be solely your creation. Use of a generative AI tool to complete assigned work in whole or in part may be referred under the Code of Student Conduct academic dishonesty provisions for further action by the Dean of Students Office."
-  },
-  {
-    "objectID": "syllabus.html#permission-required-to-record",
-    "href": "syllabus.html#permission-required-to-record",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Permission Required to Record",
-    "text": "Permission Required to Record\nStudents who wish to use phones or other audio or video devices to record classroom lectures/discussions or take photographs must obtain written permission from the instructor except with an approved accommodation from Student Access and Accommodations Services. Approved recordings are to be used solely for the purposes of individual or group study with other students enrolled in the class. They may not be reproduced, shared with those not enrolled in the class, or uploaded to publicly accessible web environments. Violation of this classroom rule may result in referral to the Student Conduct and Community Responsibilities (SCCR) office for disciplinary action."
-  },
-  {
-    "objectID": "slides/frege.html#reading",
-    "href": "slides/frege.html#reading",
-    "title": "Frege, Continued",
-    "section": "Reading",
-    "text": "Reading\n\nReading for next week is Russell, “On Denoting” and Strawson, “On Referring”.\nRussell’s “Descriptions” is optional, but many find that it is a clearer presentation of some of the key ideas from “On Denoting.”\nI need to get the “guide” up!\nI have added a link to these slides to the “guide” for Frege."
-  },
-  {
-    "objectID": "slides/frege.html#proper-names-senses-referents",
-    "href": "slides/frege.html#proper-names-senses-referents",
-    "title": "Frege, Continued",
-    "section": "Proper Names, Senses, Referents",
-    "text": "Proper Names, Senses, Referents\n\nA proper name is a word or phrase that designates a single determinate thing.\nEach proper name expresses a sense and refers to a referent.\nThe relation between name and sense is conventional; the relation between sense and referent is not."
-  },
-  {
-    "objectID": "slides/frege.html#senses",
-    "href": "slides/frege.html#senses",
-    "title": "Frege, Continued",
-    "section": "Senses",
-    "text": "Senses\n\nA sense is a “mode of presentation” or a “way of thinking about” the referent.\nSenses are not subjective “conceptions”, but shared objective thoughts: otherwise, communication would be impossible\n“One can hardly deny that mankind has a common store of thoughts which is transmitted from one generation to another” p. 212\nTo know what a word means is to grasp the sense it expresses."
-  },
-  {
-    "objectID": "slides/frege.html#a-note-about-thought",
-    "href": "slides/frege.html#a-note-about-thought",
-    "title": "Frege, Continued",
-    "section": "A Note about ‘Thought’",
-    "text": "A Note about ‘Thought’\n\nThe word thought is subject to an “act-object” ambiguity.\nExamples: ‘work’, ‘belief’, ‘perception’\nIn each case, there is, on the one hand, the process or act or state—the work, the belief, the perception—and, on the other hand, the product or content—the work, the belief, the perception.\nFrege is saying that we have access to a shared store of thought contents. He is not saying that we are part of a hive mind that engages in collective acts of thought."
-  },
-  {
-    "objectID": "slides/frege.html#names-express-senses",
-    "href": "slides/frege.html#names-express-senses",
-    "title": "Frege, Continued",
-    "section": "Names express Senses",
-    "text": "Names express Senses\n\nThe relation between a name and the sense it expresses is conventional and arbitrary.\nTwo names can express the same sense: synonyms, but also translation.\nOne name should not be used to express more than one sense: ambiguity, which should be avoided.\nNo name should fail to express a sense: nonsense, which should be avoided."
-  },
-  {
-    "objectID": "slides/frege.html#senses-and-referents",
-    "href": "slides/frege.html#senses-and-referents",
-    "title": "Frege, Continued",
-    "section": "Senses and Referents",
-    "text": "Senses and Referents\n\nThe sense of a proper name determines a single unique referent—or no referent at all.\nThe relation between a sense and the referent it determines is not conventional.\nThe same referent can be determined by many different senses—there can be many different ways of thinking about the same thing.\nSome proper names express senses that fail to determine any referent at all: empty names."
-  },
-  {
-    "objectID": "slides/frege.html#compositionality",
-    "href": "slides/frege.html#compositionality",
-    "title": "Frege, Continued",
-    "section": "Compositionality",
-    "text": "Compositionality\n\nThe meaning of a whole sentence is a function of the meanings of its parts.\nCompositionality explains your ability to understand sentences you have never heard before:\n‘The purple twinkies that you left in the drawer spontaneously combusted.’"
-  },
-  {
-    "objectID": "slides/frege.html#compositionality-of-sense-and-reference",
-    "href": "slides/frege.html#compositionality-of-sense-and-reference",
-    "title": "Frege, Continued",
-    "section": "Compositionality of Sense and Reference",
-    "text": "Compositionality of Sense and Reference\n\nThe sense expressed by a whole sentence—the thought it expresses—is a function of the senses expressed by its parts.\nThe referent of a whole sentence—its truth value—is a function of the referents of its parts."
-  },
-  {
-    "objectID": "slides/frege.html#compositionality-and-empty-names",
-    "href": "slides/frege.html#compositionality-and-empty-names",
-    "title": "Frege, Continued",
-    "section": "Compositionality and Empty Names",
-    "text": "Compositionality and Empty Names\n\nIf a sentence contains a proper name that fails to express any sense—a nonsense word—that sentence fails to express a thought.\nIf a sentence contains a proper name that expresses a sense, but has no referent, that sentence expresses a thought, but has no truth value."
-  },
-  {
-    "objectID": "slides/frege.html#reading-1",
-    "href": "slides/frege.html#reading-1",
-    "title": "Frege, Continued",
-    "section": "Reading",
-    "text": "Reading\n\nRe-read p. 215 and gather your thoughts.\nDiscuss the passage with two people sitting next to you.\nCan you come up with other examples of sentences with empty names?"
-  },
-  {
-    "objectID": "slides/frege.html#sentences-with-empty-names",
-    "href": "slides/frege.html#sentences-with-empty-names",
-    "title": "Frege, Continued",
-    "section": "Sentences with Empty Names",
-    "text": "Sentences with Empty Names\nWhat does Frege’s view imply about these sentences:\n\n‘Odysseus was set ashore at Ithaca while sound asleep’\n‘The largest natural number is even.’\n‘The largest natural number is odd.’\n‘Sherlock Holmes is a detective.’"
-  },
-  {
-    "objectID": "slides/frege.html#compositionality-and-substitutivity",
-    "href": "slides/frege.html#compositionality-and-substitutivity",
-    "title": "Frege, Continued",
-    "section": "Compositionality and Substitutivity",
-    "text": "Compositionality and Substitutivity\n\nThe referent—truth value—of a sentence is a function of the referents of its parts.\nSo, if you replace a proper name with another proper name that has the same referent—even if it has a different sense—this should not affect the truth value."
-  },
-  {
-    "objectID": "slides/frege.html#examples",
-    "href": "slides/frege.html#examples",
-    "title": "Frege, Continued",
-    "section": "Examples",
-    "text": "Examples\n\n\n\nArgument\n\n\n\nThe largest prime number less than 10 is odd.\nSo, seven is odd.\n\n\n\n\n\n\n\nArgument\n\n\n\nSuperman just flew past my window.\nSo, Clark Kent just flew past my window.\n\n\n\n\n\n\n\nArgument\n\n\n\nLois believes that Superman flies.\nSo, Lois believes that Clark Kent flies."
-  },
-  {
-    "objectID": "slides/frege.html#indirect-speech",
-    "href": "slides/frege.html#indirect-speech",
-    "title": "Frege, Continued",
-    "section": "Indirect Speech",
-    "text": "Indirect Speech\n\n\n\nArgument\n\n\n\nLois believes that Superman flies.\nSo, Lois believes that Clark Kent flies.\n\n\n\n\nRe-read p. 211-212. According to Frege, why is this a bad argument."
-  },
-  {
-    "objectID": "slides/frege.html#idealism-and-skepticism",
-    "href": "slides/frege.html#idealism-and-skepticism",
-    "title": "Frege, Continued",
-    "section": "Idealism and Skepticism",
-    "text": "Idealism and Skepticism\n\nIdealism is the view that there is no external world beyond our ideas.\nSkepticism is the view that, for all we know, there is no external world beyond our ideas.\nBoth might seem like good reasons to hold, with Locke, that words can only be signs for ideas, not objects in reality.\n\nRe-read p. 214. What is Frege’s take on these issues?"
-  },
-  {
-    "objectID": "slides/frege.html#sentences-truth-values-and-judgment",
-    "href": "slides/frege.html#sentences-truth-values-and-judgment",
-    "title": "Frege, Continued",
-    "section": "Sentences, Truth Values, and Judgment",
-    "text": "Sentences, Truth Values, and Judgment\n\nThe view that the referent of a sentence is a truth value is weird!\n\nRe-read p. 215-218.\n\nCan we unpack the argument here, that a sentence refers to its truth value, and that the true and the false are objects, not predicates?\nWhat is Frege’s account of judgment?"
-  },
-  {
-    "objectID": "slides/frege.html#solving-the-puzzle",
-    "href": "slides/frege.html#solving-the-puzzle",
-    "title": "Frege, Continued",
-    "section": "Solving the Puzzle",
-    "text": "Solving the Puzzle\nRe-read p. 230. How does Frege’s theory allow him to solve the original puzzle?"
-  },
-  {
-    "objectID": "slides/kripke.html#announcements",
-    "href": "slides/kripke.html#announcements",
-    "title": "Direct Reference",
-    "section": "Announcements",
-    "text": "Announcements\n\nI am almost done with your papers. Will return on Wednesday with comments.\nShit shit shit shit shit the website wasn’t updating.\nReading for this week is Kripke, Naming and Necessity"
-  },
-  {
-    "objectID": "slides/kripke.html#mill-on-dartmouth",
-    "href": "slides/kripke.html#mill-on-dartmouth",
-    "title": "Direct Reference",
-    "section": "Mill on ‘Dartmouth’",
-    "text": "Mill on ‘Dartmouth’\n\nThere is a well known doctrine of John Stuart Mill, in his book A System of Logic, that names have denotation but not connotation … Someone who said that Dartmouth did not lie at the Dart’s mouth would not contradict himself. (26)\n\n\nOpen in Zotero. Let the students read the passage. Discuss the argument."
-  },
-  {
-    "objectID": "slides/kripke.html#frege-and-russell",
-    "href": "slides/kripke.html#frege-and-russell",
-    "title": "Direct Reference",
-    "section": "Frege and Russell",
-    "text": "Frege and Russell\n\nBut the classical tradition of modern logic has gone very strongly against Mill’s view. Frege and Russell both thought, and seemed to arrive at these conclusions independently of each other, that Mill was wrong in a very strong sense: really a proper name, properly used, simply was a definite description abbreviated or disguised. Frege specifically said that such a description gave the sense of the name. (27)"
-  },
-  {
-    "objectID": "slides/kripke.html#three-views",
-    "href": "slides/kripke.html#three-views",
-    "title": "Direct Reference",
-    "section": "Three Views",
-    "text": "Three Views\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- expresses --&gt;  B(*the city that lies at the mouth of the Dart*)\n    B -- determines --&gt; C(Dartmouth)\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- abbreviates --&gt;  B('The city that lies at the mouth of the Dart')\n    B -- denotes --&gt; C(Dartmouth)\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A['Dartmouth'] -- directly refers --&gt;  C(Dartmouth)"
-  },
-  {
-    "objectID": "slides/kripke.html#arguments-in-favor-of-the-frege-russell-view",
-    "href": "slides/kripke.html#arguments-in-favor-of-the-frege-russell-view",
-    "title": "Direct Reference",
-    "section": "Arguments in Favor of the Frege-Russell View",
-    "text": "Arguments in Favor of the Frege-Russell View\n\nThe basic problem for any view such as Mill’s is how we can determine what the referent of a name (27)"
-  },
-  {
-    "objectID": "slides/kripke.html#kripkes-plan",
-    "href": "slides/kripke.html#kripkes-plan",
-    "title": "Direct Reference",
-    "section": "Kripke’s Plan",
-    "text": "Kripke’s Plan\n\nIt would be nice to answer all of these arguments. I am not entirely able to see my way clear through every problem of this sort that can be raised. Furthermore, I’m pretty sure that I won’t have time to discuss all these questions in these lectures. Nevertheless, I think it’s pretty certain that the view of Frege and Russell is false. (29)"
-  },
-  {
-    "objectID": "slides/kripke.html#the-cluster-concept-variant",
-    "href": "slides/kripke.html#the-cluster-concept-variant",
-    "title": "Direct Reference",
-    "section": "The Cluster Concept Variant",
-    "text": "The Cluster Concept Variant\n\nMany people have said that the theory of Frege and Russell is false, but, in my opinion, they have abandoned its letter while retaining its spirit, namely, they have used the notion of a cluster concept. (30)"
-  },
-  {
-    "objectID": "slides/kripke.html#wittgenstein-on-moses",
-    "href": "slides/kripke.html#wittgenstein-on-moses",
-    "title": "Direct Reference",
-    "section": "Wittgenstein on ‘Moses’",
-    "text": "Wittgenstein on ‘Moses’\n\nConsider this example. If one says ‘Moses did not exist’, this may mean various things. It may mean: the Israelites did not have a single leader when they withdrew from Egypt—-or: their leader was not called Moses—or: there cannot have been anyone who accomplished all that the Bible relates of Moses- … But when I make a statement about Moses,—am I always ready to substitute some one of those descriptions for ‘Moses’? I shall perhaps say: by ‘Moses’ I understand the man who did what the Bible relates of Moses, or at any rate, a good deal of it. But how much? Have I decided how much must be proved false for me to give up my proposition as false? Has the name ’Moses’ got a fixed and unequivocal use for me in all possible cases? (31)"
-  },
-  {
-    "objectID": "slides/kripke.html#a-priori-vs.-necessary",
-    "href": "slides/kripke.html#a-priori-vs.-necessary",
-    "title": "Direct Reference",
-    "section": "A priori vs. Necessary",
-    "text": "A priori vs. Necessary\n\nGoldbach’s Conjecture\n\nEvery even number greater than 2 is the sum of two prime numbers.\n\n\n\nIf true, necessarily true; if false, necessarily false.\nBut, at least as of now, we have no proof either way. For all we know, there could be no proof either way.\n\nSo: GC (or its negation) is a necessary truth, but is not a priori knowable."
-  },
-  {
-    "objectID": "slides/kripke.html#de-re-modality",
-    "href": "slides/kripke.html#de-re-modality",
-    "title": "Direct Reference",
-    "section": "De Re Modality",
-    "text": "De Re Modality\n\nThere is one more question I want to go into in a preliminary way. Some philosophers have distinguished between essentialism, the belief in modality de re, and a mere advocacy of necessity, the belief in modality de dicto. Now, some people Say: Let’s give you the concept of necessity. A much worse thing, something creating great additional problems, is whether we can say of any particular that it has necessary or contingent properties, even make the distinction between necessary and contingent properties. Look, it’s only a statement or a state of affairs that can be either necessary or contingent! Whether a particular necessarily or contingently has a certain property depends on the way it‘s described. (39-40)"
-  },
-  {
-    "objectID": "slides/kripke.html#and-7",
-    "href": "slides/kripke.html#and-7",
-    "title": "Direct Reference",
-    "section": "9 and 7",
-    "text": "9 and 7\n\nWhat’s the difference between asking whether it’s necessary that 9 is greater than 7 or whether it’s necessary that the number of planets is greater than 7? Why does one show any thing more about essence than the other? The answer to this might be intuitively ‘Well, look, the number of planets might have been different from what it in fact is. It doesn’t make any sense, though, to say that nine might have been different from what it in fact is’. Let’s use some terms quasi-technically. Let’s call something a rigid designator if in every possible world it designates the same object, a nonrigid or accidental designator if that is not the case. (p. 48)"
-  },
-  {
-    "objectID": "slides/kripke.html#nixon-and-the-election",
-    "href": "slides/kripke.html#nixon-and-the-election",
-    "title": "Direct Reference",
-    "section": "Nixon and the election",
-    "text": "Nixon and the election\nSee p. 41-42"
-  },
-  {
-    "objectID": "slides/kripke.html#kripkes-argument",
-    "href": "slides/kripke.html#kripkes-argument",
-    "title": "Direct Reference",
-    "section": "Kripke’s Argument",
-    "text": "Kripke’s Argument\n\nIn these lectures, I will argue, intuitively, that proper names are rigid designators, for although the man (Nixon) might not have been the President, it is not the case that he might not have been Nixon (though he might not have been called ‘Nixon’). Those who have argued that to make sense of the notion of rigid designator, we must antecedently make sense of ‘criteria of transworld identity’ have precisely reversed the cart and the horse; it is because we can refer (rigidly) to Nixon, and stipulate that we are speaking of what might have happened to him (under certain circumstances), that ‘transworld identifications’ are unproblematic in such cases. (49)"
-  },
-  {
-    "objectID": "slides/kripke.html#the-meter-stick-in-paris",
-    "href": "slides/kripke.html#the-meter-stick-in-paris",
-    "title": "Direct Reference",
-    "section": "The Meter Stick in Paris",
-    "text": "The Meter Stick in Paris\nSee p. 54-55"
-  },
-  {
-    "objectID": "slides/kripke.html#contingent-a-priori-truths",
-    "href": "slides/kripke.html#contingent-a-priori-truths",
-    "title": "Direct Reference",
-    "section": "Contingent A Priori Truths",
-    "text": "Contingent A Priori Truths\n\nWhat then, is the epistemological status of the statement ‘Stick S is one meter long at t0’, for someone who has fixed the metric system by reference to stick S? (56)"
+    "objectID": "slides/putnam.html#rigidity-and-indexicality",
+    "href": "slides/putnam.html#rigidity-and-indexicality",
+    "title": "Twin Earth",
+    "section": "Rigidity and Indexicality",
+    "text": "Rigidity and Indexicality\nSee p. 707"
   },
   {
     "objectID": "slides/quine.html#announcements",
