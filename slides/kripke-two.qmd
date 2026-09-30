@@ -1,0 +1,210 @@
+---
+title: "Direct Reference, Continued"
+date: 2026-09-23
+center-title-slide: false
+title-slide-attributes:
+  data-background-image: media/dartmouth.png
+  data-background-size: cover
+  data-background-opacity: "0.9"
+include-in-header:
+  - text: |
+      <style>
+      #title-slide.quarto-title-block {
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 50%;
+        margin-left: -10%;
+        margin-top: 20%;
+      }
+      </style>
+fig-cap-location: top
+format:
+  revealjs:
+    min-scale: 1
+    max-scale: 1
+    template-partials:
+      - title-slide.html
+---
+
+# Preliminaries
+
+## Announcements
+
+-  I am not yet done with your papers. Will return on Monday with comments.
+-  Reading for next week is @putnam1973.
+
+# Frege, Russell, Mill
+
+## Three Views
+
+:::{layout-ncol=3}
+
+```{mermaid}
+graph TB
+    A['Dartmouth'] -- expresses -->  B(*the city that lies at the mouth of the Dart*)
+    B -- determines --> C(Dartmouth)
+```
+```{mermaid}
+graph TB
+    A['Dartmouth'] -- abbreviates -->  B('The city that lies at the mouth of the Dart')
+    B -- denotes --> C(Dartmouth)
+```
+```{mermaid}
+graph TB
+    A['Dartmouth'] -- directly refers -->  C(Dartmouth)
+```
+
+:::
+
+# Rigid and Non-Rigid Designators
+
+## Definitions
+
+Rigid Designator
+:   X is a rigid designator just in case it designates the same object in every possible world.
+
+Nonrigid Designator
+:   X is a nonrigid designator just in case it is not a rigid designator.
+
+## 9 and the number of planets
+
+> What's the difference between asking whether it's necessary that 9 is greater than 7 or whether it's necessary that the number of planets is greater than 7? Why does one show any thing more about essence than the other? The answer to this might be intuitively ‘Well, look, the number of planets might have been different from what it in fact is. It doesn't make any sense, though, to say that nine might have been different from what it in fact is’.
+
+-  '9' is a rigid designator. 'The number of planets' is nonrigid.
+
+## The Meter Stick in Paris
+
+Read p. 54-55
+
+. . .
+
+-   'One meter' rigidly designates a certain length in all possible worlds, which happens, in our world, to be the length of stick S at t~0~.
+-   'The length of stick S at t~0~' does not rigidly designate one length in all possible worlds: it designates different lengths in worlds where the stick is longer or shorter than it actually is.
+
+
+# Against the "Frege-Russell" view
+
+## Six Theses {.smaller .scrollable}
+
+1. To every name or designating expression '$X$', there  corresponds a cluster of properties, namely the family of those properties $\varphi$ such that $A$ believes '$\varphi X$'.
+2.  One of the properties, or some conjointly, are believed by $A$ to pick out some individual uniquely. 
+3. If most, or a weighted most, of the $\varphi$'s are satisfied by  one unique object $y$, then $y$ is the referent of '$X$'.
+4. If the vote yields no unique object, '$X$' does not refer.
+5. The statement, 'If $X$ exists, then $X$ has most of the $\varphi$'s' is known a priori by the speaker. 
+6. The statement, 'If $X$ exists, then $X$ has most of the  $\varphi$'s' expresses a necessary truth (in the idiolect of the speaker). 
+
+<!-- -->
+
+C.  For any successful theory, the account must not be  circular. The properties which are used in the vote must not themselves involve the notion of reference  in such a way that it is ultimately impossible to eliminate.
+
+
+## Kneale on 'Socrates'
+
+> Ordinary proper names of people are not, as John Stuart Mill supposed, signs without sense. While it may be informative to tell a man that the most famous Greek philosopher was called Socrates, it is obviously trifling to tell him that Socrates was called Socrates; and the reason is simply that he cannot understand your use of the  word 'Socrates' at the beginning of your statement unless he already knows that 'Socrates' means 'The individual called "Socrates"'. (68)
+
+:::notes
+What is wrong with this view, according to Kripke?
+
+Have them take a look at p. 69 and also p. 72-73. Ask them to reconstruct Kneale's argument and Kripke's criticism.
+:::
+
+## Against (6)
+
+6. The statement, 'If $X$ exists, then $X$ has most of the  $\varphi$'s' expresses a necessary truth (in the idiolect of the speaker). 
+
+See p. 74-75: Aristotle and Hitler
+
+:::notes
+Ask them to reconstruct the counterexample.
+:::
+
+## Reference Fixing
+
+> Suppose we do decide to pick out the reference of ‘Hitler’, as the man who succeeded in  having more ]ews killed than anyone else managed to do in history. That is the way we pick out the reference of the name; but in another counterfactual situation where some one  else would have gained this discredit, we wouldn't say that in that case that other man would have been Hitler. If Hitler had  never come to power, Hitler would not have had the property which I am supposing we use to fix the reference of his name.
+
+Even when we use a property $\varphi$ to *fix the reference* of '$X$', it does not follow that 'X has $\varphi$' is a necessary truth.
+
+
+## Theses 1-5 without 6?
+
+Suppose we abandon 6. Then we give up on the theory as a **theory of meaning**, but we hold on to it as a **theory of reference fixing**. This is how the reference of (your use of) a name like 'Hilter' is fixed or determined, based on the properties he *actually* has in this world. But it is not a theory of what the name 'Hilter' means when you use it.
+
+## Theses 1
+
+1. To every name or designating expression '$X$', there  corresponds a cluster of properties, namely the family of those properties $\varphi$ such that $A$ believes '$\varphi X$'.
+
+
+> Thesis (1), as I say, is a definition. 
+
+## Thesis 2 {.smaller}
+
+
+2.  One of the properties, or some conjointly, are believed by $A$ to pick out some individual uniquely. 
+
+
+> It is a tribute to the education of philosophers that they have held this thesis for such a long time. In fact, most people, when they think of Cicero, just think of *a famous Roman orator*, without any pretension to think either that there was only one famous  Roman orator or that one must know something else about Cicero to have a referent for the name. Consider Richard  Feynman, to whom many of us are able to refer. He is a leading contemporary theoretical physicist. Everyone here (I'm sure!) can state the contents of one of Feynman's theories so as to differentiate him from Gell-Mann. However, the man in the street, not possessing these abilities, may still use the name ‘Feynman’. When asked he will say: well he's a physicist or something. He may not think that this picks out anyone uniquely. I still think he uses the name ‘Feynman’ as a name for Feynman. (81)
+
+---
+
+> But let's look at some of the cases where we do have a  description to pick out someone uniquely. Let's say, for example, that we know that Cicero was the man who first denounced Catiline. Well, that's good. That really picks someone out uniquely. However, there is a problem, because this description contains another name, namely 'Catiline'. We must be sure that we satisfy the conditions in such a way as to avoid violating the noncircularity condition here. In particular, we must not say that Catiline was the man denounced by Cicero. (81)
+
+---
+
+> If we say Einstein was the man who discovered the theory of relativity, that certainly picks out someone uniquely. One can be sure, as I said, that everyone here can make a compact and independent statement of this theory and so pick out Einstein uniquely; but many people actually don't know enough about this stuff, so when asked what the theory of relativity is, they will say: ‘Einstein's theory’, and thus be led into the most straightforward sort of vicious circle. (81-82)
+
+## Thesis 3
+
+3. If most, or a weighted most, of the $\varphi$'s are satisfied by  one unique object $y$, then $y$ is the referent of '$X$'.
+
+> Let's suppose someone says that Gödel is the man who proved the incompleteness of arithmetic, and this man is suitably well educated and is even able to give an independent account of the in completeness theorem. Does it follow that whoever discovered the incompleteness of arithmetic is the referent of 'Gödel'? (83)
+
+---
+
+> Suppose that Gödel was not in fact the author of this theorem. A man named 'Schmidt', whose body was found in Vienna under mysterious circumstances many years ago, actually did the work in question. His friend Gödel somehow got hold of the manuscript and it was thereafter attributed to Gödel. On the view in question, then, when our ordinary man uses the name ‘Gödel', he really means to refer to Schmidt, because Schmidt is the unique person satisfying the description, ‘the man who discovered the in completeness of arithmetic’. ... So, since the man who discovered the incompleteness of arithmetic is in fact Schmidt, we, when we talk about ‘Gödel', are in fact always referring to Schmidt. But it seems to me that we are not. We simply are not. (83-4)
+
+
+---
+
+> Very often we use a name on the basis of considerable misinformation. ...What do we know about Peano? What many people in this  room may ‘know’ about Peano is that he was the discoverer of certain axioms which characterize the sequence of natural  numbers, the so-called ‘Peano axioms’. ... I have been told that these axioms were not first discovered by Peano but by Dedekind. Peano was of course not a dishonest man ... his footnotes include a credit to Dedekind. So on the theory in question the term 'Peano', as we use it, really refers to Dedekind. (84-5) 
+
+
+
+## Thesis 4
+
+4. If the vote yields no unique object, '$X$' does not refer.
+
+> First, the vote may not yield a *unique* object, as in the case of Cicero or Feynman. (86)
+
+---
+
+4. If the vote yields no unique object, '$X$' does not refer.
+
+> Secondly, suppose it yields *no* object, that nothing satisfies most, or even any, substantial number, of the $\varphi$'s. Does that mean the name doesn’t refer? No:
+> in the same way that you may have false beliefs about a person which may actually be true of someone else, so you may have false beliefs which are true of absolutely no one. And these may constitute the totality of your beliefs. Suppose, to vary the example about Gödel, no one had discovered the incompleteness of arithmetic—perhaps the proof simply materialized by a random scattering of atoms on a piece of paper—the man Gödel being lucky enough to have been present when this improbable event occurred. Further, suppose arithmetic is in fact complete... (86)
+
+---
+
+> I gave you the case of Jonah last week. Biblical scholars, as I said, think that Jonah really existed. It isn t because they think that someone ever was swallowed by a big fish or even went to Nineveh to preach. These conditions may be true of no one whatso ever and yet the name 'Jonah' really has a referent. (87)
+
+
+
+## Thesis 5
+
+5. The statement, 'If $X$ exists, then $X$ has most of the $\varphi$'s' is known a priori by the speaker. 
+
+> Notice that even in a case where (3) and (4) happen to be true, a typical speaker hardly knows a priori that they are, as required by the theory. I think that my belief about Gödel is in fact correct and that the 'Schmidt' story is just a fantasy. But the belief hardly constitutes a priori knowledge. (87)
+
+# Kripke's Positive Proposal
+
+## The Causal Historical Theory of Reference {.smaller}
+
+> What is the true picture of what's going on? ... Someone, let's say, a baby, is born; his parents call him by a certain name. They talk about him to their friends. Other people meet him. Through various sorts of talk the name is spread from link to link as if by a chain. A speaker who is on the far end of this chain, who has heard about, say Richard Feynman, in the market place or elsewhere, may be referring to Richard Feynman even though he can't remember from whom he first heard of Feynman or from whom he ever heard of Feynman. He knows that Feynman is a famous physicist. A certain passage of communication reaching ultimately to the man himself does reach the speaker. He then is referring to Feynman even though he can’t identify him uniquely. ...By virtue of his membership in a community which passed the name on from link to link, not by a ceremony that he makes in private in his study: 'By “Feynman” I shall mean the man who did such and such and such and such’. (91-92)
+
+## Problems
+
+> Obviously the name is passed on from link to link. But of course not every sort of causal chain reaching from me to a  certain man will do for me to make a reference. There may be a causal chain from our use of the term 'Santa Claus’ to a  certain historical saint, but still the children, when they use this, by this time probably do not refer to that saint. So other conditions must be satisfied in order to make this into a really rigorous theory of reference. (93)
+
+## A Rough Statement
+
+> A rough statement of a theory might be the following: An initial ‘baptism' takes place. Here the object may be named by ostension, or the reference of the name may be fixed by a description. When the name is 'passed from link to link’, the receiver of the name must, I think, intend when he learns it to use it with the same reference as the man from whom he  heard it. If I hear the name ‘Napoleon’ and decide it would be a nice name for my pet aardvark, I do not satisfy this condition. (Perhaps it is some such failure to keep the reference fixed which accounts for the divergence of present uses of 'Santa Claus' from the alleged original use.) (96-7)
+
+## References {-}
