@@ -21,5 +21,10 @@ My reading advice:
 -   Focus first on the three thought experiments and what Putnam claims they show. Do you agree? Can you think of other ways of explaining the cases?
 -   Think about how the examples that Putnam gives here and the view he develops relates to the examples you saw in Kripke and the view he develops.
 
+## Slides
+
+-  [Slides from Monday, Sep 28th](/slides/putnam.md)
+-  [Slides from Wednesday, Sep 30th](/slides/putnam-two.md)
+
 ## References {-}
 
