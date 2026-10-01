@@ -67,7 +67,7 @@ Readings are typically assigned by the week. At a minimum, you should complete t
 
 - - []{rowspan=2} 8
   - M 10/5
-  - TBD
+  - Open Discussion/Review/Thinking about Writing
 
 - - W 10/7
   - **Writing Day**
