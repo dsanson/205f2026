@@ -49,6 +49,13 @@
     "text": "For this week, read Putnam (1973).\nThe first part of the paper, “Are Meanings in the Head?”, presents three examples. The examples are meant to establish that two speakers can use the same word and be in the same psychological state, but refer to different things. So intension (meaning, sense) does not determine extension (reference).\nThe first example is the “Twin Earth” thought experiment. This is a famous thought experiment that involves a bit of science fiction, imagining that there is a planet somewhere in the universe that is a lot like earth, but not quite the same. Speakers on this “Twin Earth” associate with the word ‘water’ the same intension we do, but it picks out a different chemical substance in their language than it does in ours.\nThe second example is a variant of the first, also involving a “Twin Earth”, but is about the words ‘aluminum’ and ‘molybdenum’ instead of the word ‘water’.\nThe third example does not involve any science fiction. It is just about ordinary speakers here on Earth who cannot tell the difference between a beech tree and an elm.\nAs you read this, and think about these examples, think about how they are related to the examples Kripke uses to argue against the “Frege-Russell” view.\nThe second part of the paper, “A Sociolinguistic Hypothesis”, suggests that the second and third example can be explained by appealing to a “division of linguistic labor”. Ordinary speakers are not responsible for being able to tell the difference between beech trees and elms, or between aluminum and molybdenum. We leave that to the experts.\nAs you read this, you might think about how it relates to the examples Kripke discusses, of ordinary speakers who cannot uniquely identify Cicero, Einstein, Aristotle, or Feynman, but nevertheless can use the names ‘Cicero’, ‘Einstein’, ‘Aristotle’, and ‘Feynman’ to refer to Cicero, Einstein, Aristotle, and Feynman.\nThe third part of the paper, “Indexicality and Rigidity”, returns to the first thought experiment, involving Twin Earth and ‘water’. This is the most complicated part of the paper. Putnam considers various views about how the word ‘water’ works across different circumstances and different possible worlds. He connects this to a Russell-like scope distinction, and also connects it to Kripke’s concept of a “rigid designator”. He then develops the idea that natural kind terms like ‘water’ have an indexical component—‘water’ means, roughly, the stuff in the oceans and rivers around here. And then he claims that this indexical account and Kripke’s rigid designator account are “two ways of making the same point”.\nMy reading advice:"
   },
   {
+    "objectID": "guides/putnam.html#slides",
+    "href": "guides/putnam.html#slides",
+    "title": "PHI 205",
+    "section": "Slides",
+    "text": "Slides\n\nSlides from Monday, Sep 28th\nSlides from Wednesday, Sep 30th"
+  },
+  {
     "objectID": "guides/russell.html",
     "href": "guides/russell.html",
     "title": "Russell on Definite Descriptions",
@@ -441,6 +448,230 @@
     "text": "Solving the Puzzle\nRe-read p. 230. How does Frege’s theory allow him to solve the original puzzle?"
   },
   {
+    "objectID": "slides/quine-two.html#announcements",
+    "href": "slides/quine-two.html#announcements",
+    "title": "Two Dogmas, Continued",
+    "section": "Announcements",
+    "text": "Announcements\n\nReading for today was Quine, “Two Dogmas of Empiricism”\nReading for next week is selections from Saul Kripke’s book, Naming and Necessity"
+  },
+  {
+    "objectID": "slides/quine-two.html#logical-empiricism-a-vision",
+    "href": "slides/quine-two.html#logical-empiricism-a-vision",
+    "title": "Two Dogmas, Continued",
+    "section": "Logical Empiricism: a Vision",
+    "text": "Logical Empiricism: a Vision\nLanguage makes contact with experience in the form of basic observation sentences, e.g.,\n\n\n\n\nThis is red.\n\n‘This’ refers to some immediate object of sense experience, and ‘is red’ categorizes it by how it appears."
+  },
+  {
+    "objectID": "slides/quine-two.html#the-two-dogmas",
+    "href": "slides/quine-two.html#the-two-dogmas",
+    "title": "Two Dogmas, Continued",
+    "section": "The Two Dogmas",
+    "text": "The Two Dogmas\n\nOne [dogma] is a belief in some fundamental cleavage between truths which are analytic, or grounded in meanings independently of matters of fact, and truth which are synthetic, or grounded in fact.\n\n\nThe other dogma is reductionism: the belief that each meaningful statement is equivalent to some logical construct upon terms which refer to immediate experience."
+  },
+  {
+    "objectID": "slides/quine-two.html#what-even-are-meaningssenses",
+    "href": "slides/quine-two.html#what-even-are-meaningssenses",
+    "title": "Two Dogmas, Continued",
+    "section": "What even are meanings/senses?",
+    "text": "What even are meanings/senses?\n\n\n\n\n\n\n\ngraph TB\n    A['The King of England'] -- expresses --&gt;  B(a meaning/sense)\n    B -- determines --&gt; C(Charles)\n\n\n\n\n\n\n\n\nThe meaning is not ‘The King England’.\nThe meaning is not the King England.\nThe meaning is something intermediate between the two."
+  },
+  {
+    "objectID": "slides/quine-two.html#the-business-of-a-theory-of-meaning",
+    "href": "slides/quine-two.html#the-business-of-a-theory-of-meaning",
+    "title": "Two Dogmas, Continued",
+    "section": "The Business of a Theory of Meaning",
+    "text": "The Business of a Theory of Meaning\n\nOnce the theory of meaning is sharply separated from the theory of reference, it is a short step to recognizing as the business of the theory of meaning simply the synonymy of linguistic forms and the analyticity of statements; meanings themselves, as obscure intermediary entities, may well be abandoned. (22-23)\n\n\nWhen two words “mean the same thing”, is there really a third thing—a “meaning”—that both express?\n\nOr is the “entification” of meanings just sloppy talk for a relation of synonymy between them?"
+  },
+  {
+    "objectID": "slides/quine-two.html#some-analogies",
+    "href": "slides/quine-two.html#some-analogies",
+    "title": "Two Dogmas, Continued",
+    "section": "Some Analogies",
+    "text": "Some Analogies\n\nWhen two things “have the same property”, is there really a third thing—a “property”—that both instantiate?\n\nOr is the “entification” of properties just sloppy talk for a relation of similarity?\n\nWhen two animals are “of the same species”, is there a third thing—a “species”—that stands above them?\n\nOr is the “entification” of species just sloppy talk for a network of relationships between individual animals?"
+  },
+  {
+    "objectID": "slides/quine-two.html#shifting-project",
+    "href": "slides/quine-two.html#shifting-project",
+    "title": "Two Dogmas, Continued",
+    "section": "Shifting Project",
+    "text": "Shifting Project\nInstead of first giving a theory of meanings, and then using that theory to explain synonymy and analyticity, let’s look at strategies for making sense of synonymy and analyticity directly."
+  },
+  {
+    "objectID": "slides/quine-two.html#proposal",
+    "href": "slides/quine-two.html#proposal",
+    "title": "Two Dogmas, Continued",
+    "section": "Proposal",
+    "text": "Proposal\n\nThere are those who find it soothing to say that the analytic statements of the second class reduce to those of the first class, the logical truths, by definition; ‘bachelor’, e.g., is defined as ‘unmarried man’. But how do we find that ‘bachelor’ is defined as ‘unmarried man’? (24)\n\nHe puts this as a “how do we find” question. But really, he is asking about what makes it so."
+  },
+  {
+    "objectID": "slides/quine-two.html#dictionary-definitions-presuppose-synonymy",
+    "href": "slides/quine-two.html#dictionary-definitions-presuppose-synonymy",
+    "title": "Two Dogmas, Continued",
+    "section": "Dictionary Definitions Presuppose Synonymy",
+    "text": "Dictionary Definitions Presuppose Synonymy\n\nThe lexicographer is an empirical scientist, whose business is the recording of antecedent facts; and if he glosses ‘bachelor’ as ‘unmarried man’ it is because of his belief that there is a relation of synonymy between these forms, implicit in general or preferred usage prior to his own work. […] . Certainly the “definition” which is the lexicographer’s report of an observed synonymy cannot be taken as the ground of the synonymy (24)\n\n\nthink, discuss, share\nDictionary definitions do not reveal meanings; they provide synonyms. And they are not the ground of synonymy; they report on observed synonymies implicit in linguistic usage."
+  },
+  {
+    "objectID": "slides/quine-two.html#dictionary-definitions-and-usage",
+    "href": "slides/quine-two.html#dictionary-definitions-and-usage",
+    "title": "Two Dogmas, Continued",
+    "section": "Dictionary Definitions and Usage",
+    "text": "Dictionary Definitions and Usage\n\nJust what it means to affirm synonymy, just what the interconnections may be which are necessary and sufficient in order that two linguistic forms be properly describable as synonymous, is far from clear; but, whatever these interconnections may be, ordinarily they are grounded in usage. Definitions reporting selected instances of synonymy come then as reports upon usage. (25)\n\n\nthink, discuss, share\nThere is no magic dictionary in the sky. There is just linguistic usage. Facts about synonymy are either reducible to facts about usage, or they are nonsense."
+  },
+  {
+    "objectID": "slides/quine-two.html#definitions-as-explications",
+    "href": "slides/quine-two.html#definitions-as-explications",
+    "title": "Two Dogmas, Continued",
+    "section": "Definitions as Explications",
+    "text": "Definitions as Explications\n\nIn explication the purpose is not merely to paraphrase the definiendum into an outright synonym, but actually to improve upon the definiendum by refining or supplementing its meaning.\n\n\nthe biologist offers an explication of ‘fish’: in past usage, the extension of ‘fish’ included whales, but it is better to change that, so that it does not include whales.\nFollowers of Frege offer an explication of ‘meaning’: in past usage, it is ambiguous between sense and reference, but it is better to change that, and only use it for sense."
+  },
+  {
+    "objectID": "slides/quine-two.html#definitions-as-conventional-abbreviations",
+    "href": "slides/quine-two.html#definitions-as-conventional-abbreviations",
+    "title": "Two Dogmas, Continued",
+    "section": "Definitions as Conventional Abbreviations",
+    "text": "Definitions as Conventional Abbreviations\nQuine goes on about this at some length. Here is a relatively simple example:\n\n‘Or’, in English, has both an inclusive and exclusive reading.\nSuppose we offer an explication of ‘or’, on which only the inclusive reading is allowed.\nWe can then define ‘P xor Q’ as an abbreviation for ‘(P or Q) and not (P and Q)’.\n\n\nslow down. give them a chance to think it through. Other examples?"
+  },
+  {
+    "objectID": "slides/quine-two.html#definitions-as-conventional-abbreviation",
+    "href": "slides/quine-two.html#definitions-as-conventional-abbreviation",
+    "title": "Two Dogmas, Continued",
+    "section": "Definitions as Conventional Abbreviation",
+    "text": "Definitions as Conventional Abbreviation\n\nBut these correlations are not arbitrary. They are supposed to show how the primitive notations can accomplish all purposes, save brevity and convenience, of the redundant language. Hence the definiendum and its definiens may be expected, in each case, to be related in one or another of the three ways lately noted. The definiens may be a faithful paraphrase of the definiendum into the narrower notation, preserving a direct synonymy as of antecedent usage; or the definiens may, in the spirit of explication, improve upon the antecedent usage of the definiendum; or finally, the definiendum may be a newly created notation, newly endowed with meaning here and now. (27)\n\nOnly the last case plausibly gives rise to a new synonymy. But that case does not account for the relation between, e.g., ‘bachelor’ and ‘unmarried man’."
+  },
+  {
+    "objectID": "slides/quine-two.html#proposal-1",
+    "href": "slides/quine-two.html#proposal-1",
+    "title": "Two Dogmas, Continued",
+    "section": "Proposal",
+    "text": "Proposal\n\nA natural suggestion, deserving close examination, is that the synonymy of two linguistic forms consists simply in their interchangeability in all contexts without change of truth value; interchangeability, in Leibniz’s phrase, salva veritate. (27)\n\nThis is Frege’s test for co-reference. If we apply it to words as they occur both in direct and indirect contexts, it is a test for sameness of both reference and sense."
+  },
+  {
+    "objectID": "slides/quine-two.html#examples",
+    "href": "slides/quine-two.html#examples",
+    "title": "Two Dogmas, Continued",
+    "section": "Examples",
+    "text": "Examples\n\nI saw a bachelor shopping at Kroger.\nI saw an unmarried man shopping at Kroger."
+  },
+  {
+    "objectID": "slides/quine-two.html#a-small-problem",
+    "href": "slides/quine-two.html#a-small-problem",
+    "title": "Two Dogmas, Continued",
+    "section": "A Small Problem",
+    "text": "A Small Problem\n\nTruths which become false under substitution of ‘unmarried man’ for ‘bachelor’ are easily constructed with help of ‘bachelor of arts’ or ‘bachelor’s buttons’. Also with help of quotation, thus: ‘Bachelor’ has less than ten letters. Such counterinstances can, however, perhaps be set aside by treating the phrases ‘bachelor of arts’ and ‘bachelor’s buttons’ and the quotation ‘’bachelor’’ each as a single indivisible word and then stipulating that the interchangeability salva veritate which is to be the touchstone of synonymy is not supposed to apply to fragmentary occurrences inside of a word. (27-28)\n\nCan we unpack this?"
+  },
+  {
+    "objectID": "slides/quine-two.html#modal-contexts",
+    "href": "slides/quine-two.html#modal-contexts",
+    "title": "Two Dogmas, Continued",
+    "section": "Modal Contexts",
+    "text": "Modal Contexts\nSuppose we grant the test. We need to find sentences where interchangeability fails exactly when the two words are not synonymous. Quine suggests:\n\nNecessarily all and only As are Bs.\n\nIf ‘A’ and ‘B’ are synonymous, then this should be equivalent to the logical truth,\n\nNecessarily all and only As are As."
+  },
+  {
+    "objectID": "slides/quine-two.html#necessarily",
+    "href": "slides/quine-two.html#necessarily",
+    "title": "Two Dogmas, Continued",
+    "section": "“Necessarily”",
+    "text": "“Necessarily”\nWhat about:\n\nNecessarily, all and only triangles are triangles.\nNecessarily, all and only triangles are trilaterals.\n\nDoes this preserve truth? Are ‘triangle’ and ‘trilateral’ synonyms?"
+  },
+  {
+    "objectID": "slides/quine-two.html#another-problematic-example",
+    "href": "slides/quine-two.html#another-problematic-example",
+    "title": "Two Dogmas, Continued",
+    "section": "Another Problematic Example…",
+    "text": "Another Problematic Example…\n\nI do not know whether the statement ‘Everything green is extended’ is analytic. Now does my indecision over this example really betray an incomplete understanding, an incomplete grasp of the “meanings”, of ‘green’ and ‘extended’? I think not. The trouble is not with ‘green’ or ‘extended’, but with ‘analytic’. (31)\n\n\nEverything green is extended.\n\nIs this analytic?"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "",
+    "text": "Instructor\n\nDavid Sanson\n\nOffice\n\nStevenson 341\n\n\n\n\nClass Meetings\n\nMW 2:00–3:15PM, 229 Stevenson Hall\n\nOffice Hours\n\nM noon–1:00PM; W 11:00AM–noon"
+  },
+  {
+    "objectID": "syllabus.html#basic-information",
+    "href": "syllabus.html#basic-information",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "",
+    "text": "Instructor\n\nDavid Sanson\n\nOffice\n\nStevenson 341\n\n\n\n\nClass Meetings\n\nMW 2:00–3:15PM, 229 Stevenson Hall\n\nOffice Hours\n\nM noon–1:00PM; W 11:00AM–noon"
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Course Description",
+    "text": "Course Description\nPhilosophy of Language is the branch of philosophy that deals with philosophical problems and puzzles related to language. That might seem obvious, but you cannot always trust labels: they say that the Holy Roman Empire was neither holy, Roman, nor an empire.\nPhilosophical problems often raise questions about language, and language itself is a rich source of philosophical problems and puzzles. In this course, we will not attempt to cover all these problems and puzzles. In fact, the topics we cover reflect a somewhat narrow set of concerns, shaped by the philosophical concerns of the 20th century."
+  },
+  {
+    "objectID": "syllabus.html#class",
+    "href": "syllabus.html#class",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Class",
+    "text": "Class\nI will run this class as a combination of lecture, whole-class discussion, group discussion, and in-class exercises.\nIn a typical week, Monday’s class will begin with a lecture, introducing a new topic, followed by whole-class or group discussion. Wednesday’s class will continue on the same topic, with a combination of follow-up discussion and in-class writing exercises.\nI have a definite agenda for this class: there is material I want to get through and things I want you to learn. But ultimately, it is up to you all to shape the trajectory of our discussions. So it is important that you come to each class prepared and ready to engage."
+  },
+  {
+    "objectID": "syllabus.html#reading-assignments",
+    "href": "syllabus.html#reading-assignments",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Reading Assignments",
+    "text": "Reading Assignments\nIn a typical week, you will be asked to read one or two journal articles. You should plan to do this reading before our Monday meeting, and then do it again before our Wednesday meeting. You need to do the reading before our Monday meeting, or you will be lost. You need to do it again after our Monday meeting, when you will be in a better position to actually understand what the reading is about.\nOptional readings are optional, but you should try to make time to read some of them. We don’t have time to cover very much in this class, so we will be scratching the surface of several different topics. Also, given the nature of this material, we will often be reading older “foundational” articles rather than contemporary cutting edge research. Doing some of the optional readings will help fill these gaps, and give you a better understanding of the field."
+  },
+  {
+    "objectID": "syllabus.html#writing-assignments",
+    "href": "syllabus.html#writing-assignments",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Writing Assignments",
+    "text": "Writing Assignments\nThere are no required out-of-class writing assignments for this class.\nAs mentioned above, a typical Wednesday will involve some in-class writing exercises. These will be collected and graded pass-fail. As long as you are there and making a sincere effort to complete the exercise, you should pass.\nThere are also four “writing days” spread through the term. On these days, I will distribute essay prompts, and ask you to write essays, using pen and paper, in response to these prompts. These are writing days, not exams: the goal is not to test your knowledge of facts; the goal is to give you the opportunity to work through a philosophical problem in writing, in a form that is more detailed and extended than typical in-class writing exercises allow. These will be collected and treated as essays: each will receive written feedback and a letter grade."
+  },
+  {
+    "objectID": "syllabus.html#co-teaching",
+    "href": "syllabus.html#co-teaching",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Co-teaching",
+    "text": "Co-teaching\nThis will depend on the exact size of our class. If class size allows, you will each be assigned a week in which you (and perhaps a partner) are responsible for “leading” discussion. You will (perhaps with your partner) prepare a plan (following a provided template), and we will meet the week before to go over and refine your plan."
+  },
+  {
+    "objectID": "syllabus.html#grades",
+    "href": "syllabus.html#grades",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Grades",
+    "text": "Grades\nMy settled view is that grading causes more problems than it solves. The main problem it solves is motivation: the threat/promise of a grade helps motivate you to do work for this class when you lack that motivation or when the motivation you have is not strong enough to overcome other demands on your time.\nBut over-reliance on this form of external motivation fundamentally changes your educational experience. The point of this class is to give you the opportunity to explore some really neat parts of philosophy and figure out for yourself what you think about them. For that to work, you need to take ownership of your engagement with the course. Slogging through the readings with an eye toward passing a reading quiz or exam doesn’t cut it.\nThe other problem grading solves is the problem of sorting and ranking students by merit. But that is not a practice I agree with. Every student is different, and has different strengths and weaknesses. I want you to be the strongest student you can be, and I want to help you succeed at that. I do care about the difference between a student who learns the material and a student who fails to do so, and I do have views about what makes some students especially great, which I am happy to report in letters of recommendation. But I have no interest in reducing you to an “A”, “B”, “C”, “D”, or “F” student. But you all signed up for a grade, and I must give you grades.\nSo, here is our first problem to figure out together. How?\n\nProposal\n\nattendance: \\(10\\%\\)\n\n\npass-fail exercises: \\(10\\%\\)\n\n\nco-teaching: \\(20\\%\\)\n\n\nin-class essays: \\(15\\% \\times 4 = 60\\%\\)\n\n\nI am open to giving different “weights” for each of these components. I said above I will give the in-class essays letter grades. I am open to doing something else. I am open to including credit for participation. (I am not willing to define that using some sort of scorecard that counts how many times you speak up.) I am open to doing something during our “final exam” period—for example, we could use that as an additional extended time writing day, or we could shift the fourth writing day to that time instead."
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Attendance",
+    "text": "Attendance\nAbsences impact your ability to complete in-class work. They also deprive you of the opportunity to learn from lecture and discussion. Note that this is true for both excused on unexcused absences: exercises designed to be done in class in conjunction with discussion cannot be replicated outside of class; getting notes from someone about what we discussed is not the same as being part of that discussion yourself.\nYou are responsible for attending class and completing all assigned academic work. You should familiarize yourself with University policy to understand which absences are excused and which are not. If you need advice on how to manage an extended absence or want notification of your absence sent to your instructors, contact the Dean of Students Office."
+  },
+  {
+    "objectID": "syllabus.html#accommodations",
+    "href": "syllabus.html#accommodations",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Accommodations",
+    "text": "Accommodations\nAny student needing to arrange a reasonable accommodation for a documented disability and/or medical/mental health condition should contact Student Access and Accommodation Services at 308 Fell Hall, Office Phone (309) 438-5853, Video Phone (309) 319-7682 or visit the website at &lt;StudentAccess.IllinoisState.edu&gt;.\nI am also open to arranging reasonable accommodation regardless of documentation. If there is something you need, ask."
+  },
+  {
+    "objectID": "syllabus.html#academic-integrity",
+    "href": "syllabus.html#academic-integrity",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\nYou are expected to be honest in all academic work, consistent with the academic integrity policy as outlined in the Code of Student Conduct and any additional syllabus language. All work is to be appropriately cited when it is borrowed, directly or indirectly, from another source. Unauthorized and/or unacknowledged collaboration on any work, or the presentation of someone else’s work as your own, is a form of academic dishonesty under the Code of Student Conduct.\nContent generated by an Artificial Intelligence third-party service or site (AI-generated content) without proper authorization and attribution is a form of academic dishonesty. If you are unsure about whether something used in your work requires attribution, please reach out to me to discuss it as soon as possible. Allegations of academic dishonesty will be referred to Student Conduct and Community Responsibilities, for review under the Student Code of Conduct. Students found responsible for academic dishonesty may also be assigned a grade penalty by the instructor."
+  },
+  {
+    "objectID": "syllabus.html#generative-ai-use-not-permitted",
+    "href": "syllabus.html#generative-ai-use-not-permitted",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Generative AI Use Not Permitted",
+    "text": "Generative AI Use Not Permitted\nIn this course, the use of generative AI tools such as ChatGPT, Microsoft Copilot, Adobe Firefly, Google AI Mode, or Apple Intelligence is not permitted to support the completion of any assigned work. This includes, but is not limited to, using generative AI tools to ideate, pre-plan, edit, translate, or otherwise create original material you claim to be solely your creation. Use of a generative AI tool to complete assigned work in whole or in part may be referred under the Code of Student Conduct academic dishonesty provisions for further action by the Dean of Students Office."
+  },
+  {
+    "objectID": "syllabus.html#permission-required-to-record",
+    "href": "syllabus.html#permission-required-to-record",
+    "title": "Syllabus: Philosophy of Language (PHI 205)",
+    "section": "Permission Required to Record",
+    "text": "Permission Required to Record\nStudents who wish to use phones or other audio or video devices to record classroom lectures/discussions or take photographs must obtain written permission from the instructor except with an approved accommodation from Student Access and Accommodations Services. Approved recordings are to be used solely for the purposes of individual or group study with other students enrolled in the class. They may not be reproduced, shared with those not enrolled in the class, or uploaded to publicly accessible web environments. Violation of this classroom rule may result in referral to the Student Conduct and Community Responsibilities (SCCR) office for disciplinary action."
+  },
+  {
     "objectID": "slides/kripke-two.html#announcements",
     "href": "slides/kripke-two.html#announcements",
     "title": "Direct Reference, Continued",
@@ -574,228 +805,74 @@
     "text": "References\n\n\n\n\nPutnam, Hilary. 1973. “Meaning and Reference.” The Journal of Philosophy 70 (19): 699–711. https://doi.org/10.2307/2025079."
   },
   {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "",
-    "text": "Instructor\n\nDavid Sanson\n\nOffice\n\nStevenson 341\n\n\n\n\nClass Meetings\n\nMW 2:00–3:15PM, 229 Stevenson Hall\n\nOffice Hours\n\nM noon–1:00PM; W 11:00AM–noon"
+    "objectID": "slides/putnam-two.html#reminders",
+    "href": "slides/putnam-two.html#reminders",
+    "title": "Twin Earth, Again",
+    "section": "Reminders",
+    "text": "Reminders\n\nSecond writing day is next Wednesday.\nIf you got a C or lower on the first writing assignment, you can improve it to a B by meeting with me and showing that you (now) understand how Frege and Russell would respond to the case you wrote about.\nWhat do you want to do on Monday of next week?"
   },
   {
-    "objectID": "syllabus.html#basic-information",
-    "href": "syllabus.html#basic-information",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "",
-    "text": "Instructor\n\nDavid Sanson\n\nOffice\n\nStevenson 341\n\n\n\n\nClass Meetings\n\nMW 2:00–3:15PM, 229 Stevenson Hall\n\nOffice Hours\n\nM noon–1:00PM; W 11:00AM–noon"
-  },
-  {
-    "objectID": "syllabus.html#course-description",
-    "href": "syllabus.html#course-description",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Course Description",
-    "text": "Course Description\nPhilosophy of Language is the branch of philosophy that deals with philosophical problems and puzzles related to language. That might seem obvious, but you cannot always trust labels: they say that the Holy Roman Empire was neither holy, Roman, nor an empire.\nPhilosophical problems often raise questions about language, and language itself is a rich source of philosophical problems and puzzles. In this course, we will not attempt to cover all these problems and puzzles. In fact, the topics we cover reflect a somewhat narrow set of concerns, shaped by the philosophical concerns of the 20th century."
-  },
-  {
-    "objectID": "syllabus.html#class",
-    "href": "syllabus.html#class",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Class",
-    "text": "Class\nI will run this class as a combination of lecture, whole-class discussion, group discussion, and in-class exercises.\nIn a typical week, Monday’s class will begin with a lecture, introducing a new topic, followed by whole-class or group discussion. Wednesday’s class will continue on the same topic, with a combination of follow-up discussion and in-class writing exercises.\nI have a definite agenda for this class: there is material I want to get through and things I want you to learn. But ultimately, it is up to you all to shape the trajectory of our discussions. So it is important that you come to each class prepared and ready to engage."
-  },
-  {
-    "objectID": "syllabus.html#reading-assignments",
-    "href": "syllabus.html#reading-assignments",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Reading Assignments",
-    "text": "Reading Assignments\nIn a typical week, you will be asked to read one or two journal articles. You should plan to do this reading before our Monday meeting, and then do it again before our Wednesday meeting. You need to do the reading before our Monday meeting, or you will be lost. You need to do it again after our Monday meeting, when you will be in a better position to actually understand what the reading is about.\nOptional readings are optional, but you should try to make time to read some of them. We don’t have time to cover very much in this class, so we will be scratching the surface of several different topics. Also, given the nature of this material, we will often be reading older “foundational” articles rather than contemporary cutting edge research. Doing some of the optional readings will help fill these gaps, and give you a better understanding of the field."
-  },
-  {
-    "objectID": "syllabus.html#writing-assignments",
-    "href": "syllabus.html#writing-assignments",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Writing Assignments",
-    "text": "Writing Assignments\nThere are no required out-of-class writing assignments for this class.\nAs mentioned above, a typical Wednesday will involve some in-class writing exercises. These will be collected and graded pass-fail. As long as you are there and making a sincere effort to complete the exercise, you should pass.\nThere are also four “writing days” spread through the term. On these days, I will distribute essay prompts, and ask you to write essays, using pen and paper, in response to these prompts. These are writing days, not exams: the goal is not to test your knowledge of facts; the goal is to give you the opportunity to work through a philosophical problem in writing, in a form that is more detailed and extended than typical in-class writing exercises allow. These will be collected and treated as essays: each will receive written feedback and a letter grade."
-  },
-  {
-    "objectID": "syllabus.html#co-teaching",
-    "href": "syllabus.html#co-teaching",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Co-teaching",
-    "text": "Co-teaching\nThis will depend on the exact size of our class. If class size allows, you will each be assigned a week in which you (and perhaps a partner) are responsible for “leading” discussion. You will (perhaps with your partner) prepare a plan (following a provided template), and we will meet the week before to go over and refine your plan."
-  },
-  {
-    "objectID": "syllabus.html#grades",
-    "href": "syllabus.html#grades",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Grades",
-    "text": "Grades\nMy settled view is that grading causes more problems than it solves. The main problem it solves is motivation: the threat/promise of a grade helps motivate you to do work for this class when you lack that motivation or when the motivation you have is not strong enough to overcome other demands on your time.\nBut over-reliance on this form of external motivation fundamentally changes your educational experience. The point of this class is to give you the opportunity to explore some really neat parts of philosophy and figure out for yourself what you think about them. For that to work, you need to take ownership of your engagement with the course. Slogging through the readings with an eye toward passing a reading quiz or exam doesn’t cut it.\nThe other problem grading solves is the problem of sorting and ranking students by merit. But that is not a practice I agree with. Every student is different, and has different strengths and weaknesses. I want you to be the strongest student you can be, and I want to help you succeed at that. I do care about the difference between a student who learns the material and a student who fails to do so, and I do have views about what makes some students especially great, which I am happy to report in letters of recommendation. But I have no interest in reducing you to an “A”, “B”, “C”, “D”, or “F” student. But you all signed up for a grade, and I must give you grades.\nSo, here is our first problem to figure out together. How?\n\nProposal\n\nattendance: \\(10\\%\\)\n\n\npass-fail exercises: \\(10\\%\\)\n\n\nco-teaching: \\(20\\%\\)\n\n\nin-class essays: \\(15\\% \\times 4 = 60\\%\\)\n\n\nI am open to giving different “weights” for each of these components. I said above I will give the in-class essays letter grades. I am open to doing something else. I am open to including credit for participation. (I am not willing to define that using some sort of scorecard that counts how many times you speak up.) I am open to doing something during our “final exam” period—for example, we could use that as an additional extended time writing day, or we could shift the fourth writing day to that time instead."
-  },
-  {
-    "objectID": "syllabus.html#attendance",
-    "href": "syllabus.html#attendance",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Attendance",
-    "text": "Attendance\nAbsences impact your ability to complete in-class work. They also deprive you of the opportunity to learn from lecture and discussion. Note that this is true for both excused on unexcused absences: exercises designed to be done in class in conjunction with discussion cannot be replicated outside of class; getting notes from someone about what we discussed is not the same as being part of that discussion yourself.\nYou are responsible for attending class and completing all assigned academic work. You should familiarize yourself with University policy to understand which absences are excused and which are not. If you need advice on how to manage an extended absence or want notification of your absence sent to your instructors, contact the Dean of Students Office."
-  },
-  {
-    "objectID": "syllabus.html#accommodations",
-    "href": "syllabus.html#accommodations",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Accommodations",
-    "text": "Accommodations\nAny student needing to arrange a reasonable accommodation for a documented disability and/or medical/mental health condition should contact Student Access and Accommodation Services at 308 Fell Hall, Office Phone (309) 438-5853, Video Phone (309) 319-7682 or visit the website at &lt;StudentAccess.IllinoisState.edu&gt;.\nI am also open to arranging reasonable accommodation regardless of documentation. If there is something you need, ask."
-  },
-  {
-    "objectID": "syllabus.html#academic-integrity",
-    "href": "syllabus.html#academic-integrity",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Academic Integrity",
-    "text": "Academic Integrity\nYou are expected to be honest in all academic work, consistent with the academic integrity policy as outlined in the Code of Student Conduct and any additional syllabus language. All work is to be appropriately cited when it is borrowed, directly or indirectly, from another source. Unauthorized and/or unacknowledged collaboration on any work, or the presentation of someone else’s work as your own, is a form of academic dishonesty under the Code of Student Conduct.\nContent generated by an Artificial Intelligence third-party service or site (AI-generated content) without proper authorization and attribution is a form of academic dishonesty. If you are unsure about whether something used in your work requires attribution, please reach out to me to discuss it as soon as possible. Allegations of academic dishonesty will be referred to Student Conduct and Community Responsibilities, for review under the Student Code of Conduct. Students found responsible for academic dishonesty may also be assigned a grade penalty by the instructor."
-  },
-  {
-    "objectID": "syllabus.html#generative-ai-use-not-permitted",
-    "href": "syllabus.html#generative-ai-use-not-permitted",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Generative AI Use Not Permitted",
-    "text": "Generative AI Use Not Permitted\nIn this course, the use of generative AI tools such as ChatGPT, Microsoft Copilot, Adobe Firefly, Google AI Mode, or Apple Intelligence is not permitted to support the completion of any assigned work. This includes, but is not limited to, using generative AI tools to ideate, pre-plan, edit, translate, or otherwise create original material you claim to be solely your creation. Use of a generative AI tool to complete assigned work in whole or in part may be referred under the Code of Student Conduct academic dishonesty provisions for further action by the Dean of Students Office."
-  },
-  {
-    "objectID": "syllabus.html#permission-required-to-record",
-    "href": "syllabus.html#permission-required-to-record",
-    "title": "Syllabus: Philosophy of Language (PHI 205)",
-    "section": "Permission Required to Record",
-    "text": "Permission Required to Record\nStudents who wish to use phones or other audio or video devices to record classroom lectures/discussions or take photographs must obtain written permission from the instructor except with an approved accommodation from Student Access and Accommodations Services. Approved recordings are to be used solely for the purposes of individual or group study with other students enrolled in the class. They may not be reproduced, shared with those not enrolled in the class, or uploaded to publicly accessible web environments. Violation of this classroom rule may result in referral to the Student Conduct and Community Responsibilities (SCCR) office for disciplinary action."
-  },
-  {
-    "objectID": "slides/quine-two.html#announcements",
-    "href": "slides/quine-two.html#announcements",
-    "title": "Two Dogmas, Continued",
-    "section": "Announcements",
-    "text": "Announcements\n\nReading for today was Quine, “Two Dogmas of Empiricism”\nReading for next week is selections from Saul Kripke’s book, Naming and Necessity"
-  },
-  {
-    "objectID": "slides/quine-two.html#logical-empiricism-a-vision",
-    "href": "slides/quine-two.html#logical-empiricism-a-vision",
-    "title": "Two Dogmas, Continued",
-    "section": "Logical Empiricism: a Vision",
-    "text": "Logical Empiricism: a Vision\nLanguage makes contact with experience in the form of basic observation sentences, e.g.,\n\n\n\n\nThis is red.\n\n‘This’ refers to some immediate object of sense experience, and ‘is red’ categorizes it by how it appears."
-  },
-  {
-    "objectID": "slides/quine-two.html#the-two-dogmas",
-    "href": "slides/quine-two.html#the-two-dogmas",
-    "title": "Two Dogmas, Continued",
-    "section": "The Two Dogmas",
-    "text": "The Two Dogmas\n\nOne [dogma] is a belief in some fundamental cleavage between truths which are analytic, or grounded in meanings independently of matters of fact, and truth which are synthetic, or grounded in fact.\n\n\nThe other dogma is reductionism: the belief that each meaningful statement is equivalent to some logical construct upon terms which refer to immediate experience."
-  },
-  {
-    "objectID": "slides/quine-two.html#what-even-are-meaningssenses",
-    "href": "slides/quine-two.html#what-even-are-meaningssenses",
-    "title": "Two Dogmas, Continued",
-    "section": "What even are meanings/senses?",
-    "text": "What even are meanings/senses?\n\n\n\n\n\n\n\ngraph TB\n    A['The King of England'] -- expresses --&gt;  B(a meaning/sense)\n    B -- determines --&gt; C(Charles)\n\n\n\n\n\n\n\n\nThe meaning is not ‘The King England’.\nThe meaning is not the King England.\nThe meaning is something intermediate between the two."
-  },
-  {
-    "objectID": "slides/quine-two.html#the-business-of-a-theory-of-meaning",
-    "href": "slides/quine-two.html#the-business-of-a-theory-of-meaning",
-    "title": "Two Dogmas, Continued",
-    "section": "The Business of a Theory of Meaning",
-    "text": "The Business of a Theory of Meaning\n\nOnce the theory of meaning is sharply separated from the theory of reference, it is a short step to recognizing as the business of the theory of meaning simply the synonymy of linguistic forms and the analyticity of statements; meanings themselves, as obscure intermediary entities, may well be abandoned. (22-23)\n\n\nWhen two words “mean the same thing”, is there really a third thing—a “meaning”—that both express?\n\nOr is the “entification” of meanings just sloppy talk for a relation of synonymy between them?"
-  },
-  {
-    "objectID": "slides/quine-two.html#some-analogies",
-    "href": "slides/quine-two.html#some-analogies",
-    "title": "Two Dogmas, Continued",
-    "section": "Some Analogies",
-    "text": "Some Analogies\n\nWhen two things “have the same property”, is there really a third thing—a “property”—that both instantiate?\n\nOr is the “entification” of properties just sloppy talk for a relation of similarity?\n\nWhen two animals are “of the same species”, is there a third thing—a “species”—that stands above them?\n\nOr is the “entification” of species just sloppy talk for a network of relationships between individual animals?"
-  },
-  {
-    "objectID": "slides/quine-two.html#shifting-project",
-    "href": "slides/quine-two.html#shifting-project",
-    "title": "Two Dogmas, Continued",
-    "section": "Shifting Project",
-    "text": "Shifting Project\nInstead of first giving a theory of meanings, and then using that theory to explain synonymy and analyticity, let’s look at strategies for making sense of synonymy and analyticity directly."
-  },
-  {
-    "objectID": "slides/quine-two.html#proposal",
-    "href": "slides/quine-two.html#proposal",
-    "title": "Two Dogmas, Continued",
-    "section": "Proposal",
-    "text": "Proposal\n\nThere are those who find it soothing to say that the analytic statements of the second class reduce to those of the first class, the logical truths, by definition; ‘bachelor’, e.g., is defined as ‘unmarried man’. But how do we find that ‘bachelor’ is defined as ‘unmarried man’? (24)\n\nHe puts this as a “how do we find” question. But really, he is asking about what makes it so."
-  },
-  {
-    "objectID": "slides/quine-two.html#dictionary-definitions-presuppose-synonymy",
-    "href": "slides/quine-two.html#dictionary-definitions-presuppose-synonymy",
-    "title": "Two Dogmas, Continued",
-    "section": "Dictionary Definitions Presuppose Synonymy",
-    "text": "Dictionary Definitions Presuppose Synonymy\n\nThe lexicographer is an empirical scientist, whose business is the recording of antecedent facts; and if he glosses ‘bachelor’ as ‘unmarried man’ it is because of his belief that there is a relation of synonymy between these forms, implicit in general or preferred usage prior to his own work. […] . Certainly the “definition” which is the lexicographer’s report of an observed synonymy cannot be taken as the ground of the synonymy (24)\n\n\nthink, discuss, share\nDictionary definitions do not reveal meanings; they provide synonyms. And they are not the ground of synonymy; they report on observed synonymies implicit in linguistic usage."
-  },
-  {
-    "objectID": "slides/quine-two.html#dictionary-definitions-and-usage",
-    "href": "slides/quine-two.html#dictionary-definitions-and-usage",
-    "title": "Two Dogmas, Continued",
-    "section": "Dictionary Definitions and Usage",
-    "text": "Dictionary Definitions and Usage\n\nJust what it means to affirm synonymy, just what the interconnections may be which are necessary and sufficient in order that two linguistic forms be properly describable as synonymous, is far from clear; but, whatever these interconnections may be, ordinarily they are grounded in usage. Definitions reporting selected instances of synonymy come then as reports upon usage. (25)\n\n\nthink, discuss, share\nThere is no magic dictionary in the sky. There is just linguistic usage. Facts about synonymy are either reducible to facts about usage, or they are nonsense."
-  },
-  {
-    "objectID": "slides/quine-two.html#definitions-as-explications",
-    "href": "slides/quine-two.html#definitions-as-explications",
-    "title": "Two Dogmas, Continued",
-    "section": "Definitions as Explications",
-    "text": "Definitions as Explications\n\nIn explication the purpose is not merely to paraphrase the definiendum into an outright synonym, but actually to improve upon the definiendum by refining or supplementing its meaning.\n\n\nthe biologist offers an explication of ‘fish’: in past usage, the extension of ‘fish’ included whales, but it is better to change that, so that it does not include whales.\nFollowers of Frege offer an explication of ‘meaning’: in past usage, it is ambiguous between sense and reference, but it is better to change that, and only use it for sense."
-  },
-  {
-    "objectID": "slides/quine-two.html#definitions-as-conventional-abbreviations",
-    "href": "slides/quine-two.html#definitions-as-conventional-abbreviations",
-    "title": "Two Dogmas, Continued",
-    "section": "Definitions as Conventional Abbreviations",
-    "text": "Definitions as Conventional Abbreviations\nQuine goes on about this at some length. Here is a relatively simple example:\n\n‘Or’, in English, has both an inclusive and exclusive reading.\nSuppose we offer an explication of ‘or’, on which only the inclusive reading is allowed.\nWe can then define ‘P xor Q’ as an abbreviation for ‘(P or Q) and not (P and Q)’.\n\n\nslow down. give them a chance to think it through. Other examples?"
-  },
-  {
-    "objectID": "slides/quine-two.html#definitions-as-conventional-abbreviation",
-    "href": "slides/quine-two.html#definitions-as-conventional-abbreviation",
-    "title": "Two Dogmas, Continued",
-    "section": "Definitions as Conventional Abbreviation",
-    "text": "Definitions as Conventional Abbreviation\n\nBut these correlations are not arbitrary. They are supposed to show how the primitive notations can accomplish all purposes, save brevity and convenience, of the redundant language. Hence the definiendum and its definiens may be expected, in each case, to be related in one or another of the three ways lately noted. The definiens may be a faithful paraphrase of the definiendum into the narrower notation, preserving a direct synonymy as of antecedent usage; or the definiens may, in the spirit of explication, improve upon the antecedent usage of the definiendum; or finally, the definiendum may be a newly created notation, newly endowed with meaning here and now. (27)\n\nOnly the last case plausibly gives rise to a new synonymy. But that case does not account for the relation between, e.g., ‘bachelor’ and ‘unmarried man’."
-  },
-  {
-    "objectID": "slides/quine-two.html#proposal-1",
-    "href": "slides/quine-two.html#proposal-1",
-    "title": "Two Dogmas, Continued",
-    "section": "Proposal",
-    "text": "Proposal\n\nA natural suggestion, deserving close examination, is that the synonymy of two linguistic forms consists simply in their interchangeability in all contexts without change of truth value; interchangeability, in Leibniz’s phrase, salva veritate. (27)\n\nThis is Frege’s test for co-reference. If we apply it to words as they occur both in direct and indirect contexts, it is a test for sameness of both reference and sense."
-  },
-  {
-    "objectID": "slides/quine-two.html#examples",
-    "href": "slides/quine-two.html#examples",
-    "title": "Two Dogmas, Continued",
+    "objectID": "slides/putnam-two.html#examples",
+    "href": "slides/putnam-two.html#examples",
+    "title": "Twin Earth, Again",
     "section": "Examples",
-    "text": "Examples\n\nI saw a bachelor shopping at Kroger.\nI saw an unmarried man shopping at Kroger."
+    "text": "Examples\n\nOscar1 says ‘Water is wet’. True or false?\nOscar2 says ‘Water is wet’. True or false?\nHave they said the same thing?\nOscar1 says ‘Water is H2O’. True or false?\nOscar2 says ‘Water is XYZ’. True or false?\nHave they said the same thing?"
   },
   {
-    "objectID": "slides/quine-two.html#a-small-problem",
-    "href": "slides/quine-two.html#a-small-problem",
-    "title": "Two Dogmas, Continued",
-    "section": "A Small Problem",
-    "text": "A Small Problem\n\nTruths which become false under substitution of ‘unmarried man’ for ‘bachelor’ are easily constructed with help of ‘bachelor of arts’ or ‘bachelor’s buttons’. Also with help of quotation, thus: ‘Bachelor’ has less than ten letters. Such counterinstances can, however, perhaps be set aside by treating the phrases ‘bachelor of arts’ and ‘bachelor’s buttons’ and the quotation ‘’bachelor’’ each as a single indivisible word and then stipulating that the interchangeability salva veritate which is to be the touchstone of synonymy is not supposed to apply to fragmentary occurrences inside of a word. (27-28)\n\nCan we unpack this?"
+    "objectID": "slides/putnam-two.html#externalism",
+    "href": "slides/putnam-two.html#externalism",
+    "title": "Twin Earth, Again",
+    "section": "Externalism?",
+    "text": "Externalism?\n\nOur word ‘water’ means H2O because that is the stuff we causally interact with.\nThe Twin Earth word ‘water’ means XYZ because that is the stuff they causally interact with.\nThe meaning of the word is determined by something external to the psychological states of Oscar1 and Oscar2."
   },
   {
-    "objectID": "slides/quine-two.html#modal-contexts",
-    "href": "slides/quine-two.html#modal-contexts",
-    "title": "Two Dogmas, Continued",
-    "section": "Modal Contexts",
-    "text": "Modal Contexts\nSuppose we grant the test. We need to find sentences where interchangeability fails exactly when the two words are not synonymous. Quine suggests:\n\nNecessarily all and only As are Bs.\n\nIf ‘A’ and ‘B’ are synonymous, then this should be equivalent to the logical truth,\n\nNecessarily all and only As are As."
+    "objectID": "slides/putnam-two.html#the-causal-historical-view",
+    "href": "slides/putnam-two.html#the-causal-historical-view",
+    "title": "Twin Earth, Again",
+    "section": "The Causal Historical View",
+    "text": "The Causal Historical View\n‘Oscar1’ refers to Oscar1, not Oscar2. How?\n\nSomeone on Earth said, “I hereby name this baby, ‘Oscar’.” This introduced the name ‘Oscar’ into our Earth language, and fixed Oscar1 as its referent.\nSomeone on Twin Earth said, “I hereby name this baby, ‘Oscar’.” This introduce the name ‘Oscar’ into the Twin Earth language, and fixed Oscar2 as its referent.\nSince then, those names have been passed down to other speakers, who continue to use them to refer to Oscar1 or Oscar2, respectively, even if they are not able to provide any unique description specifying the referent.\n\nLikewise:\n\nSomeone on Earth said, “I hereby dub this kind of stuff, ‘water’.” This introduced the word ‘water’ into our Earth language, and fixed its extension as the kind of stuff they were pointing to, which (whether they knew it or not), was H2O.\nSomeone on Twin Earth did the same, fixing the extension of ‘water’ in their language to the kind of stuff they were pointing to, XYZ.\nSince then, those words have been passed down to other speakers, who continue to use them to refer to H2O and XYZ, respectively, even if they don’t know any chemistry."
   },
   {
-    "objectID": "slides/quine-two.html#necessarily",
-    "href": "slides/quine-two.html#necessarily",
-    "title": "Two Dogmas, Continued",
-    "section": "“Necessarily”",
-    "text": "“Necessarily”\nWhat about:\n\nNecessarily, all and only triangles are triangles.\nNecessarily, all and only triangles are trilaterals.\n\nDoes this preserve truth? Are ‘triangle’ and ‘trilateral’ synonyms?"
+    "objectID": "slides/putnam-two.html#beech-and-elm",
+    "href": "slides/putnam-two.html#beech-and-elm",
+    "title": "Twin Earth, Again",
+    "section": "‘Beech’ and ‘Elm’",
+    "text": "‘Beech’ and ‘Elm’\n\nI say, “Elm trees are deciduous”. True or false?\nI say, “Beech trees are deciduous”. True or false?\nHave I said the same thing both times?\nI say, “An elm tree fell on my house,” but it was actually a beech tree. True or false?"
   },
   {
-    "objectID": "slides/quine-two.html#another-problematic-example",
-    "href": "slides/quine-two.html#another-problematic-example",
-    "title": "Two Dogmas, Continued",
-    "section": "Another Problematic Example…",
-    "text": "Another Problematic Example…\n\nI do not know whether the statement ‘Everything green is extended’ is analytic. Now does my indecision over this example really betray an incomplete understanding, an incomplete grasp of the “meanings”, of ‘green’ and ‘extended’? I think not. The trouble is not with ‘green’ or ‘extended’, but with ‘analytic’. (31)\n\n\nEverything green is extended.\n\nIs this analytic?"
+    "objectID": "slides/putnam-two.html#division-of-labor",
+    "href": "slides/putnam-two.html#division-of-labor",
+    "title": "Twin Earth, Again",
+    "section": "Division of Labor",
+    "text": "Division of Labor\nPutnam gives the example of gold: you don’t have to know how to distinguish gold from fool’s gold to buy gold jewelry. There is a division of epistemic labor here: what you need to know as a consumer is different from what the seller needs to know, which is different from what the metallurgist needs to know. The social practice as a whole depends on all of these things together.\nCan you come up with other examples of this?\nDo agree with Putnam that this extends to language: our ability to use the word ‘gold’ to refer to gold and not fool’s gold, or ‘aluminum’ to refer to aluminum not molybdenum, or ‘elm’ to refer to an elm tree not a beech tree, might depend on the existence of experts who are able to distinguish these things?"
+  },
+  {
+    "objectID": "slides/putnam-two.html#rigidity-and-indexicality",
+    "href": "slides/putnam-two.html#rigidity-and-indexicality",
+    "title": "Twin Earth, Again",
+    "section": "Rigidity and Indexicality",
+    "text": "Rigidity and Indexicality\nA rigid designator designates the same thing in every possible world.\nBut there are various ways to achieve this!\n\nDemonstrative\n\nLet ‘Aristotle’ refer to that man. (No unique description ever provided)\n\n\nLet ‘water’ refer to this stuff.\n\nReference-Fixing Description\n\nLet ‘Denny’ refer to the person who invented donuts (whoever that might be).\n\n\nLet ‘water’ refer to the liquid stuff that fills the rivers and oceans. (?)\n\nIndexical Description\n\n‘Aristotle’ means: the man who actually taught Alexander.\n\n\n‘Water’ means: the liquid that fills the rivers and oceans around here."
+  },
+  {
+    "objectID": "slides/putnam-two.html#narrow-content-and-broad-content",
+    "href": "slides/putnam-two.html#narrow-content-and-broad-content",
+    "title": "Twin Earth, Again",
+    "section": "“Narrow content” and “Broad content”",
+    "text": "“Narrow content” and “Broad content”\nMaybe we can distinguish the kind of meaning that Oscar1 and Oscar2 have in common—call that “narrow content”—and the kind that they disagree on—call that “broad content”?"
+  },
+  {
+    "objectID": "slides/putnam-two.html#mental-content-too",
+    "href": "slides/putnam-two.html#mental-content-too",
+    "title": "Twin Earth, Again",
+    "section": "Mental Content Too?",
+    "text": "Mental Content Too?\nWhat about the psychological states themselves? Putnam says that Oscar1 and Oscar2 are in the same psychological state. But Oscar1 believes that water is wet, while Oscar2 believes that twater is wet. Aren’t those different beliefs?"
+  },
+  {
+    "objectID": "slides/putnam-two.html#putnams-argument",
+    "href": "slides/putnam-two.html#putnams-argument",
+    "title": "Twin Earth, Again",
+    "section": "Putnam’s Argument",
+    "text": "Putnam’s Argument\nThe traditional theory of meaning assumes:\n\nThat knowing the meaning of a term is just a matter of being in a certain psychological state.\nThat the meaning of a term determines its extension (in the sense that sameness of intension entails sameness of extension).\n\nThere is no such thing as meaning that satisfies both (1) and (2)."
   },
   {
     "objectID": "slides/russell.html#reading",
