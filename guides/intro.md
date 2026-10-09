@@ -10,7 +10,7 @@ to get you thinking in several different directions about some basic questions a
 
 ## John Locke, "Of Words" (1689)
 
-Below are excerpts from Chapters 1 and 2 of Book III of John Locke's *Essay Concerning Human Understanding*, first published in 1689. The text below is taken from [*Project Gutenberg*'s version of the text](https://www.gutenberg.org/ebooks/10616). The standard academic version of the text is @locke1975.
+Below are excerpts from Chapters 1 and 2 of Book III of John Locke's *Essay Concerning Human Understanding*, first published in 1689. The text below is taken from [*Project Gutenberg*'s version of the text](https://www.gutenberg.org/ebooks/10616). The standard academic version of the text is @locke1979.
 
 > ## CHAPTER I. OF WORDS OR LANGUAGE IN GENERAL.
 >

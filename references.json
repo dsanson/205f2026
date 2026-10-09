@@ -629,6 +629,45 @@
     "volume": "114"
   },
   {
+    "id": "locke1979",
+    "author": [
+      {
+        "family": "Locke",
+        "given": "John"
+      }
+    ],
+    "call-number": "B1290 1979",
+    "citation-key": "locke1979",
+    "editor": [
+      {
+        "family": "Nidditch",
+        "given": "P. H."
+      }
+    ],
+    "ISBN": "978-0-19-824595-7",
+    "issued": {
+      "date-parts": [
+        [
+          "1979"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "748",
+    "original-date": {
+      "date-parts": [
+        [
+          "1690"
+        ]
+      ]
+    },
+    "publisher": "Clarendon Press",
+    "publisher-place": "Oxford",
+    "source": "Library of Congress ISBN",
+    "title": "An essay concerning human understanding",
+    "type": "book"
+  },
+  {
     "id": "putnam1973",
     "author": [
       {
