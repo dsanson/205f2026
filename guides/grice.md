@@ -53,6 +53,10 @@ Grice rejects the shared assumption:
 
 His theory of conversational implicature is just that: a theory of the conditions governing conversation.
 
+## Slides
+
+-  [Day One](/slides/grice.md)
+
 ## Additional Reading
 
 For a compelling application of the theory of conversational implicature, see @saul2012a. She argues that there is no morally significant difference between lying and telling a misleading truth, as both involve essentially the same abuse of conversational trust.
