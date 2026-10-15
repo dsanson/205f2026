@@ -56,6 +56,7 @@ His theory of conversational implicature is just that: a theory of the condition
 ## Slides
 
 -  [Day One](/slides/grice.md)
+-  [Day Two](/slides/grice-two.md)
 
 ## Additional Reading
 
