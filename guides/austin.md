@@ -21,13 +21,9 @@ Frege!)
 
 -  [Lecture VIII](https://canvas.illinoisstate.edu/courses/53417/files/8923627/download?download_frd=1)
 
-## Guide
+## Slides
 
-:::{.callout-caution}
-# Under Construction
-
-I will get some more guidance on how to read the paper and lecture up ASAP.
-:::
+-  [For Monday](/slides/austin.md)
 
 
 
