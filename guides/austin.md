@@ -24,6 +24,7 @@ Frege!)
 ## Slides
 
 -  [For Monday](/slides/austin.md)
+-  [For Wednesday](/slides/austin-two.md)
 
 
 

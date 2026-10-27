@@ -26,6 +26,7 @@
         ]
       ]
     },
+    "language": "en-US",
     "publisher": "Oxford University Press",
     "publisher-place": "Oxford",
     "title": "Performative utterances",
@@ -47,6 +48,7 @@
         ]
       ]
     },
+    "language": "en-US",
     "publisher": "Oxford University Press",
     "publisher-place": "Oxford",
     "title": "How to do things with words",
@@ -226,6 +228,36 @@
     },
     "title": "Reference and Definite Descriptions",
     "type": "article-journal"
+  },
+  {
+    "id": "eaton2017",
+    "author": [
+      {
+        "family": "Eaton",
+        "given": "A. W."
+      }
+    ],
+    "citation-key": "eaton2017",
+    "container-title": "Beyond Speech: Pornography and Analytic Feminist Philosophy",
+    "editor": [
+      {
+        "family": "Mikkola",
+        "given": "Mari"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "page": "243–257",
+    "publisher": "Oxford University Press",
+    "source": "PhilPapers",
+    "title": "Feminist Pornography",
+    "type": "chapter",
+    "URL": "https://philpapers.org/go.pl?id=EATFP&proxyId=&u=https%3A%2F%2Fphilpapers.org%2Farchive%2FEATFP.pdf"
   },
   {
     "id": "evnine2026",
@@ -563,6 +595,7 @@
         ]
       ]
     },
+    "language": "en-US",
     "page": "293–330",
     "title": "Speech Acts and Unspeakable Acts",
     "type": "article-journal",
@@ -1044,5 +1077,39 @@
     "title": "Gulliver's travels",
     "type": "book",
     "URL": "https://www.gutenberg.org/ebooks/65473"
+  },
+  {
+    "id": "west2022",
+    "author": [
+      {
+        "family": "West",
+        "given": "Caroline"
+      }
+    ],
+    "citation-key": "west2022",
+    "container-title": "The Stanford Encyclopedia of Philosophy",
+    "edition": "Winter 2022",
+    "editor": [
+      {
+        "family": "Zalta",
+        "given": "Edward N."
+      },
+      {
+        "family": "Nodelman",
+        "given": "Uri"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "publisher": "Metaphysics Research Lab, Stanford University",
+    "source": "Stanford Encyclopedia of Philosophy",
+    "title": "Pornography and Censorship",
+    "type": "chapter",
+    "URL": "https://plato.stanford.edu/archives/win2022/entries/pornography-censorship/"
   }
 ]
