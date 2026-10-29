@@ -662,6 +662,78 @@
     "volume": "114"
   },
   {
+    "id": "leslie2026",
+    "author": [
+      {
+        "family": "Leslie",
+        "given": "Sarah-Jane"
+      },
+      {
+        "family": "Lerner",
+        "given": "Adam"
+      }
+    ],
+    "citation-key": "leslie2026",
+    "container-title": "The stanford encyclopedia of philosophy",
+    "edition": "Fall 2026",
+    "editor": [
+      {
+        "family": "Zalta",
+        "given": "Edward N."
+      },
+      {
+        "family": "Nodelman",
+        "given": "Uri"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    },
+    "publisher": "Metaphysics Research Lab, Stanford University",
+    "source": "Stanford Encyclopedia of Philosophy",
+    "title": "Generic generalizations",
+    "type": "chapter",
+    "URL": "https://plato.stanford.edu/archives/fall2026/entries/generics/"
+  },
+  {
+    "id": "liebesman2021",
+    "author": [
+      {
+        "family": "Liebesman",
+        "given": "David"
+      },
+      {
+        "family": "Sterken",
+        "given": "Rachel Katharine"
+      }
+    ],
+    "citation-key": "liebesman2021",
+    "container-title": "Philosophy Compass",
+    "container-title-short": "Philos. Compass",
+    "DOI": "10.1111/phc3.12754",
+    "ISSN": "1747-9991",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "© 2021 The Authors. Philosophy Compass published by John Wiley & Sons Ltd.",
+    "page": "e12754",
+    "source": "Wiley Online Library",
+    "title": "Generics and the metaphysics of kinds",
+    "type": "article-journal",
+    "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/phc3.12754",
+    "volume": "16"
+  },
+  {
     "id": "locke1979",
     "author": [
       {
