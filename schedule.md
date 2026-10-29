@@ -96,18 +96,18 @@ Readings are typically assigned by the week. At a minimum, you should complete t
 
 - - []{rowspan=2} 12
   - M 11/2
-  - Magic as Speech Act?
-  - ["The Magic of Words"](guides/magic.md)
-
-- - W 11/4
-  - **Writing Day**
-
-- - []{rowspan=2} 13
-  - M 11/9
   - []{rowspan=2} Generics
   - []{rowspan=2} ["Are Generics Especially Pernicious?"](guides/generics.md)
 
+- - W 11/4
+
+- - []{rowspan=2} 13
+  - M 11/9
+  - Magic as Speech Act?
+  - ["The Magic of Words"](guides/magic.md)
+
 - - W 11/11
+  - **Writing Day**
 
 - - []{rowspan=2} 14
   - M 11/16
