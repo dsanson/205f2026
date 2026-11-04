@@ -68,10 +68,12 @@ format:
   typst:
     citeproc: true
     template-partials:
-    - typst-template.typ
+      - typst-template.typ
     fontsize: 10pt
-    mainfont: "libertinus serif"
-    sansfont: "liberation sans"
+    font-paths:
+      - fonts
+    mainfont: "Libertinus Serif"
+    sansfont: "Libertinus Sans"
     margin:
       x: 1in
       y: 1in
