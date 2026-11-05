@@ -7,6 +7,7 @@ Both refer back to an earlier paper by Leslie, @leslie2008, which is also well w
 
 Two good overview articles of recent work on generics are @leslie2026 and @liebesman2021.
 
+- [handout](/handouts/generics.md)
 
 ## References {-}
 
