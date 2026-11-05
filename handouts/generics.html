@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="David Sanson">
+<meta name="dcterms.date" content="2026-11-02">
+
+<title>Leslie on Generics – PHI 205</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../media/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-axe/axe.min.js"></script>
+<script src="../site_libs/quarto-axe/axe-check.js" type="module"></script>
+<script id="quarto-axe-checker-options" type="text/plain">dHJ1ZQ==</script>
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3aefd205dc862f9a2b8c3fbd06c8103f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-7f049a9831c52a2bb27e47b577296994.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-3aefd205dc862f9a2b8c3fbd06c8103f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Leslie on Generics – PHI 205">
+<meta property="og:description" content="Course webpage for PHI 205 at Illinois State">
+<meta property="og:site_name" content="PHI 205">
+<meta name="twitter:title" content="Leslie on Generics – PHI 205">
+<meta name="twitter:description" content="Course webpage for PHI 205 at Illinois State">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        setTimeout(() => {
+          window.scrollTo(0, scrollY);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      refreshSafariScrollbar();
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../media/favicon.png" alt="Φ" class="navbar-logo light-content">
+    <img src="../media/favicon.png" alt="Φ" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">PHI 205</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
+</div>
+            <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-puzzle" id="toc-the-puzzle" class="nav-link active" data-scroll-target="#the-puzzle">The Puzzle</a></li>
+  <li><a href="#grammatical-forms" id="toc-grammatical-forms" class="nav-link" data-scroll-target="#grammatical-forms">Grammatical Forms</a></li>
+  <li><a href="#logical-form" id="toc-logical-form" class="nav-link" data-scroll-target="#logical-form">Logical Form</a></li>
+  <li><a href="#some-initial-proposals" id="toc-some-initial-proposals" class="nav-link" data-scroll-target="#some-initial-proposals">Some Initial Proposals</a></li>
+  <li><a href="#relevant-alternatives" id="toc-relevant-alternatives" class="nav-link" data-scroll-target="#relevant-alternatives">Relevant Alternatives</a></li>
+  <li><a href="#leslies-taxonomy" id="toc-leslies-taxonomy" class="nav-link" data-scroll-target="#leslies-taxonomy">Leslie’s Taxonomy</a></li>
+  <li><a href="#default-generalization" id="toc-default-generalization" class="nav-link" data-scroll-target="#default-generalization">Default Generalization</a>
+  <ul class="collapse">
+  <li><a href="#mechanism-1-characteristic-dimensions" id="toc-mechanism-1-characteristic-dimensions" class="nav-link" data-scroll-target="#mechanism-1-characteristic-dimensions">Mechanism 1: Characteristic dimensions</a></li>
+  <li><a href="#mechanism-2-striking-properties" id="toc-mechanism-2-striking-properties" class="nav-link" data-scroll-target="#mechanism-2-striking-properties">Mechanism 2: Striking Properties</a></li>
+  <li><a href="#resistance-to-negative-instances" id="toc-resistance-to-negative-instances" class="nav-link" data-scroll-target="#resistance-to-negative-instances">Resistance to Negative Instances</a></li>
+  <li><a href="#type-c-and-resistance-to-counterinstances" id="toc-type-c-and-resistance-to-counterinstances" class="nav-link" data-scroll-target="#type-c-and-resistance-to-counterinstances">Type C and Resistance to Counterinstances</a></li>
+  </ul></li>
+  <li><a href="#truth-conditions" id="toc-truth-conditions" class="nav-link" data-scroll-target="#truth-conditions">Truth Conditions</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/dsanson/205f2026/blob/main/handouts/generics.md" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/dsanson/205f2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="generics.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Leslie on Generics</h1>
+</div>
+
+
+
+</header>
+
+
+<section id="the-puzzle" class="level2">
+<h2 class="anchored" data-anchor-id="the-puzzle">The Puzzle</h2>
+<div class="quarto-layout-panel" data-layout="[0.5, 0.5]">
+<div class="quarto-layout-row">
+<div id="firstcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol class="example" type="1">
+<li>Tigers have stripes.</li>
+<li>Birds lay eggs.</li>
+<li>Mosquitoes carry the West Nile virus.</li>
+</ol>
+</div>
+<div id="secondcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="4" class="example" type="1">
+<li>Birds are female.</li>
+<li>Mosquitoes don’t carry the West Nile virus.</li>
+</ol>
+</div>
+</div>
+</div>
+<p>Two challenges:</p>
+<ul>
+<li>What are the truth conditions for generics?</li>
+<li>Why are generics easier for young children to grasp than explicitly quantified sentences?</li>
+</ul>
+</section>
+<section id="grammatical-forms" class="level2">
+<h2 class="anchored" data-anchor-id="grammatical-forms">Grammatical Forms</h2>
+<div class="quarto-layout-panel" data-layout="[0.5, 0.5]">
+<div class="quarto-layout-row">
+<div id="firstcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="6" class="example" type="1">
+<li>Dogs bark. (“bare plural” generic)</li>
+<li>Dogs chased me. (existential, not a generic)</li>
+</ol>
+</div>
+<div id="secondcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="8" class="example" type="1">
+<li>The Canada goose is aggressive.</li>
+<li>An elephant never forgets.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="logical-form" class="level2">
+<h2 class="anchored" data-anchor-id="logical-form">Logical Form</h2>
+<p>The logical form of a generalization is ‘Quantifier <span class="math inline">\(x\)</span> [Restrictor(<span class="math inline">\(x\)</span>)] [Scope(<span class="math inline">\(x\)</span>)]’</p>
+<div class="quarto-layout-panel" data-layout="[0.5, 0.5]">
+<div class="quarto-layout-row">
+<div id="firstcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="10" class="example" type="1">
+<li>Some <span class="math inline">\(x\)</span> [Cow(<span class="math inline">\(x\)</span>)] [Moos(<span class="math inline">\(x\)</span>)]</li>
+<li>Most <span class="math inline">\(x\)</span> [Philosophy Student(<span class="math inline">\(x\)</span>)] [Vote(<span class="math inline">\(x\)</span>)]</li>
+</ol>
+</div>
+<div id="secondcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="12" class="example" type="1">
+<li>Usually <span class="math inline">\(x\)</span> [Tiger(<span class="math inline">\(x\)</span>)] [Striped(<span class="math inline">\(x\)</span>)]</li>
+<li><strong>Gen</strong> <span class="math inline">\(x\)</span> [Tiger(<span class="math inline">\(x\)</span>)] [Striped(<span class="math inline">\(x\)</span>)]</li>
+</ol>
+</div>
+</div>
+</div>
+<p>But what is the quantifier, <strong>Gen</strong>, expressed by generics?</p>
+</section>
+<section id="some-initial-proposals" class="level2">
+<h2 class="anchored" data-anchor-id="some-initial-proposals">Some Initial Proposals</h2>
+<dl>
+<dt>Generally</dt>
+<dd>
+‘Gen’ means <em>generally</em>, <em>typically</em>, or <em>usually</em>.
+</dd>
+</dl>
+<ol start="14" class="example" type="1">
+<li>Tigers have stripes ≟ Generally, tigers have stripes.</li>
+<li>Dogs bark ≟ Typically, dogs bark.</li>
+<li>Bees are sterile ≟ Generally, bees are sterile.</li>
+<li>Books are paperback ≟ Typically, books are paperback.</li>
+<li>Sharks attack bathers ≟ Usually, sharks attack bathers.</li>
+</ol>
+<dl>
+<dt>Normally</dt>
+<dd>
+‘Gen’ means <em>normally</em>: ‘Ks are F’ is true iff each individual K would be F in circumstances that are normal for kind K.
+</dd>
+</dl>
+<ol start="19" class="example" type="1">
+<li>Dogs have four legs.</li>
+<li>Ducks lay eggs. (being male is not abnormal for a duck!)</li>
+<li>Lions have manes. (being female is not abnormal for a lion!)</li>
+</ol>
+<dl>
+<dt>Normally, with restrictions</dt>
+<dd>
+As above, but sometimes, the relevant Ks are a subclass of all the Ks—e.g., just the female ducks.
+</dd>
+</dl>
+<div class="quarto-layout-panel" data-layout="[0.5, 0.5]">
+<div class="quarto-layout-row">
+<div id="firstcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="22" class="example" type="1">
+<li>Ducks are female.</li>
+<li>Ducks don’t lay eggs.</li>
+<li>Bees are sterile.</li>
+</ol>
+</div>
+<div id="secondcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="25" class="example" type="1">
+<li>Marsupials are kangaroos.</li>
+<li>Mosquitoes carry the West Nile virus.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="relevant-alternatives" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-alternatives">Relevant Alternatives</h2>
+<p>For every F, there is a set of relevant alternatives, Alt(F):</p>
+<ul>
+<li>Alt(female): ‘female’, ‘male’, …</li>
+<li>Alt(lays eggs): ‘lays eggs’, ‘gives live birth’, …</li>
+</ul>
+<p>For every K, there is a set of relevant alternatives, Alt(K):</p>
+<ul>
+<li>Alt(duck): ‘duck’, ‘chicken’, ‘cat’, ‘dog’, ‘horse’, …</li>
+</ul>
+<p>There are two kinds of generics:</p>
+<dl>
+<dt>Absolute Generics</dt>
+<dd>
+‘Ks are F’ is true iff the probability that an arbitrary K that satisfies some predicate in Alt(F) also satisfies F is greater than .5.
+</dd>
+<dt>Relative Generics</dt>
+<dd>
+‘Ks are F’ is true iff the probability that an arbitrary K that satisfies some predicate in Alt(F) also satisfies F is greater than the probability that an arbitrary member of Alt(K) that satisfies some predicate in Alt(F) also satisfies F.
+</dd>
+</dl>
+<div class="quarto-layout-panel" data-layout="[0.5, 0.5]">
+<div class="quarto-layout-row">
+<div id="firstcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="27" class="example" type="1">
+<li>Cats give live birth. (true absolute)</li>
+<li>Cats are female. (false absolute)</li>
+<li>Mosquitoes carry the West Nile virus. (true relative)</li>
+<li>Books are paperbacks. (theory wrongly says: true absolute)</li>
+</ol>
+</div>
+<div id="secondcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="31" class="example" type="1">
+<li>Chickens are female. (theory wrongly says: true absolute)</li>
+<li>Bees are sterile. (theory wrongly says: true absolute)</li>
+<li>Dogs have three legs. (theory wrongly says: true relative)</li>
+</ol>
+</div>
+</div>
+</div>
+<dl>
+<dt>Homogeneity Constraint</dt>
+<dd>
+As above, but the probability condition must also hold in all salient partitions of the kind K. (see p.&nbsp;11-13 for objections)
+</dd>
+</dl>
+</section>
+<section id="leslies-taxonomy" class="level2">
+<h2 class="anchored" data-anchor-id="leslies-taxonomy">Leslie’s Taxonomy</h2>
+<p>Three types of generics:</p>
+<p>A. Generics that are true even though most of the Ks are not F. B. Generics that are false even though most of the Ks are F. C. Generics where most of the Ks are F, and the exceptions are abnormal or defective.</p>
+<div class="quarto-layout-panel" data-layout="[0.5, 0.5]">
+<div class="quarto-layout-row">
+<div id="firstcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<section id="type-a" class="level3">
+<h3 class="anchored" data-anchor-id="type-a">Type A</h3>
+<ol start="34" class="example" type="1">
+<li>Bees reproduce.</li>
+<li>Bees are sterile.</li>
+<li>Mules are sterile.</li>
+<li>Birds lay eggs.</li>
+<li>Chickens are female.</li>
+<li>OrangeCrusher2000s crush oranges. (when no OC2000 has ever been used)</li>
+<li>Firemen fight fires (even if there are no fires)</li>
+</ol>
+</section>
+</div>
+<div id="secondcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<section id="type-b" class="level3">
+<h3 class="anchored" data-anchor-id="type-b">Type B</h3>
+<ol start="41" class="example" type="1">
+<li>Sharks attack bathers</li>
+<li>Mosquitos carry West Nile.</li>
+<li>Tigers eat people.</li>
+<li>Rottweilers maul children.</li>
+</ol>
+</section>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>The patterns in the A group are best explained by first noticing that for certain types of kinds, including biological, artifact, and institutional kinds, our background knowledge leads us to have certain strong expectations concerning them. (14).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>In all [the examples of Type B], the sentence attributes harmful, dangerous, or appalling properties to the kind. More generally, if the property in question is the sort of property of which one would be well served to be forewarned, even if there were only a small chance of encountering it, then generic attributions of the property are intuitively true. (15)</p>
+</blockquote>
+</section>
+<section id="default-generalization" class="level2">
+<h2 class="anchored" data-anchor-id="default-generalization">Default Generalization</h2>
+<p>Leslie thinks that <strong>Gen</strong> is our <strong>default generalizing process</strong>. This process comes online early—which is why generics are so easy for children to learn—but it has lots of quirks, because it is designed to be efficient and allow for easy generalization from just a few instances.</p>
+<section id="mechanism-1-characteristic-dimensions" class="level3">
+<h3 class="anchored" data-anchor-id="mechanism-1-characteristic-dimensions">Mechanism 1: Characteristic dimensions</h3>
+<ol start="45" class="example" type="1">
+<li><p>(a) Put an object into a category; (b) identify the characteristic dimensions of that category; (c) look for a value within those characteristic dimensions for that category; (d) infer the generic:</p></li>
+<li><p>(a) this frog is in the category <em>animal</em>; (b) animals have characteristic <em>sounds</em>; (c) this frog croaks; (d) so frogs croak.</p></li>
+<li><p>(a) this knife is in category <em>tool</em>; (b) tools have <em>uses</em>; (c) this knife cuts; (d) so knives cut.</p></li>
+</ol>
+<section id="special-carve-out-for-artifacts-and-social-kinds" class="level4">
+<h4 class="anchored" data-anchor-id="special-carve-out-for-artifacts-and-social-kinds">Special Carve-out for Artifacts and Social Kinds</h4>
+<blockquote class="blockquote">
+<p>We presume that artifacts will have a function, so generics characterizing that use are tolerant of exceptions. ‘OrangeCrusher 2000s crush oranges’ is such an example; the sentence strikes us as true, even if none have ever been plugged in and used—due, perhaps, to lack of demand for crushed oranges. Similarly, ‘firemen fight fires’ would remain true even if the climate had become so humid that there were never any fires to fight.</p>
+</blockquote>
+</section>
+</section>
+<section id="mechanism-2-striking-properties" class="level3">
+<h3 class="anchored" data-anchor-id="mechanism-2-striking-properties">Mechanism 2: Striking Properties</h3>
+<p>Striking properties are properties that make a thing especially dangerous, appalling, etc. We are quick to generalize from striking properties, but we restrict these generalizations to kinds that we take to be good predictors.</p>
+<div class="quarto-layout-panel" data-layout="[0.5, 0.5]">
+<div class="quarto-layout-row">
+<div id="firstcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="48" class="example" type="1">
+<li>Mosquitoes carry West Nile.</li>
+<li>Sharks attack bathers.</li>
+</ol>
+</div>
+<div id="secondcol" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ol start="50" class="example" type="1">
+<li>Animals carry West Nile.</li>
+<li>Accountants are murderers.</li>
+</ol>
+</div>
+</div>
+</div>
+<p>A <em>good predictor</em> is a shared disposition among all or most members of the kind.</p>
+</section>
+<section id="resistance-to-negative-instances" class="level3">
+<h3 class="anchored" data-anchor-id="resistance-to-negative-instances">Resistance to Negative Instances</h3>
+<p>Both Mechanisms 1 and 2 are “Resistant to Negative Instances”. That is, we are not inclined to generalize, and do not treat the resulting generic as true, when we think of ‘F’ as a negative property or feature:</p>
+<ol start="52" class="example" type="1">
+<li>(a) this duck is in category animal; (b) animals <em>reproduce</em>; (c) this duck lays an egg; (d) so ducks lay eggs.</li>
+<li>(a) this duck is in category animal; (b) animals <em>reproduce</em>; (c) this duck does not lay an egg; <strong>but not</strong>: (d) so ducks do not lay eggs.</li>
+</ol>
+</section>
+<section id="type-c-and-resistance-to-counterinstances" class="level3">
+<h3 class="anchored" data-anchor-id="type-c-and-resistance-to-counterinstances">Type C and Resistance to Counterinstances</h3>
+<p>Mechanisms 1 and 2 are resistant to counterinstances. We are happy to generalize, and treat the resulting generic as true, even in the face of lots of counterinstances.</p>
+<p>When the condition for these mechanisms are not present, we fall back to Type C generics, and lose this resistance to counterinstances. That is why Type C generics are only true when most of the Ks are F.</p>
+</section>
+</section>
+<section id="truth-conditions" class="level2">
+<h2 class="anchored" data-anchor-id="truth-conditions">Truth Conditions</h2>
+<p>A generic of the form ‘Ks are F’ is true iff:</p>
+<ul>
+<li>The counterinstances are negative, and:
+<ul>
+<li>If F lies along a characteristic dimension for the Ks, then some Ks are F, unless K is an artifact or social kind, in which case F is the function or purpose of the kind K;</li>
+<li>If F is striking, then some Ks are F and the others are disposed to be F;</li>
+</ul></li>
+<li>Otherwise, almost all Ks are F.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.davidsanson\.com\/205f2026");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+            // default icon
+            link.classList.add("external");
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 David Sanson. Created using <a href="https://quarto.org/">Quarto</a>.</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dsanson/205f2026/blob/main/handouts/generics.md" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/dsanson/205f2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
