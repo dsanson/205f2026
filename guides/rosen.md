@@ -1,10 +1,8 @@
-:::{.callout-caution}
-# Under Construction
 
-This reading guide is under construction.
-:::
+Reading is @rosen2011:
 
-Reading is @rosen2011, perhaps with some supplemental material.
+
+-  ["Textualism, Intentionalism, and the Law of the Contract"](https://canvas.illinoisstate.edu/courses/53417/files/9179599/download?download_frd=1)
 
 
 ## References {-}
